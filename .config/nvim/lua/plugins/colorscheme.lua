@@ -71,6 +71,11 @@ return {
       transparent = true,
     },
   },
+  {
+    "bjarneo/pixel.nvim",
+    lazy = true,
+    priority = 1000,
+  },
   -- Set the active theme
   {
     "LazyVim/LazyVim",
