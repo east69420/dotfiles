@@ -70,6 +70,7 @@ alias kt='kitten themes'
 alias g='gemini'
 alias d='docker'
 alias rip="yt-dlp -x --audio-format=\"mp3\""
+alias mp='makepkg -si'
 
 # bigger font in tty and regular font in tty
 alias bigfont="setfont ter-132b"
@@ -92,6 +93,7 @@ alias folders='du -h --max-depth=1'
 
 # Git aliases
 alias gits='git status'
+alias gcc='git clone'
 alias ga='git add .'
 alias gc='git commit -m'
 alias gp='git push'
