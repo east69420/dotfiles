@@ -82,6 +82,11 @@ keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
 -- Paste in visual mode without yanking replaced text
 keymap.set("x", "p", [["_dP]])
 
+-- CopilotChat
+keymap.set("n", "tc", ":CopilotChatSave ")
+keymap.set("n", "tl", ":CopilotChatLoad ")
+keymap.set("n", "tp", ":CopilotChatPrompts")
+
 -- Tab
 keymap.set("n", "te", ":tabedit")
 keymap.set("n", "tx", "<cmd>tabclose<CR>", opts)
