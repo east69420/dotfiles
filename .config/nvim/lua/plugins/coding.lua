@@ -48,6 +48,7 @@ return {
       { "<leader>tt", "<cmd>CopilotChatTests<CR>", mode = "v", desc = "Generate Tests" },
       { "<leader>tm", "<cmd>CopilotChatCommit<CR>", mode = "n", desc = "Generate Commit Message" },
       { "<leader>ts", "<cmd>CopilotChatCommit<CR>", mode = "v", desc = "Generate Commit for Selection" },
+      { "<leader>tc", "<cmd>CopilotChatSave<CR>", mode = "v", desc = "Save Chat history" },
     },
   },
 }
