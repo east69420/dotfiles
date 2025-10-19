@@ -35,10 +35,8 @@ alias ac='ani-cli'
 #modified commands
 alias cp='cp -i'
 alias mv='mv -i'
-# alias rm='trash -v'
 alias mkdir='mkdir -p'
 alias ping='ping -c 10'
-alias svi='sudo vi'
 alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=down:75% | xargs -ro yay -S"
 
 # Directory navigation
@@ -65,12 +63,13 @@ alias zz='yazi'
 alias lg='lazygit'
 alias x='exit'
 alias h="history | grep "
-alias dot='cd ~/dotfiles/'
 alias kt='kitten themes'
 alias g='gemini'
 alias d='docker'
 alias rip="yt-dlp -x --audio-format=\"mp3\""
 alias mp='makepkg -si'
+alias chx='chmod +x'
+alias tmuxk='tmux kill-session'
 
 # bigger font in tty and regular font in tty
 alias bigfont="setfont ter-132b"
@@ -93,16 +92,12 @@ alias folders='du -h --max-depth=1'
 
 # Git aliases
 alias gits='git status'
-alias gcc='git clone'
-alias ga='git add .'
-alias gc='git commit -m'
-alias gp='git push'
-alias gl='git pull'
-alias gco='git checkout'
-alias gb='git branch'
-alias gd='git diff'
 alias ghs='streaker vyrx-dev'
 
-# snapper
-alias snapl='sudo snapper -c home list'
-alias snapd='sudo snapper -c home delete --sync' # eg  --sync 1 or 2-4
+# Snapper
+abbr -a slsr 'sudo snapper -c root list'
+abbr -a slsh 'sudo snapper -c home list'
+abbr -a sdu 'sudo btrfs filesystem du -s /.snapshots/*'
+abbr -a sdelr 'sudo snapper -c root delete'
+abbr -a sdelh 'sudo snapper -c home delete --sync' #eg  --sync 1 or 2-4
+abbr -a sbdel 'sudo btrfs subvolume delete' #eg  sudo btrfs subvolume delete /.snapshots/5/snapshot
