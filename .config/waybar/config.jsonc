@@ -104,8 +104,8 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    // "on-click": "omarchy-launch-wifi"
-    "on-click": "~/.config/rofi/scripts/wifi.sh"
+    "on-click": "omarchy-launch-wifi"
+    // "on-click": "~/.config/rofi/scripts/wifi.sh"
   },
   "battery": {
     "format": "{capacity}% {icon}",
