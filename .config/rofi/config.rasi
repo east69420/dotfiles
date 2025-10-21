@@ -38,7 +38,7 @@ window {
     location: center;
     anchor: center;
     fullscreen: false;
-    width: 380px;
+    width: 480px;
     border-radius: 12px;
     cursor: "default";
     background-color: @background;
