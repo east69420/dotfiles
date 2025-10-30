@@ -12,18 +12,17 @@
     "mpris",
   ],
   "modules-center": [
-    "hyprland/window",
+    // "hyprland/window",
     "clock",
     "idle_inhibitor",
     "custom/screenrecording-indicator"
   ],
   "modules-right": [
     "mpd",
-    "custom/uptime",
     "group/tray-expander",
-    "backlight",
-    "bluetooth",
     "network",
+    "bluetooth",
+    "backlight",
     "pulseaudio",
     "cpu",
     "memory",
@@ -59,28 +58,28 @@
     //   "5": []
     // }
   },
-  "hyprland/window": {
-    "format": "{title} - {class}",
-    "rewrite": {
-      " - ": "", // if no window is focused, a single dash is displayed, this removes it
-      "(.*?) - Chromium - chromium": " ",
-      "(.*) - Obsidian - .* - obsidian": " ",
-      "(.*nvim)...(.*)": " ",
-      "(.*code) - (.*)": " 󰨞",
-      "^.*btop( .*|$)": " 󰧨",
-      "^.*cmatrix( .*|$)": " 󰘨",
-      "(.*) - Spotify": " ",
-      "(.*) - com.mitchellh.ghostty": " 󰊠",
-      "(.*) - Alacritty": " ",
-      // "(.*) - kitty": " ",
-      "(.*) - kitty": "  $1",
-      "(.*) - BeeperTexts": " 󰻞",
-      "(.*Discord)...(.*).. (.*)": " ",
-      "(.*) - org.gnome.Nautilus": " 󰣆",
-      // "OBS *. - (.*) - com.obsproject.Studio": "  $1", // not yet functional
-      // "nvim (.*) - com.mitchellh.ghostty": "  $1", // not being captured
-    }
-  },
+  // "hyprland/window": {
+  //   "format": "{title} - {class}",
+  //   "rewrite": {
+  //     " - ": "", // if no window is focused, a single dash is displayed, this removes it
+  //     "(.*?) - Chromium - chromium": " ",
+  //     "(.*) - Obsidian - .* - obsidian": " ",
+  //     "(.*nvim)...(.*)": " ",
+  //     "(.*code) - (.*)": " 󰨞",
+  //     "^.*btop( .*|$)": " 󰧨",
+  //     "^.*cmatrix( .*|$)": " 󰘨",
+  //     "(.*) - Spotify": " ",
+  //     "(.*) - com.mitchellh.ghostty": " 󰊠",
+  //     "(.*) - Alacritty": " ",
+  //     // "(.*) - kitty": " ",
+  //     "(.*) - kitty": "  $1",
+  //     "(.*) - BeeperTexts": " 󰻞",
+  //     "(.*Discord)...(.*).. (.*)": " ",
+  //     "(.*) - org.gnome.Nautilus": " 󰣆",
+  //     // "OBS *. - (.*) - com.obsproject.Studio": "  $1", // not yet functional
+  //     // "nvim (.*) - com.mitchellh.ghostty": "  $1", // not being captured
+  //   }
+  // },
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon}", //{percent}%
@@ -104,8 +103,9 @@
     "on-click": "kitty -e btop"
   },
   "memory": {
+    "format": " {used:0.1f}gb",
     "interval": 2,
-    "format": " {percentage}%",
+    "on-click": "kitty -e btop"
   },
   "clock": {
     "format": "{:L%A %H:%M}",
@@ -127,8 +127,8 @@
       "󰤥",
       "󰤨"
     ],
-    "format": "{icon}",
-    "format-wifi": "{icon}",
+    "format": "{icon} {essid}",
+    "format-wifi": "{icon} {essid}",
     "format-ethernet": "󰀂",
     "format-disconnected": "󰤮",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
