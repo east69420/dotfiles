@@ -108,8 +108,7 @@
     },
     {
       "type": "de",
-      "key": " DE",
-      "keyColor": "blue"
+       "keyColor": "blue"
     },
     {
       "type": "shell",
@@ -169,3 +168,4 @@
     "break"
   ]
 }
+
