@@ -7,9 +7,9 @@
   // "width": 1268,
   // "margin": "2px 6px 0 4",
   "modules-left": [
-    "custom/arch",
+    // "custom/arch",
     "hyprland/workspaces",
-    "mpris",
+    "mpris"
   ],
   "modules-center": [
     // "hyprland/window",
@@ -19,15 +19,15 @@
   ],
   "modules-right": [
     "mpd",
-    "group/tray-expander",
-    "cpu",
+    // "cpu",
     "memory",
-    "temperature",
+    // "temperature",
     "network",
     "bluetooth",
     "backlight",
     "pulseaudio",
-    "battery"
+    "battery",
+    "group/tray-expander"
   ],
   "custom/arch": {
     "format": "󰣇",
@@ -134,7 +134,7 @@
       "󰤨"
     ],
     "format": "{icon} {essid}",
-    "format-wifi": "{icon} {essid}",
+    "format-wifi": "{icon}",
     "format-ethernet": "󰀂",
     "format-disconnected": "󰤮",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
@@ -210,7 +210,7 @@
   "group/tray-expander": {
     "orientation": "inherit",
     "drawer": {
-      "transition-duration": 600,
+      "transition-duration": 0,
       "children-class": "tray-group-item"
     },
     "modules": [
