@@ -15,7 +15,8 @@ fi
 
 if [ -f "$STATE_FILE" ]; then
   INDEX=$(<"$STATE_FILE")
-  INDEX=$(((INDEX + 1) % NUM_WALLPAPERS))
+  INDEX=$((RANDOM % NUM_WALLPAPERS))
+  # INDEX=$(((INDEX + 1) % NUM_WALLPAPERS)) #cycles through wallpapers in sequence
 else
   INDEX=0
 fi
@@ -27,6 +28,7 @@ CURRENT_WALLPAPER="${WALLPAPERS[$INDEX]}"
 notify-send -i "$CURRENT_WALLPAPER" "Theme changed" "Wallpaper has been updated."
 swww img "$CURRENT_WALLPAPER" --transition-type=any --transition-fps 60 --transition-duration=1
 # SWWW_PARAMS="--transition-fps 60 --transition-type=any --transition-duration=1"
-wal -i "$CURRENT_WALLPAPER"
+matugen image "$CURRENT_WALLPAPER"
+# wal -i "$CURRENT_WALLPAPER"
 pywalfox update
 pywal-spicetify text
