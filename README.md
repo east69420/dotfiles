@@ -1,30 +1,24 @@
 <div align="center">
-
+  
 ![Banner](assets/banner.jpg)
 
 # Hyprland Dotfiles
 
-*A minimal, professional, and fully customizable Hyprland configuration*
+*A minimal, productive, and fully customizable Hyprland configuration*
 
 </div>
 
 ## Showcase
 
 <div align="center">
-
+![Desktop Showcase](assets/Desktop.png)
+  
 https://github.com/user-attachments/assets/75f0924e-fc4d-40ef-89c8-8034a750f886
 
 https://github.com/user-attachments/assets/f5f809f3-c88d-4c13-8684-80d48e206f5e
 
-https://github.com/user-attachments/assets/595dcefc-3069-4c5c-808c-863f5ea0acae
+https://github.com/user-attachments/assets/d733f891-dcc3-4d10-8efd-3e2f46fe9cdf
 
-![Desktop Showcase](assets/Desktop.png)
-
-</div>
-<div align="center">
-https://github.com/user-attachments/assets/258639a7-e43e-4a8c-af9b-a143abe6c20a
-</div>
----
 
 ## Features
 
