@@ -11,8 +11,8 @@
 ## Showcase
 
 <div align="center">
-[
-<https://github.com/vyrx-dev/dotfiles/assets/showcase.mp4>](https://github.com/user-attachments/assets/14d4d742-3017-43aa-b92e-7362c1ce44f4)
+[[
+<https://github.com/vyrx-dev/dotfiles/assets/showcase.mp4>](https://github.com/user-attachments/assets/14d4d742-3017-43aa-b92e-7362c1ce44f4)](https://github.com/user-attachments/assets/51eaf0c4-e3f5-464a-8ba7-99ca9af2e864)
 
 [<https://github.com/vyrx-dev/dotfiles/assets/rofi.mp4>](https://github.com/user-attachments/assets/978d522f-57b8-4dfe-ab69-9ca84d944979)
 
