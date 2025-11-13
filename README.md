@@ -6,8 +6,6 @@
 Minimal by default, but still has a bit of character.
 Animations, gaps, and extras can be toggled on/off, so you can choose between clean or pretty.*
 
-**Inspired by the way music balances silence and sound 🎼**
-
 </div>
 
 ## Showcase
