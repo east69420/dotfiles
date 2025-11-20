@@ -6,3 +6,9 @@
 # Fish local config
 .config/fish/fish_variables
 .config/fish/install.log
+
+# Typora - ignore everything except custom theme
+.config/Typora/*
+!.config/Typora/themes/
+.config/Typora/themes/*
+!.config/Typora/themes/typora_dark.css
