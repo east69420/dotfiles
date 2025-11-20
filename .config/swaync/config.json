@@ -49,9 +49,9 @@
   },
   "widgets": [
     "mpris",
+    "dnd",
     "title",
-    "notifications",
-    "buttons-grid"
+    "notifications"
   ],
   "widget-config": {
     "notifications": {
@@ -68,7 +68,7 @@
       "button-text": "Clear All"
     },
     "dnd": {
-      "text": "Do Not Disturb"
+      "text": ""
     },
     "label": {
       "max-lines": 5,
