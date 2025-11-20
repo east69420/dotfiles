@@ -1,5 +1,3 @@
-# Symphony 2.0 Release TODO
-
 ```
   ____                      _                         ___    ___  
  / ___| _   _ _ __ ___  ___| |__   ___  _ __  _   _  |__ \  / _ \ 
@@ -10,13 +8,14 @@
 ```
 
 **Status**: 🚧 Under Development  
-**Previous Release**: [v1.0](https://github.com/vyrx-dev/dotfiles/releases/tag/1.0)
+**Previous Release**: [v1.0](https://github.com/vyrx-dev/dotfiles/releases/tag/v1.0.0)
 
 ---
 
 ## 🎨 Theme Integration
 
 **Core Applications**
+
 - [ ] Spicetify
 - [ ] Rofi
 - [ ] RMPC
@@ -30,11 +29,13 @@
 - [x] Waybar
 
 **Terminals**
+
 - [ ] Kitty
 - [ ] Ghostty
 - [ ] Alacritty
 
 **Secondary**
+
 - [ ] Firefox
 - [ ] Vesktop
 - [ ] Obsidian
