@@ -1,3 +1,9 @@
+/*
+ * Symphony
+ * Author: vyrx
+ * Theme: Tokyo Night
+ */
+
 * {
     /* Primary accent color (cyan/blue) */
     primary: #7dcfff;
