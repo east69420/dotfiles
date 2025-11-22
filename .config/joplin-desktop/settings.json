@@ -1,0 +1,38 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"altInstanceId": "",
+	"sync.target": 2,
+	"sync.2.path": "~/eastSync/JoplinMobileSync",
+	"locale": "en_GB",
+	"theme": 1,
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"api.token": "1a139ea92225d5ca579b1d9ac1f1d0a2d1065482b4bb50fc6e6d112a850bfb484c585ab0c83fa756bb8eab1ad66729f730647407d4999a2a59c6c5105c674f12",
+	"spellChecker.languages": [
+		"en-GB"
+	]
+}

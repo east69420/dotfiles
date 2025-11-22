@@ -1,115 +1,114 @@
-# All the default Omarchy aliases and functions
-# (don't mess with these directly, just overwrite them here!)
-source ~/.local/share/omarchy/default/bash/rc
 #
-# if [ -f /usr/bin/fastfetch ]; then
-#   fastfetch
-# fi
+# ~/.bashrc
+#
 
-# Set the default editor
-export EDITOR=nvim
-export VISUAL=nvim
-alias snano='sudo nano'
-alias vim='nvim'
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
-# ┌─────────┐
-# │ Aliases │
-# └─────────┘
+colors() {
+	local fgc bgc vals seq0
 
-#General
-alias c='clear'
-alias l='eza -lh --icons=auto'
-alias la='ls -a'
-alias ls='eza -1 --icons=auto'
-alias ll='eza -lha --icons=auto --sort=name --group-directories-first'
-alias ld='eza -lhD --icons=auto'
-alias lt='eza --icons=auto --tree'
-alias ltt='eza --tree --level=2 --long --icons --git'
-alias lta='lt -a'
-alias bash='source ~/.bashrc'
-alias bfile='nvim ~/.bashrc'
-alias ffile='nvim ~/.config/fish/config.fish'
-alias fish='source ~/.config/fish/config.fish'
-alias xx='tmux'
+	printf "Color escapes are %s\n" '\e[${value};...;${value}m'
+	printf "Values 30..37 are \e[33mforeground colors\e[m\n"
+	printf "Values 40..47 are \e[43mbackground colors\e[m\n"
+	printf "Value  1 gives a  \e[1mbold-faced look\e[m\n\n"
 
-# change your default USER shell
-alias tobash="chsh $USER -s /usr/bin/bash && echo 'Log out and log back in for change to take effect.'"
-alias tozsh="chsh $USER -s /usr/bin/zsh && echo 'Log out and log back in for change to take effect.'"
-alias tofish="chsh $USER -s /usr/bin/fish && echo 'Log out and log back in for change to take effect.'"
+	# foreground colors
+	for fgc in {30..37}; do
+		# background colors
+		for bgc in {40..47}; do
+			fgc=${fgc#37} # white
+			bgc=${bgc#40} # black
 
-#When was the Last update
-alias last-updated='grep -i "full system upgrade" /var/log/pacman.log | tail -n 1'
+			vals="${fgc:+$fgc;}${bgc}"
+			vals=${vals%%;}
 
-# Check cache size
-alias cache='du -sh /var/cache/pacman/pkg .cache/yay'
+			seq0="${vals:+\e[${vals}m}"
+			printf "  %-9s" "${seq0:-(default)}"
+			printf " ${seq0}TEXT\e[m"
+			printf " \e[${vals:+${vals+$vals;}}1mBOLD\e[m"
+		done
+		echo; echo
+	done
+}
 
-#to open ani cli
-alias ac='ani-cli'
+[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
-#modified commands
-alias cp='cp -i'
-alias mv='mv -i'
-alias mkdir='mkdir -p'
-alias ping='ping -c 10'
-alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=down:75% | xargs -ro yay -S"
+# Change the window title of X terminals
+case ${TERM} in
+	xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)
+		PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
+		;;
+	screen*)
+		PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
+		;;
+esac
 
-# Directory navigation
-alias ..='cd ..'
-alias ...='cd ../..'
-alias .3='cd ../../..'
-alias .4='cd ../../../..'
-alias .5='cd ../../../../..'
+use_color=true
 
-# File finding
-alias ff='find . -type f -name'
-alias fd='find . -type d -name'
-alias fdh='fd --hidden'
+# Set colorful PS1 only on colorful terminals.
+# dircolors --print-database uses its own built-in database
+# instead of using /etc/DIR_COLORS.  Try to use the external file
+# first to take advantage of user additions.  Use internal bash
+# globbing instead of external grep binary.
+safe_term=${TERM//[^[:alnum:]]/?}   # sanitize TERM
+match_lhs=""
+[[ -f ~/.dir_colors   ]] && match_lhs="${match_lhs}$(<~/.dir_colors)"
+[[ -f /etc/DIR_COLORS ]] && match_lhs="${match_lhs}$(</etc/DIR_COLORS)"
+[[ -z ${match_lhs}    ]] \
+	&& type -P dircolors >/dev/null \
+	&& match_lhs=$(dircolors --print-database)
+[[ $'\n'${match_lhs} == *$'\n'"TERM "${safe_term}* ]] && use_color=true
 
-# Search files in the current folder
-alias f="find . | grep "
+if ${use_color} ; then
+	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
+	if type -P dircolors >/dev/null ; then
+		if [[ -f ~/.dir_colors ]] ; then
+			eval $(dircolors -b ~/.dir_colors)
+		elif [[ -f /etc/DIR_COLORS ]] ; then
+			eval $(dircolors -b /etc/DIR_COLORS)
+		fi
+	fi
 
-#Life Easy
-alias vim='nvim'
-alias cd='z'
-alias nd='npm run dev'
-alias n='nvim'
-alias open='nautilus .'
-alias zz='yazi'
-alias lg='lazygit'
-alias x='exit'
-alias h="history | grep "
-alias kt='kitten themes'
-alias g='gemini'
-alias d='docker'
-alias rip="yt-dlp -x --audio-format=\"mp3\""
-alias mp='makepkg -si'
-alias chx='chmod +x'
-alias tmuxk='tmux kill-session'
+	if [[ ${EUID} == 0 ]] ; then
+		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
+	else
+		PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
+	fi
 
-# bigger font in tty and regular font in tty
-alias bigfont="setfont ter-132b"
-alias regfont="setfont default8x16"
+	alias ls='ls --color=auto'
+	alias grep='grep --colour=auto'
+	alias egrep='egrep --colour=auto'
+	alias fgrep='fgrep --colour=auto'
+else
+	if [[ ${EUID} == 0 ]] ; then
+		# show root@ when we don't have colors
+		PS1='\u@\h \W \$ '
+	else
+		PS1='\u@\h \w \$ '
+	fi
+fi
 
-# Some useful aliases
-alias update='sudo pacman -Syu'
-alias pwreset='faillock --reset --user vyrx'
-alias pg='ping -c 10 google.com'
+unset use_color safe_term match_lhs sh
 
-# Automatically do an ls after each cd, z, or zoxide
-alias cleanup='sudo pacman -Rns $(pacman -Qdtq)'
-alias showpkg='pacman -Qi' # Show package info
-alias mirrorfix='sudo reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist' # Fix mirrors
-alias pacclean='sudo paccache -r' # Clean all but latest 3 versions
-alias paccleanall='sudo paccache -r -c /var/cache/pacman/pkg -u' # Clean all cached packages
-alias pacckeep='sudo paccache -k 3' # Keep latest 3 versions, remove rest
-alias cleanc='sudo pacman -Sc && yay -Sc'
-alias folders='du -h --max-depth=1'
+#alias cp="cp -i"                          # confirm before overwriting something
+#alias df='df -h'                          # human-readable sizes
+#alias free='free -m'                      # show sizes in MB
+#alias np='nano -w PKGBUILD'
+#alias more=less
 
-# Git aliases
-alias gits='git status'
-alias ghs='streaker vyrx-dev'
+xhost +local:root > /dev/null 2>&1
 
-eval "$(starship init bash)"
-eval "$(zoxide init bash)"
+# Bash won't get SIGWINCH if another process is in the foreground.
+# Enable checkwinsize so that bash will check the terminal size when
+# it regains control.  #65623
+# http://cnswww.cns.cwru.edu/~chet/bash/FAQ (E11)
+shopt -s checkwinsize
 
-export PATH=$PATH:/home/april/.spicetify
+shopt -s expand_aliases
+
+# export QT_SELECT=4
+
+# Enable history appending instead of overwriting.  #139609
+shopt -s histappend
+

@@ -1,0 +1,895 @@
+2025-11-22 17:57:25: App: Profile directory: /home/east/.config/joplin-desktop
+2025-11-22 17:57:25: App: Root profile directory: /home/east/.config/joplin-desktop
+2025-11-22 17:57:25: Database was open successfully
+2025-11-22 17:57:25: Checking for database schema update...
+2025-11-22 17:57:25: Current database version <null>
+2025-11-22 17:57:25: Upgrading database from version 0
+2025-11-22 17:57:25: Converting database to version 1
+2025-11-22 17:57:25: Converting database to version 2
+2025-11-22 17:57:25: Converting database to version 3
+2025-11-22 17:57:25: Converting database to version 4
+2025-11-22 17:57:25: Converting database to version 5
+2025-11-22 17:57:25: Converting database to version 6
+2025-11-22 17:57:25: Converting database to version 7
+2025-11-22 17:57:25: Converting database to version 8
+2025-11-22 17:57:25: Converting database to version 9
+2025-11-22 17:57:25: Converting database to version 10
+2025-11-22 17:57:25: Converting database to version 11
+2025-11-22 17:57:25: Converting database to version 12
+2025-11-22 17:57:25: Converting database to version 13
+2025-11-22 17:57:25: Converting database to version 14
+2025-11-22 17:57:25: Converting database to version 15
+2025-11-22 17:57:25: Converting database to version 16
+2025-11-22 17:57:25: Converting database to version 17
+2025-11-22 17:57:25: Converting database to version 18
+2025-11-22 17:57:25: Converting database to version 19
+2025-11-22 17:57:25: Converting database to version 20
+2025-11-22 17:57:25: Converting database to version 21
+2025-11-22 17:57:25: Converting database to version 22
+2025-11-22 17:57:25: Converting database to version 23
+2025-11-22 17:57:25: Converting database to version 24
+2025-11-22 17:57:25: Converting database to version 25
+2025-11-22 17:57:25: Converting database to version 26
+2025-11-22 17:57:25: Converting database to version 27
+2025-11-22 17:57:25: Converting database to version 28
+2025-11-22 17:57:25: Converting database to version 29
+2025-11-22 17:57:25: Converting database to version 30
+2025-11-22 17:57:25: Converting database to version 31
+2025-11-22 17:57:25: Converting database to version 32
+2025-11-22 17:57:25: Converting database to version 33
+2025-11-22 17:57:25: Converting database to version 34
+2025-11-22 17:57:25: Migration failed with fallback and will not be repeated - saving version number
+2025-11-22 17:57:25: Converting database to version 35
+2025-11-22 17:57:25: Converting database to version 36
+2025-11-22 17:57:25: Converting database to version 37
+2025-11-22 17:57:25: Converting database to version 38
+2025-11-22 17:57:25: Converting database to version 39
+2025-11-22 17:57:25: Converting database to version 40
+2025-11-22 17:57:25: Converting database to version 41
+2025-11-22 17:57:25: Converting database to version 42
+2025-11-22 17:57:25: Converting database to version 43
+2025-11-22 17:57:25: Converting database to version 44
+2025-11-22 17:57:25: Converting database to version 45
+2025-11-22 17:57:25: Converting database to version 46
+2025-11-22 17:57:25: Converting database to version 47
+2025-11-22 17:57:25: Converting database to version 48
+2025-11-22 17:57:25: New version: 48. Previously recorded version: 0
+2025-11-22 17:57:25: Initializing tables...
+2025-11-22 17:57:25: KeychainService: Driver unsupported:electron-safeStorage
+2025-11-22 17:57:25: KeychainService: Driver unsupported:node-keytar
+2025-11-22 17:57:25: KeychainService: checking if keychain supported
+2025-11-22 17:57:25: KeychainService: Failed to start in read-only mode -- no supported drivers found.
+2025-11-22 17:57:25: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-11-22 17:57:25: handleSyncStartupOperation: Processing operation: 0
+2025-11-22 17:57:25: App: Client ID: b94f89bf9f20433ea6420038e4813b87
+2025-11-22 17:57:25: First start: detected locale as en_GB
+2025-11-22 17:57:25: models/Setting: Skipping all default migrations...
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:57:25: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-11-22 17:57:25: ResourceFetcher: Auto-added resources: 0
+2025-11-22 17:57:25: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-11-22 17:57:25: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:57:25: Running migration: 20
+2025-11-22 17:57:25: DeleteAction: MigrationService: ; Item IDs: 1
+2025-11-22 17:57:25: Running migration: 27
+2025-11-22 17:57:25: DeleteAction: MigrationService: ; Item IDs: 2
+2025-11-22 17:57:25: Running migration: 33
+2025-11-22 17:57:25: SearchEngine: Updating FTS table...
+2025-11-22 17:57:25: Updating items_normalized from {"updated_time":0,"id":""}
+2025-11-22 17:57:25: SearchEngine: Updated FTS table in 0ms. Inserted: 0. Deleted: 0
+2025-11-22 17:57:25: Performance: SearchEngine/syncTables: End at 1.77s (took 102.5ms)
+2025-11-22 17:57:25: DeleteAction: MigrationService: ; Item IDs: 3
+2025-11-22 17:57:25: Running migration: 35
+2025-11-22 17:57:25: SearchEngine: Updating FTS table...
+2025-11-22 17:57:25: Updating items_normalized from {"updated_time":0,"id":""}
+2025-11-22 17:57:25: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 17:57:25: Performance: SearchEngine/syncTables: End at 1.89s (took 102.1ms)
+2025-11-22 17:57:25: DeleteAction: MigrationService: ; Item IDs: 4
+2025-11-22 17:57:25: Running migration: 42
+2025-11-22 17:57:25: DeleteAction: MigrationService: ; Item IDs: 5
+2025-11-22 17:57:25: Performance: BaseApplication/start: End at 1.91s (took [ 0.67s ])
+2025-11-22 17:57:25: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: app.start: doing regular boot
+2025-11-22 17:57:25: App: Setting up auto-updater service...
+2025-11-22 17:57:25: OcrService: Starting background service...
+2025-11-22 17:57:25: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:57:25: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:57:25: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:57:25: OcrService: Found 0 resources to process...
+2025-11-22 17:57:26: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-11-22 17:57:26: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-11-22 17:57:26: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-11-22 17:57:26: Performance: app/initPluginService: End at 2.05s (took 104.4ms)
+2025-11-22 17:57:26: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-11-22 17:57:26: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-11-22 17:57:26: Performance: app/start: End at 2.08s (took [ 0.84s ])
+2025-11-22 17:57:26: Performance: main: End at 2.23s (took [ 1s ])
+2025-11-22 17:57:26: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-11-22 17:57:26: OcrService: 0 resources have been processed.
+2025-11-22 17:57:26: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-11-22 17:57:26: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 17:57:26: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 17:57:26: OcrService: Found 1 resources to process...
+2025-11-22 17:57:26: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 163ms)
+2025-11-22 17:57:26: OcrService: Processing resource 1 / 1: 47797934f29f492989775338ce8aaaa8 (type image/png)...
+2025-11-22 17:57:26: OcrService: Processing resource 2 / 1: a91c2c7a07744f4b901f868961674a6b (type image/png)...
+2025-11-22 17:57:26: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 17:57:26: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 478ms)
+2025-11-22 17:57:26: OcrService: Processing resource 3 / 1: b5347233adf0442291eb7043571dfc66 (type image/png)...
+2025-11-22 17:57:26: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 17:57:27: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"c33a9e56304043a9a16ae7ad308bc792","windowId":"default"}
+2025-11-22 17:57:30: RevisionService: maintenance: Starting...
+2025-11-22 17:57:30: RevisionService: maintenance: Service is enabled
+2025-11-22 17:57:30: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-11-22 17:57:30: RevisionService: maintenance: Done in 119ms
+2025-11-22 17:57:30: OcrDriverTesseract: Created worker: 1
+2025-11-22 17:57:30: OcrDriverTesseract: Created worker: 2
+2025-11-22 17:57:30: OcrDriverTesseract: Created worker: 3
+2025-11-22 17:57:30: ResourceService::indexNoteResources: Start
+2025-11-22 17:57:30: OcrService: 3 resources have been processed.
+2025-11-22 17:57:31: Performance: ResourceService/indexNoteResources: End at 6.98s (took 146.8ms)
+2025-11-22 17:57:31: ResourceService::indexNoteResources: Completed
+2025-11-22 17:57:35: SearchEngine: Updating FTS table...
+2025-11-22 17:57:35: Updating items_normalized from {"updated_time":0,"id":""}
+2025-11-22 17:57:35: SearchEngine: Updated FTS table in 55ms. Inserted: 8. Deleted: 0
+2025-11-22 17:57:35: Performance: SearchEngine/syncTables: End at 11.82s (took 156.4ms)
+2025-11-22 17:57:38: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:57:41: Preparing scheduled sync
+2025-11-22 17:57:41: Sync cancelled - no sync target is selected.
+2025-11-22 17:57:49: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:57:56: ResourceService::indexNoteResources: Start
+2025-11-22 17:57:56: Performance: ResourceService/indexNoteResources: End at 32.05s (took 101.4ms)
+2025-11-22 17:57:56: ResourceService::indexNoteResources: Completed
+2025-11-22 17:57:56: ResourceService::deleteOrphanResources: []
+2025-11-22 17:58:06: SearchEngine: Updating FTS table...
+2025-11-22 17:58:06: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 17:58:06: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 17:58:06: Performance: SearchEngine/syncTables: End at 42.15s (took 101.9ms)
+2025-11-22 17:58:14: config-shared: Sync settings have been changed - scheduling a sync
+2025-11-22 17:58:24: Preparing scheduled sync
+2025-11-22 17:58:24: Could not run background sync:
+2025-11-22 17:58:24: Error: Error: EACCES: permission denied, mkdir '/eastSync'. Path: /eastSync/JoplinMobileSync
+Code: EACCES
+Error: Error: EACCES: permission denied, mkdir '/eastSync'. Path: /eastSync/JoplinMobileSync
+    at e.fsErrorToJsError_ (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3257:107451)
+    at e.mkdir (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3257:108782)
+    at async e.initFileApi (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3695:1651)
+    at async e.fileApi (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3353:13093)
+    at async e.initSynchronizer (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3695:1701)
+    at async e.synchronizer (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3353:13577)
+    at async Timeout.timeoutCallback [as _onTimeout] (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3231:26383)
+2025-11-22 17:58:25: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"c33a9e56304043a9a16ae7ad308bc792","windowId":"default"}
+2025-11-22 17:58:25: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 17:58:27: [error] Could not initialise synchroniser: 
+2025-11-22 17:58:27: [error] Error: Error: EACCES: permission denied, mkdir '/eastSync'. Path: /eastSync/JoplinMobileSync
+Code: EACCES
+Error: Error: EACCES: permission denied, mkdir '/eastSync'. Path: /eastSync/JoplinMobileSync
+    at e.fsErrorToJsError_ (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3257:107451)
+    at e.mkdir (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3257:108782)
+    at async e.initFileApi (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3695:1651)
+    at async e.fileApi (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3353:13093)
+    at async e.initSynchronizer (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3695:1701)
+    at async e.synchronizer (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3353:13577)
+    at async Object.execute (file:///tmp/.mount_JoplinYKZ40O/resources/app.asar/main-html.bundle.js:3989:18046)
+2025-11-22 17:58:46: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:58:48: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:58:53: config-shared: Sync settings have been changed - scheduling a sync
+2025-11-22 17:58:55: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"c33a9e56304043a9a16ae7ad308bc792","windowId":"default"}
+2025-11-22 17:58:55: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 17:58:55: Preparing scheduled sync
+2025-11-22 17:58:55: Starting scheduled sync
+2025-11-22 17:58:55: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830735854]
+2025-11-22 17:58:55: Synchronizer: Indexing resources...
+2025-11-22 17:58:55: ResourceService::indexNoteResources: Start
+2025-11-22 17:58:55: Performance: ResourceService/indexNoteResources: End at 91.9s (took 101.7ms)
+2025-11-22 17:58:55: ResourceService::indexNoteResources: Completed
+2025-11-22 17:58:55: Synchronizer: Sync target remote info: {"version":0,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"0.0.0"}
+2025-11-22 17:58:55: Synchronizer: Sync target is new - setting it up...
+2025-11-22 17:58:55: MigrationHandler: Sync target version is 0 or 1 - creating "locks" and "temp" directory: {"version":0}
+2025-11-22 17:58:55: MigrationHandler: Acquiring exclusive lock
+2025-11-22 17:58:55: MigrationHandler: Acquired exclusive lock: {"clientId":"","clientType":1,"type":0,"id":"NULL_LOCK","updatedTime":1763830735960}
+2025-11-22 17:58:55: MigrationHandler: Migrating from version 0 to version 1
+2025-11-22 17:58:55: MigrationHandler: Done migrating from version 0 to version 1
+2025-11-22 17:58:55: MigrationHandler: Migrating from version 1 to version 2
+2025-11-22 17:58:55: MigrationHandler: Done migrating from version 1 to version 2
+2025-11-22 17:58:55: MigrationHandler: Migrating from version 2 to version 3
+2025-11-22 17:58:55: MigrationHandler: Done migrating from version 2 to version 3
+2025-11-22 17:58:55: MigrationHandler: Releasing exclusive lock
+2025-11-22 17:58:55: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 17:58:55: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 17:58:55: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local c33a9e56304043a9a16ae7ad308bc792)
+2025-11-22 17:58:55: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 66e9dbdea2ef4857a9ff1d43c462bb1f)
+2025-11-22 17:58:55: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 9af2eba266074cf5aa36f8fc16f71130)
+2025-11-22 17:58:55: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 821740e4aeb548169b02c30538479baf)
+2025-11-22 17:58:56: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local b61add8736e04eeeaf7f983d77bc4ea1)
+2025-11-22 17:58:56: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Folder: (Local a912ed64bbaf42198b23840dea739d71)
+2025-11-22 17:58:56: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Resource: (Local b5347233adf0442291eb7043571dfc66)
+2025-11-22 17:58:56: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Resource: (Local a91c2c7a07744f4b901f868961674a6b)
+2025-11-22 17:58:56: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Resource: (Local 47797934f29f492989775338ce8aaaa8)
+2025-11-22 17:58:56: Synchronizer: BasicDelta: Report: {"timestamp":0,"older":0,"newer":10,"equal":0}
+2025-11-22 17:58:56: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:58:56: Synchronizer: Sync: finished: Synchronisation finished [1763830735854]
+2025-11-22 17:58:56: Synchronizer: Operations completed: 
+2025-11-22 17:58:56: Synchronizer: createRemote: 9
+2025-11-22 17:58:56: Synchronizer: fetchingTotal: 10
+2025-11-22 17:58:56: Synchronizer: fetchingProcessed: 10
+2025-11-22 17:58:56: Synchronizer: Total folders: 1
+2025-11-22 17:58:56: Synchronizer: Total notes: 5
+2025-11-22 17:58:56: Synchronizer: Total resources: 3
+2025-11-22 17:58:56: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:58:57: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 17:59:02: Preparing scheduled sync
+2025-11-22 17:59:02: Starting scheduled sync
+2025-11-22 17:59:02: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830742592]
+2025-11-22 17:59:02: Synchronizer: Indexing resources...
+2025-11-22 17:59:02: ResourceService::indexNoteResources: Start
+2025-11-22 17:59:02: Performance: ResourceService/indexNoteResources: End at 98.64s (took 100.7ms)
+2025-11-22 17:59:02: ResourceService::indexNoteResources: Completed
+2025-11-22 17:59:02: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 17:59:02: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 17:59:02: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 17:59:02: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2025-11-22 17:59:02: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2025-11-22 17:59:02: Synchronizer: BasicDelta: Report: {"timestamp":1763830736047,"older":9,"newer":0,"equal":1}
+2025-11-22 17:59:02: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 17:59:02: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 17:59:02: Synchronizer: Sync: finished: Synchronisation finished [1763830742592]
+2025-11-22 17:59:02: Synchronizer: Operations completed: 
+2025-11-22 17:59:02: Synchronizer: fetchingTotal: -
+2025-11-22 17:59:02: Synchronizer: Total folders: 1
+2025-11-22 17:59:02: Synchronizer: Total notes: 5
+2025-11-22 17:59:02: Synchronizer: Total resources: 3
+2025-11-22 17:59:02: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:03: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 17:59:05: SearchEngine: Updating FTS table...
+2025-11-22 17:59:06: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 17:59:06: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 17:59:06: Performance: SearchEngine/syncTables: End at 102s (took 101.9ms)
+2025-11-22 17:59:06: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:08: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:15: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:16: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:17: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:19: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:20: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 17:59:46: App: Profile directory: /home/east/.config/joplin-desktop
+2025-11-22 17:59:46: App: Root profile directory: /home/east/.config/joplin-desktop
+2025-11-22 17:59:46: Database was open successfully
+2025-11-22 17:59:46: Checking for database schema update...
+2025-11-22 17:59:46: Current database version {"version":48,"table_fields_version":48}
+2025-11-22 17:59:46: Upgrading database from version 48
+2025-11-22 17:59:46: New version: 48. Previously recorded version: 48
+2025-11-22 17:59:46: KeychainService: Driver unsupported:electron-safeStorage
+2025-11-22 17:59:46: KeychainService: Driver unsupported:node-keytar
+2025-11-22 17:59:46: KeychainService: checking if keychain supported
+2025-11-22 17:59:46: KeychainService: check was already done - skipping. Supported: 0
+2025-11-22 17:59:46: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-11-22 17:59:46: handleSyncStartupOperation: Processing operation: 2
+2025-11-22 17:59:46: App: Client ID: b94f89bf9f20433ea6420038e4813b87
+2025-11-22 17:59:46: models/Setting: Applying default migrations...
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:59:46: ResourceFetcher: Auto-added resources: 0
+2025-11-22 17:59:46: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-11-22 17:59:46: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:46: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-11-22 17:59:46: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: app.start: doing regular boot
+2025-11-22 17:59:46: App: Setting up auto-updater service...
+2025-11-22 17:59:46: OcrService: Starting background service...
+2025-11-22 17:59:46: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 17:59:46: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 17:59:46: e2ee/utils: Loaded master keys: 0
+2025-11-22 17:59:46: OcrService: Found 0 resources to process...
+2025-11-22 17:59:46: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-11-22 17:59:46: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-11-22 17:59:46: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-11-22 17:59:46: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-11-22 17:59:46: Performance: app/start: End at 1.46s (took 229.8ms)
+2025-11-22 17:59:46: Performance: main: End at 1.62s (took 0.4s)
+2025-11-22 17:59:46: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-11-22 17:59:46: OcrService: 0 resources have been processed.
+2025-11-22 17:59:46: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-11-22 17:59:46: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 17:59:46: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 17:59:46: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 124ms)
+2025-11-22 17:59:46: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 186ms)
+2025-11-22 17:59:46: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 17:59:47: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 17:59:47: Preparing scheduled sync
+2025-11-22 17:59:47: Starting scheduled sync
+2025-11-22 17:59:47: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830787124]
+2025-11-22 17:59:47: Synchronizer: Indexing resources...
+2025-11-22 17:59:47: ResourceService::indexNoteResources: Start
+2025-11-22 17:59:47: Performance: ResourceService/indexNoteResources: End at 2.48s (took 120.4ms)
+2025-11-22 17:59:47: ResourceService::indexNoteResources: Completed
+2025-11-22 17:59:47: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 17:59:47: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 17:59:47: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 17:59:47: Synchronizer: BasicDelta: Report: {"timestamp":0,"older":0,"newer":10,"equal":0}
+2025-11-22 17:59:47: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote c33a9e56304043a9a16ae7ad308bc792.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 66e9dbdea2ef4857a9ff1d43c462bb1f.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 9af2eba266074cf5aa36f8fc16f71130.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 821740e4aeb548169b02c30538479baf.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote b61add8736e04eeeaf7f983d77bc4ea1.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote a912ed64bbaf42198b23840dea739d71.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote b5347233adf0442291eb7043571dfc66.md)
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote a91c2c7a07744f4b901f868961674a6b.md)
+2025-11-22 17:59:47: OcrService: Found 0 resources to process...
+2025-11-22 17:59:47: ResourceFetcher: Auto-added resources: 1
+2025-11-22 17:59:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:47: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 17:59:47: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:59:47: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 47797934f29f492989775338ce8aaaa8.md)
+2025-11-22 17:59:47: ResourceFetcher: Auto-added resources: 2
+2025-11-22 17:59:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:47: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:59:47: ResourceFetcher: Auto-added resources: 3
+2025-11-22 17:59:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:47: Synchronizer: Sync: finished: Synchronisation finished [1763830787124]
+2025-11-22 17:59:47: Synchronizer: Operations completed: 
+2025-11-22 17:59:47: Synchronizer: fetchingTotal: 10
+2025-11-22 17:59:47: Synchronizer: fetchingProcessed: 10
+2025-11-22 17:59:47: Synchronizer: createLocal: 9
+2025-11-22 17:59:47: Synchronizer: Total folders: 1
+2025-11-22 17:59:47: Synchronizer: Total notes: 5
+2025-11-22 17:59:47: Synchronizer: Total resources: 3
+2025-11-22 17:59:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:47: Updating all notifications...
+2025-11-22 17:59:47: Garbage collecting alarms...
+2025-11-22 17:59:47: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:59:47: ResourceFetcher: Auto-added resources: 0
+2025-11-22 17:59:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:47: OcrService: 0 resources have been processed.
+2025-11-22 17:59:47: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 17:59:47: ResourceFetcher: Auto-added resources: 0
+2025-11-22 17:59:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 17:59:48: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 17:59:50: RevisionService: maintenance: Starting...
+2025-11-22 17:59:50: RevisionService: maintenance: Service is enabled
+2025-11-22 17:59:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-11-22 17:59:50: RevisionService: maintenance: Done in 102ms
+2025-11-22 17:59:56: SearchEngine: Updating FTS table...
+2025-11-22 17:59:56: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 17:59:56: SearchEngine: Updated FTS table in 40ms. Inserted: 5. Deleted: 0
+2025-11-22 17:59:56: Performance: SearchEngine/syncTables: End at 11.46s (took 140.4ms)
+2025-11-22 18:00:16: ResourceService::indexNoteResources: Start
+2025-11-22 18:00:16: Performance: ResourceService/indexNoteResources: End at 31.51s (took 155.9ms)
+2025-11-22 18:00:16: ResourceService::indexNoteResources: Completed
+2025-11-22 18:00:16: ResourceService::deleteOrphanResources: []
+2025-11-22 18:00:26: SearchEngine: Updating FTS table...
+2025-11-22 18:00:26: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:00:26: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:00:26: Performance: SearchEngine/syncTables: End at 41.62s (took 101.8ms)
+2025-11-22 18:01:13: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:01:15: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:01:22: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:01:31: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:01:32: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:01:38: config-shared: Sync settings have been changed - scheduling a sync
+2025-11-22 18:01:40: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 18:01:40: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:01:40: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 18:01:42: Preparing scheduled sync
+2025-11-22 18:01:42: Starting scheduled sync
+2025-11-22 18:01:42: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830902828]
+2025-11-22 18:01:42: Synchronizer: Indexing resources...
+2025-11-22 18:01:42: ResourceService::indexNoteResources: Start
+2025-11-22 18:01:42: Performance: ResourceService/indexNoteResources: End at 118.16s (took 100.5ms)
+2025-11-22 18:01:42: ResourceService::indexNoteResources: Completed
+2025-11-22 18:01:42: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:01:42: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 18:01:42: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:01:42: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2025-11-22 18:01:42: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2025-11-22 18:01:42: Synchronizer: BasicDelta: Report: {"timestamp":1763830736047,"older":9,"newer":0,"equal":1}
+2025-11-22 18:01:42: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 18:01:42: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 18:01:42: Synchronizer: Sync: finished: Synchronisation finished [1763830902828]
+2025-11-22 18:01:42: Synchronizer: Operations completed: 
+2025-11-22 18:01:42: Synchronizer: fetchingTotal: -
+2025-11-22 18:01:42: Synchronizer: Total folders: 1
+2025-11-22 18:01:42: Synchronizer: Total notes: 5
+2025-11-22 18:01:42: Synchronizer: Total resources: 3
+2025-11-22 18:01:42: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:01:43: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:01:45: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:01:45: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"c33a9e56304043a9a16ae7ad308bc792","windowId":"default"}
+2025-11-22 18:01:51: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:01:52: SearchEngine: Updating FTS table...
+2025-11-22 18:01:53: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:01:53: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:01:53: Performance: SearchEngine/syncTables: End at 128.26s (took 101.7ms)
+2025-11-22 18:01:53: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:02:16: config-shared: Sync settings have been changed - scheduling a sync
+2025-11-22 18:02:18: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"c33a9e56304043a9a16ae7ad308bc792","windowId":"default"}
+2025-11-22 18:02:18: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:02:20: Preparing scheduled sync
+2025-11-22 18:02:20: Starting scheduled sync
+2025-11-22 18:02:20: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830940000]
+2025-11-22 18:02:20: Synchronizer: Indexing resources...
+2025-11-22 18:02:20: ResourceService::indexNoteResources: Start
+2025-11-22 18:02:20: Performance: ResourceService/indexNoteResources: End at 155.34s (took 101.2ms)
+2025-11-22 18:02:20: ResourceService::indexNoteResources: Completed
+2025-11-22 18:02:20: Synchronizer: Fail-safe: Sync was interrupted to prevent data loss, because the sync target is empty or damaged. To override this behaviour disable the fail-safe in the sync settings.
+2025-11-22 18:02:20: Synchronizer: Sync: finished: Synchronisation finished [1763830940000]
+2025-11-22 18:02:20: Synchronizer: Operations completed: 
+2025-11-22 18:02:20: Synchronizer: Total folders: 1
+2025-11-22 18:02:20: Synchronizer: Total notes: 5
+2025-11-22 18:02:20: Synchronizer: Total resources: 3
+2025-11-22 18:02:20: Synchronizer: [warn] There was some errors:
+2025-11-22 18:02:20: Synchronizer: [warn] Fail-safe: Sync was interrupted to prevent data loss, because the sync target is empty or damaged. To override this behaviour disable the fail-safe in the sync settings.
+2025-11-22 18:02:20: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:02:21: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:02:27: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:02:30: SearchEngine: Updating FTS table...
+2025-11-22 18:02:30: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:02:30: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:02:30: Performance: SearchEngine/syncTables: End at 165.44s (took 101.7ms)
+2025-11-22 18:02:30: RepositoryApi: findWorkingMirror: Could not connect to https://raw.githubusercontent.com/joplin/plugins/master: FetchError: request to https://raw.githubusercontent.com/joplin/plugins/master/.gitignore failed, reason: Client network socket disconnected before secure TLS connection was established
+Code: ECONNRESET
+FetchError: request to https://raw.githubusercontent.com/joplin/plugins/master/.gitignore failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/tmp/.mount_JoplinSw9pNN/resources/app.asar/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-11-22 18:02:41: App: Profile directory: /home/east/.config/joplin-desktop
+2025-11-22 18:02:41: App: Root profile directory: /home/east/.config/joplin-desktop
+2025-11-22 18:02:41: Database was open successfully
+2025-11-22 18:02:41: Checking for database schema update...
+2025-11-22 18:02:41: Current database version {"version":48,"table_fields_version":48}
+2025-11-22 18:02:41: Upgrading database from version 48
+2025-11-22 18:02:41: New version: 48. Previously recorded version: 48
+2025-11-22 18:02:41: KeychainService: Driver unsupported:electron-safeStorage
+2025-11-22 18:02:41: KeychainService: Driver unsupported:node-keytar
+2025-11-22 18:02:41: KeychainService: checking if keychain supported
+2025-11-22 18:02:41: KeychainService: check was already done - skipping. Supported: 0
+2025-11-22 18:02:41: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-11-22 18:02:41: handleSyncStartupOperation: Processing operation: 2
+2025-11-22 18:02:41: App: Client ID: b94f89bf9f20433ea6420038e4813b87
+2025-11-22 18:02:41: models/Setting: Applying default migrations...
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:02:41: ResourceFetcher: Auto-added resources: 0
+2025-11-22 18:02:41: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-11-22 18:02:41: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:02:41: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-11-22 18:02:41: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: app.start: doing regular boot
+2025-11-22 18:02:41: App: Setting up auto-updater service...
+2025-11-22 18:02:41: OcrService: Starting background service...
+2025-11-22 18:02:41: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:02:41: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:02:41: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:02:41: OcrService: Found 0 resources to process...
+2025-11-22 18:02:41: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-11-22 18:02:41: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-11-22 18:02:41: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-11-22 18:02:41: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-11-22 18:02:41: Performance: app/start: End at 1.46s (took 211.9ms)
+2025-11-22 18:02:41: Performance: main: End at 1.62s (took 0.38s)
+2025-11-22 18:02:41: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-11-22 18:02:41: OcrService: 0 resources have been processed.
+2025-11-22 18:02:41: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-11-22 18:02:41: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:02:41: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 18:02:41: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 129ms)
+2025-11-22 18:02:42: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 192ms)
+2025-11-22 18:02:42: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 18:02:42: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:02:42: Preparing scheduled sync
+2025-11-22 18:02:42: Starting scheduled sync
+2025-11-22 18:02:42: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830962451]
+2025-11-22 18:02:42: Synchronizer: Indexing resources...
+2025-11-22 18:02:42: ResourceService::indexNoteResources: Start
+2025-11-22 18:02:42: Performance: ResourceService/indexNoteResources: End at 2.48s (took 117.6ms)
+2025-11-22 18:02:42: ResourceService::indexNoteResources: Completed
+2025-11-22 18:02:42: Synchronizer: Sync target remote info: {"version":0,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"0.0.0"}
+2025-11-22 18:02:42: Synchronizer: Sync target is new - setting it up...
+2025-11-22 18:02:42: MigrationHandler: Sync target version is 0 or 1 - creating "locks" and "temp" directory: {"version":0}
+2025-11-22 18:02:42: MigrationHandler: Acquiring exclusive lock
+2025-11-22 18:02:42: MigrationHandler: Acquired exclusive lock: {"clientId":"","clientType":1,"type":0,"id":"NULL_LOCK","updatedTime":1763830962573}
+2025-11-22 18:02:42: MigrationHandler: Migrating from version 0 to version 1
+2025-11-22 18:02:42: MigrationHandler: Done migrating from version 0 to version 1
+2025-11-22 18:02:42: MigrationHandler: Migrating from version 1 to version 2
+2025-11-22 18:02:42: MigrationHandler: Done migrating from version 1 to version 2
+2025-11-22 18:02:42: MigrationHandler: Migrating from version 2 to version 3
+2025-11-22 18:02:42: MigrationHandler: Done migrating from version 2 to version 3
+2025-11-22 18:02:42: MigrationHandler: Releasing exclusive lock
+2025-11-22 18:02:42: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 18:02:42: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:02:42: Synchronizer: BasicDelta: Report: {"timestamp":0,"older":0,"newer":1,"equal":0}
+2025-11-22 18:02:42: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 18:02:42: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 18:02:42: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:02:42: Synchronizer: Sync: finished: Synchronisation finished [1763830962451]
+2025-11-22 18:02:42: Synchronizer: Operations completed: 
+2025-11-22 18:02:42: Synchronizer: fetchingTotal: 1
+2025-11-22 18:02:42: Synchronizer: fetchingProcessed: 1
+2025-11-22 18:02:42: Synchronizer: Total folders: 0
+2025-11-22 18:02:42: Synchronizer: Total notes: 0
+2025-11-22 18:02:42: Synchronizer: Total resources: 0
+2025-11-22 18:02:42: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:02:42: Updating all notifications...
+2025-11-22 18:02:42: Garbage collecting alarms...
+2025-11-22 18:02:43: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:02:45: RevisionService: maintenance: Starting...
+2025-11-22 18:02:45: RevisionService: maintenance: Service is enabled
+2025-11-22 18:02:45: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-11-22 18:02:45: RevisionService: maintenance: Done in 101ms
+2025-11-22 18:02:46: Preparing scheduled sync
+2025-11-22 18:02:46: Starting scheduled sync
+2025-11-22 18:02:46: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830966197]
+2025-11-22 18:02:46: Synchronizer: Indexing resources...
+2025-11-22 18:02:46: ResourceService::indexNoteResources: Start
+2025-11-22 18:02:46: Performance: ResourceService/indexNoteResources: End at 6.2s (took 101.2ms)
+2025-11-22 18:02:46: ResourceService::indexNoteResources: Completed
+2025-11-22 18:02:46: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:02:46: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 18:02:46: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:02:46: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2025-11-22 18:02:46: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2025-11-22 18:02:46: Synchronizer: BasicDelta: Report: {"timestamp":1763830962572,"older":0,"newer":0,"equal":1}
+2025-11-22 18:02:46: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 18:02:46: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 18:02:46: Synchronizer: Sync: finished: Synchronisation finished [1763830966197]
+2025-11-22 18:02:46: Synchronizer: Operations completed: 
+2025-11-22 18:02:46: Synchronizer: fetchingTotal: -
+2025-11-22 18:02:46: Synchronizer: Total folders: 0
+2025-11-22 18:02:46: Synchronizer: Total notes: 0
+2025-11-22 18:02:46: Synchronizer: Total resources: 0
+2025-11-22 18:02:46: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:02:47: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:02:49: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:02:50: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:02:51: SearchEngine: Updating FTS table...
+2025-11-22 18:02:51: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:02:51: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:02:51: Performance: SearchEngine/syncTables: End at 11.42s (took 101.5ms)
+2025-11-22 18:02:52: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:02:56: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 18:02:56: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:02:56: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 18:02:57: Preparing scheduled sync
+2025-11-22 18:02:57: Starting scheduled sync
+2025-11-22 18:02:57: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763830977571]
+2025-11-22 18:02:57: Synchronizer: Indexing resources...
+2025-11-22 18:02:57: ResourceService::indexNoteResources: Start
+2025-11-22 18:02:57: Performance: ResourceService/indexNoteResources: End at 17.58s (took 100.5ms)
+2025-11-22 18:02:57: ResourceService::indexNoteResources: Completed
+2025-11-22 18:02:57: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:02:57: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 18:02:57: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:02:57: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2025-11-22 18:02:57: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2025-11-22 18:02:57: Synchronizer: BasicDelta: Report: {"timestamp":1763830962572,"older":0,"newer":0,"equal":1}
+2025-11-22 18:02:57: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 18:02:57: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 18:02:57: Synchronizer: Sync: finished: Synchronisation finished [1763830977571]
+2025-11-22 18:02:57: Synchronizer: Operations completed: 
+2025-11-22 18:02:57: Synchronizer: fetchingTotal: -
+2025-11-22 18:02:57: Synchronizer: Total folders: 0
+2025-11-22 18:02:57: Synchronizer: Total notes: 0
+2025-11-22 18:02:57: Synchronizer: Total resources: 0
+2025-11-22 18:02:57: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:02:58: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:02:59: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:03:01: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:03:07: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:03:07: SearchEngine: Updating FTS table...
+2025-11-22 18:03:07: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:03:07: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:03:07: Performance: SearchEngine/syncTables: End at 27.68s (took 101.5ms)
+2025-11-22 18:03:11: ResourceService::indexNoteResources: Start
+2025-11-22 18:03:11: Performance: ResourceService/indexNoteResources: End at 31.46s (took 100.3ms)
+2025-11-22 18:03:11: ResourceService::indexNoteResources: Completed
+2025-11-22 18:03:11: ResourceService::deleteOrphanResources: []
+2025-11-22 18:03:13: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:03:14: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 18:03:14: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:03:14: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 18:03:21: SearchEngine: Updating FTS table...
+2025-11-22 18:03:21: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:03:21: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:03:21: Performance: SearchEngine/syncTables: End at 41.56s (took 101.9ms)
+2025-11-22 18:15:32: App: Profile directory: /home/east/.config/joplin-desktop
+2025-11-22 18:15:32: App: Root profile directory: /home/east/.config/joplin-desktop
+2025-11-22 18:15:32: Database was open successfully
+2025-11-22 18:15:32: Checking for database schema update...
+2025-11-22 18:15:32: Current database version {"version":48,"table_fields_version":48}
+2025-11-22 18:15:32: Upgrading database from version 48
+2025-11-22 18:15:32: New version: 48. Previously recorded version: 48
+2025-11-22 18:15:32: KeychainService: Driver unsupported:electron-safeStorage
+2025-11-22 18:15:32: KeychainService: Driver unsupported:node-keytar
+2025-11-22 18:15:32: KeychainService: checking if keychain supported
+2025-11-22 18:15:32: KeychainService: check was already done - skipping. Supported: 0
+2025-11-22 18:15:32: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-11-22 18:15:32: handleSyncStartupOperation: Processing operation: 0
+2025-11-22 18:15:32: App: Client ID: b94f89bf9f20433ea6420038e4813b87
+2025-11-22 18:15:32: models/Setting: Applying default migrations...
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:15:32: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-11-22 18:15:32: ResourceFetcher: Auto-added resources: 0
+2025-11-22 18:15:32: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-11-22 18:15:32: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: app.start: doing regular boot
+2025-11-22 18:15:32: App: Setting up auto-updater service...
+2025-11-22 18:15:32: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:15:32: OcrService: Starting background service...
+2025-11-22 18:15:32: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:15:32: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:15:32: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:15:32: OcrService: Found 0 resources to process...
+2025-11-22 18:15:32: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-11-22 18:15:32: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-11-22 18:15:33: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-11-22 18:15:33: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-11-22 18:15:33: Performance: app/start: End at 1.44s (took 186.7ms)
+2025-11-22 18:15:33: Performance: main: End at 1.6s (took 0.35s)
+2025-11-22 18:15:33: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-11-22 18:15:33: OcrService: 0 resources have been processed.
+2025-11-22 18:15:33: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-11-22 18:15:33: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:15:33: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 18:15:33: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 115ms)
+2025-11-22 18:15:33: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 198ms)
+2025-11-22 18:15:33: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 18:15:33: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:15:33: Preparing scheduled sync
+2025-11-22 18:15:33: Starting scheduled sync
+2025-11-22 18:15:33: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763831733973]
+2025-11-22 18:15:33: Synchronizer: Indexing resources...
+2025-11-22 18:15:33: ResourceService::indexNoteResources: Start
+2025-11-22 18:15:34: Performance: ResourceService/indexNoteResources: End at 2.44s (took 100.4ms)
+2025-11-22 18:15:34: ResourceService::indexNoteResources: Completed
+2025-11-22 18:15:34: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:15:34: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 18:15:34: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:15:34: Synchronizer: BasicDelta: Report: {"timestamp":1763830962572,"older":0,"newer":0,"equal":1}
+2025-11-22 18:15:34: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 18:15:34: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 18:15:34: Synchronizer: Sync: finished: Synchronisation finished [1763831733973]
+2025-11-22 18:15:34: Synchronizer: Operations completed: 
+2025-11-22 18:15:34: Synchronizer: fetchingTotal: -
+2025-11-22 18:15:34: Synchronizer: Total folders: 0
+2025-11-22 18:15:34: Synchronizer: Total notes: 0
+2025-11-22 18:15:34: Synchronizer: Total resources: 0
+2025-11-22 18:15:34: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:15:34: Updating all notifications...
+2025-11-22 18:15:34: Garbage collecting alarms...
+2025-11-22 18:15:35: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:15:36: RevisionService: maintenance: Starting...
+2025-11-22 18:15:36: RevisionService: maintenance: Service is enabled
+2025-11-22 18:15:37: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-11-22 18:15:37: RevisionService: maintenance: Done in 102ms
+2025-11-22 18:15:37: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:15:39: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:15:42: SearchEngine: Updating FTS table...
+2025-11-22 18:15:43: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:15:43: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-11-22 18:15:43: Performance: SearchEngine/syncTables: End at 11.4s (took 101.8ms)
+2025-11-22 18:15:44: config-shared: Sync settings have been changed - scheduling a sync
+2025-11-22 18:15:48: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:15:49: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2025-11-22 18:15:55: Preparing scheduled sync
+2025-11-22 18:15:55: Starting scheduled sync
+2025-11-22 18:15:55: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763831755398]
+2025-11-22 18:15:55: Synchronizer: Indexing resources...
+2025-11-22 18:15:55: ResourceService::indexNoteResources: Start
+2025-11-22 18:16:01: App: Profile directory: /home/east/.config/joplin-desktop
+2025-11-22 18:16:01: App: Root profile directory: /home/east/.config/joplin-desktop
+2025-11-22 18:16:01: Database was open successfully
+2025-11-22 18:16:01: Checking for database schema update...
+2025-11-22 18:16:01: Current database version {"version":48,"table_fields_version":48}
+2025-11-22 18:16:01: Upgrading database from version 48
+2025-11-22 18:16:01: New version: 48. Previously recorded version: 48
+2025-11-22 18:16:01: KeychainService: Driver unsupported:electron-safeStorage
+2025-11-22 18:16:01: KeychainService: Driver unsupported:node-keytar
+2025-11-22 18:16:01: KeychainService: checking if keychain supported
+2025-11-22 18:16:01: KeychainService: check was already done - skipping. Supported: 0
+2025-11-22 18:16:01: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-11-22 18:16:01: handleSyncStartupOperation: Processing operation: 2
+2025-11-22 18:16:01: App: Client ID: b94f89bf9f20433ea6420038e4813b87
+2025-11-22 18:16:01: models/Setting: Applying default migrations...
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:16:01: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-11-22 18:16:01: ResourceFetcher: Auto-added resources: 0
+2025-11-22 18:16:01: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-11-22 18:16:01: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:01: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: app.start: doing regular boot
+2025-11-22 18:16:01: App: Setting up auto-updater service...
+2025-11-22 18:16:01: OcrService: Starting background service...
+2025-11-22 18:16:01: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: App: "syncInfoCache" was changed - setting up encryption related code
+2025-11-22 18:16:01: e2ee/utils: Trying to load 0 master keys...
+2025-11-22 18:16:01: e2ee/utils: Loaded master keys: 0
+2025-11-22 18:16:01: OcrService: Found 0 resources to process...
+2025-11-22 18:16:01: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-11-22 18:16:01: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-11-22 18:16:01: PluginService: Loading plugin from /home/east/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-11-22 18:16:01: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2025-11-22 18:16:01: Performance: app/start: End at 1.48s (took 226.2ms)
+2025-11-22 18:16:02: Performance: main: End at 1.64s (took 0.39s)
+2025-11-22 18:16:02: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-11-22 18:16:02: OcrService: 0 resources have been processed.
+2025-11-22 18:16:02: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-11-22 18:16:02: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-11-22 18:16:02: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-11-22 18:16:02: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 121ms)
+2025-11-22 18:16:02: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 189ms)
+2025-11-22 18:16:02: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-11-22 18:16:02: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:16:02: Preparing scheduled sync
+2025-11-22 18:16:02: Starting scheduled sync
+2025-11-22 18:16:02: Synchronizer: Sync: starting: Starting synchronisation to target 2... supportsAccurateTimestamp = false; supportsMultiPut = false} [1763831762781]
+2025-11-22 18:16:02: Synchronizer: Indexing resources...
+2025-11-22 18:16:02: ResourceService::indexNoteResources: Start
+2025-11-22 18:16:02: Performance: ResourceService/indexNoteResources: End at 2.48s (took 101.4ms)
+2025-11-22 18:16:02: ResourceService::indexNoteResources: Completed
+2025-11-22 18:16:02: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:16:02: Synchronizer: Sync target is already setup - checking it...
+2025-11-22 18:16:02: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2025-11-22 18:16:02: Synchronizer: BasicDelta: Report: {"timestamp":0,"older":0,"newer":10,"equal":0}
+2025-11-22 18:16:02: Synchronizer: supportsDeltaWithItems =  <false>
+2025-11-22 18:16:02: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2025-11-22 18:16:02: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:02: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote c33a9e56304043a9a16ae7ad308bc792.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 66e9dbdea2ef4857a9ff1d43c462bb1f.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 9af2eba266074cf5aa36f8fc16f71130.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 821740e4aeb548169b02c30538479baf.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote b61add8736e04eeeaf7f983d77bc4ea1.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote a912ed64bbaf42198b23840dea739d71.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote b5347233adf0442291eb7043571dfc66.md)
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote a91c2c7a07744f4b901f868961674a6b.md)
+2025-11-22 18:16:03: OcrService: Found 0 resources to process...
+2025-11-22 18:16:03: ResourceFetcher: Auto-added resources: 1
+2025-11-22 18:16:03: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:03: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2025-11-22 18:16:03: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:16:03: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 47797934f29f492989775338ce8aaaa8.md)
+2025-11-22 18:16:03: ResourceFetcher: Auto-added resources: 2
+2025-11-22 18:16:03: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:03: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:16:03: ResourceFetcher: Auto-added resources: 3
+2025-11-22 18:16:03: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:03: Synchronizer: Sync: finished: Synchronisation finished [1763831762781]
+2025-11-22 18:16:03: Synchronizer: Operations completed: 
+2025-11-22 18:16:03: Synchronizer: fetchingTotal: 10
+2025-11-22 18:16:03: Synchronizer: fetchingProcessed: 10
+2025-11-22 18:16:03: Synchronizer: createLocal: 9
+2025-11-22 18:16:03: Synchronizer: Total folders: 1
+2025-11-22 18:16:03: Synchronizer: Total notes: 5
+2025-11-22 18:16:03: Synchronizer: Total resources: 3
+2025-11-22 18:16:03: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:03: Updating all notifications...
+2025-11-22 18:16:03: Garbage collecting alarms...
+2025-11-22 18:16:03: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:16:03: ResourceFetcher: Auto-added resources: 0
+2025-11-22 18:16:03: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:03: OcrService: 0 resources have been processed.
+2025-11-22 18:16:03: ResourceFetcher: Auto-add resources: Mode: always
+2025-11-22 18:16:03: ResourceFetcher: Auto-added resources: 0
+2025-11-22 18:16:03: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-11-22 18:16:04: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-11-22 18:16:05: RevisionService: maintenance: Starting...
+2025-11-22 18:16:05: RevisionService: maintenance: Service is enabled
+2025-11-22 18:16:05: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-11-22 18:16:05: RevisionService: maintenance: Done in 102ms
+2025-11-22 18:16:11: SearchEngine: Updating FTS table...
+2025-11-22 18:16:11: Updating items_normalized from {"updated_time":1763830650759,"id":"b5347233adf0442291eb7043571dfc66"}
+2025-11-22 18:16:11: SearchEngine: Updated FTS table in 52ms. Inserted: 5. Deleted: 0
+2025-11-22 18:16:11: Performance: SearchEngine/syncTables: End at 11.52s (took 153.5ms)

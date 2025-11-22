@@ -1,0 +1,33 @@
+2025-11-22 15:30:16 Loading main app package /usr/lib/obsidian/obsidian.asar
+2025-11-22 15:30:16 Checking for update using Github
+2025-11-22 15:30:17 Success.
+2025-11-22 15:30:17 Latest version is 1.10.3
+2025-11-22 15:30:17 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.10.3/obsidian-1.10.3.asar.gz
+2025-11-22 15:30:18 Verifying hash & signature. Size= 9053948
+2025-11-22 15:30:18 Saving file
+2025-11-22 15:30:18 Update complete.
+2025-11-22 15:57:47 Loading updated app package /home/east/.config/obsidian/obsidian-1.10.3.asar
+2025-11-22 15:57:48 Checking for update using Github
+2025-11-22 15:57:48 Success.
+2025-11-22 15:57:48 Latest version is 1.10.3
+2025-11-22 15:57:48 App is up to date.
+2025-11-22 15:58:02 Loading updated app package /home/east/.config/obsidian/obsidian-1.10.3.asar
+2025-11-22 15:58:02 Checking for update using Github
+2025-11-22 15:58:54 Loading updated app package /home/east/.config/obsidian/obsidian-1.10.3.asar
+2025-11-22 15:58:54 Checking for update using Github
+2025-11-22 15:58:54 Success.
+2025-11-22 15:58:54 Latest version is 1.10.3
+2025-11-22 15:58:54 App is up to date.
+2025-11-22 17:17:16 Loading updated app package /home/east/.config/obsidian/obsidian-1.10.3.asar
+2025-11-22 17:17:16 Checking for update using Github
+2025-11-22 17:17:17 Success.
+2025-11-22 17:17:17 Latest version is 1.10.3
+2025-11-22 17:17:17 App is up to date.
+2025-11-22 18:17:16 Checking for update using Github
+2025-11-22 18:17:17 Success.
+2025-11-22 18:17:17 Latest version is 1.10.3
+2025-11-22 18:17:17 App is up to date.
+2025-11-22 19:17:16 Checking for update using Github
+2025-11-22 19:17:17 Success.
+2025-11-22 19:17:17 Latest version is 1.10.3
+2025-11-22 19:17:17 App is up to date.
