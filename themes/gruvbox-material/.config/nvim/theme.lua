@@ -1,3 +1,7 @@
+-- Symphony by vyrx
+-- Theme: Gruvbox Material
+-- https://github.com/vyrx-dev
+
 return {
 	{
 		"sainnhe/gruvbox-material",

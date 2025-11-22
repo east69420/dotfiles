@@ -1,22 +1,29 @@
 {
-  "wallpaper": "/home/vyrx/Wallpapers/monochrome/a_bird_flying_over_a_mountain.jpg",
+  "comment": "Symphony by vyrx - Theme: Gruvbox Material - https://github.com/vyrx-dev",
+  "checksum": "gruvbox_material_theme",
+  "wallpaper": "/home/vyrx/dotfiles/themes/gruvbox-material/wallpaper",
   "alpha": "100",
+  "special": {
+    "background": "#111313",
+    "foreground": "#ddc7a1",
+    "cursor": "#ddc7a1"
+  },
   "colors": {
-    "color0": "#111318",
-    "color1": "",
-    "color2": "",
-    "color3": "",
-    "color4": "",
-    "color5": "",
-    "color6": "",
-    "color7": "",
-    "color8": "",
-    "color9": "",
-    "color10": "#adc6ff",
-    "color11": "",
-    "color12": "",
-    "color13": "#37393e",
-    "color14": "",
-    "color15": "#e2e2e9"
+    "color0": "#111313",
+    "color1": "#ea6962",
+    "color2": "#7daea3",
+    "color3": "#d8a657",
+    "color4": "#7daea3",
+    "color5": "#d3869b",
+    "color6": "#89b482",
+    "color7": "#d4be98",
+    "color8": "#32302f",
+    "color9": "#ea6962",
+    "color10": "#7daea3",
+    "color11": "#d8a657",
+    "color12": "#7daea3",
+    "color13": "#d3869b",
+    "color14": "#89b482",
+    "color15": "#ddc7a1"
   }
 }

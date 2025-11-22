@@ -1,3 +1,8 @@
+/* Symphony by vyrx
+ * Theme: Gruvbox Material
+ * https://github.com/vyrx-dev
+ */
+
 * {
     /* Primary accent color (cyan/blue) */
     primary: #89b482;

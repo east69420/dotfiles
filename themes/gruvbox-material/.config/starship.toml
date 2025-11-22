@@ -1,3 +1,7 @@
+# Symphony by vyrx
+# Theme: Gruvbox Material
+# https://github.com/vyrx-dev
+
 add_newline = false
 command_timeout = 60
 format = """\
@@ -8,28 +12,24 @@ $line_break\
 $character\
 """
 
-# right_format = """\
-# $time\
-# """
-
 palette = "colors"
 
 [palettes.colors]
-mustard = '#af8700' # example
-color1 = '#adc6ff'
-color2 = '#102f60'
-color3 = '#c4c6d0'
-color4 = '#1e1f25'
-color5 = '#102f60'
-color6 = '#111318'
-color7 = '#111318'
-color8 = '#adc6ff'
-color9 = '#debcdf'
+mustard = '#d8a657' # gruvbox yellow
+color1 = '#7daea3'  # gruvbox blue (primary)
+color2 = '#32302f'  # gruvbox gray
+color3 = '#ddc7a1'  # gruvbox foreground
+color4 = '#32302f'  # gruvbox gray
+color5 = '#32302f'  # gruvbox gray
+color6 = '#111313'  # gruvbox background
+color7 = '#111313'  # gruvbox background
+color8 = '#7daea3'  # gruvbox blue
+color9 = '#89b482'  # gruvbox cyan
 
 [directory]
-style = "fg:#adc6ff bold" # color1
+style = "fg:#7daea3 bold" # gruvbox blue (matches OS)
 read_only = " 󰌾"
-read_only_style = "fg:#ea6962" # dark blue
+read_only_style = "fg:#ea6962" # gruvbox red
 truncation_length = 0
 truncate_to_repo = false
 format = "[$path]($style)[$read_only]($read_only_style)"
@@ -39,12 +39,12 @@ format = "[$path]($style)[$read_only]($read_only_style)"
 '~/Testing-repo' = 'work-project'
 
 [character]
-success_symbol = '[❯](fg:#adc6ff bold)'
-error_symbol = '[❯](fg:#ffb4ab bold)'
-vicmd_symbol = '[❮](fg:#111318 bold)'
+success_symbol = '[❯](fg:#d8a657 bold)' # gruvbox yellow
+error_symbol = '[❯](fg:#ea6962 bold)' # gruvbox red
+vicmd_symbol = '[❮](fg:#111313 bold)'
 
 [git_branch]
-style = "fg:#debcdf bold" # color9 (red)
+style = "fg:#d8a657 bold" # gruvbox yellow
 format = '[$symbol$branch]($style) '
 
 [git_status]
@@ -52,11 +52,10 @@ ahead = '⇡${count}'
 behind = '⇣${count}'
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 format = '[[($all_status$ahead_behind )](fg:#ea6962)]($style)'
-# style = "bg:#394260"
 
 [os]
 format = "[$symbol]($style)"
-style = "fg:#adc6ff bold" # color8
+style = "fg:#7daea3 bold" # gruvbox blue
 disabled = false
 
 [os.symbols]
@@ -64,11 +63,5 @@ Linux = "󰊠 "
 Arch = "󰣇"
 Ubuntu = "󰕈"
 
-# [time]
-# disabled = false
-# format = '[[ $time ](fg:#ea6962 )]($style)'
-# time_format = "%R"
-
 [line_break]
 disabled = true
-
