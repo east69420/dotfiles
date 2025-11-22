@@ -179,7 +179,7 @@ rm -rf ~/dotfiles/themes/theme-name
 ### Custom Themes (Static Colors)
 - Fixed color schemes that never change
 - Perfect for carefully crafted aesthetics
-- Examples: zen, sakura, tokyo-night, carnage
+- Examples: zen, sakura, tokyo-night, vague, void
 - Change wallpaper anytime: `SUPER+ALT+SPACE` (wallPicker)
 
 ### Matugen (Dynamic Colors)
