@@ -1,3 +1,4 @@
+-- Symphony by vyrx / Theme: Aamis / https://github.com/vyrx-dev
 return {
     {
         "bjarneo/aether.nvim",

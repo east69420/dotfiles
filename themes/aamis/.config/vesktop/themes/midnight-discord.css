@@ -1,4 +1,5 @@
 /**
+ * Symphony by vyrx / Theme: Aamis / https://github.com/vyrx-dev
  * @name midnight
  * @description A dark, rounded discord theme.
  * @author refact0r
@@ -23,36 +24,36 @@
   --corner-text: 'Midnight';
 
   /* color of status indicators and window controls */
-  --online-indicator: #cea37f; /* online status */
-  --dnd-indicator: #e9838f; /* do not disturb */
-  --idle-indicator: #edb95a; /* idle/away */
-  --streaming-indicator: #ede4c8; /* streaming */
+  --online-indicator: #cea37f; /* online status - tan */
+  --dnd-indicator: #e25d6c; /* do not disturb - muted red */
+  --idle-indicator: #f4bb54; /* idle/away - golden yellow */
+  --streaming-indicator: #e8ab3b; /* streaming - amber */
 
   /* accent colors */
   --accent-1: #cea37f; /* links */
   --accent-2: #cea37f; /* general unread/mention elements, some icons when active */
   --accent-3: #cea37f; /* accent buttons */
-  --accent-4: #9c714d; /* accent buttons when hovered */
-  --accent-5: #b58a66; /* accent buttons when clicked */
-  --mention: #9c714d; /* mentions & mention messages */
-  --mention-hover: #b58a66; /* mentions & mention messages when hovered */
+  --accent-4: #a07d5f; /* accent buttons when hovered - darker tan */
+  --accent-5: #b7906f; /* accent buttons when clicked - mid tan */
+  --mention: #f4bb54; /* mentions & mention messages - golden */
+  --mention-hover: #edb95a; /* mentions & mention messages when hovered */
 
   /* text colors */
-  --text-0: #000000; /* text on colored elements */
+  --text-0: #0f0f0f; /* text on colored elements */
   --text-1: #eadccc; /* other normally white text */
   --text-2: #eadccc; /* headings and important text */
-  --text-3: #eadccc; /* normal text */
-  --text-4: #c2b4a4; /* icon buttons and channels */
-  --text-5: #3a3330; /* muted channels/chats and timestamps */
+  --text-3: #e6caab; /* normal text - slightly less bright */
+  --text-4: #b0a090; /* icon buttons and channels - warm gray */
+  --text-5: #5a504a; /* muted channels/chats and timestamps - darker warm gray */
 
   /* background and dark colors */
-  --bg-1: #191919; /* dark buttons when clicked */
-  --bg-2: #3c3c3c; /* dark buttons */
-  --bg-3: #2d2d2d; /* spacing, secondary elements */
+  --bg-1: #0a0908; /* dark buttons when clicked - very dark warm */
+  --bg-2: #2a2420; /* dark buttons - dark warm brown */
+  --bg-3: #1a1614; /* spacing, secondary elements - warm brown */
   --bg-4: #0f0f0f; /* main background color */
-  --hover: #3c3c3c; /* channels and buttons when hovered */
+  --hover: #2a2420; /* channels and buttons when hovered */
   --active: #3a3330; /* channels and buttons when clicked or selected */
-  --message-hover: #3c3c3c; /* messages when hovered */
+  --message-hover: #1a1614; /* messages when hovered */
 
   /* amount of spacing and padding */
   --spacing: 12px;

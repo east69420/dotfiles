@@ -1,3 +1,4 @@
+/* Symphony by vyrx / Theme: Aamis / https://github.com/vyrx-dev */
 * {
     /* Primary accent color - muted tan/caramel */
     primary: #cea37f;
@@ -11,15 +12,15 @@
     on-secondary: #0f0f0f;
     on-secondary-container: #e6caab;
     
-    /* Surface backgrounds - very dark progression with warm undertones */
+    /* Surface backgrounds - base matches terminal, subtle variations for UI */
     surface: #0f0f0f;
-    surface-dim: #0a0a0a;
-    surface-bright: #1a1816;
-    surface-container-lowest: #0a0a0a;
+    surface-dim: #0f0f0f;
+    surface-bright: #0f0f0f;
+    surface-container-lowest: #0f0f0f;
     surface-container-low: #0f0f0f;
-    surface-container: #1a1816;
-    surface-container-high: #252220;
-    surface-container-highest: #3a3330;
+    surface-container: #0f0f0f;
+    surface-container-high: #1a1816;
+    surface-container-highest: #252220;
     
     /* Text colors - warm cream tones */
     on-surface: #eadccc;

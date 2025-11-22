@@ -1,3 +1,7 @@
+// Symphony by vyrx
+// Theme: Aamis
+// https://github.com/vyrx-dev
+
 #![enable(implicit_some)]
 #![enable(unwrap_newtypes)]
 #![enable(unwrap_variant_newtypes)]
@@ -12,22 +16,22 @@
         active_style: (fg: "#eadccc", bg: "#0f0f0f", modifiers: "Bold"),
         inactive_style: (fg: "#706a6a", modifiers: ""),
     ),
-    highlighted_item_style: (fg: "#e2be8a", modifiers: "Bold"),
-    current_item_style: (fg: "#0f0f0f", bg: "#e2be8a", modifiers: "Bold"),
+    highlighted_item_style: (fg: "#cea37f", modifiers: "Bold"),
+    current_item_style: (fg: "#0f0f0f", bg: "#cea37f", modifiers: "Bold"),
     borders_style: (fg: "#706a6a", modifiers: ""),
-    highlight_border_style: (fg: "#e2be8a"),
+    highlight_border_style: (fg: "#cea37f"),
     symbols: (song: "󰝚 ", dir: " ", marker: "* ", ellipsis: "..."),
     progress_bar: (
         symbols: ["█", "█", "█"],
         track_style: (fg: "#706a6a"),
-        elapsed_style: (fg: "#e2be8a"),
-        thumb_style: (fg: "#e2be8a"),
+        elapsed_style: (fg: "#cea37f"),
+        thumb_style: (fg: "#cea37f"),
     ),
     scrollbar: (
         symbols: ["", "", "", ""],
         track_style: (fg: "#706a6a"),
         ends_style: (fg: "#706a6a"),
-        thumb_style: (fg: "#e2be8a"),
+        thumb_style: (fg: "#cea37f"),
     ),
     song_table_format: [
         (
@@ -96,7 +100,7 @@
         rows: [
             (
                 left: [
-                    (kind: Property(Status(StateV2(playing_label: " ", paused_label: "❚❚", stopped_label: "❚❚"))), style: (fg: "#e2be8a", modifiers: "Bold")),
+                    (kind: Property(Status(StateV2(playing_label: " ", paused_label: "❚❚", stopped_label: "❚❚"))), style: (fg: "#cea37f", modifiers: "Bold")),
                 ],
                 center: [
                     (kind: Property(Song(Title)), style: (fg: "#eadccc", modifiers: "Bold"),
@@ -104,9 +108,9 @@
                     )
                 ],
                 right: [
-                    (kind: Text("Vol: "), style: (fg: "#e2be8a", modifiers: "Bold")),
-                    (kind: Property(Status(Volume)), style: (fg: "#e2be8a", modifiers: "Bold")),
-                    (kind: Text("% "), style: (fg: "#e2be8a", modifiers: "Bold"))
+                    (kind: Text("Vol: "), style: (fg: "#cea37f", modifiers: "Bold")),
+                    (kind: Property(Status(Volume)), style: (fg: "#cea37f", modifiers: "Bold")),
+                    (kind: Text("% "), style: (fg: "#cea37f", modifiers: "Bold"))
                 ]
             ),
             (
@@ -123,7 +127,7 @@
                 right: [
                     (
                         kind: Property(Widget(States(
-                            active_style: (fg: "#e2be8a", modifiers: "Bold"),
+                            active_style: (fg: "#cea37f", modifiers: "Bold"),
                             separator_style: (fg: "#706a6a")))
                         ),
                         style: (fg: "#706a6a")
