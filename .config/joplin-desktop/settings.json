@@ -2,7 +2,7 @@
 	"$schema": "https://joplinapp.org/schema/settings.json",
 	"altInstanceId": "",
 	"sync.target": 2,
-	"sync.2.path": "~/eastSync/JoplinMobileSync",
+	"sync.2.path": "/shared/JoplinSync",
 	"locale": "en_GB",
 	"theme": 1,
 	"markdown.plugin.softbreaks": false,

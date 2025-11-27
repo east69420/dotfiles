@@ -1,2 +1,3 @@
-2025/11/22-16:48:40.052 2fcf Creating DB /home/east/.config/superProductivity/Local Storage/leveldb since it was missing.
-2025/11/22-16:48:40.075 2fcf Reusing MANIFEST /home/east/.config/superProductivity/Local Storage/leveldb/MANIFEST-000001
+2025/11/22-18:17:16.920 63f Reusing MANIFEST /home/east/.config/superProductivity/Local Storage/leveldb/MANIFEST-000001
+2025/11/22-18:17:16.925 63f Recovering log #3
+2025/11/22-18:17:16.925 63f Reusing old log /home/east/.config/superProductivity/Local Storage/leveldb/000003.log 

@@ -1,0 +1,21 @@
+2025-11-26 18:00:30.970 [info] Started local extension host with pid 452521.
+2025-11-26 18:00:31.467 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 18:00:31.578 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 18:00:32.118 [error] [Extension Host] (node:452521) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 18:00:32.119 [error] [Extension Host] (node:452521) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 18:00:33.321 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-26 18:00:33.649 [info] [perf] Render performance baseline is 18ms
+2025-11-26 18:00:33.698 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 18:00:36.488 [info] Started local extension host with pid 452577.
+2025-11-26 18:00:37.047 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 18:00:37.125 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 18:00:37.618 [error] [Extension Host] (node:452577) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 18:00:37.619 [error] [Extension Host] (node:452577) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 18:00:38.698 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-26 18:00:39.023 [info] [perf] Render performance baseline is 17ms
+2025-11-26 18:00:39.749 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 18:02:50.658 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-26 18:04:40.330 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-26 18:06:18.563 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

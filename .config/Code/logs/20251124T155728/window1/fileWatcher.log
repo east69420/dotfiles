@@ -1,0 +1,2 @@
+2025-11-24 15:57:32.999 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/shared/eastSync/pyEast/ML/research/MLDev/.git/.gitstatus.VKE8m3/b' failed: No such file or directory (EUNKNOWN) (path: /home/east/shared/eastSync/pyEast/ML/research/MLDev)
+2025-11-24 15:57:32.999 [error] [File Watcher (universal)] inotify_add_watch on '/shared/eastSync/pyEast/ML/research/MLDev/.git/.gitstatus.VKE8m3/b' failed: No such file or directory

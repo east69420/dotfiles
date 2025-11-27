@@ -1,0 +1,490 @@
+2025-11-24 14:07:26.996 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 14:07:27.099 [info] Started local extension host with pid 254374.
+2025-11-24 14:07:27.124 [info] Started initializing default profile extensions in extensions installation folder. file:///home/east/.vscode/extensions
+2025-11-24 14:07:27.229 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/east/.vscode/extensions
+2025-11-24 14:07:27.426 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 14:07:27.785 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 14:07:30.051 [info] [perf] Render performance baseline is 15ms
+2025-11-24 14:07:42.463 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 14:07:48.247 [error] [Extension Host] (node:254374) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 14:07:48.247 [error] [Extension Host] (node:254374) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 14:07:49.997 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-24 14:08:25.350 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 14:08:25.454 [info] Started local extension host with pid 255031.
+2025-11-24 14:08:25.994 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 14:08:26.137 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 14:08:27.040 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 14:08:28.178 [info] [perf] Render performance baseline is 17ms
+2025-11-24 14:08:28.770 [error] [Extension Host] (node:255031) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 14:08:28.771 [error] [Extension Host] (node:255031) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 14:08:29.583 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-11-24 14:08:29.583 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-11-24 14:08:29.584 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled
+2025-11-24 14:08:29.874 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 14:08:30.030 [info] Started local extension host with pid 255094.
+2025-11-24 14:08:30.474 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 14:08:30.578 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 14:08:31.050 [error] [Extension Host] (node:255094) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 14:08:31.050 [error] [Extension Host] (node:255094) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 14:08:31.930 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 14:08:32.534 [info] [perf] Render performance baseline is 16ms
+2025-11-24 14:08:32.804 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-24 14:08:43.289 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 14:08:43.310 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 14:09:25.550 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-24 14:10:22.056 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 14:10:35.594 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 14:11:00.063 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-24 14:43:55.214 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-24 14:47:14.088 [error] [Extension Host] [AsyncCompletionManager] [e74dd84e-f796-459e-b2e3-bcf7d1bd24a5] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 14:52:21.424 [error] [Extension Host] [AsyncCompletionManager] [7f0d0187-8a3c-4c60-b352-f24cc6944ef6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 14:52:25.155 [error] [Extension Host] [AsyncCompletionManager] [21960518-fe26-41fe-8ff3-bc338c691e23] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 14:58:42.369 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.370 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.370 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.370 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.370 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.371 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.371 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.371 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.371 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.371 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.371 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.372 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.372 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.372 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.372 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.372 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.373 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.373 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.374 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.374 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.374 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.374 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.375 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.376 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 14:58:42.376 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.377 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.377 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.377 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.377 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.377 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.378 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.378 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.378 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.379 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.380 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.380 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.380 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.380 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.380 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.380 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.381 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.382 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:58:42.382 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 14:59:21.169 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: workbench.secondarySideBar.enableDefaultVisibilityInOldWorkspace, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay
+2025-11-24 14:59:21.479 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///opt/visual-studio-code/resources/app/out/main.js:33:4633)
+    at Wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-11-24 15:00:47.670 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:05:49.326 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:10:10.040 [warning] Error revealing change in view: undefined
+2025-11-24 15:10:51.066 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:15:37.029 [error] [Extension Host] [AsyncCompletionManager] [fc3f72a7-8dd1-4683-b179-69cf8c3bbc73] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 15:15:38.195 [error] [Extension Host] [AsyncCompletionManager] [9fb7cd04-cce8-45cf-835d-0a6521f9a337] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 15:15:52.765 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:16:32.811 [error] [Extension Host] [AsyncCompletionManager] [53d61077-e4ac-47d9-adab-46f03c310f07] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 15:16:42.262 [error] [Extension Host] [AsyncCompletionManager] [b48876af-56f7-4d09-90ce-4de4a2ce1994] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 15:20:54.424 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:25:56.236 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:30:57.968 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:35:59.724 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 15:40:41.453 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_getNotebookSummary with parameters {"filePath":"/home/east/shared/eastSync/pyEast/ML/research/MLDev/market_analysis.ipynb"}:
+Canceled: Canceled: Canceled
+    at tQ.$invokeTool (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:192:3257)
+2025-11-24 15:41:01.443 [error] An unknown error occurred. Please consult the log for more details.

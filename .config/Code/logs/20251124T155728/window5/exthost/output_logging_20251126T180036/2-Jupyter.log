@@ -1,0 +1,12 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.10.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/MLDev
+18:01:49.166 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingPythonInterpreter:'id=.jvsc74a57bd074f4e13093314c5e4554b6a5ab35895c2a2e2ec17957e40ea13ffa078abeacc0./shared/<username>Sync/py<username>/MLDev/.venv/python./shared/<username>Sync/py<username>/MLDev/.venv/python.-m#ipykernel_launcher'(interpreterId='/shared/<username>Sync/py<username>/MLDev/.venv/bin/python') and valid interpreter ids include ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python, /bin/python, /usr/bin/python, /sbin/python, /usr/sbin/python, /sbin/python3, /usr/sbin/python3, /sbin/python3.13, /usr/sbin/python3.13
+18:01:49.167 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd074f4e13093314c5e4554b6a5ab35895c2a2e2ec17957e40ea13ffa078abeacc0./shared/<username>Sync/py<username>/MLDev/.venv/python./shared/<username>Sync/py<username>/MLDev/.venv/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+18:01:49.167 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd074f4e13093314c5e4554b6a5ab35895c2a2e2ec17957e40ea13ffa078abeacc0./shared/<username>Sync/py<username>/MLDev/.venv/python./shared/<username>Sync/py<username>/MLDev/.venv/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'

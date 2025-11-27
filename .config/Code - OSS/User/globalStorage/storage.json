@@ -3,20 +3,22 @@
     "telemetry.machineId": "d129255bf1b65ab679ffffd2cc5346425a03e639c851fbbfe7a9c14978ae26df",
     "telemetry.devDeviceId": "621bf19b-622e-492d-adee-45f4e2ab69b3",
     "backupWorkspaces": {
-        "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "workspaces": [
             {
-                "backupFolder": "1763825417216"
+                "id": "6b30999b8c9495b2e482c73f7957a5bc",
+                "configURIPath": "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev.code-workspace"
             }
-        ]
+        ],
+        "folders": [],
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
-        "workspaces": {},
-        "emptyWindows": {
-            "1763825417216": "__default__profile__"
-        }
+        "workspaces": {
+            "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev": "__default__profile__",
+            "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev.code-workspace": "__default__profile__"
+        },
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
@@ -42,23 +44,43 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliaryBarWidth": 235,
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/east/.config/Code - OSS/Backups/1763825417216",
+            "workspaceIdentifier": {
+                "id": "6b30999b8c9495b2e482c73f7957a5bc",
+                "configURIPath": "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev.code-workspace"
+            },
+            "backupPath": "/home/east/.config/Code - OSS/Backups/6b30999b8c9495b2e482c73f7957a5bc",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
                 "width": 960,
-                "height": 1052
+                "height": 1080
             }
         },
         "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "ac8acbf63cbdc6990bb497e09cc8aa40": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6b30999b8c9495b2e482c73f7957a5bc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
     }
 }

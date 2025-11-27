@@ -1,0 +1,19 @@
+2025-11-26 12:38:09.430 [info] Native locator: Refresh started
+2025-11-26 12:38:11.385 [info] Native locator: Refresh started
+2025-11-26 12:38:11.412 [info] Native locator: Refresh started
+2025-11-26 12:38:11.444 [info] > conda info --json
+2025-11-26 12:38:11.798 [info] > pyenv which python
+2025-11-26 12:38:11.798 [info] cwd: .
+2025-11-26 12:38:12.905 [info] Native locator: Refresh finished in 4047 ms
+2025-11-26 12:38:12.907 [info] Python interpreter path: /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-26 12:38:13.787 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:38:13.787 [info] shell: bash
+2025-11-26 12:38:13.795 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:38:13.795 [info] shell: bash
+2025-11-26 12:38:13.807 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:38:13.807 [info] shell: bash
+2025-11-26 12:38:13.908 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:38:13.908 [info] shell: bash
+2025-11-26 12:38:13.924 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:38:13.924 [info] shell: bash
+2025-11-26 12:38:15.296 [info] Starting Pylance language server.

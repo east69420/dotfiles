@@ -1,0 +1,6 @@
+2025-11-24 13:35:48.617 [info] Log level: Info
+2025-11-24 13:37:24.350 [info] Log level: Info
+2025-11-24 13:37:25.886 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-11-24 13:37:29.797 [info] Log level: Info
+2025-11-24 13:37:29.954 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-11-24 13:40:59.635 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for east69420/ML_binary: Error: No GitHub authentication session available.

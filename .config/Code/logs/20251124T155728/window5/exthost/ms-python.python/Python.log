@@ -1,0 +1,15 @@
+2025-11-26 18:00:39.915 [info] Native locator: Refresh started
+2025-11-26 18:00:39.915 [info] Native locator: Refresh started
+2025-11-26 18:00:39.915 [info] Native locator: Refresh started
+2025-11-26 18:00:40.960 [info] Native locator: Refresh finished in 2882 ms
+2025-11-26 18:00:40.969 [info] > pyenv which python
+2025-11-26 18:00:40.969 [info] cwd: .
+2025-11-26 18:00:40.971 [info] Python interpreter path: /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-26 18:00:42.937 [info] Starting Pylance language server.
+2025-11-26 18:00:49.046 [info] > conda info --json
+2025-11-26 18:01:19.017 [info] Native locator: Refresh started
+2025-11-26 18:01:19.165 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev]:  /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-26 18:01:19.165 [info] Active interpreter [global]:  /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-26 18:01:19.166 [info] Native locator: Refresh finished in 148 ms
+2025-11-26 18:01:19.169 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev
+2025-11-26 18:01:19.169 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev

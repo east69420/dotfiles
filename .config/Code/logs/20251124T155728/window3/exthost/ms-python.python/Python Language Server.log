@@ -1,0 +1,62 @@
+2025-11-26 12:38:14.152 [info] Client: Pylance client (2025.10.1) started with python extension (2025.18.0)
+2025-11-26 12:38:14.650 [info] (436873): Server root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 12:38:14.651 [info] (436873): Pylance language server 2025.10.1 (pyright version 1.1.407, commit 906e40aa) starting
+2025-11-26 12:38:14.655 [info] (436873): Starting service instance "MLDev" for workspace "/home/east/shared/eastSync/pyEast/MLDev"
+2025-11-26 12:38:15.288 [info] (436873): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into file:///home/east/shared/eastSync/pyEast/MLDev...
+2025-11-26 12:38:15.360 [info] (436873): FG(MLDev): Setting environmentName for service "MLDev": "3.13.7 (.venv venv)"
+2025-11-26 12:38:15.361 [info] (436873): FG(MLDev): Setting pythonPath for service "MLDev": "/shared/eastSync/pyEast/MLDev/.venv/bin/python"
+2025-11-26 12:38:15.361 [info] (436873): FG(MLDev): No include entries specified; assuming /home/east/shared/eastSync/pyEast/MLDev
+2025-11-26 12:38:15.361 [info] (436873): FG(MLDev): Auto-excluding **/node_modules
+2025-11-26 12:38:15.361 [info] (436873): FG(MLDev): Auto-excluding **/__pycache__
+2025-11-26 12:38:15.362 [info] (436873): FG(MLDev): Auto-excluding **/.*
+2025-11-26 12:38:15.387 [info] (436873): FG(MLDev): Assuming Python version 3.13.7.final.0
+2025-11-26 12:38:15.439 [info] (436873): Settings have not changed. Skipping update.
+2025-11-26 12:38:15.439 [info] (436873): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lttxhnbvptwmpzde56smpnuzawtwpwaexuzznorgd0tvrzme1xsm1arev6tm1vea/
+2025-11-26 12:38:15.439 [info] (436873): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lttxhnbvptwmpzde56smpnuzawtwpwaexuzznorgd0tvrzme1xsm1arev6tm1vea/"
+2025-11-26 12:38:15.441 [info] (436873): Starting service instance "<default>" for workspace ""
+2025-11-26 12:38:15.442 [info] (436873): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into ...
+2025-11-26 12:38:15.452 [info] (436873): Starting service instance "MLDev" for workspace "/home/east/shared/eastSync/pyEast/MLDev"
+2025-11-26 12:38:15.453 [info] (436873): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into file:///home/east/shared/eastSync/pyEast/MLDev...
+2025-11-26 12:38:15.465 [info] (436873): Starting Mcp server id:5991 ...
+2025-11-26 12:38:15.535 [info] (436873): FG(MLDev): Found 15 source files
+2025-11-26 12:38:15.593 [info] (436873): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-26 12:38:15.593 [info] (436873): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lttxhnbvptwmpzde56smpnuzawtwpwaexuzznorgd0tvrzme1xsm1arev6tm1vea/
+2025-11-26 12:38:15.594 [info] (436873): FG(<default>): Auto-excluding **/node_modules
+2025-11-26 12:38:15.594 [info] (436873): FG(<default>): Auto-excluding **/__pycache__
+2025-11-26 12:38:15.594 [info] (436873): FG(<default>): Auto-excluding **/.*
+2025-11-26 12:38:15.630 [info] (436873): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-26 12:38:16.151 [error] (436873): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1lttxhnbvptwmpzde56smpnuzawtwpwaexuzznorgd0tvrzme1xsm1arev6tm1vea/" does not exist.
+2025-11-26 12:38:16.151 [info] (436873): FG(<default>): No source files found.
+2025-11-26 12:38:16.184 [info] (436873): PQ(MLDev): Priority queue background worker(2) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 12:38:16.185 [info] (436873): PQ(MLDev): Priority queue background worker(2) started
+2025-11-26 12:38:16.213 [info] (436873): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-26 12:38:16.213 [info] (436873): FG(<default>): Setting pythonPath for service "<default>": "/shared/eastSync/pyEast/MLDev/.venv/bin/python"
+2025-11-26 12:38:16.213 [info] (436873): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-11-26 12:38:16.213 [info] (436873): FG(<default>): Auto-excluding **/node_modules
+2025-11-26 12:38:16.214 [info] (436873): FG(<default>): Auto-excluding **/__pycache__
+2025-11-26 12:38:16.214 [info] (436873): FG(<default>): Auto-excluding **/.*
+2025-11-26 12:38:16.247 [info] (436873): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-26 12:38:16.333 [info] (436873): PQ(<default>): Priority queue background worker(4) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 12:38:16.333 [info] (436873): PQ(<default>): Priority queue background worker(4) started
+2025-11-26 12:38:16.333 [info] (436873): PQ(MLDev): Priority queue background worker(6) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 12:38:16.333 [info] (436873): PQ(MLDev): Priority queue background worker(6) started
+2025-11-26 12:38:16.356 [info] (436873): FG(MLDev): Setting environmentName for service "MLDev": "3.13.7 (.venv venv)"
+2025-11-26 12:38:16.356 [info] (436873): FG(MLDev): Setting pythonPath for service "MLDev": "/home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python"
+2025-11-26 12:38:16.356 [info] (436873): FG(MLDev): No include entries specified; assuming /home/east/shared/eastSync/pyEast/MLDev
+2025-11-26 12:38:16.356 [info] (436873): FG(MLDev): Auto-excluding **/node_modules
+2025-11-26 12:38:16.356 [info] (436873): FG(MLDev): Auto-excluding **/__pycache__
+2025-11-26 12:38:16.356 [info] (436873): FG(MLDev): Auto-excluding **/.*
+2025-11-26 12:38:16.386 [info] (436873): FG(MLDev): Assuming Python version 3.13.7.final.0
+2025-11-26 12:38:16.454 [error] (436873): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-11-26 12:38:16.454 [info] (436873): FG(<default>): No source files found.
+2025-11-26 12:38:16.487 [info] (436873): FG(MLDev): Found 15 source files
+2025-11-26 12:38:16.522 [info] (436873): BG(MLDev): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 12:38:16.524 [info] (436873): IDX(MLDev): Indexer background runner(7) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (index)
+2025-11-26 12:38:16.524 [info] (436873): IDX(MLDev): Indexing(7) started
+2025-11-26 12:38:16.618 [info] (436873): BG(<default>): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 12:38:16.782 [info] (436873): BG(MLDev): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 12:38:17.070 [info] (436873): IDX(MLDev): scanned(7) 230 files over 1 exec env
+2025-11-26 12:38:18.778 [info] (436873): IDX(MLDev): indexed(7) 230 files over 1 exec env
+2025-11-26 12:38:19.821 [info] (436873): IDX(MLDev): scanned(7) 230 files over 1 exec env
+2025-11-26 12:38:20.942 [info] (436873): IDX(MLDev): indexed(7) 230 files over 1 exec env
+2025-11-26 12:38:20.984 [info] (436873): IDX(MLDev): Indexing finished(7).

@@ -1,0 +1,51 @@
+2025-11-26 18:00:32.319 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-26 18:00:32.319 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-26 18:00:32.319 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-26 18:00:32.319 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-26 18:00:32.331 [info] Logged in as east69420
+2025-11-26 18:00:32.335 [info] Using the Electron fetcher.
+2025-11-26 18:00:33.752 [info] Got Copilot token for east69420
+2025-11-26 18:00:33.752 [info] Copilot Chat: 0.33.3, VS Code: 1.106.2
+2025-11-26 18:00:33.762 [info] activationBlocker from 'languageModelAccess' took for 1311ms
+2025-11-26 18:00:34.115 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-26 18:00:34.115 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-26 18:00:34.125 [info] Registering default platform agent...
+2025-11-26 18:00:34.125 [info] activationBlocker from 'conversationFeature' took for 1679ms
+2025-11-26 18:00:34.247 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-26 18:00:34.640 [info] Fetched model metadata in 548ms 16527ad5-ed50-4436-bf0c-d495877c717c
+2025-11-26 18:00:34.757 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-26 18:00:34.757 [info] ccreq:d0bc7389.copilotmd | markdown
+2025-11-26 18:00:37.824 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-26 18:00:37.838 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-26 18:00:37.838 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-26 18:00:37.838 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-26 18:00:39.906 [info] Logged in as east69420
+2025-11-26 18:00:39.907 [info] Using the Electron fetcher.
+2025-11-26 18:00:40.250 [info] Got Copilot token for east69420
+2025-11-26 18:00:40.250 [info] Copilot Chat: 0.33.3, VS Code: 1.106.2
+2025-11-26 18:00:40.258 [info] activationBlocker from 'languageModelAccess' took for 2030ms
+2025-11-26 18:00:40.352 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-26 18:00:40.352 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-26 18:00:40.362 [info] Registering default platform agent...
+2025-11-26 18:00:40.363 [info] activationBlocker from 'conversationFeature' took for 2141ms
+2025-11-26 18:00:40.663 [info] Fetched model metadata in 455ms 75684ed5-daee-4095-82a4-cab0a8c9f8a4
+2025-11-26 18:00:40.687 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-26 18:00:40.689 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-26 18:00:40.690 [info] ccreq:efab250c.copilotmd | markdown
+2025-11-26 18:00:42.033 [warning] [RateLimit] REST rate limit remaining: 0, agents/swe/custom-agents/east69420/ML_binary?exclude_invalid_config=true
+2025-11-26 18:03:14.810 [info] message 0 returned. finish reason: [stop]
+2025-11-26 18:03:14.810 [info] request done: requestId: [43ff98a3-79f6-4a42-879f-0c585cadf0b4] model deployment ID: []
+2025-11-26 18:03:14.928 [info] ccreq:1eef8898.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 424ms | [XtabProvider]
+2025-11-26 18:03:15.017 [info] ccreq:b3d4be07.copilotmd | markdown
+2025-11-26 18:03:15.585 [info] message 0 returned. finish reason: [stop]
+2025-11-26 18:03:15.585 [info] request done: requestId: [e3a6f0bc-5451-44c8-acba-9d2ebbba2518] model deployment ID: []
+2025-11-26 18:03:15.586 [info] ccreq:40427992.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 361ms | [XtabProvider]
+2025-11-26 18:03:16.080 [info] ccreq:74c8b973.copilotmd | markdown
+2025-11-26 18:03:16.129 [info] message 0 returned. finish reason: [stop]
+2025-11-26 18:03:16.129 [info] request done: requestId: [37fcf6c2-bb85-4ca5-b5a0-f48991bb13bd] model deployment ID: []
+2025-11-26 18:03:16.130 [info] ccreq:bd270541.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 323ms | [XtabProvider]
+2025-11-26 18:03:23.725 [info] message 0 returned. finish reason: [stop]
+2025-11-26 18:03:23.725 [info] request done: requestId: [c5f2ecb4-c390-4748-a036-0c9615474582] model deployment ID: []
+2025-11-26 18:03:23.725 [info] ccreq:4dee880a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 489ms | [XtabProvider]
+2025-11-26 18:03:24.726 [info] ccreq:e31f5d7b.copilotmd | markdown
+2025-11-26 18:03:25.970 [info] ccreq:62d17908.copilotmd | markdown

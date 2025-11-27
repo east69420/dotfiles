@@ -1,0 +1,402 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/ML/research/MLDev
+14:10:20.968 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb' (disableUI=true)
+14:10:21.013 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m pip list
+14:10:21.033 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:10:21.041 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v33b0d21ed5579c63e342ccfa88c304c09284a6a18.json
+    > cwd: ~/shared/<username>Sync/py<username>/ML/research/MLDev
+14:10:21.052 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher
+14:10:21.053 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:10:21.053 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:10:21.054 [warn] Failed to shutdown kernel, .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher TypeError: Cannot read properties of undefined (reading 'dispose')
+    at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)
+14:10:21.054 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher
+14:10:24.176 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb' (disableUI=false)
+14:10:24.186 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:10:24.201 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v337d94e219c8443856616286cfec00b69294cf57e.json
+    > cwd: ~/shared/<username>Sync/py<username>/ML/research/MLDev
+14:10:24.207 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)
+    ^^^^^^^^^^^^^^^^
+    ModuleNotFoundError: No module named 'ipykernel' for ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python
+14:10:24.212 [error] Disposing kernel process due to an error Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher
+14:10:24.212 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:10:24.212 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+14:10:24.212 [warn] Failed to shutdown kernel, .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher TypeError: Cannot read properties of undefined (reading 'dispose')
+    at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)
+14:10:24.213 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher
+14:10:24.213 [warn] Kernel Error, context = start Error: The kernel died. Error: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/python.-m#ipykernel_launcher
+    > Interpreter Id = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher
+14:10:24.224 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:10:24.245 [info] Check & install missing Kernel dependencies for ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python, ui.disabled=false for resource '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb'
+14:10:24.254 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:10:24.286 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:10:29.904 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:10:29.924 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m pip install -U ipykernel
+14:10:36.198 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+14:10:36.326 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb' associated with '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb'
+14:10:36.336 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m pip list
+14:10:36.336 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb' (disableUI=false)
+14:10:36.360 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:10:36.376 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3fa9deb96cd0a2d23845df6a1259d96b3eb97eda9.json
+    > cwd: ~/shared/<username>Sync/py<username>/ML/research/MLDev
+14:10:36.820 [info] Kernel successfully started
+14:10:36.940 [warn] Cell completed with errors Iu [Error]: No module named 'pandas'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'pandas'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'pandas'"
+  ]
+}
+14:10:45.251 [warn] Cell completed with errors Iu [Error]: No module named 'pandas'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'pandas'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'pandas'"
+  ]
+}
+14:13:03.134 [warn] Cell completed with errors Iu [Error]: No module named 'ta'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'ta'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_setup\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m CONFIG\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/featureEngineer.py:63\x1B[39m\n' +
+      '\x1B[32m     61\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mnumpy\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mnp\x1B[39;00m\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m63\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mta\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n' +
+      '\x1B[32m     66\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_general_tools\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m stat_tools\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'ta'"
+  ]
+}
+14:13:16.275 [warn] Cell completed with errors Iu [Error]: No module named 'matplotlib'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'matplotlib'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_setup\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m CONFIG\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/featureEngineer.py:66\x1B[39m\n' +
+      '\x1B[32m     63\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mta\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m66\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_general_tools\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m stat_tools\n' +
+      '\x1B[32m     67\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m is_europe_dst\n' +
+      '\x1B[32m     70\x1B[39m HEAVY_CACHE_VERSION = \x1B[32m1\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/ML_general_tools.py:15\x1B[39m\n' +
+      '\x1B[32m     13\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mjoblib\x1B[39;00m\n' +
+      '\x1B[32m     14\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m15\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mmatplotlib\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mpyplot\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mplt\x1B[39;00m\n' +
+      '\x1B[32m     16\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mmatplotlib\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mdates\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mmdates\x1B[39;00m\n' +
+      '\x1B[32m     17\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtqdm\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mauto\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m tqdm\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'matplotlib'"
+  ]
+}
+14:13:34.987 [warn] Cell completed with errors Iu [Error]: No module named 'seaborn'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'seaborn'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_setup\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m CONFIG\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/featureEngineer.py:66\x1B[39m\n' +
+      '\x1B[32m     63\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mta\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m66\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_general_tools\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m stat_tools\n' +
+      '\x1B[32m     67\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m is_europe_dst\n' +
+      '\x1B[32m     70\x1B[39m HEAVY_CACHE_VERSION = \x1B[32m1\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/ML_general_tools.py:21\x1B[39m\n' +
+      '\x1B[32m     19\x1B[39m \x1B[38;5;66;03m# Visualization\x1B[39;00m\n' +
+      '\x1B[32m     20\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mmatplotlib\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mpyplot\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mplt\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m21\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mseaborn\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msns\x1B[39;00m\n' +
+      '\x1B[32m     22\x1B[39m \x1B[38;5;66;03m# Scikit-learn\x1B[39;00m\n' +
+      '\x1B[32m     23\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'seaborn'"
+  ]
+}
+14:13:42.964 [warn] Cell completed with errors Iu [Error]: No module named 'lightgbm'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'lightgbm'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_setup\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m CONFIG\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/featureEngineer.py:66\x1B[39m\n' +
+      '\x1B[32m     63\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mta\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m66\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_general_tools\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m stat_tools\n' +
+      '\x1B[32m     67\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m is_europe_dst\n' +
+      '\x1B[32m     70\x1B[39m HEAVY_CACHE_VERSION = \x1B[32m1\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/ML_general_tools.py:34\x1B[39m\n' +
+      '\x1B[32m     31\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mfeature_selection\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m RFECV\n' +
+      '\x1B[32m     33\x1B[39m \x1B[38;5;66;03m# ML libraries\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m34\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mlightgbm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mlgb\x1B[39;00m\n' +
+      '\x1B[32m     35\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mxgboost\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mxgb\x1B[39;00m\n' +
+      '\x1B[32m     36\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mcatboost\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mcb\x1B[39;00m\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'lightgbm'"
+  ]
+}
+14:14:10.513 [warn] Cell completed with errors Iu [Error]: No module named 'xgboost'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'xgboost'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[7]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_setup\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m CONFIG\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/featureEngineer.py:66\x1B[39m\n' +
+      '\x1B[32m     63\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mta\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m66\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_general_tools\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m stat_tools\n' +
+      '\x1B[32m     67\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m is_europe_dst\n' +
+      '\x1B[32m     70\x1B[39m HEAVY_CACHE_VERSION = \x1B[32m1\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/ML_general_tools.py:35\x1B[39m\n' +
+      '\x1B[32m     33\x1B[39m \x1B[38;5;66;03m# ML libraries\x1B[39;00m\n' +
+      '\x1B[32m     34\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mlightgbm\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mlgb\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m35\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mxgboost\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mxgb\x1B[39;00m\n' +
+      '\x1B[32m     36\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mcatboost\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mcb\x1B[39;00m\n' +
+      '\x1B[32m     37\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mlogging\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m log\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'xgboost'"
+  ]
+}
+14:15:00.782 [warn] Cell completed with errors Iu [Error]: No module named 'optuna'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'optuna'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_setup\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m CONFIG\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/featureEngineer.py:66\x1B[39m\n' +
+      '\x1B[32m     63\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mta\x1B[39;00m\n' +
+      '\x1B[32m     64\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msklearn\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mbase\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m BaseEstimator, TransformerMixin\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m66\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mML_general_tools\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m stat_tools\n' +
+      '\x1B[32m     67\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m is_europe_dst\n' +
+      '\x1B[32m     70\x1B[39m HEAVY_CACHE_VERSION = \x1B[32m1\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/ML/research/MLDev/ML_general_tools.py:43\x1B[39m\n' +
+      '\x1B[32m     38\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mproduction_postprocess\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m convert_predictions_to_prices\n' +
+      '\x1B[32m     39\x1B[39m \x1B[38;5;66;03m# Imbalanced-learn\x1B[39;00m\n' +
+      '\x1B[32m     40\x1B[39m \x1B[38;5;66;03m#import imblearn\x1B[39;00m\n' +
+      '\x1B[32m     41\x1B[39m \n' +
+      '\x1B[32m     42\x1B[39m \x1B[38;5;66;03m# Optuna\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01moptuna\x1B[39;00m\n' +
+      '\x1B[32m     44\x1B[39m optuna.logging.set_verbosity(optuna.logging.WARNING)\n' +
+      "\x1B[32m     46\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msafe_open_write\x1B[39m(filepath, mode=\x1B[33m'\x1B[39m\x1B[33mwb\x1B[39m\x1B[33m'\x1B[39m):\n",
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'optuna'"
+  ]
+}
+14:16:06.068 [warn] Cell completed with errors Iu [Error]: name 'combined_df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'combined_df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[10]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mcombined_df\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'combined_df' is not defined"
+  ]
+}
+14:16:09.965 [warn] Cell completed with errors Iu [Error]: name 'combined_df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'combined_df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[11]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mmatplotlib\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mpyplot\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mplt\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtyping\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m List\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m close = \x1B[43mcombined_df\x1B[49m[\x1B[33m'\x1B[39m\x1B[33mc\x1B[39m\x1B[33m'\x1B[39m].dropna()\n" +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m close.empty:\n' +
+      '\x1B[32m      8\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mClose price series is empty after dropping NaNs.\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'combined_df' is not defined"
+  ]
+}
+14:49:33.641 [warn] Cell completed with errors Iu [Error]: unterminated string literal (detected at line 9) (474804786.py, line 9)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'unterminated string literal (detected at line 9) (474804786.py, line 9)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[15]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      "\x1B[31m    \x1B[39m\x1B[31mstudy['log_return_open_low'] = np.log(study['l'] / study['o])\x1B[39m\n" +
+      '                                                             ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m unterminated string literal (detected at line 9)\n'
+  ]
+}
+14:54:01.801 [warn] Cell completed with errors Iu [Error]: bar() missing 1 required positional argument: 'height'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'TypeError',
+  evalue: "bar() missing 1 required positional argument: 'height'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[22]\x1B[39m\x1B[32m, line 18\x1B[39m\n' +
+      '\x1B[32m     16\x1B[39m \x1B[38;5;66;03m# plot 3 hour high_from_open vs 3 hour low_from_open scatter plot\x1B[39;00m\n' +
+      '\x1B[32m     17\x1B[39m plt.figure(figsize=(\x1B[32m8\x1B[39m,\x1B[32m8\x1B[39m))\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m18\x1B[39m \x1B[43mplt\x1B[49m\x1B[43m.\x1B[49m\x1B[43mbar\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstudy\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mhigh_from_open_3h\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m\n",
+    "\x1B[31mTypeError\x1B[39m: bar() missing 1 required positional argument: 'height'"
+  ]
+}
+14:54:13.309 [warn] Cell completed with errors Iu [Error]: bar() got multiple values for argument 'height'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'TypeError',
+  evalue: "bar() got multiple values for argument 'height'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[23]\x1B[39m\x1B[32m, line 18\x1B[39m\n' +
+      '\x1B[32m     16\x1B[39m \x1B[38;5;66;03m# plot 3 hour high_from_open vs 3 hour low_from_open scatter plot\x1B[39;00m\n' +
+      '\x1B[32m     17\x1B[39m plt.figure(figsize=(\x1B[32m8\x1B[39m,\x1B[32m8\x1B[39m))\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m18\x1B[39m \x1B[43mplt\x1B[49m\x1B[43m.\x1B[49m\x1B[43mbar\x1B[49m\x1B[43m(\x1B[49m\x1B[43mstudy\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mhigh_from_open_3h\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mstudy\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mlow_from_open_3h\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mwidth\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m0.0005\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mheight\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m0.0005\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43malpha\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m0.5\x1B[39;49m\x1B[43m)\x1B[49m\n",
+    "\x1B[31mTypeError\x1B[39m: bar() got multiple values for argument 'height'"
+  ]
+}
+14:54:45.962 [info] Too many pending requests 1 for kernel 680e0ada-51a6-4e69-9fa6-25526e793bf3, waiting for it to be ready.
+14:55:22.814 [info] Interrupt kernel execution
+14:55:22.814 [info] Interrupt requested ~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb
+14:55:22.814 [info] Interrupt kernel execution
+14:55:22.814 [info] Interrupting kernel: python3137jvsc74a57bd0fb036eda8bf7d8e99981b774535d4224df33abe3c3905f8b48f62fad636bfee9
+14:55:22.814 [info] Interrupting kernel via SIGINT
+14:55:32.839 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb in notebookEditor.
+14:55:35.240 [warn] Cell completed with errors (cancelled)
+14:55:35.584 [info] Restart requested ~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb
+14:55:35.652 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:55:35.662 [info] Process Execution: ~/shared/<username>Sync/py<username>/ML/research/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v32b811531ecb25e2a34ba72c63ccbc248cd2f388d.json
+    > cwd: ~/shared/<username>Sync/py<username>/ML/research/MLDev
+14:55:36.071 [info] Restarted 46297ebf-c175-45ba-b0ce-14f44081404b
+14:56:24.602 [warn] Cell completed with errors Iu [Error]: name 'combined_df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'combined_df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m## Short term mean reversion analysis\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m \n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m## track how high/low from open over X timeframes\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m timeframes = [\x1B[32m1\x1B[39m,\x1B[32m3\x1B[39m, \x1B[32m5\x1B[39m, \x1B[32m10\x1B[39m] \x1B[38;5;66;03m# in hourly bars\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m study = \x1B[43mcombined_df\x1B[49m.copy()\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m tf \x1B[38;5;129;01min\x1B[39;00m timeframes:\n' +
+      "\x1B[32m      8\x1B[39m     col_high = \x1B[33mf\x1B[39m\x1B[33m'\x1B[39m\x1B[33mhigh_from_open_\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtf\x1B[38;5;132;01m}\x1B[39;00m\x1B[33mh\x1B[39m\x1B[33m'\x1B[39m\n",
+    "\x1B[31mNameError\x1B[39m: name 'combined_df' is not defined"
+  ]
+}
+14:56:42.017 [warn] Cell completed with errors Iu [Error]: name 'combined_df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'combined_df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m## Short term mean reversion analysis\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m \n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;66;03m## track how high/low from open over X timeframes\x1B[39;00m\n' +
+      '\x1B[32m      4\x1B[39m timeframes = [\x1B[32m1\x1B[39m,\x1B[32m3\x1B[39m, \x1B[32m5\x1B[39m, \x1B[32m10\x1B[39m] \x1B[38;5;66;03m# in hourly bars\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m study = \x1B[43mcombined_df\x1B[49m.copy()\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m tf \x1B[38;5;129;01min\x1B[39;00m timeframes:\n' +
+      "\x1B[32m      8\x1B[39m     col_high = \x1B[33mf\x1B[39m\x1B[33m'\x1B[39m\x1B[33mhigh_from_open_\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtf\x1B[38;5;132;01m}\x1B[39;00m\x1B[33mh\x1B[39m\x1B[33m'\x1B[39m\n",
+    "\x1B[31mNameError\x1B[39m: name 'combined_df' is not defined"
+  ]
+}
+14:56:57.740 [warn] Cell completed with errors Iu [Error]: name 'plt' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'plt' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 17\x1B[39m\n' +
+      '\x1B[32m     14\x1B[39m study\n' +
+      '\x1B[32m     16\x1B[39m \x1B[38;5;66;03m# plot distribution of 3 hour high_from_open and low_from_open\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m17\x1B[39m fig, axes = \x1B[43mplt\x1B[49m.subplots(\x1B[32m1\x1B[39m, \x1B[32m2\x1B[39m, figsize=(\x1B[32m16\x1B[39m, \x1B[32m6\x1B[39m))\n' +
+      '\x1B[32m     19\x1B[39m \x1B[38;5;66;03m# High from open distribution\x1B[39;00m\n' +
+      "\x1B[32m     20\x1B[39m axes[\x1B[32m0\x1B[39m].hist(study[\x1B[33m'\x1B[39m\x1B[33mhigh_from_open_3h\x1B[39m\x1B[33m'\x1B[39m].dropna(), bins=\x1B[32m50\x1B[39m, alpha=\x1B[32m0.7\x1B[39m, color=\x1B[33m'\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m'\x1B[39m, edgecolor=\x1B[33m'\x1B[39m\x1B[33mblack\x1B[39m\x1B[33m'\x1B[39m)\n",
+    "\x1B[31mNameError\x1B[39m: name 'plt' is not defined"
+  ]
+}
+15:42:23.359 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb' associated with '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb'
+15:42:23.359 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb' associated with '~/shared/<username>Sync/py<username>/ML/research/MLDev/market_analysis.ipynb'
+15:42:23.385 [warn] Cancel all remaining cells due to dead kernel

@@ -1,0 +1,48 @@
+2025-11-24 13:38:27.428 [info] Getting Manifest... ms-python.python
+2025-11-24 13:38:28.144 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"}}
+2025-11-24 13:38:28.352 [info] Getting Manifest... ms-python.vscode-python-envs
+2025-11-24 13:38:28.460 [info] Getting Manifest... ms-toolsai.jupyter
+2025-11-24 13:38:28.530 [info] Getting Manifest... ms-python.debugpy
+2025-11-24 13:38:28.649 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"}}
+2025-11-24 13:38:28.709 [info] Installing extension: ms-python.vscode-python-envs {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"},"installGivenVersion":false}
+2025-11-24 13:38:28.709 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"},"installGivenVersion":false}
+2025-11-24 13:38:28.798 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2025-11-24 13:38:29.311 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2025-11-24 13:38:29.633 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2025-11-24 13:38:29.828 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2025-11-24 13:38:30.149 [info] Installing extension: ms-toolsai.jupyter-keymap {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"},"installGivenVersion":false}
+2025-11-24 13:38:30.150 [info] Installing extension: ms-toolsai.jupyter-renderers {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"},"installGivenVersion":false}
+2025-11-24 13:38:30.150 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"},"installGivenVersion":false}
+2025-11-24 13:38:30.150 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json","path":"/home/east/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"},"installGivenVersion":false}
+2025-11-24 13:38:31.353 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Executed: true. Duration: 1055ms.
+2025-11-24 13:38:31.398 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal: ms-python.vscode-python-envs
+2025-11-24 13:38:31.407 [info] Renamed to /home/east/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal
+2025-11-24 13:38:31.435 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 1382ms.
+2025-11-24 13:38:31.605 [info] Extension signature verification result for ms-toolsai.jupyter-keymap: Success. Executed: true. Duration: 802ms.
+2025-11-24 13:38:31.615 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2025-11-24 13:38:31.618 [info] Renamed to /home/east/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2025-11-24 13:38:31.673 [info] Extension signature verification result for ms-toolsai.jupyter-renderers: Success. Executed: true. Duration: 282ms.
+2025-11-24 13:38:31.754 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 959ms.
+2025-11-24 13:38:31.764 [info] Extension signature verification result for ms-toolsai.vscode-jupyter-slideshow: Success. Executed: true. Duration: 966ms.
+2025-11-24 13:38:31.787 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+2025-11-24 13:38:31.791 [info] Renamed to /home/east/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+2025-11-24 13:38:31.929 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal: ms-toolsai.jupyter-renderers
+2025-11-24 13:38:31.934 [info] Renamed to /home/east/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal
+2025-11-24 13:38:31.969 [info] Extension signature verification result for ms-toolsai.vscode-jupyter-cell-tags: Success. Executed: true. Duration: 558ms.
+2025-11-24 13:38:31.992 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+2025-11-24 13:38:31.996 [info] Renamed to /home/east/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+2025-11-24 13:38:32.140 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64: ms-python.debugpy
+2025-11-24 13:38:32.163 [info] Renamed to /home/east/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64
+2025-11-24 13:38:32.501 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal: ms-python.python
+2025-11-24 13:38:32.560 [info] Renamed to /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal
+2025-11-24 13:38:32.571 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:32.571 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:32.571 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:34.006 [info] Extension signature verification result for ms-toolsai.jupyter: Success. Executed: true. Duration: 319ms.
+2025-11-24 13:38:34.217 [info] Extracted extension to file:///home/east/.vscode-oss/extensions/ms-toolsai.jupyter-2025.8.0-universal: ms-toolsai.jupyter
+2025-11-24 13:38:34.229 [info] Renamed to /home/east/.vscode-oss/extensions/ms-toolsai.jupyter-2025.8.0-universal
+2025-11-24 13:38:34.241 [info] Extension installed successfully: ms-toolsai.jupyter-keymap vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:34.241 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:34.241 [info] Extension installed successfully: ms-toolsai.jupyter-renderers vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:34.242 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json
+2025-11-24 13:38:34.242 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/east/.vscode-oss/extensions/extensions.json

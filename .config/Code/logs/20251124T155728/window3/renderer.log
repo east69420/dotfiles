@@ -1,0 +1,189 @@
+2025-11-26 12:38:01.654 [info] Started local extension host with pid 436121.
+2025-11-26 12:38:02.135 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 12:38:02.259 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 12:38:02.707 [error] [Extension Host] (node:436121) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 12:38:02.707 [error] [Extension Host] (node:436121) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 12:38:03.564 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-26 12:38:04.255 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 12:38:04.293 [info] [perf] Render performance baseline is 17ms
+2025-11-26 12:38:07.116 [info] Started local extension host with pid 436160.
+2025-11-26 12:38:08.203 [error] [Extension Host] (node:436160) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 12:38:08.203 [error] [Extension Host] (node:436160) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 12:38:08.783 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 12:38:08.849 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 12:38:10.334 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-26 12:38:11.243 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 12:38:11.250 [info] [perf] Render performance baseline is 16ms
+2025-11-26 12:38:11.964 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at Q6 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64382)
+    at new cd (file:///opt/visual-studio-code/resources/app/out/main.js:30:67762)
+    at new zr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69200)
+    at cd.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:68977)
+    at d2.call (file:///opt/visual-studio-code/resources/app/out/main.js:88:106862)
+    at Wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:531:35)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-11-26 12:38:12.986 [error] [146] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelAdded] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37512)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:12.987 [error] [148] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37576)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.002 [error] [179] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at JBe.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:118015)
+    at nue.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at new ma (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:122793)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at Pke.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2029:17072)
+    at $Ne.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:25121)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:334:2068
+2025-11-26 12:38:13.038 [error] [146] potential listener LEAK detected, having 253 listeners already. MOST frequent listener (33):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelAdded] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37512)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.040 [error] [148] potential listener LEAK detected, having 258 listeners already. MOST frequent listener (35):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37576)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.109 [error] [146] potential listener LEAK detected, having 311 listeners already. MOST frequent listener (56):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelAdded] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37512)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.140 [error] [148] potential listener LEAK detected, having 304 listeners already. MOST frequent listener (50):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37576)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.171 [error] [1bf] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at Vss.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new ma (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:122848)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at Pke.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2029:17353)
+    at $Ne.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:25121)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:334:2068
+    at Array.map (<anonymous>)
+    at les.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:334:2059)
+2025-11-26 12:38:13.204 [error] [146] potential listener LEAK detected, having 356 listeners already. MOST frequent listener (56):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelAdded] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37512)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.279 [error] [148] potential listener LEAK detected, having 348 listeners already. MOST frequent listener (51):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelLanguageChanged] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37576)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:38:13.856 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-26 12:38:13.856 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-26 12:38:22.822 [error] [179] potential listener LEAK detected, having 259 listeners already. MOST frequent listener (16):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at JBe.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:118015)
+    at nue.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at new ma (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:122793)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at Pke.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2029:17072)
+    at $Ne.renderTemplate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:25121)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:334:2068
+2025-11-26 12:39:36.153 [error] [146] potential listener LEAK detected, having 358 listeners already. MOST frequent listener (65):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at BYe.u [as onModelAdded] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new Zi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:37512)
+    at new uke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:22518)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at gke.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:30206)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28706
+    at NodeList.forEach (<anonymous>)
+    at gke.walkTreeAndAnnotateReferenceLinks (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2010:28086)
+2025-11-26 12:40:32.833 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-26 13:57:58.962 [info] Auto updating outdated extensions. github.copilot-chat
+2025-11-26 13:58:02.978 [error] Unknown error while installing extension github.copilot-chat: Unknown: Unknown error while installing extension github.copilot-chat
+    at Wh.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)
+2025-11-26 17:34:33.254 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-2.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 17:34:33.260 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-2.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 17:34:33.261 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 17:34:33.261 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook

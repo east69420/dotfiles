@@ -1,0 +1,223 @@
+2025-11-24 14:07:27.494 [info] Extension host with pid 254374 started
+2025-11-24 14:07:27.518 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-24 14:07:27.547 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-24 14:07:27.590 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-24 14:07:27.595 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-24 14:07:27.634 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-24 14:07:27.809 [info] Eager extensions activated
+2025-11-24 14:07:27.844 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:07:27.845 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:07:33.445 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-24 14:07:33.451 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-24 14:07:33.490 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-24 14:07:47.618 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:07:48.247 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:07:49.499 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-24 14:07:49.992 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at QKt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-11-24 14:08:24.913 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-24 14:08:24.933 [info] Extension host with pid 254374 exiting with code 0
+2025-11-24 14:08:25.814 [info] Extension host with pid 255031 started
+2025-11-24 14:08:25.814 [info] Skipping acquiring lock for /home/east/.config/Code/User/workspaceStorage/ac8acbf63cbdc6990bb497e09cc8aa40.
+2025-11-24 14:08:25.847 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-24 14:08:25.867 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-24 14:08:25.912 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-11-24 14:08:25.950 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-24 14:08:26.003 [info] Eager extensions activated
+2025-11-24 14:08:26.006 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:08:26.008 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:08:28.144 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-11-24 14:08:28.180 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2025-11-24 14:08:28.799 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:08:30.050 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-24 14:08:30.064 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at Vl (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121472
+    at Array.forEach (<anonymous>)
+    at JS.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121412)
+    at kX.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10208)
+    at nN.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Fs (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-11-24 14:08:30.064 [info] Extension host with pid 255031 exiting with code 0
+2025-11-24 14:08:30.338 [info] Extension host with pid 255094 started
+2025-11-24 14:08:30.338 [info] Skipping acquiring lock for /home/east/.config/Code/User/workspaceStorage/6b30999b8c9495b2e482c73f7957a5bc.
+2025-11-24 14:08:30.392 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-24 14:08:30.412 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-24 14:08:30.425 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-24 14:08:31.111 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-24 14:08:31.129 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-24 14:08:31.186 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-24 14:08:31.337 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:08:31.386 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-24 14:08:31.621 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-24 14:08:32.803 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at QKt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:6057)
+2025-11-24 14:08:32.823 [info] Eager extensions activated
+2025-11-24 14:08:32.862 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:08:32.864 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 14:08:33.278 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:08:33.596 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-24 14:08:33.601 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-24 14:08:33.638 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-24 14:09:21.685 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-11-24 14:09:36.597 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 14:09:36.638 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-11-24 14:09:36.765 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 14:09:37.364 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 14:09:39.068 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-24 14:09:39.080 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-11-24 14:09:39.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:09:44.452 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:09:56.142 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-24 14:09:56.148 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-24 14:09:56.149 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 14:09:56.537 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-11-24 14:10:22.055 [error] Error: The kernel died. Error: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    at ChildProcess.<anonymous> (/home/east/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-11-24 14:10:35.593 [error] Error: Failed to resolve env "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/parso/python"
+    at ae (/home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/out/client/extension.js:2:2018298)
+    at oe (/home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/out/client/extension.js:2:2016258)
+    at Immediate.<anonymous> (/home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/out/client/extension.js:2:2012552)
+    at processImmediate (node:internal/timers:485:21)
+2025-11-24 14:10:37.384 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:11:04.908 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-24 14:11:06.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:12:40.962 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-24 14:13:01.934 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:13:06.995 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:13:13.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:13:18.742 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:13:27.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:13:32.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:13:41.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:14:08.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:14:58.940 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:15:03.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:15:57.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:16:02.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:56:19.362 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-24 14:56:19.371 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-24 14:56:23.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:56:33.782 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-11-24 14:59:37.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:59:43.023 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 15:00:47.669 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:05:49.325 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:10:51.066 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:11:43.288 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 15:15:52.764 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:20:54.423 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:25:56.235 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:30:57.967 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:35:59.724 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:41:01.442 [error] TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:11132:53)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:10290:14)
+    at Object.onError (node:internal/deps/undici/undici:11253:38)
+    at Request.onError (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/request.js:301:27)
+    at Object.errorRequest (/opt/visual-studio-code/resources/app/node_modules/undici/lib/core/util.js:836:13)
+    at Socket.onHttpSocketClose (/opt/visual-studio-code/resources/app/node_modules/undici/lib/dispatcher/client-h1.js:939:10)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:42:23.324 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-24 15:42:23.382 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.G [as deactivate] (/home/east/.vscode/extensions/ms-python.vscode-python-envs-1.12.0-linux-x64/dist/extension.js:2:681672)
+    at kX.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11850)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10000
+    at Array.map (<anonymous>)
+    at kX.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9988)
+    at kX.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10231)
+    at nN.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Fs (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 15:42:23.387 [info] Extension host with pid 255094 exiting with code 0

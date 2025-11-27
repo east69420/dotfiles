@@ -1,0 +1,315 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.10.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/pro_version
+12:25:09.338 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python, Venv, 3.13.7) for 'Untitled-1.ipynb' (disableUI=true)
+12:25:09.391 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m pip list
+12:25:09.402 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:25:09.412 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3ab9a87bb7d1e429b4887e707949566261915a691.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+12:25:10.811 [info] Kernel successfully started
+12:25:10.820 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+12:26:55.169 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb' (disableUI=false)
+12:26:55.187 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:26:55.203 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a7b34a85015954ea2d470e8265d809eee70227d1.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+12:26:55.625 [info] Kernel successfully started
+12:26:56.838 [warn] Cell completed with errors Iu [Error]: No module named 'data_pipeline'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'data_pipeline'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpathlib\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m Path\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtyping\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m Optional\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mdata_pipeline\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m load_data\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mfeatureEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m FeatureEngineer\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m ExpirationTargetEngineer\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'data_pipeline'"
+  ]
+}
+12:28:03.077 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+12:28:03.105 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:28:03.114 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v316f29c6177b8910a416fa3b3ed2d99150369480c.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+12:28:03.522 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+12:29:25.602 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+12:29:25.624 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:29:25.642 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a66d07ca9f880fbac0806d90e8759a982aa08b4d.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+12:29:26.049 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+12:31:14.014 [warn] Cell completed with errors Iu [Error]: invalid syntax (2016265885.py, line 1)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2016265885.py, line 1)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mk: v for k, v in feature_params.items()\x1B[39m\n' +
+      '         ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax\n'
+  ]
+}
+12:31:28.493 [warn] Cell completed with errors Iu [Error]: invalid syntax (3168259335.py, line 1)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (3168259335.py, line 1)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mprint(k, v) for k, v in feature_params.items()\x1B[39m\n' +
+      '                ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax\n'
+  ]
+}
+12:33:04.701 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+12:33:04.722 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:33:04.738 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v32585ead8d3f406bb67b86b0df159549d25ce7bd2.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+12:33:05.145 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+12:36:26.524 [warn] Cell completed with errors Iu [Error]: name 'targets' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'targets' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mtargets\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'targets' is not defined"
+  ]
+}
+12:40:20.598 [warn] Cell completed with errors Iu [Error]: name 'features_path' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'features_path' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[7]\x1B[39m\x1B[32m, line 121\x1B[39m\n' +
+      '\x1B[32m    113\x1B[39m \x1B[38;5;28mprint\x1B[39m(initial_feature_names)\n' +
+      '\x1B[32m    116\x1B[39m \x1B[38;5;66;03m## deop pice columns from features\x1B[39;00m\n' +
+      "\x1B[32m    117\x1B[39m \x1B[38;5;66;03m# drop_cols = [col for col in ['o', 'h', 'l', 'c'] if col in features.columns]\x1B[39;00m\n" +
+      '\x1B[32m    118\x1B[39m \x1B[38;5;66;03m# if drop_cols: features = features.drop(columns=drop_cols)\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m121\x1B[39m pickle.dump(features, \x1B[38;5;28mopen\x1B[39m(\x1B[43mfeatures_path\x1B[49m, \x1B[33m"\x1B[39m\x1B[33mwb\x1B[39m\x1B[33m"\x1B[39m))\n' +
+      '\x1B[32m    122\x1B[39m pickle.dump(targets, \x1B[38;5;28mopen\x1B[39m(targets_path, \x1B[33m"\x1B[39m\x1B[33mwb\x1B[39m\x1B[33m"\x1B[39m))\n' +
+      '\x1B[32m    123\x1B[39m pickle.dump(combined_df, \x1B[38;5;28mopen\x1B[39m(combined_df_path, \x1B[33m"\x1B[39m\x1B[33mwb\x1B[39m\x1B[33m"\x1B[39m))\n',
+    "\x1B[31mNameError\x1B[39m: name 'features_path' is not defined"
+  ]
+}
+12:51:55.483 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+12:51:55.548 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:51:55.558 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3527078e81a430d20953cd2ac10b43940327a6d52.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+12:51:55.967 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+12:52:19.832 [warn] Cell completed with errors Iu [Error]: name 'df_train' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'df_train' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 13\x1B[39m\n' +
+      '\x1B[32m      4\x1B[39m regime_engineer = VolatilityRegimeEngineer(\n' +
+      '\x1B[32m      5\x1B[39m     lookback_window=\x1B[32m24\x1B[39m,\n' +
+      '\x1B[32m      6\x1B[39m     forward_window=\x1B[32m12\x1B[39m,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m      9\x1B[39m     jump_threshold_std=\x1B[32m2.5\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m )\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;66;03m# Fit on training data to learn volatility thresholds\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m13\x1B[39m regime_engineer.fit(\x1B[43mdf_train\x1B[49m)\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;66;03m# Transform to get regime labels\x1B[39;00m\n' +
+      '\x1B[32m     16\x1B[39m regime_targets = regime_engineer.transform(df)\n',
+    "\x1B[31mNameError\x1B[39m: name 'df_train' is not defined"
+  ]
+}
+13:00:16.404 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+13:00:16.427 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:00:16.445 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v32db3ea888a9334dd4baba6285af19612e03f09ea.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+13:00:16.853 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+13:00:40.665 [warn] Cell completed with errors Iu [Error]: name 'df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 11\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m regime_engineer = VolatilityRegimeEngineer(\n' +
+      '\x1B[32m      4\x1B[39m     lookback_window=\x1B[32m24\x1B[39m,  \x1B[38;5;66;03m# Calculate σ from past 24h\x1B[39;00m\n' +
+      '\x1B[32m      5\x1B[39m     forward_window=\x1B[32m12\x1B[39m,   \x1B[38;5;66;03m# Classify next 12h\x1B[39;00m\n' +
+      '\x1B[32m      6\x1B[39m     trend_std=\x1B[32m1.5\x1B[39m,       \x1B[38;5;66;03m# Trend barrier at ±1.5σ\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m     jump_std=\x1B[32m3.0\x1B[39m         \x1B[38;5;66;03m# Jump threshold at ±3σ\x1B[39;00m\n' +
+      '\x1B[32m      8\x1B[39m )\n' +
+      '\x1B[32m     10\x1B[39m regime_engineer.fit(df_train)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m11\x1B[39m targets = regime_engineer.transform(\x1B[43mdf\x1B[49m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'df' is not defined"
+  ]
+}
+13:01:12.878 [warn] Cell completed with errors Iu [Error]: name 'df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Check distribution\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m distribution = regime_engineer.get_regime_distribution(\x1B[43mdf\x1B[49m)\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28mprint\x1B[39m(distribution)\n',
+    "\x1B[31mNameError\x1B[39m: name 'df' is not defined"
+  ]
+}
+13:09:01.497 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+13:09:01.561 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:09:01.571 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v34b8b1071326947b8abf3c31fb13629ecd2c69d13.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+13:09:01.982 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+13:09:57.896 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+13:09:57.919 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:09:57.936 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a5130a3349f445346a701619ac4da71db4362596.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+13:09:58.344 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+14:59:53.732 [warn] Cell completed with errors Iu [Error]: invalid syntax. Perhaps you forgot a comma? (1370871269.py, line 8)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax. Perhaps you forgot a comma? (1370871269.py, line 8)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 8\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mverbose=Truem\x1B[39m\n' +
+      '            ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax. Perhaps you forgot a comma?\n'
+  ]
+}
+14:59:58.278 [warn] Cell completed with errors Iu [Error]: VolatilityRegimeEngineer.__init__() got an unexpected keyword argument 'verbose'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'TypeError',
+  evalue: "VolatilityRegimeEngineer.__init__() got an unexpected keyword argument 'verbose'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[7]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m VolatilityRegimeEngineer\n' +
+      '\x1B[32m      2\x1B[39m df_train = features.copy()\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m regime_engineer = \x1B[43mVolatilityRegimeEngineer\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[43m    \x1B[49m\x1B[43mlookback_window\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m24\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m  \x1B[49m\x1B[38;5;66;43;03m# Calculate σ from past 24h\x1B[39;49;00m\n' +
+      '\x1B[32m      5\x1B[39m \x1B[43m    \x1B[49m\x1B[43mforward_window\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m12\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m   \x1B[49m\x1B[38;5;66;43;03m# Classify next 12h\x1B[39;49;00m\n' +
+      '\x1B[32m      6\x1B[39m \x1B[43m    \x1B[49m\x1B[43mtrend_std\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m1.1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m       \x1B[49m\x1B[38;5;66;43;03m# Trend barrier at ±1.5σ\x1B[39;49;00m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[43m    \x1B[49m\x1B[43mjump_std\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m4.5\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m         \x1B[49m\x1B[38;5;66;43;03m# Jump threshold at ±3σ\x1B[39;49;00m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[43m    \x1B[49m\x1B[43mverbose\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[43m    \x1B[49m\x1B[43mjump_speed_window\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m3\x1B[39;49m\x1B[43m  \x1B[49m\x1B[38;5;66;43;03m# Jump must occur within 3 time units\x1B[39;49;00m\n' +
+      '\x1B[32m     10\x1B[39m \x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     12\x1B[39m regime_engineer.fit(df_train)\n' +
+      '\x1B[32m     13\x1B[39m targets = regime_engineer.transform(df_train)\n',
+    "\x1B[31mTypeError\x1B[39m: VolatilityRegimeEngineer.__init__() got an unexpected keyword argument 'verbose'"
+  ]
+}
+15:07:13.270 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+15:07:13.337 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:07:13.347 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3acfb0198e826fe88cab6617e966846b73cfa3ef8.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+15:07:13.756 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+15:17:37.416 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+15:17:37.482 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:17:37.492 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v36486dde4ce2ab58b4389bd967b23a5b0d749a311.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+15:17:37.900 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+15:19:29.519 [info] Disposing request as the cell (-1) was deleted ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+15:42:56.778 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+15:42:56.848 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:42:56.859 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v382e76d07297ec94309fae6f84a895c84bfe77367.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+15:42:57.265 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+15:51:28.761 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+15:51:28.793 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:51:28.804 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v39b9b05a37259b12df28708b57a95236b519283ed.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+15:51:29.211 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+15:51:32.269 [warn] Cell completed with errors Iu [Error]: name 'features' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'features' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mtargetEngineer\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m VolatilityRegimeEngineer\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m df_train = \x1B[43mfeatures\x1B[49m.copy()\n' +
+      '\x1B[32m      5\x1B[39m regime_engineer = VolatilityRegimeEngineer(\n' +
+      '\x1B[32m      6\x1B[39m     lookback_window=\x1B[32m24\x1B[39m*\x1B[32m7\x1B[39m,    \x1B[38;5;66;03m# 1 week for deseasonalized vol\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m     seasonal_window=\x1B[32m24\x1B[39m*\x1B[32m30\x1B[39m,    \x1B[38;5;66;03m# 30 days to learn patterns\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     12\x1B[39m \n' +
+      '\x1B[32m     13\x1B[39m )\n' +
+      '\x1B[32m     15\x1B[39m regime_engineer.fit(df_train)\n',
+    "\x1B[31mNameError\x1B[39m: name 'features' is not defined"
+  ]
+}
+15:59:58.530 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+15:59:58.599 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:59:58.610 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v35b03e2194656f1895667eea64b0d04ebda759feb.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+15:59:59.018 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+16:00:13.753 [warn] Cell completed with errors Iu [Error]: 'VolatilityRegimeEngineer' object has no attribute '_build_seasonal_vol_lookup'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'AttributeError',
+  evalue: "'VolatilityRegimeEngineer' object has no attribute '_build_seasonal_vol_lookup'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 15\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m df_train = features.copy()\n' +
+      '\x1B[32m      5\x1B[39m regime_engineer = VolatilityRegimeEngineer(\n' +
+      '\x1B[32m      6\x1B[39m     lookback_window=\x1B[32m24\x1B[39m*\x1B[32m7\x1B[39m,    \x1B[38;5;66;03m# 1 week for deseasonalized vol\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m     seasonal_window=\x1B[32m24\x1B[39m*\x1B[32m30\x1B[39m,    \x1B[38;5;66;03m# 30 days to learn patterns\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     12\x1B[39m \n' +
+      '\x1B[32m     13\x1B[39m )\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m15\x1B[39m \x1B[43mregime_engineer\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf_train\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     16\x1B[39m targets = regime_engineer.transform(df_train)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/pro_version/targetEngineer.py:330\x1B[39m, in \x1B[36mVolatilityRegimeEngineer.fit\x1B[39m\x1B[34m(self, X, y)\x1B[39m\n' +
+      '\x1B[32m    327\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(X.index, pd.DatetimeIndex):\n' +
+      '\x1B[32m    328\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mIndex must be DatetimeIndex\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m330\x1B[39m \x1B[38;5;28mself\x1B[39m._seasonal_vol_lookup = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_build_seasonal_vol_lookup\x1B[49m(X)\n' +
+      '\x1B[32m    331\x1B[39m \x1B[38;5;28mself\x1B[39m.global_vol_median = \x1B[38;5;28mself\x1B[39m._seasonal_vol_lookup.median()\n' +
+      '\x1B[32m    332\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\n',
+    "\x1B[31mAttributeError\x1B[39m: 'VolatilityRegimeEngineer' object has no attribute '_build_seasonal_vol_lookup'"
+  ]
+}
+16:00:23.373 [warn] Cell completed with errors Iu [Error]: 'VolatilityRegimeEngineer' object has no attribute '_build_seasonal_vol_lookup'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'AttributeError',
+  evalue: "'VolatilityRegimeEngineer' object has no attribute '_build_seasonal_vol_lookup'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[4]\x1B[39m\x1B[32m, line 15\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m df_train = features.copy()\n' +
+      '\x1B[32m      5\x1B[39m regime_engineer = VolatilityRegimeEngineer(\n' +
+      '\x1B[32m      6\x1B[39m     lookback_window=\x1B[32m24\x1B[39m*\x1B[32m7\x1B[39m,    \x1B[38;5;66;03m# 1 week for deseasonalized vol\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m     seasonal_window=\x1B[32m24\x1B[39m*\x1B[32m30\x1B[39m,    \x1B[38;5;66;03m# 30 days to learn patterns\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     12\x1B[39m \n' +
+      '\x1B[32m     13\x1B[39m )\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m15\x1B[39m \x1B[43mregime_engineer\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf_train\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     16\x1B[39m targets = regime_engineer.transform(df_train)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m/shared/<username>Sync/py<username>/pro_version/targetEngineer.py:330\x1B[39m, in \x1B[36mVolatilityRegimeEngineer.fit\x1B[39m\x1B[34m(self, X, y)\x1B[39m\n' +
+      '\x1B[32m    327\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(X.index, pd.DatetimeIndex):\n' +
+      '\x1B[32m    328\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mIndex must be DatetimeIndex\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m330\x1B[39m \x1B[38;5;28mself\x1B[39m._seasonal_vol_lookup = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_build_seasonal_vol_lookup\x1B[49m(X)\n' +
+      '\x1B[32m    331\x1B[39m \x1B[38;5;28mself\x1B[39m.global_vol_median = \x1B[38;5;28mself\x1B[39m._seasonal_vol_lookup.median()\n' +
+      '\x1B[32m    332\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\n',
+    "\x1B[31mAttributeError\x1B[39m: 'VolatilityRegimeEngineer' object has no attribute '_build_seasonal_vol_lookup'"
+  ]
+}
+16:02:37.896 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+16:02:37.921 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:02:37.939 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v345f979fe22aed3849e74dc70fe02a843144390c8.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+16:02:38.347 [info] Restarted 767074aa-9dd0-4f8e-97d0-58e2fed55535
+17:34:29.141 [info] Disposing kernel .jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac.~/shared/<username>Sync/py<username>/pro_version/.venv/python.~/shared/<username>Sync/py<username>/pro_version/.venv/python.-m#ipykernel_launcher for notebook Untitled-1.ipynb due to selection of another kernel or closing of the notebook
+17:34:29.142 [info] Dispose Kernel 'Untitled-1.ipynb' associated with 'Untitled-1.ipynb'
+17:34:29.328 [info] Dispose Kernel 'Untitled-1.ipynb' associated with 'Untitled-1.ipynb'
+17:34:29.328 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb' associated with '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb'

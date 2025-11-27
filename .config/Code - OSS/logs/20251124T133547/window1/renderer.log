@@ -1,0 +1,16 @@
+2025-11-24 13:35:48.030 [info] Started local extension host with pid 239252.
+2025-11-24 13:35:50.663 [info] [perf] Render performance baseline is 17ms
+2025-11-24 13:37:23.838 [info] Started local extension host with pid 239672.
+2025-11-24 13:37:23.868 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 13:37:26.441 [info] [perf] Render performance baseline is 17ms
+2025-11-24 13:37:29.201 [info] Started local extension host with pid 239777.
+2025-11-24 13:37:29.363 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 13:37:31.796 [info] [perf] Render performance baseline is 17ms
+2025-11-24 13:38:32.575 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-11-24 13:38:32.576 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-11-24 13:38:32.576 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-11-24 13:38:32.585 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-11-24 13:38:34.244 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-11-24 13:38:34.244 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-11-24 13:38:34.250 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-11-24 13:38:36.032 [error] An unknown error occurred. Please consult the log for more details.

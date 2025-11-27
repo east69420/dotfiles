@@ -1,0 +1,1688 @@
+2025-11-24 15:57:28.889 [info] Started local extension host with pid 268442.
+2025-11-24 15:57:30.009 [error] [Extension Host] (node:268442) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 15:57:30.009 [error] [Extension Host] (node:268442) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 15:57:31.470 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 15:57:31.571 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 15:57:32.998 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/shared/eastSync/pyEast/ML/research/MLDev/.git/.gitstatus.VKE8m3/b' failed: No such file or directory (EUNKNOWN) (path: /home/east/shared/eastSync/pyEast/ML/research/MLDev)
+2025-11-24 15:57:32.999 [error] [File Watcher (universal)] inotify_add_watch on '/shared/eastSync/pyEast/ML/research/MLDev/.git/.gitstatus.VKE8m3/b' failed: No such file or directory
+2025-11-24 15:57:33.115 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-24 15:57:33.213 [error] TypeError: Cannot read properties of undefined (reading 'handle')
+    at ntt.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8377)
+    at ntt.applyEdits (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1406:8601)
+    at E9e.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:7162)
+    at async Ppt.p (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:19159)
+    at async Ppt.perform (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:18555)
+    at async Npt.apply (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2725:20380)
+2025-11-24 15:57:33.214 [warning] IGNORING workspace edit: TypeError: Cannot read properties of undefined (reading 'handle')
+2025-11-24 15:57:34.190 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 15:57:35.333 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at Q6 (file:///opt/visual-studio-code/resources/app/out/main.js:30:64382)
+    at new cd (file:///opt/visual-studio-code/resources/app/out/main.js:30:67762)
+    at new zr (file:///opt/visual-studio-code/resources/app/out/main.js:30:69200)
+    at cd.revive (file:///opt/visual-studio-code/resources/app/out/main.js:30:68977)
+    at d2.call (file:///opt/visual-studio-code/resources/app/out/main.js:88:106862)
+    at Wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-11-24 15:57:36.279 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-24 15:57:37.432 [info] [perf] Render performance baseline is 17ms
+2025-11-24 15:58:03.498 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/market_analysis.ipynb notebook/jupyter-notebook/jupyter-notebook
+2025-11-24 15:58:03.602 [warning] [backup tracker] suspended, ignoring unregister event file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/plotly/labextension/package.json 
+2025-11-24 15:58:03.602 [warning] [backup tracker] suspended, ignoring unregister event file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib64/python3.13/site-packages/plotly/labextension/package.json 
+2025-11-24 15:58:04.109 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 15:58:04.192 [info] Started local extension host with pid 269131.
+2025-11-24 15:58:04.703 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 15:58:04.886 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 15:58:05.825 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 15:58:06.847 [info] [perf] Render performance baseline is 15ms
+2025-11-24 15:58:08.782 [error] [Extension Host] (node:269131) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 15:58:08.782 [error] [Extension Host] (node:269131) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 15:58:10.303 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-24 15:58:11.634 [warning] No extension contribution found for chat session type: copilot-cloud-agent
+2025-11-24 15:58:11.635 [warning] No extension contribution found for chat session type: copilot-cloud-agent
+2025-11-24 15:59:15.926 [error] [Extension Host] [AsyncCompletionManager] [a7b94e98-38bd-40c7-a2e3-f6014a84b9d3] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 16:00:27.764 [error] [Extension Host] [AsyncCompletionManager] [8caf7a90-5316-4383-91e8-37b66a31d8bf] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 16:00:49.547 [error] [Extension Host] [AsyncCompletionManager] [2fb6868f-1bef-4d81-b713-8c7623fb8b1b] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 16:56:34.996 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-24 16:56:34.999 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-24 16:56:35.691 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 16:56:35.803 [info] Started local extension host with pid 280241.
+2025-11-24 16:56:36.125 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 16:56:36.410 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 16:56:37.489 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 16:56:38.519 [info] [perf] Render performance baseline is 16ms
+2025-11-24 16:56:38.978 [error] [Extension Host] (node:280241) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 16:56:38.979 [error] [Extension Host] (node:280241) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 16:56:41.331 [error] Error fetching chat session options Canceled
+2025-11-24 16:56:41.331 [error] Error providing chat sessions: Canceled
+2025-11-24 16:56:41.331 [error] Error fetching chat session options Canceled
+2025-11-24 16:56:41.331 [error] Error providing chat sessions: Canceled
+2025-11-24 16:56:41.332 [error] Error fetching chat session options Canceled
+2025-11-24 16:56:41.333 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-11-24 16:56:41.333 [warning] Failed to update in-progress status for chat session type 'copilotcli': Canceled
+2025-11-24 16:56:41.334 [warning] Failed to update in-progress status for chat session type 'copilot-cloud-agent': Canceled
+2025-11-24 16:56:41.632 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-24 16:56:41.727 [info] Started local extension host with pid 280531.
+2025-11-24 16:56:42.291 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-24 16:56:42.365 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 16:56:42.813 [error] [Extension Host] (node:280531) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-24 16:56:42.813 [error] [Extension Host] (node:280531) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-24 16:56:43.748 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-24 16:56:44.306 [info] [perf] Render performance baseline is 16ms
+2025-11-24 16:56:44.874 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-24 16:59:11.133 [warning] Error revealing change in view: undefined
+2025-11-24 17:00:44.165 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:01:10.507 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:03:32.823 [warning] Error revealing change in view: undefined
+2025-11-24 17:03:58.671 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:09:00.361 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:11:17.625 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:14:02.075 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:18:16.836 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: workbench.secondarySideBar.enableDefaultVisibilityInOldWorkspace, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay
+2025-11-24 17:18:17.150 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///opt/visual-studio-code/resources/app/out/main.js:33:4633)
+    at Wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14859)
+    at Wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14382)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13784)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5145)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at ta.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5333)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at F (file:///opt/visual-studio-code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10815)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106419)
+    at Session.emit (node:events:519:28)
+2025-11-24 17:19:03.852 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:23:16.396 [warning] Error revealing change in view: undefined
+2025-11-24 17:24:05.566 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:25:27.273 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:25:38.462 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:29:07.388 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:34:09.110 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:34:32.527 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_runNotebookCell with parameters {"cellId":"#VSC-010a19a9","filePath":"/home/east/shared/eastSync/pyEast/MLDev/market_analysis.ipynb"}:
+Cell #VSC-010a19a9 not found in the notebook, use the read_file file tool to get the latest content of the notebook file: Error: Cell #VSC-010a19a9 not found in the notebook, use the read_file file tool to get the latest content of the notebook file
+    at wue.getNotebookAndCell (/home/east/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4796:1053)
+    at wue.prepareInvocation (/home/east/.vscode/extensions/github.copilot-chat-0.33.2/dist/extension.js:4796:494)
+    at tQ.$prepareToolInvocation (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:192:3754)
+    at JS.S (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124594)
+    at JS.Q (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124374)
+    at JS.M (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123425)
+    at JS.L (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122568)
+    at Wd.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121365)
+    at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ho.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+    at Wd.value (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:8617)
+    at I.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at I.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ho.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9454)
+    at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6909)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-11-24 17:35:08.426 [error] [Extension Host] [AsyncCompletionManager] [8a56d03a-e495-461b-8f22-71fdc5d3df2f] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 17:36:34.376 [error] [Extension Host] [AsyncCompletionManager] [b013612c-a2c9-4f30-8097-898b134ade89] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 17:36:35.277 [error] [Extension Host] [AsyncCompletionManager] [9f91eb6e-fadc-4676-aa6c-39ccc4f3ec58] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 17:36:35.875 [error] [Extension Host] [AsyncCompletionManager] [423d6b1e-e12b-4819-93a7-470f9e3c4087] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 17:38:39.967 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:39:10.758 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:44:12.480 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:49:14.249 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:54:16.003 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 17:59:17.752 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:04:19.525 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:09:21.302 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:14:23.062 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:19:24.883 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:24:26.702 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:29:28.533 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:34:30.364 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:39:32.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:44:34.033 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:49:35.850 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:54:37.668 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 18:59:39.493 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:04:41.301 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:05:42.548 [error] [Extension Host] [AsyncCompletionManager] [d943b72f-9e16-4fe8-9b1a-95707e83e563] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 19:08:20.895 [error] [Extension Host] (node:280531) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+2025-11-24 19:09:43.063 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:10:51.132 [error] [Extension Host] [AsyncCompletionManager] [89a548ad-015d-4f82-ba01-72f8e1fdf870] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 19:13:25.199 [error] [Extension Host] [AsyncCompletionManager] [1b25508e-ade3-4578-96e8-7d5e4d9c31d0] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 19:13:56.484 [error] [Extension Host] [AsyncCompletionManager] [3f66e691-0136-48db-9d30-70f44c388b6a] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-24 19:14:44.675 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:19:46.331 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:24:48.032 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:26:44.588 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineCount (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:7053
+    at LJi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:157294)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154375
+    at uLt.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:15332)
+    at zXi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:26410)
+    at nZi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:3823)
+    at DJi.changeViewZones (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154238)
+    at S4e.change (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:247:10621)
+2025-11-24 19:26:46.016 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineCount (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:7053
+    at LJi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:157294)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154375
+    at uLt.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:15332)
+    at zXi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:26410)
+    at nZi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:3823)
+    at DJi.changeViewZones (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154238)
+    at S4e.change (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:247:10621)
+2025-11-24 19:29:49.743 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:34:51.499 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:39:53.286 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:44:55.057 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:49:56.827 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 19:54:58.553 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:00:00.285 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:05:02.039 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:10:03.810 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:15:05.554 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:20:07.308 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:25:09.066 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:30:10.756 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:35:12.416 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:39:21.732 [error] Cannot read properties of undefined (reading 'isVisible'): TypeError: Cannot read properties of undefined (reading 'isVisible')
+    at XXi.convertModelPositionToViewPosition (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:49559)
+    at eZi.convertModelPositionToViewPosition (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:52963)
+    at R2i.g (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:284:25370)
+    at R2i.setState (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:284:24024)
+    at t5t.setStates (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:284:26913)
+    at l5t.setStates (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:284:38239)
+    at l5t.setSelections (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:284:40945)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:2499
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:4001
+    at Object.batchChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:288:15393)
+2025-11-24 20:40:14.179 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:45:15.888 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:50:17.635 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 20:55:19.437 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:00:21.173 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:05:22.931 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:10:24.690 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:15:26.466 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:20:28.185 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:25:29.918 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:30:31.662 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:35:33.426 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:40:35.173 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:45:36.918 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:50:38.657 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 21:55:40.402 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:00:42.155 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:05:43.912 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:10:45.692 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:15:47.460 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:20:49.226 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:25:51.015 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:30:52.798 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:35:54.571 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:40:56.335 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:45:58.089 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:50:59.832 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 22:56:01.596 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:01:03.352 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:06:05.128 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:11:06.899 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:16:08.669 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:21:10.452 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:26:12.238 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:31:14.003 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:36:15.758 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:41:17.518 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:46:19.262 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:51:21.020 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-24 23:56:22.785 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:01:24.545 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:06:26.318 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:11:28.092 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:16:29.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:21:31.633 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:26:33.413 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:31:35.171 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:36:36.938 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:41:38.699 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:46:40.465 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:51:42.228 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 00:56:44.011 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:01:45.791 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:06:47.555 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:11:49.320 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:16:51.090 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:21:52.866 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:26:54.635 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:31:56.391 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:36:58.134 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:41:59.897 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:47:01.660 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:52:03.418 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 01:57:05.182 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:02:06.952 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:07:08.732 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:12:10.510 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:17:12.276 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:22:14.050 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:27:15.802 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:32:17.552 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:37:19.307 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:42:21.062 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:47:22.834 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:52:24.604 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 02:57:26.381 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:02:28.154 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:07:29.915 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:12:31.670 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:17:33.431 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:22:35.193 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:27:36.943 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:32:38.698 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:37:40.474 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:42:42.248 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:47:44.020 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:52:45.811 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 03:57:47.585 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:02:49.348 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:07:51.105 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:12:52.868 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:17:54.623 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:22:56.370 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:27:58.125 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:32:59.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:38:01.664 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:43:03.423 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:48:05.203 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:53:06.986 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 04:56:44.626 [info] Auto updating outdated extensions. ms-python.vscode-pylance
+2025-11-25 04:58:08.762 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:03:10.532 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:08:12.300 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:13:14.057 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:18:15.810 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:23:17.563 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:28:19.335 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:33:21.111 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:38:22.881 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:43:24.647 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:48:26.421 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:53:28.186 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 05:58:29.954 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:03:31.718 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:08:33.478 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:13:35.234 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:18:36.992 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:23:38.749 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:28:40.513 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:33:42.293 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:38:44.064 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:43:45.842 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:48:47.618 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:53:49.389 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 06:58:51.156 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:03:52.913 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:08:54.662 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:13:56.421 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:18:58.194 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:23:59.955 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:29:01.719 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:34:03.478 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:39:05.241 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:44:07.014 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:49:08.783 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:54:10.544 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 07:59:12.295 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:04:14.048 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:09:15.752 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:14:17.530 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:19:19.319 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:24:21.102 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:29:22.907 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:34:24.708 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:39:26.498 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:44:28.309 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:49:30.102 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:54:31.898 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 08:59:33.686 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:04:35.495 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:09:37.285 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:14:39.090 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:19:40.905 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:24:42.716 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:29:44.521 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:34:46.332 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:39:48.160 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:44:49.950 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:49:51.739 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:54:53.525 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 09:59:55.310 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:04:57.104 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:09:58.884 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:15:00.673 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:20:02.480 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:25:04.298 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:30:06.102 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:35:07.915 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:40:09.708 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:45:11.491 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:50:13.303 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 10:55:15.094 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:00:16.891 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:05:18.686 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:10:20.494 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:15:22.306 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:20:24.099 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:25:25.907 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:30:27.702 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:35:29.481 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:40:31.243 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:45:33.001 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:50:34.776 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 11:55:36.563 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:00:38.339 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:05:40.082 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:10:42.015 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:15:43.734 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:20:45.513 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:25:47.273 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:30:49.067 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:35:50.852 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:40:52.608 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:45:54.374 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:48:42.796 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.106/tools/latest.txt
+2025-11-25 12:48:42.796 [error] [Extension Host] Response status: 404, status text: 
+2025-11-25 12:48:42.968 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.106/tools/core.json
+2025-11-25 12:48:42.968 [error] [Extension Host] Response status: 404, status text: 
+2025-11-25 12:50:56.080 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 12:55:57.884 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:00:59.687 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:06:01.491 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:11:03.280 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:16:05.076 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:21:06.876 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:26:08.681 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:31:10.488 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:36:12.277 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:41:14.061 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:46:15.852 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:51:17.643 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 13:56:19.438 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:01:21.240 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:06:23.030 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:11:24.827 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:16:26.609 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:21:28.406 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:26:30.186 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:31:31.970 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:36:33.756 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:41:35.536 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:46:37.341 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:51:39.112 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 14:56:40.899 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:01:42.696 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:06:44.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:11:46.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:16:48.085 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:21:49.863 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:26:51.643 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:31:53.419 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:36:55.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:41:56.968 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:46:58.734 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:52:00.489 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 15:57:02.228 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:02:04.013 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:07:05.728 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:12:07.457 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:17:09.207 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:22:10.937 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:27:12.655 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:32:14.490 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:37:16.126 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:42:17.882 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:47:19.724 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:52:21.500 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:52:52.960 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineMinColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:279:39)
+    at O2i.getViewLineMinColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:34368)
+    at XXi.getViewLineMinColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:47541)
+    at nZi.getLineMinColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:68232)
+    at WGi.f (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:5169)
+    at WGi.i (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:6629)
+    at WGi.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:6817)
+    at WGi.dispatchMouse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:6544)
+    at AGi.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:73:54302)
+2025-11-25 16:53:20.799 [error] Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb#W5sZmlsZQ%3D%3D: Error: Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb#W5sZmlsZQ%3D%3D
+    at kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22470)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+    at async lAt.acquire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:3390)
+    at async xYe.createModelReference (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22966)
+    at async F8e.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:497:20072)
+2025-11-25 16:53:21.815 [error] Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb#W5sZmlsZQ%3D%3D: Error: Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb#W5sZmlsZQ%3D%3D
+    at kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22470)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+    at async lAt.acquire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:3390)
+    at async xYe.createModelReference (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22966)
+    at async F8e.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:497:20072)
+2025-11-25 16:53:21.901 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 16:53:21.959 [error] Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb#W5sZmlsZQ%3D%3D: Error: Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb#W5sZmlsZQ%3D%3D
+    at kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22470)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+    at async lAt.acquire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:3390)
+    at async xYe.createModelReference (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22966)
+    at async F8e.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:497:20072)
+2025-11-25 16:53:28.181 [error] [Extension Host] [AsyncCompletionManager] [473044ad-886b-42f8-a1ca-59cc9341fb52] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 16:53:57.912 [error] [Extension Host] [AsyncCompletionManager] [1f512265-2d86-4d49-b3ea-f27302cd18e8] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 17:30:48.626 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineCount (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:7053
+    at LJi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:157294)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154375
+    at uLt.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:15332)
+    at zXi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:26410)
+    at nZi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:3823)
+    at DJi.changeViewZones (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154238)
+    at S4e.change (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:247:10621)
+2025-11-25 17:30:49.801 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineCount (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:7053
+    at LJi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:157294)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154375
+    at uLt.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:15332)
+    at zXi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:26410)
+    at nZi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:3823)
+    at DJi.changeViewZones (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154238)
+    at S4e.change (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:247:10621)
+2025-11-25 17:34:48.255 [error] Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getAlternativeVersionId (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:2968)
+    at KR.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:4243)
+    at new $T (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:5934)
+    at E2i.f (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:254:412)
+    at E2i.pushEditOperation (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:254:707)
+    at sg.yb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:284:168)
+    at sg.pushEditOperations (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:282:640)
+    at Cst.discardAll (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1937:16694)
+    at Tst.cancel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1945:4950)
+2025-11-25 17:57:17.252 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_replaceString with parameters {"filePath":"/home/east/shared/eastSync/pyEast/MLDev/ML_setup.py","oldString":"            ## we need to target volatility first\n            \"next_24h_vol\": [0.5],","newString":"            ## we need to target volatility first (regression target - no percentile)\n            \"next_24h_vol\": True,  # Predict actual volatility value, not percentile classification"}:
+Canceled: Canceled: Canceled
+    at Cdt.invokeTool (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2239:4186)
+    at async ZKt.$invokeTool (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:511:13328)
+2025-11-25 18:08:26.766 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 18:08:31.201 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 18:21:34.337 [error] [635] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at K2e.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new sg (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:275:31449)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at BYe.I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1337:1910)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:870)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+    at async kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22420)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+2025-11-25 18:23:17.691 [warning] Error revealing change in view: undefined
+2025-11-25 18:23:33.989 [error] [1b4] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at e5i.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new m8e (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:24324)
+    at a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:22764)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:23006)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:907)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+2025-11-25 18:27:03.885 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-25 18:28:17.277 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-25 18:31:28.376 [error] [635] potential listener LEAK detected, having 211 listeners already. MOST frequent listener (21):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at K2e.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new sg (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:275:31449)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at BYe.I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1337:1910)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:870)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+    at async kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22420)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+2025-11-25 18:47:01.723 [error] [042] potential listener LEAK detected, having 400 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at zYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new nZi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:57346)
+    at Tu.cc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:288:15237)
+    at Tu.setModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:288:409)
+    at new _fe (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:475:129163)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at new I3t (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:4345)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+2025-11-25 18:47:20.867 [error] [Extension Host] [AsyncCompletionManager] [e97f3987-4a8f-49ca-a305-64571864b770] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 18:48:31.719 [error] [Extension Host] [AsyncCompletionManager] [4d242ede-d4af-485a-81a5-38a242358538] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 18:48:32.117 [error] [Extension Host] [AsyncCompletionManager] [0d353c47-ce3e-482e-918a-db512af3d01a] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 18:49:36.186 [error] [Extension Host] [AsyncCompletionManager] [b8236948-aada-496d-b249-809ffbe2a497] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 18:50:45.980 [error] [042] potential listener LEAK detected, having 407 listeners already. MOST frequent listener (4):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at ZI.u [as i] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at ZI.g (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15488)
+    at ZI.addObserver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:1469)
+    at Tb.readObservable (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11481)
+    at ZI.read (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:601)
+    at Tb._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:1008)
+    at Tb.A (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:10028)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9647)
+    at Tb.readObservable (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11509)
+2025-11-25 21:10:15.608 [error] [1b4] potential listener LEAK detected, having 209 listeners already. MOST frequent listener (15):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at e5i.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new m8e (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:24324)
+    at a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:22764)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:23006)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:907)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+2025-11-25 21:10:30.726 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-11-25 21:11:36.133 [error] [042] potential listener LEAK detected, having 419 listeners already. MOST frequent listener (18):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at zYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new m8e (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:24393)
+    at a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:22764)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:23006)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:907)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+2025-11-25 21:11:49.511 [error] [179] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at JBe.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:118015)
+    at nue.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at g1e.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1752:43082)
+    at g1e.didRenderCell (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1752:43226)
+    at g1e.renderCell (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:3903)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4630
+    at pC (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4087)
+    at QFe.g (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4621)
+2025-11-25 21:12:02.814 [error] [635] potential listener LEAK detected, having 246 listeners already. MOST frequent listener (40):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at K2e.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new sg (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:275:31449)
+    at ETt.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1716)
+    at ETt.createInstance (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1399:1213)
+    at BYe.I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1337:1910)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:870)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+    at async kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22420)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+2025-11-25 21:18:11.478 [error] [042] potential listener LEAK detected, having 446 listeners already. MOST frequent listener (20):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at zYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new m8e (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:24393)
+    at a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:22764)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:23006)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:907)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+2025-11-25 21:18:20.205 [error] [179] potential listener LEAK detected, having 181 listeners already. MOST frequent listener (3):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at JBe.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:118015)
+    at nue.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at g1e.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1752:43082)
+    at g1e.didRenderCell (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1752:43226)
+    at g1e.renderCell (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:3903)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4630
+    at pC (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4087)
+    at QFe.g (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4621)
+2025-11-25 21:19:27.035 [error] [Extension Host] [AsyncCompletionManager] [dd802b77-ed07-42a2-b000-31236fddde43] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 21:20:42.289 [error] [Extension Host] [AsyncCompletionManager] [d8bfb6cf-7ea8-40b2-ba2a-c4ae480326aa] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 21:20:55.480 [error] [042] potential listener LEAK detected, having 455 listeners already. MOST frequent listener (19):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at zYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new m8e (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:24393)
+    at a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:22764)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:23006)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:907)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+2025-11-25 21:21:08.705 [error] [Extension Host] [AsyncCompletionManager] [07b5b938-9ac3-4c14-9ca4-8c715e331317] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 21:21:46.052 [error] [Extension Host] [AsyncCompletionManager] [2cce8072-474a-45fd-9397-f644530dca0d] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-25 21:23:27.672 [error] [179] potential listener LEAK detected, having 194 listeners already. MOST frequent listener (4):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at JBe.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at Object.h [as onWillAddFirstListener] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:422:118015)
+    at nue.u [as onDidChange] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at g1e.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1752:43082)
+    at g1e.didRenderCell (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1752:43226)
+    at g1e.renderCell (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:3903)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4630
+    at pC (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4087)
+    at QFe.g (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1546:4621)
+2025-11-26 12:23:22.298 [error] [042] potential listener LEAK detected, having 457 listeners already. MOST frequent listener (20):: Error
+    at pFi.create (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:12071)
+    at zYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at new m8e (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:24393)
+    at a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:22764)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:495:23006)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at BYe.createModel (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:907)
+    at yIe.provideTextContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2182:16139)
+2025-11-26 12:23:34.943 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 12:23:34.945 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/east/shared/eastSync/pyEast/MLDev/market_analysis.ipynb notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 12:23:34.946 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 12:23:34.948 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 12:23:34.948 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-2.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 12:23:34.951 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-2.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 12:23:36.332 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-26 12:23:36.414 [info] Started local extension host with pid 432745.
+2025-11-26 12:23:36.934 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 12:23:36.953 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 12:23:37.854 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-26 12:23:38.887 [error] [Extension Host] (node:432745) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 12:23:38.889 [error] [Extension Host] (node:432745) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 12:23:39.085 [info] [perf] Render performance baseline is 16ms
+2025-11-26 12:23:40.970 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 12:23:41.729 [warning] No extension contribution found for chat session type: copilot-cloud-agent
+2025-11-26 12:23:41.729 [warning] No extension contribution found for chat session type: copilot-cloud-agent
+2025-11-26 12:27:56.661 [error] [Extension Host] [AsyncCompletionManager] [2bc324c5-d177-4814-8002-df1f30b549a4] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:32:57.838 [error] [Extension Host] [AsyncCompletionManager] [49398c95-6023-49d2-99d3-0c1d5eb90d01] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:33:53.044 [error] [Extension Host] [AsyncCompletionManager] [1f312ad4-cdba-4b3a-8f92-e33d8c6abc5f] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:35:58.544 [error] [Extension Host] [AsyncCompletionManager] [f70fc630-9114-47b8-9cac-85461ec70ebe] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:36:19.709 [error] [Extension Host] [AsyncCompletionManager] [0fbe591b-a873-4084-a1df-55d845be74a5] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:39:17.479 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-26 12:39:22.414 [error] [Extension Host] [AsyncCompletionManager] [ab0480ae-3551-4f98-b3aa-72b2044eeb6a] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:39:23.399 [error] [Extension Host] [AsyncCompletionManager] [f4a9e88b-c238-4c95-88d7-4d7f3ad4b820] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:39:50.851 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-26 12:39:55.543 [error] [Extension Host] [AsyncCompletionManager] [f804a20a-236b-419b-9638-ab1c38a49774] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:41:02.147 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-11-26 12:53:08.797 [error] [Extension Host] [AsyncCompletionManager] [b59bf518-f49b-47ff-95ca-3b346456dbf6] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:53:13.162 [error] [Extension Host] [AsyncCompletionManager] [bb392879-9c78-4edd-8de3-6d9b9d586fe5] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:53:13.328 [error] [Extension Host] [AsyncCompletionManager] [81e5d57b-e03f-4219-af1f-5985f48cb868] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 12:53:16.884 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getOptions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:1436)
+    at Tb._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:2660)
+    at Tb.A (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:10028)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9647)
+    at Tb.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:576)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9574)
+    at Tb.readObservable (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11509)
+    at Tb.read (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:601)
+    at Tb._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:475:123499)
+2025-11-26 12:53:17.228 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getOptions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:1436)
+    at Tb._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:2660)
+    at Tb.A (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:10028)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9647)
+    at Tb.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:576)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9574)
+    at Tb.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:576)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9574)
+    at Tb.readObservable (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11509)
+2025-11-26 12:53:24.360 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineCount (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:7053
+    at LJi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:157294)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154375
+    at uLt.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:15332)
+    at zXi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:26410)
+    at nZi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:3823)
+    at DJi.changeViewZones (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154238)
+    at S4e.change (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:247:10621)
+2025-11-26 12:53:25.883 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at sg.getLineContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4235)
+    at Tb._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:475:130181)
+    at Tb.A (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:10028)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9647)
+    at Tb.readObservable (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11509)
+    at Tb.read (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:601)
+    at Tb._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:475:130823)
+    at Tb.A (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:10028)
+    at Tb.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:9647)
+    at Tb.readObservable (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:11509)
+2025-11-26 12:53:28.221 [error] Model is disposed!: Error: Model is disposed!
+    at sg.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:276:303)
+    at sg.getLineCount (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:278:4144)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:476:7053
+    at LJi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:157294)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154375
+    at uLt.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:15332)
+    at zXi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:285:26410)
+    at nZi.changeWhitespace (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:286:3823)
+    at DJi.changeViewZones (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:154238)
+    at S4e.change (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:247:10621)
+2025-11-26 12:54:14.317 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 12:59:15.998 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:04:17.620 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:07:10.909 [error] [Extension Host] [AsyncCompletionManager] [840c5d77-3f50-43f2-aee2-482cc21c7cc7] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 13:09:19.235 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:14:20.914 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:19:22.638 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:24:24.367 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:29:26.083 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:34:27.806 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:39:29.516 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:44:31.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:49:32.958 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:54:34.690 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 13:57:58.961 [info] Auto updating outdated extensions. github.copilot-chat
+2025-11-26 13:59:36.428 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:04:38.149 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:09:39.874 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:14:41.601 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:19:43.318 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:24:45.030 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:29:46.743 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:34:48.448 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:39:50.161 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:44:51.882 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:49:53.611 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:54:55.328 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 14:59:39.015 [error] [Extension Host] [AsyncCompletionManager] [2f8d1b3f-1c46-4938-834d-7df021b8dc1f] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 14:59:39.214 [error] [Extension Host] [AsyncCompletionManager] [288a52ec-ccf7-41bf-9201-cd8312fb3f55] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/networking.ts:105:19
+    at Xue.invoke (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at Tq.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at tde.cancel (/home/east/.vscode/extensions/github.copilot-1.388.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Fc.cancelRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Fc.getFirstMatchingRequest (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/east/.vscode/extensions/github.copilot-1.388.0/lib/src/inlineCompletion.ts:92:20)
+    at Wce.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/ghostText/ghostText.ts:47:32)
+    at e8e.provideInlineCompletionItems (/home/east/.vscode/extensions/github.copilot-1.388.0/extension/src/inlineCompletion.ts:93:25)
+    at Na.provideInlineCompletions (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:155567) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-11-26 14:59:57.028 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:04:58.724 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:08:41.732 [error] Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/pro_version/simple_feature_test.ipynb#W3sZmlsZQ%3D%3D: Error: Unable to resolve text model content for resource vscode-notebook-cell:/home/east/shared/eastSync/pyEast/pro_version/simple_feature_test.ipynb#W3sZmlsZQ%3D%3D
+    at kYe.u (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22470)
+    at async kYe.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:21500)
+    at async lAt.acquire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:27:3390)
+    at async xYe.createModelReference (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1313:22966)
+    at async F8e.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:497:20072)
+2025-11-26 15:10:00.372 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:15:02.052 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:20:03.703 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:25:05.380 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:30:07.032 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:35:08.730 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:40:10.477 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:45:12.125 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:50:13.795 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:55:15.417 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:57:13.385 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 15:58:52.391 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:00:17.081 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:05:18.756 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:10:20.467 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:15:22.180 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:20:23.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:25:25.584 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:30:27.294 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:35:29.010 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:40:30.740 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:45:32.461 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:50:34.180 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 16:55:35.900 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:00:37.620 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:05:39.340 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:10:41.052 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:15:42.776 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:20:44.480 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:25:46.185 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:30:47.912 [error] An unknown error occurred. Please consult the log for more details.
+2025-11-26 17:33:46.842 [error] TreeError [BreadcrumbsOutlinePicker] Tree element not found: [object Object]: Error: TreeError [BreadcrumbsOutlinePicker] Tree element not found: [object Object]
+    at jue.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:8420)
+    at jue.expandTo (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:7840)
+    at n9.reveal (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:2165)
+    at nPs.r (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:701:15410)
+    at nPs.show (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:701:10820)
+    at Object.getAnchor (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:701:23038)
+    at gTt.s (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:816:24271)
+    at gTt.show (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:816:24057)
+    at o2s.showContextView (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1356:91204)
+    at th.G (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:701:22138)
+2025-11-26 17:34:19.620 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-11-26 17:34:20.468 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-11-26 17:34:26.509 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-11-26 17:34:29.140 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook
+2025-11-26 17:34:29.142 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1.ipynb?jupyter-notebook notebook/jupyter-notebook/jupyter-notebook

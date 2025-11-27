@@ -1,0 +1,842 @@
+2025-11-24 14:07:49.849 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-24 14:07:49.849 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-24 14:07:49.849 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-24 14:07:49.849 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-24 14:07:49.936 [info] Logged in as east69420
+2025-11-24 14:07:49.938 [info] Using the Electron fetcher.
+2025-11-24 14:07:50.433 [info] Got Copilot token for east69420
+2025-11-24 14:07:50.433 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-24 14:07:50.442 [info] activationBlocker from 'languageModelAccess' took for 461ms
+2025-11-24 14:07:50.475 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-24 14:07:50.475 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 14:07:50.486 [info] Registering default platform agent...
+2025-11-24 14:07:50.487 [info] activationBlocker from 'conversationFeature' took for 509ms
+2025-11-24 14:07:50.511 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-24 14:07:50.889 [info] Fetched model metadata in 898ms 2c0fa6a0-44c4-4d0f-8606-0dc2aefc32ba
+2025-11-24 14:07:50.994 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-24 14:07:50.994 [info] ccreq:4cec8f1e.copilotmd | markdown
+2025-11-24 14:07:56.514 [info] Refetch model metadata: Succeeded in 513ms 535be593-64a8-4569-95e9-f9fba9867c08 (A09E:D5E3C:148DD22:1742AF4:692458AC) using node-fetch with status 200.
+2025-11-24 14:07:56.992 [info] Refetch model metadata: Succeeded in 478ms aa136f04-50ea-4c43-b3ac-656410189346 (9E24:108C0E:803E95:9166E8:692458AC) using electron-fetch with status 200.
+2025-11-24 14:07:57.512 [info] Refetch model metadata: Succeeded in 520ms 21f15594-33e4-4328-8466-d148dc98c763 (A0A2:B6338:137F481:1637C59:692458AD) using node-http with status 200.
+2025-11-24 14:08:31.248 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-24 14:08:31.261 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-24 14:08:31.261 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-24 14:08:31.261 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-24 14:08:31.577 [info] Logged in as east69420
+2025-11-24 14:08:31.581 [info] Using the Electron fetcher.
+2025-11-24 14:08:32.878 [info] Got Copilot token for east69420
+2025-11-24 14:08:32.879 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-24 14:08:32.887 [info] activationBlocker from 'languageModelAccess' took for 1287ms
+2025-11-24 14:08:33.309 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-24 14:08:33.309 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 14:08:33.320 [info] Registering default platform agent...
+2025-11-24 14:08:33.320 [info] activationBlocker from 'conversationFeature' took for 1724ms
+2025-11-24 14:08:33.592 [info] Fetched model metadata in 364ms 154afe0c-f073-4387-92d0-e32f54166dee
+2025-11-24 14:08:33.679 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-24 14:08:33.681 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-24 14:08:33.681 [info] ccreq:feac4cfd.copilotmd | markdown
+2025-11-24 14:08:34.093 [error] [GitHubAPI] GET https://api.github.com/repos/east69420/ML_binary - Status: 404
+2025-11-24 14:08:34.249 [error] [GitHubAPI] GET https://api.github.com/repos/east69420/ML_binary - Status: 404
+2025-11-24 14:08:42.486 [info] Logged in as east69420
+2025-11-24 14:08:42.823 [info] Got Copilot token for east69420
+2025-11-24 14:08:42.823 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-24 14:08:42.843 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-24 14:08:42.965 [info] Fetched model metadata in 120ms e712ae91-b1fd-4fa1-9c76-bc9d630c01f2
+2025-11-24 14:08:42.967 [info] ccreq:1c7ba337.copilotmd | markdown
+2025-11-24 14:16:27.414 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:16:27.414 [info] request done: requestId: [ba9c96d8-02d4-4008-ad8f-1bae61418f1c] model deployment ID: []
+2025-11-24 14:16:27.609 [info] ccreq:2b1c5334.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 601ms | [XtabProvider]
+2025-11-24 14:16:27.612 [info] ccreq:61b1aa25.copilotmd | markdown
+2025-11-24 14:16:27.612 [info] ccreq:2b54c15c.copilotmd | markdown
+2025-11-24 14:16:28.144 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:16:28.144 [info] request done: requestId: [b12bc326-68a7-4dd2-804d-1a2eb88c4834] model deployment ID: []
+2025-11-24 14:16:28.144 [info] ccreq:a3ed5ad7.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 333ms | [XtabProvider]
+2025-11-24 14:16:29.146 [info] ccreq:45755778.copilotmd | markdown
+2025-11-24 14:16:40.958 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:16:40.958 [info] request done: requestId: [04b17475-43fa-4119-8359-7be2339e39d4] model deployment ID: []
+2025-11-24 14:16:40.959 [info] ccreq:bc865bf2.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 314ms | [XtabProvider]
+2025-11-24 14:16:40.959 [info] ccreq:59a80a8c.copilotmd | markdown
+2025-11-24 14:16:40.959 [info] ccreq:bfff71a0.copilotmd | markdown
+2025-11-24 14:16:40.959 [info] ccreq:d4484d74.copilotmd | markdown
+2025-11-24 14:16:44.708 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:16:44.708 [info] request done: requestId: [e1142723-755b-40f1-8909-a676b147d70d] model deployment ID: []
+2025-11-24 14:16:44.709 [info] ccreq:2b74ff2b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 345ms | [XtabProvider]
+2025-11-24 14:16:44.709 [info] ccreq:c931cddd.copilotmd | markdown
+2025-11-24 14:41:01.350 [info] Logged in as east69420
+2025-11-24 14:41:01.898 [info] Got Copilot token for east69420
+2025-11-24 14:41:01.898 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-24 14:41:01.907 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-24 14:41:02.332 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:41:02.332 [info] request done: requestId: [7ca7756e-4c05-470c-9b1b-3d39e0711d89] model deployment ID: []
+2025-11-24 14:41:02.419 [info] Fetched model metadata in 511ms fe39a3b4-8b3b-40d7-96ed-b0b2910c449b
+2025-11-24 14:41:02.463 [info] ccreq:2bbc750a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1115ms | [XtabProvider]
+2025-11-24 14:41:02.464 [info] ccreq:ef5b1507.copilotmd | markdown
+2025-11-24 14:41:02.464 [info] ccreq:ae095937.copilotmd | markdown
+2025-11-24 14:41:02.464 [info] ccreq:8ccc501a.copilotmd | markdown
+2025-11-24 14:41:02.464 [info] ccreq:4a36414d.copilotmd | markdown
+2025-11-24 14:41:02.464 [info] ccreq:a582e983.copilotmd | markdown
+2025-11-24 14:41:02.465 [info] ccreq:b6e4c652.copilotmd | markdown
+2025-11-24 14:41:02.533 [info] ccreq:1f0692df.copilotmd | markdown
+2025-11-24 14:47:05.454 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:05.454 [info] request done: requestId: [fe901674-5cc9-48f4-896a-8c11d52ecfba] model deployment ID: []
+2025-11-24 14:47:05.613 [info] ccreq:2461505c.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 529ms | [XtabProvider]
+2025-11-24 14:47:05.613 [info] ccreq:d2ae481f.copilotmd | markdown
+2025-11-24 14:47:05.613 [info] ccreq:ad8f59e4.copilotmd | markdown
+2025-11-24 14:47:05.613 [info] ccreq:8ceff03f.copilotmd | markdown
+2025-11-24 14:47:06.078 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:06.078 [info] request done: requestId: [d5701c69-1699-4eb2-85f5-fc1d5a01dabb] model deployment ID: []
+2025-11-24 14:47:06.078 [info] ccreq:c6a95a9d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 265ms | [XtabProvider]
+2025-11-24 14:47:06.303 [info] ccreq:34376052.copilotmd | markdown
+2025-11-24 14:47:07.494 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:07.494 [info] request done: requestId: [48767c59-6b2c-471e-b1fb-8347193e073f] model deployment ID: []
+2025-11-24 14:47:07.495 [info] ccreq:7bd3a19a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 341ms | [XtabProvider]
+2025-11-24 14:47:07.496 [info] ccreq:a6791e5a.copilotmd | markdown
+2025-11-24 14:47:07.496 [info] ccreq:f86af5e9.copilotmd | markdown
+2025-11-24 14:47:07.496 [info] ccreq:8340d273.copilotmd | markdown
+2025-11-24 14:47:08.514 [info] ccreq:150d07a4.copilotmd | markdown
+2025-11-24 14:47:11.082 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:11.082 [info] request done: requestId: [a87c8af3-1bdf-4234-afd4-966fa0355c53] model deployment ID: []
+2025-11-24 14:47:11.083 [info] ccreq:22ef53ea.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 301ms | [XtabProvider]
+2025-11-24 14:47:12.084 [info] ccreq:9f16bf5e.copilotmd | markdown
+2025-11-24 14:47:13.113 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:13.113 [info] request done: requestId: [707ced33-5faa-4954-90c6-a7dabd6f5852] model deployment ID: []
+2025-11-24 14:47:13.114 [info] ccreq:fb38f85b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 263ms | [XtabProvider]
+2025-11-24 14:47:13.114 [info] ccreq:8085c24d.copilotmd | markdown
+2025-11-24 14:47:13.965 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:13.965 [info] request done: requestId: [b0291bdc-8c61-47c7-b2a1-bf77b9157f7b] model deployment ID: []
+2025-11-24 14:47:13.965 [info] ccreq:42e966d4.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 245ms | [XtabProvider]
+2025-11-24 14:47:13.965 [info] ccreq:f0bc7489.copilotmd | markdown
+2025-11-24 14:47:14.542 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:14.542 [info] request done: requestId: [630df779-62f5-478f-8845-858de0b174d5] model deployment ID: []
+2025-11-24 14:47:14.543 [info] ccreq:5c0465d3.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 255ms | [XtabProvider]
+2025-11-24 14:47:14.544 [info] ccreq:b8aff477.copilotmd | markdown
+2025-11-24 14:47:14.544 [info] ccreq:8b7b15bd.copilotmd | markdown
+2025-11-24 14:47:14.544 [info] ccreq:2745a66e.copilotmd | markdown
+2025-11-24 14:47:16.521 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:16.521 [info] request done: requestId: [13b65acb-17f4-4454-a7af-b8c34d316871] model deployment ID: []
+2025-11-24 14:47:16.522 [info] ccreq:c8ee0ba2.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 302ms | [XtabProvider]
+2025-11-24 14:47:16.522 [info] ccreq:5d0248ba.copilotmd | markdown
+2025-11-24 14:47:16.552 [info] ccreq:333f2bd9.copilotmd | markdown
+2025-11-24 14:47:18.929 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:18.929 [info] request done: requestId: [c962e447-dbd7-44bc-92e7-01bce960bb57] model deployment ID: []
+2025-11-24 14:47:18.930 [info] ccreq:40c13b99.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 279ms | [XtabProvider]
+2025-11-24 14:47:18.930 [info] ccreq:ebd751ad.copilotmd | markdown
+2025-11-24 14:47:19.804 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:19.804 [info] request done: requestId: [6de50676-842e-41f5-8cc9-67dc1e903f87] model deployment ID: []
+2025-11-24 14:47:19.805 [info] ccreq:a648c800.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 266ms | [XtabProvider]
+2025-11-24 14:47:19.805 [info] ccreq:3182f479.copilotmd | markdown
+2025-11-24 14:47:20.343 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:20.343 [info] request done: requestId: [f77e9c88-8ed3-4a3f-966c-7af20b2db2cc] model deployment ID: []
+2025-11-24 14:47:20.344 [info] ccreq:45521ef5.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 338ms | [XtabProvider]
+2025-11-24 14:47:21.344 [info] ccreq:8c9a6751.copilotmd | markdown
+2025-11-24 14:47:40.065 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:40.065 [info] request done: requestId: [6d4cf121-8991-404b-b3e4-e9eff3d95998] model deployment ID: []
+2025-11-24 14:47:40.201 [info] ccreq:61991dfe.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 399ms | [XtabProvider]
+2025-11-24 14:47:40.202 [info] ccreq:f7a95e02.copilotmd | markdown
+2025-11-24 14:47:40.202 [info] ccreq:364823a1.copilotmd | markdown
+2025-11-24 14:47:41.286 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:41.286 [info] request done: requestId: [91f38fe4-8a2c-4e43-824f-7cff384ac7e7] model deployment ID: []
+2025-11-24 14:47:41.287 [info] ccreq:2826a80e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 285ms | [XtabProvider]
+2025-11-24 14:47:41.471 [info] ccreq:a26232be.copilotmd | markdown
+2025-11-24 14:47:43.251 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:43.251 [info] request done: requestId: [9df15183-09f3-4400-984e-9a1d0bab786f] model deployment ID: []
+2025-11-24 14:47:43.251 [info] ccreq:5ce9638e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 266ms | [XtabProvider]
+2025-11-24 14:47:43.252 [info] ccreq:641757b9.copilotmd | markdown
+2025-11-24 14:47:57.395 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:47:57.395 [info] request done: requestId: [2729ee9b-6b14-401c-9c07-22c99858fce3] model deployment ID: []
+2025-11-24 14:47:57.395 [info] ccreq:2b2b4b1e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 409ms | [XtabProvider]
+2025-11-24 14:47:57.396 [info] ccreq:29e7e0af.copilotmd | markdown
+2025-11-24 14:47:57.396 [info] ccreq:56ea05d1.copilotmd | markdown
+2025-11-24 14:48:01.296 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:48:01.296 [info] request done: requestId: [e131fd26-7042-4989-b596-e15310e4b6c1] model deployment ID: []
+2025-11-24 14:48:01.296 [info] ccreq:f6e5b66d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 311ms | [XtabProvider]
+2025-11-24 14:48:01.297 [info] ccreq:24f69ab0.copilotmd | markdown
+2025-11-24 14:48:03.910 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:48:03.910 [info] request done: requestId: [2be84dcc-681c-44f5-b781-82682355a982] model deployment ID: []
+2025-11-24 14:48:03.910 [info] ccreq:17607db5.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 324ms | [XtabProvider]
+2025-11-24 14:48:03.911 [info] ccreq:447dc86a.copilotmd | markdown
+2025-11-24 14:48:04.371 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:48:04.371 [info] request done: requestId: [61c08058-0353-4e18-9d69-0973b47d20a9] model deployment ID: []
+2025-11-24 14:48:04.372 [info] ccreq:627a6e5a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 261ms | [XtabProvider]
+2025-11-24 14:48:05.372 [info] ccreq:8d4a958e.copilotmd | markdown
+2025-11-24 14:49:05.877 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:05.877 [info] request done: requestId: [453ea5bd-ec13-4c6e-ae96-f0d16e90382b] model deployment ID: []
+2025-11-24 14:49:06.005 [info] ccreq:0ca0b14a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 388ms | [XtabProvider]
+2025-11-24 14:49:06.005 [info] ccreq:ee0ecc55.copilotmd | markdown
+2025-11-24 14:49:06.005 [info] ccreq:fc91b903.copilotmd | markdown
+2025-11-24 14:49:06.539 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:06.539 [info] request done: requestId: [edb7d801-3d2c-486a-94bc-561204938f32] model deployment ID: []
+2025-11-24 14:49:06.540 [info] ccreq:0184aebb.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 334ms | [XtabProvider]
+2025-11-24 14:49:07.540 [info] ccreq:0c315214.copilotmd | markdown
+2025-11-24 14:49:08.248 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:08.248 [info] request done: requestId: [e9cf32af-a4f4-47f0-8891-4e92778a44d4] model deployment ID: []
+2025-11-24 14:49:08.249 [info] ccreq:5995eaf9.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 280ms | [XtabProvider]
+2025-11-24 14:49:08.249 [info] ccreq:36dae103.copilotmd | markdown
+2025-11-24 14:49:08.926 [info] ccreq:691aaf2c.copilotmd | markdown
+2025-11-24 14:49:10.179 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:10.179 [info] request done: requestId: [4cfbd251-3d05-41ab-b973-ac33b0288b50] model deployment ID: []
+2025-11-24 14:49:10.180 [info] ccreq:f1fba140.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 310ms | [XtabProvider]
+2025-11-24 14:49:10.267 [info] ccreq:2d6c30ca.copilotmd | markdown
+2025-11-24 14:49:10.806 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:10.806 [info] request done: requestId: [9305cc3c-8865-4cf9-91e5-be77ba985784] model deployment ID: []
+2025-11-24 14:49:10.806 [info] ccreq:5ed02c6a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 319ms | [XtabProvider]
+2025-11-24 14:49:11.807 [info] ccreq:59685d9a.copilotmd | markdown
+2025-11-24 14:49:12.932 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:12.932 [info] request done: requestId: [03a4daea-8771-48f1-862a-6a8ceea7cac3] model deployment ID: []
+2025-11-24 14:49:12.933 [info] ccreq:1c4c408d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 263ms | [XtabProvider]
+2025-11-24 14:49:12.933 [info] ccreq:26231626.copilotmd | markdown
+2025-11-24 14:49:15.429 [info] ccreq:0a08b60b.copilotmd | markdown
+2025-11-24 14:49:22.275 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:22.275 [info] request done: requestId: [63d55d6b-c0ec-41e8-85b2-c7137eeb2747] model deployment ID: []
+2025-11-24 14:49:22.276 [info] ccreq:23090263.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 538ms | [XtabProvider]
+2025-11-24 14:49:22.278 [info] ccreq:6a870e61.copilotmd | markdown
+2025-11-24 14:49:23.298 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:23.298 [info] request done: requestId: [66bc100c-252d-4294-8f08-cd3af62a5799] model deployment ID: []
+2025-11-24 14:49:23.299 [info] ccreq:5a43247d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 821ms | [XtabProvider]
+2025-11-24 14:49:23.356 [info] ccreq:07e6f528.copilotmd | markdown
+2025-11-24 14:49:24.461 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:24.461 [info] request done: requestId: [bcdd465a-5c8b-4d06-a97c-916489d9bfd3] model deployment ID: []
+2025-11-24 14:49:24.461 [info] ccreq:493aa39b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 769ms | [XtabProvider]
+2025-11-24 14:49:24.464 [info] ccreq:397f88f8.copilotmd | markdown
+2025-11-24 14:49:24.656 [info] ccreq:a30cfc48.copilotmd | markdown
+2025-11-24 14:49:25.953 [info] ccreq:7382fef8.copilotmd | markdown
+2025-11-24 14:49:27.126 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:27.126 [info] request done: requestId: [2e08ed35-7ce3-4b05-9b96-2e870f4526c2] model deployment ID: []
+2025-11-24 14:49:27.127 [info] ccreq:c65183ad.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 305ms | [XtabProvider]
+2025-11-24 14:49:27.151 [info] ccreq:29a69c74.copilotmd | markdown
+2025-11-24 14:49:36.482 [info] ccreq:e1c5136b.copilotmd | markdown
+2025-11-24 14:49:36.796 [info] request done: requestId: [ed705593-3b07-46c9-a83e-8b32f610aaf5] model deployment ID: []
+2025-11-24 14:49:53.883 [info] ccreq:199a01dd.copilotmd | markdown
+2025-11-24 14:49:53.884 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:49:53.885 [info] request done: requestId: [12cf3539-99f0-4414-b2c8-22974b938f2b] model deployment ID: []
+2025-11-24 14:49:53.885 [info] ccreq:747c10d9.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 658ms | [XtabProvider]
+2025-11-24 14:49:57.454 [info] ccreq:df8749cd.copilotmd | markdown
+2025-11-24 14:49:58.551 [info] ccreq:f9d96ba3.copilotmd | markdown
+2025-11-24 14:49:59.115 [info] ccreq:a1b26cc0.copilotmd | markdown
+2025-11-24 14:50:52.343 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:50:52.343 [info] request done: requestId: [43cae695-88af-447b-a76d-c0e506068890] model deployment ID: []
+2025-11-24 14:50:52.344 [info] ccreq:41cdb2f1.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 423ms | [XtabProvider]
+2025-11-24 14:50:52.344 [info] ccreq:80723ba4.copilotmd | markdown
+2025-11-24 14:50:55.198 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:50:55.198 [info] request done: requestId: [9013c95a-a8b5-433d-9e7c-807bf0cad972] model deployment ID: []
+2025-11-24 14:50:55.198 [info] ccreq:96ad010a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 460ms | [XtabProvider]
+2025-11-24 14:50:55.732 [info] ccreq:adcf41d0.copilotmd | markdown
+2025-11-24 14:50:55.881 [info] ccreq:ebc4233b.copilotmd | markdown
+2025-11-24 14:50:56.031 [info] ccreq:62bd156b.copilotmd | markdown
+2025-11-24 14:50:56.232 [info] ccreq:86d0d1f7.copilotmd | markdown
+2025-11-24 14:50:56.961 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:50:56.961 [info] request done: requestId: [1d242aa9-828e-4b08-b1ff-241118b3eef0] model deployment ID: []
+2025-11-24 14:50:56.962 [info] ccreq:e05be6db.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 526ms | [XtabProvider]
+2025-11-24 14:50:57.493 [info] ccreq:69f44ea2.copilotmd | markdown
+2025-11-24 14:51:10.763 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:10.763 [info] request done: requestId: [b6d2433a-32bf-42b2-9df7-839e72e8c1b1] model deployment ID: []
+2025-11-24 14:51:10.764 [info] ccreq:150f5612.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 390ms | [XtabProvider]
+2025-11-24 14:51:10.765 [info] ccreq:d9e31948.copilotmd | markdown
+2025-11-24 14:51:11.496 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:11.496 [info] request done: requestId: [37fb9a1c-3a60-4aa7-bcd5-4e0b237056e5] model deployment ID: []
+2025-11-24 14:51:11.497 [info] ccreq:4478f495.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 532ms | [XtabProvider]
+2025-11-24 14:51:11.497 [info] ccreq:e12f7f18.copilotmd | markdown
+2025-11-24 14:51:12.850 [info] ccreq:f76c605a.copilotmd | markdown
+2025-11-24 14:51:12.887 [info] ccreq:9a82b9e6.copilotmd | markdown
+2025-11-24 14:51:12.937 [info] request done: requestId: [4b678118-0c27-4b0a-81c5-ba96b57dac96] model deployment ID: []
+2025-11-24 14:51:13.658 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:13.658 [info] request done: requestId: [ad5c8a68-eb80-4605-8b19-c63d753e9e27] model deployment ID: []
+2025-11-24 14:51:13.659 [info] ccreq:2811757f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 422ms | [XtabProvider]
+2025-11-24 14:51:13.659 [info] ccreq:b5a6c4ff.copilotmd | markdown
+2025-11-24 14:51:13.659 [info] ccreq:0f2b4ed1.copilotmd | markdown
+2025-11-24 14:51:13.659 [info] ccreq:12d07ceb.copilotmd | markdown
+2025-11-24 14:51:15.758 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:15.758 [info] request done: requestId: [007fcb67-b332-4c15-af46-6c982d6cbb91] model deployment ID: []
+2025-11-24 14:51:15.759 [info] ccreq:51ba9619.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 505ms | [XtabProvider]
+2025-11-24 14:51:15.759 [info] ccreq:bca3140c.copilotmd | markdown
+2025-11-24 14:51:17.122 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:17.122 [info] request done: requestId: [a2e02bfa-c944-4ce6-831f-ef7e3a7469db] model deployment ID: []
+2025-11-24 14:51:17.123 [info] ccreq:a4359005.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 469ms | [XtabProvider]
+2025-11-24 14:51:17.124 [info] ccreq:fdfc6bfc.copilotmd | markdown
+2025-11-24 14:51:17.124 [info] ccreq:261b8d62.copilotmd | markdown
+2025-11-24 14:51:18.982 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:18.982 [info] request done: requestId: [06f2c2a0-6d76-49a6-add6-ff46c5144d54] model deployment ID: []
+2025-11-24 14:51:18.982 [info] ccreq:c68783c3.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 694ms | [XtabProvider]
+2025-11-24 14:51:18.983 [info] ccreq:4b97f254.copilotmd | markdown
+2025-11-24 14:51:18.983 [info] ccreq:012ee8c2.copilotmd | markdown
+2025-11-24 14:51:21.135 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:21.135 [info] request done: requestId: [61e99ac8-afe3-4d7b-8bab-de7b1304ace4] model deployment ID: []
+2025-11-24 14:51:21.136 [info] ccreq:9709680f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 582ms | [XtabProvider]
+2025-11-24 14:51:21.584 [info] ccreq:f56e0915.copilotmd | markdown
+2025-11-24 14:51:23.790 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:23.790 [info] request done: requestId: [47ff0b13-0858-48ea-9664-008770131ca4] model deployment ID: []
+2025-11-24 14:51:23.791 [info] ccreq:43f4233e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 387ms | [XtabProvider]
+2025-11-24 14:51:23.791 [info] ccreq:e03f2f85.copilotmd | markdown
+2025-11-24 14:51:24.549 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:24.549 [info] request done: requestId: [a5435575-42e4-467e-94a0-f5114c36acef] model deployment ID: []
+2025-11-24 14:51:24.550 [info] ccreq:218ccede.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 558ms | [XtabProvider]
+2025-11-24 14:51:24.741 [info] ccreq:730ab62b.copilotmd | markdown
+2025-11-24 14:51:24.933 [info] ccreq:0d130549.copilotmd | markdown
+2025-11-24 14:51:25.634 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:25.634 [info] request done: requestId: [9c38b782-4dec-47cc-8927-d56285367990] model deployment ID: []
+2025-11-24 14:51:25.634 [info] ccreq:5c898cc8.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 479ms | [XtabProvider]
+2025-11-24 14:51:25.635 [info] ccreq:b562e9d9.copilotmd | markdown
+2025-11-24 14:51:26.635 [info] ccreq:9672732a.copilotmd | markdown
+2025-11-24 14:51:28.178 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:28.178 [info] request done: requestId: [82a398f8-c594-44e1-907d-0e36ab30ae43] model deployment ID: []
+2025-11-24 14:51:28.178 [info] ccreq:c0eee9b8.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 388ms | [XtabProvider]
+2025-11-24 14:51:28.458 [info] ccreq:26ce4a03.copilotmd | markdown
+2025-11-24 14:51:38.706 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:38.706 [info] request done: requestId: [75850026-0d6c-43d6-b9dd-55d72a10c4da] model deployment ID: []
+2025-11-24 14:51:38.707 [info] ccreq:76fd0920.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 547ms | [XtabProvider]
+2025-11-24 14:51:38.784 [info] ccreq:98016656.copilotmd | markdown
+2025-11-24 14:51:39.604 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:39.604 [info] request done: requestId: [0345f7d8-0d7a-42f2-b4c3-010dde6abd19] model deployment ID: []
+2025-11-24 14:51:39.605 [info] ccreq:e0a8fca5.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 596ms | [XtabProvider]
+2025-11-24 14:51:39.605 [info] ccreq:39eda406.copilotmd | markdown
+2025-11-24 14:51:41.129 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:41.129 [info] request done: requestId: [657fbd8d-c8a4-49ed-9a41-d31c2a7869c3] model deployment ID: []
+2025-11-24 14:51:41.130 [info] ccreq:8c50c3e2.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 348ms | [XtabProvider]
+2025-11-24 14:51:42.130 [info] ccreq:aa30f9d1.copilotmd | markdown
+2025-11-24 14:51:44.307 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:51:44.307 [info] request done: requestId: [2336211c-989f-44d8-ba8e-6b16c052baf3] model deployment ID: []
+2025-11-24 14:51:44.307 [info] ccreq:96be58ee.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 312ms | [XtabProvider]
+2025-11-24 14:51:44.765 [info] ccreq:88a60ae3.copilotmd | markdown
+2025-11-24 14:52:11.560 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:11.560 [info] request done: requestId: [ae28a9a3-7986-4942-8acb-17e54e8fea8d] model deployment ID: []
+2025-11-24 14:52:11.701 [info] ccreq:db93e18f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 461ms | [XtabProvider]
+2025-11-24 14:52:11.702 [info] ccreq:517b222a.copilotmd | markdown
+2025-11-24 14:52:16.519 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:16.520 [info] request done: requestId: [3d0caae4-2a09-4d6d-8b2f-b238dbe3addb] model deployment ID: []
+2025-11-24 14:52:16.520 [info] ccreq:d13bdcc1.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 348ms | [XtabProvider]
+2025-11-24 14:52:16.521 [info] ccreq:8bd7a7bb.copilotmd | markdown
+2025-11-24 14:52:18.002 [info] request done: requestId: [530f8ad6-3f90-4534-9aa6-aac13b8d1d19] model deployment ID: []
+2025-11-24 14:52:18.004 [info] ccreq:f9d2c4d8.copilotmd | markdown
+2025-11-24 14:52:20.082 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:20.082 [info] request done: requestId: [2980b1d0-0d5f-4525-bd15-6f7e5eb6da5d] model deployment ID: []
+2025-11-24 14:52:20.083 [info] ccreq:4ab34a1b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 426ms | [XtabProvider]
+2025-11-24 14:52:20.084 [info] ccreq:6a5f73a6.copilotmd | markdown
+2025-11-24 14:52:20.598 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:20.598 [info] request done: requestId: [8815edc5-e767-45cb-8cc4-8a40adf7d4c7] model deployment ID: []
+2025-11-24 14:52:20.598 [info] ccreq:856db5e0.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 315ms | [XtabProvider]
+2025-11-24 14:52:21.411 [info] ccreq:4a7c2df1.copilotmd | markdown
+2025-11-24 14:52:22.542 [info] ccreq:44f7e80d.copilotmd | markdown
+2025-11-24 14:52:22.817 [info] request done: requestId: [b98d61af-94c3-4ca4-b411-ac4f33afc69a] model deployment ID: []
+2025-11-24 14:52:24.255 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:24.255 [info] request done: requestId: [315ac359-13c1-4f54-b656-d6d4604fa2e0] model deployment ID: []
+2025-11-24 14:52:24.256 [info] ccreq:8c37e01a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 298ms | [XtabProvider]
+2025-11-24 14:52:24.257 [info] ccreq:b7fb39a7.copilotmd | markdown
+2025-11-24 14:52:25.691 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:25.691 [info] request done: requestId: [e466c54c-22da-4df7-b41d-c003a9a77ab9] model deployment ID: []
+2025-11-24 14:52:25.691 [info] ccreq:229e4edf.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 342ms | [XtabProvider]
+2025-11-24 14:52:25.962 [info] ccreq:c2a683d3.copilotmd | markdown
+2025-11-24 14:52:42.183 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:42.183 [info] request done: requestId: [9232012b-301d-47e3-b172-7dc4da7bf12e] model deployment ID: []
+2025-11-24 14:52:42.295 [info] ccreq:1f5c1e30.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 427ms | [XtabProvider]
+2025-11-24 14:52:42.531 [info] ccreq:1ea6c65f.copilotmd | markdown
+2025-11-24 14:52:47.489 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:47.489 [info] request done: requestId: [35a750d0-1a1c-4363-a917-478f50b57cd3] model deployment ID: []
+2025-11-24 14:52:47.489 [info] ccreq:a6811ffa.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 302ms | [XtabProvider]
+2025-11-24 14:52:47.489 [info] ccreq:42d9e719.copilotmd | markdown
+2025-11-24 14:52:54.022 [info] ccreq:45dd6eab.copilotmd | markdown
+2025-11-24 14:52:54.591 [info] request done: requestId: [017e20a6-14cd-462e-974e-df02fb4ab4fe] model deployment ID: []
+2025-11-24 14:52:57.766 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:52:57.766 [info] request done: requestId: [8aa5d753-9cb8-4d0e-8b54-afd1f8a22064] model deployment ID: []
+2025-11-24 14:52:57.766 [info] ccreq:bcb16479.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 560ms | [XtabProvider]
+2025-11-24 14:52:57.767 [info] ccreq:a6d4e0e1.copilotmd | markdown
+2025-11-24 14:53:02.326 [info] ccreq:66eb5b71.copilotmd | markdown
+2025-11-24 14:53:02.326 [info] ccreq:11137c4d.copilotmd | markdown
+2025-11-24 14:53:02.327 [info] request done: requestId: [22541666-49be-490c-a1a8-b254a03b8bee] model deployment ID: []
+2025-11-24 14:53:02.327 [info] ccreq:df7ed5d7.copilotmd | unknown | copilot-nes-oct | 815ms | [XtabProvider]
+2025-11-24 14:53:02.909 [info] ccreq:1b665569.copilotmd | markdown
+2025-11-24 14:53:02.910 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:53:02.910 [info] request done: requestId: [ce96c0a1-bedc-4658-9a5d-8de9ac9e98b9] model deployment ID: []
+2025-11-24 14:53:02.911 [info] ccreq:33b40761.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 385ms | [XtabProvider]
+2025-11-24 14:53:49.900 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:53:49.900 [info] request done: requestId: [28b2167f-151a-444d-bf27-5c351bbf15b1] model deployment ID: []
+2025-11-24 14:53:49.901 [info] ccreq:7ef2b15c.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 544ms | [XtabProvider]
+2025-11-24 14:53:50.901 [info] ccreq:530f3ad7.copilotmd | markdown
+2025-11-24 14:53:51.942 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:53:51.942 [info] request done: requestId: [1cb7e49c-a0c7-4f01-8113-830d6ccb15de] model deployment ID: []
+2025-11-24 14:53:51.942 [info] ccreq:62df9eef.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 519ms | [XtabProvider]
+2025-11-24 14:53:51.943 [info] ccreq:388a05cc.copilotmd | markdown
+2025-11-24 14:53:51.943 [info] ccreq:0cf73948.copilotmd | markdown
+2025-11-24 14:53:51.943 [info] ccreq:20e124c6.copilotmd | markdown
+2025-11-24 14:53:53.265 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:53:53.265 [info] request done: requestId: [91b0e194-76dc-429b-97ef-7e184895bcb7] model deployment ID: []
+2025-11-24 14:53:53.266 [info] ccreq:26dcbfff.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 564ms | [XtabProvider]
+2025-11-24 14:53:53.266 [info] ccreq:07e58f7d.copilotmd | markdown
+2025-11-24 14:53:54.266 [info] ccreq:a412c269.copilotmd | markdown
+2025-11-24 14:54:00.310 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:00.310 [info] request done: requestId: [077df8dd-ded7-42ae-9fdb-f840eb763cf3] model deployment ID: []
+2025-11-24 14:54:00.310 [info] ccreq:d1ce9ca9.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 852ms | [XtabProvider]
+2025-11-24 14:54:00.311 [info] ccreq:6da2f926.copilotmd | markdown
+2025-11-24 14:54:01.904 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:01.904 [info] request done: requestId: [926a0b33-fb22-4f95-96f5-90875751975c] model deployment ID: []
+2025-11-24 14:54:01.905 [info] ccreq:a9a0b96e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 409ms | [XtabProvider]
+2025-11-24 14:54:01.905 [info] ccreq:a308051c.copilotmd | markdown
+2025-11-24 14:54:09.451 [info] ccreq:1a2c617c.copilotmd | markdown
+2025-11-24 14:54:13.222 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:13.222 [info] request done: requestId: [aec6dcde-62fe-42e1-a724-d1e33e16d82b] model deployment ID: []
+2025-11-24 14:54:13.223 [info] ccreq:6494c17d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 361ms | [XtabProvider]
+2025-11-24 14:54:13.285 [info] ccreq:c9ca310f.copilotmd | markdown
+2025-11-24 14:54:16.260 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:16.260 [info] request done: requestId: [be4a103f-874f-4880-ac0c-bed0cd56ef8a] model deployment ID: []
+2025-11-24 14:54:16.261 [info] ccreq:6f9b5d5d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 443ms | [XtabProvider]
+2025-11-24 14:54:17.261 [info] ccreq:68412d6d.copilotmd | markdown
+2025-11-24 14:54:40.199 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:40.200 [info] request done: requestId: [00911450-1eeb-426f-a6d6-aab6aeeb7c7a] model deployment ID: []
+2025-11-24 14:54:40.332 [info] ccreq:8f3733b3.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 410ms | [XtabProvider]
+2025-11-24 14:54:40.333 [info] ccreq:a9c0648b.copilotmd | markdown
+2025-11-24 14:54:42.357 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:42.357 [info] request done: requestId: [ec5efef0-7204-446e-9360-24bc5b5cd71e] model deployment ID: []
+2025-11-24 14:54:42.358 [info] ccreq:56e209d0.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 284ms | [XtabProvider]
+2025-11-24 14:54:42.405 [info] ccreq:24f73801.copilotmd | markdown
+2025-11-24 14:54:43.712 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:54:43.712 [info] request done: requestId: [85ffacae-8ea5-4083-8d00-41e2b8887a44] model deployment ID: []
+2025-11-24 14:54:43.712 [info] ccreq:b0e033a3.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 327ms | [XtabProvider]
+2025-11-24 14:54:43.713 [info] ccreq:ca09574f.copilotmd | markdown
+2025-11-24 14:55:05.488 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:55:05.488 [info] request done: requestId: [ee44201d-104b-4848-9efe-ed7f3b4407c4] model deployment ID: []
+2025-11-24 14:55:05.488 [info] ccreq:68026ea1.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 414ms | [XtabProvider]
+2025-11-24 14:55:05.488 [info] ccreq:2e1aeee2.copilotmd | markdown
+2025-11-24 14:55:11.532 [info] ccreq:5e5fe2d9.copilotmd | markdown
+2025-11-24 14:55:12.533 [info] ccreq:0614de26.copilotmd | markdown
+2025-11-24 14:55:46.465 [info] Fetched model metadata in 495ms 2acf1f63-f4ed-4a70-87c3-fdc4362671bb
+2025-11-24 14:55:46.569 [info] ccreq:b669a079.copilotmd | markdown
+2025-11-24 14:55:46.819 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 14:55:46.819 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 14:55:55.508 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 14:55:55.508 [info] request done: requestId: [173f27af-fd4b-4e59-8015-721ecbba4408] model deployment ID: []
+2025-11-24 14:55:55.508 [info] ccreq:cac49672.copilotmd | success | claude-sonnet-4.5 | 8634ms | [panel/editAgent]
+2025-11-24 14:56:24.203 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:56:24.203 [info] request done: requestId: [173f27af-fd4b-4e59-8015-721ecbba4408] model deployment ID: []
+2025-11-24 14:56:24.204 [info] ccreq:deb5e36a.copilotmd | success | claude-sonnet-4.5 | 4725ms | [panel/editAgent]
+2025-11-24 14:56:24.856 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:56:24.856 [info] request done: requestId: [2d304464-8d06-43a8-8860-34b595aa4eca] model deployment ID: []
+2025-11-24 14:56:24.856 [info] ccreq:db3e6122.copilotmd | success | gpt-4o-mini -> gpt-4o-mini-2024-07-18 | 614ms | [title]
+2025-11-24 14:56:55.455 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:56:55.455 [info] request done: requestId: [f73a8eb0-05a0-4893-912d-a856a42f9c64] model deployment ID: []
+2025-11-24 14:56:55.456 [info] ccreq:551a783f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 604ms | [XtabProvider]
+2025-11-24 14:56:55.457 [info] ccreq:432ce84e.copilotmd | markdown
+2025-11-24 14:56:55.457 [info] ccreq:952b883f.copilotmd | markdown
+2025-11-24 14:56:55.457 [info] ccreq:7d421eda.copilotmd | markdown
+2025-11-24 14:56:55.457 [info] ccreq:1f1a584e.copilotmd | markdown
+2025-11-24 14:56:56.896 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:56:56.896 [info] request done: requestId: [97b8e759-ac6f-40f8-8c60-a78945202024] model deployment ID: []
+2025-11-24 14:56:56.897 [info] ccreq:de81a685.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 726ms | [XtabProvider]
+2025-11-24 14:56:56.898 [info] ccreq:b84679b9.copilotmd | markdown
+2025-11-24 14:56:56.898 [info] ccreq:04a72d16.copilotmd | markdown
+2025-11-24 14:56:56.898 [info] ccreq:a875674a.copilotmd | markdown
+2025-11-24 14:56:56.898 [info] ccreq:6f117a46.copilotmd | markdown
+2025-11-24 14:56:56.898 [info] ccreq:b5ceaea2.copilotmd | markdown
+2025-11-24 14:56:57.662 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:56:57.662 [info] request done: requestId: [160cae51-3f6e-475d-ab3c-4813fdc0f49c] model deployment ID: []
+2025-11-24 14:56:57.663 [info] ccreq:2051804b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 565ms | [XtabProvider]
+2025-11-24 14:56:57.718 [info] ccreq:8c88135d.copilotmd | markdown
+2025-11-24 14:57:05.096 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:57:05.096 [info] request done: requestId: [2b204cde-c632-448a-8dda-80efa62a321d] model deployment ID: []
+2025-11-24 14:57:05.096 [info] ccreq:6f630f2e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 368ms | [XtabProvider]
+2025-11-24 14:57:05.233 [info] ccreq:b78bb0f3.copilotmd | markdown
+2025-11-24 14:57:10.841 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:57:10.841 [info] request done: requestId: [0546d40d-7f9e-4e2c-a117-ab766e90170a] model deployment ID: []
+2025-11-24 14:57:10.841 [info] ccreq:79a2df94.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 501ms | [XtabProvider]
+2025-11-24 14:57:10.842 [info] ccreq:9aaf6213.copilotmd | markdown
+2025-11-24 14:58:42.369 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 14:58:42.369 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 14:58:53.177 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 14:58:53.177 [info] request done: requestId: [556d684b-5618-40d3-8505-6c213115ec32] model deployment ID: []
+2025-11-24 14:58:53.177 [info] ccreq:95fcefa0.copilotmd | success | claude-sonnet-4.5 | 10753ms | [panel/editAgent]
+2025-11-24 14:59:26.729 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:59:26.730 [info] request done: requestId: [55b88bc4-2aa6-47c0-ac35-db8e6e2781ca] model deployment ID: []
+2025-11-24 14:59:26.730 [info] ccreq:2e4531fd.copilotmd | success | gpt-4.1 -> gpt-4.1-2025-04-14 | 499ms | [settingsEditorSearchSuggestions]
+2025-11-24 14:59:30.086 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 14:59:30.086 [info] request done: requestId: [556d684b-5618-40d3-8505-6c213115ec32] model deployment ID: []
+2025-11-24 14:59:30.087 [info] ccreq:538ddd46.copilotmd | success | claude-sonnet-4.5 | 7631ms | [panel/editAgent]
+2025-11-24 14:59:43.383 [info] message 0 returned. finish reason: [stop]
+2025-11-24 14:59:43.383 [info] request done: requestId: [556d684b-5618-40d3-8505-6c213115ec32] model deployment ID: []
+2025-11-24 14:59:43.384 [info] ccreq:b56b5742.copilotmd | success | claude-sonnet-4.5 | 4514ms | [panel/editAgent]
+2025-11-24 15:00:05.121 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:05.121 [info] request done: requestId: [d07527a5-bffb-4d3a-9807-535475191b45] model deployment ID: []
+2025-11-24 15:00:05.122 [info] ccreq:70144636.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 720ms | [XtabProvider]
+2025-11-24 15:00:05.901 [info] ccreq:bdd962fc.copilotmd | markdown
+2025-11-24 15:00:08.233 [info] request done: requestId: [a04c4b4c-19a3-442b-b250-2c24bf78913d] model deployment ID: []
+2025-11-24 15:00:08.235 [info] ccreq:07b0470a.copilotmd | markdown
+2025-11-24 15:00:08.235 [info] ccreq:9079cf3d.copilotmd | markdown
+2025-11-24 15:00:08.235 [info] ccreq:9a1fd711.copilotmd | markdown
+2025-11-24 15:00:08.235 [info] ccreq:cd303e8b.copilotmd | markdown
+2025-11-24 15:00:08.235 [info] ccreq:4d234fa2.copilotmd | markdown
+2025-11-24 15:00:09.761 [info] ccreq:603397fe.copilotmd | markdown
+2025-11-24 15:00:09.761 [info] ccreq:e199b05c.copilotmd | markdown
+2025-11-24 15:00:09.778 [info] request done: requestId: [290a7d92-d4bc-46ec-b6a3-a961a98f8f66] model deployment ID: []
+2025-11-24 15:00:15.811 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:15.811 [info] request done: requestId: [d9238421-e179-474e-9e97-07d1c0343fc3] model deployment ID: []
+2025-11-24 15:00:15.812 [info] ccreq:f460f4cc.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 765ms | [XtabProvider]
+2025-11-24 15:00:16.812 [info] ccreq:e82cf06f.copilotmd | markdown
+2025-11-24 15:00:19.727 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:19.727 [info] request done: requestId: [84babe65-a934-4923-8c4d-34e51aa02e59] model deployment ID: []
+2025-11-24 15:00:19.727 [info] ccreq:89866aa2.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 823ms | [XtabProvider]
+2025-11-24 15:00:19.728 [info] ccreq:67af4971.copilotmd | markdown
+2025-11-24 15:00:21.238 [info] ccreq:00d216b3.copilotmd | markdown
+2025-11-24 15:00:21.238 [info] ccreq:cfbc500c.copilotmd | markdown
+2025-11-24 15:00:21.238 [info] ccreq:6c745500.copilotmd | markdown
+2025-11-24 15:00:21.239 [info] request done: requestId: [2d62f49b-e851-4151-bb90-869410570835] model deployment ID: []
+2025-11-24 15:00:21.239 [info] ccreq:71cb5451.copilotmd | unknown | copilot-nes-oct | 837ms | [XtabProvider]
+2025-11-24 15:00:22.427 [info] ccreq:9619ba1c.copilotmd | markdown
+2025-11-24 15:00:22.427 [info] ccreq:5ed775c5.copilotmd | markdown
+2025-11-24 15:00:22.427 [info] ccreq:21146595.copilotmd | markdown
+2025-11-24 15:00:22.427 [info] request done: requestId: [53fdb863-0040-400d-b1a3-f00194fbd6c5] model deployment ID: []
+2025-11-24 15:00:22.427 [info] ccreq:da0aab8d.copilotmd | unknown | copilot-nes-oct | 608ms | [XtabProvider]
+2025-11-24 15:00:23.833 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:23.833 [info] request done: requestId: [e8d68f9c-3a3f-4e04-96bd-3c0f7938fff1] model deployment ID: []
+2025-11-24 15:00:23.833 [info] ccreq:5a048e6e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 831ms | [XtabProvider]
+2025-11-24 15:00:23.834 [info] ccreq:4214f792.copilotmd | markdown
+2025-11-24 15:00:23.834 [info] ccreq:d4cd4a13.copilotmd | markdown
+2025-11-24 15:00:24.932 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:24.932 [info] request done: requestId: [0d63a608-a1df-46ff-98cd-e8414fb1ca4d] model deployment ID: []
+2025-11-24 15:00:24.932 [info] ccreq:f61fbc7b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 897ms | [XtabProvider]
+2025-11-24 15:00:25.934 [info] ccreq:11d94025.copilotmd | markdown
+2025-11-24 15:00:28.389 [info] ccreq:f41564c5.copilotmd | markdown
+2025-11-24 15:00:28.542 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:28.542 [info] request done: requestId: [712fe12c-08e4-476b-9982-4091ba0a2e6d] model deployment ID: []
+2025-11-24 15:00:28.542 [info] ccreq:8e867b00.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1339ms | [XtabProvider]
+2025-11-24 15:00:31.067 [info] ccreq:47b07992.copilotmd | markdown
+2025-11-24 15:00:41.395 [info] ccreq:c72fae98.copilotmd | markdown
+2025-11-24 15:00:42.123 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:42.123 [info] request done: requestId: [2bf125a0-63c3-4bb6-b3db-abd5b73168b1] model deployment ID: []
+2025-11-24 15:00:42.124 [info] ccreq:e0d494cc.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1781ms | [XtabProvider]
+2025-11-24 15:00:44.391 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:44.391 [info] request done: requestId: [98d7b3f6-07bd-4b89-8868-2a3553d9d23b] model deployment ID: []
+2025-11-24 15:00:44.391 [info] ccreq:727e0ffb.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 566ms | [XtabProvider]
+2025-11-24 15:00:45.393 [info] ccreq:c0f96955.copilotmd | markdown
+2025-11-24 15:00:48.579 [info] ccreq:932cf8d5.copilotmd | markdown
+2025-11-24 15:00:49.900 [info] ccreq:5d69fdd6.copilotmd | markdown
+2025-11-24 15:00:53.784 [info] ccreq:c3d7c4c6.copilotmd | markdown
+2025-11-24 15:00:53.784 [info] ccreq:40863e1b.copilotmd | markdown
+2025-11-24 15:00:53.785 [info] request done: requestId: [cfdd5061-f693-4dd1-9cc3-08e3179c543c] model deployment ID: []
+2025-11-24 15:00:53.785 [info] ccreq:6276c6bc.copilotmd | unknown | copilot-nes-oct | 761ms | [XtabProvider]
+2025-11-24 15:00:54.360 [info] ccreq:65d5ccce.copilotmd | markdown
+2025-11-24 15:00:54.492 [info] ccreq:e12be5bb.copilotmd | markdown
+2025-11-24 15:00:56.013 [info] ccreq:f8aed835.copilotmd | markdown
+2025-11-24 15:00:56.013 [info] ccreq:f9ae0023.copilotmd | markdown
+2025-11-24 15:00:56.013 [info] ccreq:68110e3a.copilotmd | markdown
+2025-11-24 15:00:56.013 [info] ccreq:88ca2f8b.copilotmd | markdown
+2025-11-24 15:00:56.013 [info] ccreq:10a393fd.copilotmd | markdown
+2025-11-24 15:00:56.076 [info] request done: requestId: [abe89f5e-ee49-4294-a836-201e3d087fbd] model deployment ID: []
+2025-11-24 15:00:57.318 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:00:57.318 [info] request done: requestId: [f5729c94-ff86-467d-ba16-ecaf812004f1] model deployment ID: []
+2025-11-24 15:00:57.319 [info] ccreq:1fdb4f81.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 502ms | [XtabProvider]
+2025-11-24 15:00:57.408 [info] ccreq:160fcf5e.copilotmd | markdown
+2025-11-24 15:00:59.143 [info] ccreq:66032ea9.copilotmd | markdown
+2025-11-24 15:01:00.109 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:00.109 [info] request done: requestId: [558978a8-9d11-46f5-8839-6e2022fd249e] model deployment ID: []
+2025-11-24 15:01:00.109 [info] ccreq:20ad9659.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1346ms | [XtabProvider]
+2025-11-24 15:01:02.681 [info] ccreq:786d186f.copilotmd | markdown
+2025-11-24 15:01:02.789 [info] ccreq:19324b09.copilotmd | markdown
+2025-11-24 15:01:02.823 [info] ccreq:4aef36ac.copilotmd | markdown
+2025-11-24 15:01:02.908 [info] ccreq:70476453.copilotmd | markdown
+2025-11-24 15:01:02.915 [info] ccreq:bf0e4213.copilotmd | markdown
+2025-11-24 15:01:03.028 [info] ccreq:5c861aee.copilotmd | markdown
+2025-11-24 15:01:04.533 [info] ccreq:d9efe668.copilotmd | markdown
+2025-11-24 15:01:04.763 [info] ccreq:98273fb0.copilotmd | markdown
+2025-11-24 15:01:04.891 [info] ccreq:f9b7203b.copilotmd | markdown
+2025-11-24 15:01:05.315 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:05.315 [info] request done: requestId: [75e78782-039d-4b73-9640-be9ca916868c] model deployment ID: []
+2025-11-24 15:01:05.315 [info] ccreq:b3f75bb4.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 529ms | [XtabProvider]
+2025-11-24 15:01:06.317 [info] ccreq:3f23a2b2.copilotmd | markdown
+2025-11-24 15:01:08.251 [info] ccreq:578e8a54.copilotmd | markdown
+2025-11-24 15:01:08.576 [info] request done: requestId: [9e3c9a04-2118-46f3-88a5-d1346035d75f] model deployment ID: []
+2025-11-24 15:01:13.935 [info] ccreq:80188250.copilotmd | markdown
+2025-11-24 15:01:17.458 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:17.458 [info] request done: requestId: [44ffaa51-fa72-4345-8742-7a7da9b39f32] model deployment ID: []
+2025-11-24 15:01:17.458 [info] ccreq:3b210bf8.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 454ms | [XtabProvider]
+2025-11-24 15:01:18.459 [info] ccreq:fb7ac782.copilotmd | markdown
+2025-11-24 15:01:19.501 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:19.501 [info] request done: requestId: [c8303907-b976-4ae3-8f38-e5c857ef201c] model deployment ID: []
+2025-11-24 15:01:19.502 [info] ccreq:1eb845c1.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 511ms | [XtabProvider]
+2025-11-24 15:01:20.502 [info] ccreq:2b1fd1ce.copilotmd | markdown
+2025-11-24 15:01:40.328 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:40.328 [info] request done: requestId: [f5939331-4ed6-47b2-b7d8-822f936a4a89] model deployment ID: []
+2025-11-24 15:01:40.329 [info] ccreq:93854e89.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 597ms | [XtabProvider]
+2025-11-24 15:01:40.329 [info] ccreq:4b86d528.copilotmd | markdown
+2025-11-24 15:01:41.234 [info] ccreq:08b53374.copilotmd | markdown
+2025-11-24 15:01:42.234 [info] ccreq:0cdc6fbe.copilotmd | markdown
+2025-11-24 15:01:44.524 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:44.524 [info] request done: requestId: [041ac6eb-0ceb-4add-8bb1-a5aa47bccba1] model deployment ID: []
+2025-11-24 15:01:44.525 [info] ccreq:38cbd3e0.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 330ms | [XtabProvider]
+2025-11-24 15:01:44.656 [info] ccreq:5651cab9.copilotmd | markdown
+2025-11-24 15:01:46.563 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:46.563 [info] request done: requestId: [c2dd6474-c841-474f-a469-de104d65b31c] model deployment ID: []
+2025-11-24 15:01:46.564 [info] ccreq:91cf55a6.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 763ms | [XtabProvider]
+2025-11-24 15:01:47.564 [info] ccreq:9f057108.copilotmd | markdown
+2025-11-24 15:01:48.383 [info] ccreq:0149791b.copilotmd | markdown
+2025-11-24 15:01:48.434 [info] ccreq:c7261205.copilotmd | markdown
+2025-11-24 15:01:48.450 [info] ccreq:281052c6.copilotmd | markdown
+2025-11-24 15:01:49.239 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:49.239 [info] request done: requestId: [92e63702-8240-423d-a310-a9d0111de0b5] model deployment ID: []
+2025-11-24 15:01:49.240 [info] ccreq:23ae59b3.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 440ms | [XtabProvider]
+2025-11-24 15:01:49.240 [info] ccreq:6820af91.copilotmd | markdown
+2025-11-24 15:01:49.527 [info] ccreq:c7dbd232.copilotmd | markdown
+2025-11-24 15:01:50.364 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:50.364 [info] request done: requestId: [90134656-0c75-4aaa-8ac4-ca0e310c09ba] model deployment ID: []
+2025-11-24 15:01:50.364 [info] ccreq:441d32b1.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 571ms | [XtabProvider]
+2025-11-24 15:01:50.365 [info] ccreq:d0c88d5e.copilotmd | markdown
+2025-11-24 15:01:50.365 [info] ccreq:80d0d55a.copilotmd | markdown
+2025-11-24 15:01:50.536 [info] ccreq:e03c771c.copilotmd | markdown
+2025-11-24 15:01:51.302 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:51.302 [info] request done: requestId: [a05e9d74-34e8-4867-9f5b-980f76a3ea80] model deployment ID: []
+2025-11-24 15:01:51.303 [info] ccreq:c4969336.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 625ms | [XtabProvider]
+2025-11-24 15:01:51.303 [info] ccreq:28246e0b.copilotmd | markdown
+2025-11-24 15:01:52.884 [info] ccreq:19a513d2.copilotmd | markdown
+2025-11-24 15:01:53.939 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:53.939 [info] request done: requestId: [461a6c4f-c829-49c0-958c-305e2cbad8bb] model deployment ID: []
+2025-11-24 15:01:53.939 [info] ccreq:0b79b95d.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 664ms | [XtabProvider]
+2025-11-24 15:01:54.116 [info] ccreq:4453f8e9.copilotmd | markdown
+2025-11-24 15:01:55.170 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:55.170 [info] request done: requestId: [50b40373-9fbf-4c02-b480-33a3ea09a1ec] model deployment ID: []
+2025-11-24 15:01:55.171 [info] ccreq:32771b26.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 921ms | [XtabProvider]
+2025-11-24 15:01:56.171 [info] ccreq:6429d935.copilotmd | markdown
+2025-11-24 15:01:57.312 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:57.312 [info] request done: requestId: [a155a19e-743d-45e6-9d08-15b69c9aeaec] model deployment ID: []
+2025-11-24 15:01:57.313 [info] ccreq:b6b87527.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 813ms | [XtabProvider]
+2025-11-24 15:01:57.477 [info] ccreq:62e12ed6.copilotmd | markdown
+2025-11-24 15:01:58.489 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:58.489 [info] request done: requestId: [40eda7b1-2a71-4efe-b2fc-237e7a44936b] model deployment ID: []
+2025-11-24 15:01:58.489 [info] ccreq:b6c1085a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 734ms | [XtabProvider]
+2025-11-24 15:01:58.491 [info] ccreq:faeba84e.copilotmd | markdown
+2025-11-24 15:01:58.491 [info] ccreq:95f3a042.copilotmd | markdown
+2025-11-24 15:01:59.200 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:01:59.200 [info] request done: requestId: [f8be1283-3876-4775-a866-472f9bf27591] model deployment ID: []
+2025-11-24 15:01:59.200 [info] ccreq:4bbe6181.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 576ms | [XtabProvider]
+2025-11-24 15:01:59.201 [info] ccreq:68b3e13f.copilotmd | markdown
+2025-11-24 15:01:59.201 [info] ccreq:3d99c6de.copilotmd | markdown
+2025-11-24 15:02:00.050 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:00.050 [info] request done: requestId: [8c20a4a2-5e41-4856-91e7-80106b561be9] model deployment ID: []
+2025-11-24 15:02:00.050 [info] ccreq:5d064b7a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 663ms | [XtabProvider]
+2025-11-24 15:02:00.052 [info] ccreq:8dc92005.copilotmd | markdown
+2025-11-24 15:02:00.052 [info] ccreq:0c51242c.copilotmd | markdown
+2025-11-24 15:02:00.052 [info] ccreq:6f81e0b7.copilotmd | markdown
+2025-11-24 15:02:00.052 [info] ccreq:f6884daf.copilotmd | markdown
+2025-11-24 15:02:01.527 [info] ccreq:0a284413.copilotmd | markdown
+2025-11-24 15:02:01.527 [info] ccreq:cedec94a.copilotmd | markdown
+2025-11-24 15:02:01.527 [info] ccreq:42b8bfa7.copilotmd | markdown
+2025-11-24 15:02:01.527 [info] request done: requestId: [45be5144-ba21-43c1-b57b-63436072abf1] model deployment ID: []
+2025-11-24 15:02:01.527 [info] ccreq:a44e150d.copilotmd | unknown | copilot-nes-oct | 1289ms | [XtabProvider]
+2025-11-24 15:02:02.968 [info] ccreq:e60cc409.copilotmd | markdown
+2025-11-24 15:02:03.271 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:03.271 [info] request done: requestId: [06e52539-9ac0-49d4-8bc3-2fa9cd467392] model deployment ID: []
+2025-11-24 15:02:03.272 [info] ccreq:36c61679.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1611ms | [XtabProvider]
+2025-11-24 15:02:04.873 [info] Logged in as east69420
+2025-11-24 15:02:05.448 [info] Got Copilot token for east69420
+2025-11-24 15:02:05.448 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-24 15:02:05.456 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-24 15:02:05.679 [info] Fetched model metadata in 222ms e452a2f4-7bbf-4836-b771-5aabd90d0ca6
+2025-11-24 15:02:05.681 [info] ccreq:eab53012.copilotmd | markdown
+2025-11-24 15:02:06.166 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:06.166 [info] request done: requestId: [78b23147-090e-4272-b624-5bd3beb320f0] model deployment ID: []
+2025-11-24 15:02:06.166 [info] ccreq:5bcc2a9c.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1192ms | [XtabProvider]
+2025-11-24 15:02:06.966 [info] ccreq:95cb37f5.copilotmd | markdown
+2025-11-24 15:02:07.967 [info] ccreq:285f9f9f.copilotmd | markdown
+2025-11-24 15:02:10.194 [info] ccreq:689a6ea6.copilotmd | markdown
+2025-11-24 15:02:11.705 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:11.705 [info] request done: requestId: [2b857f7b-53cf-4702-bbdf-53633a368318] model deployment ID: []
+2025-11-24 15:02:11.705 [info] ccreq:c7c97edf.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 591ms | [XtabProvider]
+2025-11-24 15:02:11.707 [info] ccreq:28aba7d4.copilotmd | markdown
+2025-11-24 15:02:11.707 [info] ccreq:b7d09bcb.copilotmd | markdown
+2025-11-24 15:02:11.707 [info] ccreq:3e0ff0eb.copilotmd | markdown
+2025-11-24 15:02:12.837 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:12.837 [info] request done: requestId: [b1d2b600-5e17-4693-8f5e-4745eb39ec88] model deployment ID: []
+2025-11-24 15:02:12.838 [info] ccreq:587e1b37.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 977ms | [XtabProvider]
+2025-11-24 15:02:12.839 [info] ccreq:82d1e584.copilotmd | markdown
+2025-11-24 15:02:12.839 [info] ccreq:ae3b9748.copilotmd | markdown
+2025-11-24 15:02:13.763 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:13.763 [info] request done: requestId: [56ecf88d-9d19-4615-b570-ab69f52f644a] model deployment ID: []
+2025-11-24 15:02:13.763 [info] ccreq:e1d8df2a.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 816ms | [XtabProvider]
+2025-11-24 15:02:14.049 [info] ccreq:7613a9c2.copilotmd | markdown
+2025-11-24 15:02:14.646 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:14.646 [info] request done: requestId: [dcb5fd07-d795-4e96-b165-ecabe5d5d6e6] model deployment ID: []
+2025-11-24 15:02:14.647 [info] ccreq:6f9b1b0e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 487ms | [XtabProvider]
+2025-11-24 15:02:14.799 [info] ccreq:16ea2ce6.copilotmd | markdown
+2025-11-24 15:02:16.111 [info] ccreq:b71e12fd.copilotmd | markdown
+2025-11-24 15:02:16.647 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:16.647 [info] request done: requestId: [b3529845-52c3-476f-af3c-5d799a2d58a7] model deployment ID: []
+2025-11-24 15:02:16.647 [info] ccreq:93ebfd14.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 1738ms | [XtabProvider]
+2025-11-24 15:02:17.338 [info] ccreq:a92a0739.copilotmd | markdown
+2025-11-24 15:02:18.902 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:18.902 [info] request done: requestId: [5e97835a-40e4-411a-9368-56b52aed9570] model deployment ID: []
+2025-11-24 15:02:18.902 [info] ccreq:19e2e66f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 507ms | [XtabProvider]
+2025-11-24 15:02:18.902 [info] ccreq:0d8f564c.copilotmd | markdown
+2025-11-24 15:02:19.552 [info] ccreq:a114f926.copilotmd | markdown
+2025-11-24 15:02:54.498 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:54.498 [info] request done: requestId: [249aefbc-3350-4abe-8bdb-6f07a61a9459] model deployment ID: []
+2025-11-24 15:02:54.625 [info] ccreq:131757fe.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 459ms | [XtabProvider]
+2025-11-24 15:02:54.928 [info] ccreq:78bbd161.copilotmd | markdown
+2025-11-24 15:02:55.318 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:02:55.318 [info] request done: requestId: [6d95bb3d-7b1a-4c08-8f49-d8a4df564ab6] model deployment ID: []
+2025-11-24 15:02:55.318 [info] ccreq:df2e9bd0.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 307ms | [XtabProvider]
+2025-11-24 15:02:56.319 [info] ccreq:55857a84.copilotmd | markdown
+2025-11-24 15:03:00.226 [info] ccreq:ac959325.copilotmd | markdown
+2025-11-24 15:03:00.227 [info] request done: requestId: [43e210f7-b00d-4111-98cd-4208c6cb70d0] model deployment ID: []
+2025-11-24 15:03:00.227 [info] ccreq:5f9f2bfc.copilotmd | unknown | copilot-nes-oct | 1025ms | [XtabProvider]
+2025-11-24 15:03:00.909 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:03:00.909 [info] request done: requestId: [0e7c7cd8-1bfe-42f8-b387-0c2a5ed8c715] model deployment ID: []
+2025-11-24 15:03:00.910 [info] ccreq:490700c8.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 609ms | [XtabProvider]
+2025-11-24 15:03:01.910 [info] ccreq:32dc588a.copilotmd | markdown
+2025-11-24 15:03:03.282 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:03:03.283 [info] request done: requestId: [4045314d-3a8a-4637-9104-0bdcd2c8f0ec] model deployment ID: []
+2025-11-24 15:03:03.283 [info] ccreq:9a73edac.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 554ms | [XtabProvider]
+2025-11-24 15:03:03.284 [info] ccreq:d98b1d1a.copilotmd | markdown
+2025-11-24 15:03:03.993 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:03:03.993 [info] request done: requestId: [093ca218-5559-47ec-9fb8-3496f06ff21a] model deployment ID: []
+2025-11-24 15:03:03.994 [info] ccreq:9376ec32.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 633ms | [XtabProvider]
+2025-11-24 15:03:03.995 [info] ccreq:7424fb24.copilotmd | markdown
+2025-11-24 15:03:03.995 [info] ccreq:a32a01af.copilotmd | markdown
+2025-11-24 15:03:03.995 [info] ccreq:272b1c86.copilotmd | markdown
+2025-11-24 15:03:04.714 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:03:04.714 [info] request done: requestId: [e6bd74ba-dba3-45fe-9418-695fc2772e4b] model deployment ID: []
+2025-11-24 15:03:04.715 [info] ccreq:03dd05ee.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 643ms | [XtabProvider]
+2025-11-24 15:03:04.716 [info] ccreq:8cd3482d.copilotmd | markdown
+2025-11-24 15:03:07.596 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:03:07.596 [info] request done: requestId: [f3acf65f-7daf-4944-a0d6-8bb210ce80bb] model deployment ID: []
+2025-11-24 15:03:07.597 [info] ccreq:37179f3e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 357ms | [XtabProvider]
+2025-11-24 15:03:08.597 [info] ccreq:5df45a5f.copilotmd | markdown
+2025-11-24 15:08:10.053 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:10.053 [info] request done: requestId: [a11bcf08-c7b7-49c2-9131-1d7e759b0b89] model deployment ID: []
+2025-11-24 15:08:10.123 [info] ccreq:c040a5c9.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 626ms | [XtabProvider]
+2025-11-24 15:08:10.124 [info] ccreq:09272639.copilotmd | markdown
+2025-11-24 15:08:10.563 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:10.563 [info] request done: requestId: [a127d0f3-08ad-42d9-b5ac-77c4e74fd304] model deployment ID: []
+2025-11-24 15:08:10.563 [info] ccreq:5d8b51da.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 339ms | [XtabProvider]
+2025-11-24 15:08:10.565 [info] ccreq:7d41922d.copilotmd | markdown
+2025-11-24 15:08:10.565 [info] ccreq:9d4f9a2a.copilotmd | markdown
+2025-11-24 15:08:10.947 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:10.948 [info] request done: requestId: [3e282d68-74bf-40e6-b4f9-13184534c2c4] model deployment ID: []
+2025-11-24 15:08:10.948 [info] ccreq:e858fb63.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 283ms | [XtabProvider]
+2025-11-24 15:08:10.949 [info] ccreq:0fab5312.copilotmd | markdown
+2025-11-24 15:08:11.448 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:11.457 [info] request done: requestId: [cf9f2619-626c-4a05-9575-b2e4497df535] model deployment ID: []
+2025-11-24 15:08:11.458 [info] ccreq:b62d821f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 410ms | [XtabProvider]
+2025-11-24 15:08:11.459 [info] ccreq:ca2c4577.copilotmd | markdown
+2025-11-24 15:08:11.930 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:11.930 [info] request done: requestId: [17398a8e-3f29-411e-b927-476f75c95253] model deployment ID: []
+2025-11-24 15:08:11.931 [info] ccreq:a1254f67.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 371ms | [XtabProvider]
+2025-11-24 15:08:12.329 [info] ccreq:ed5f7b79.copilotmd | markdown
+2025-11-24 15:08:12.795 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:12.795 [info] request done: requestId: [412318c3-7b5f-47f8-87ee-9801b4c59b25] model deployment ID: []
+2025-11-24 15:08:12.796 [info] ccreq:eb3eea35.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 354ms | [XtabProvider]
+2025-11-24 15:08:13.796 [info] ccreq:0148d308.copilotmd | markdown
+2025-11-24 15:08:15.988 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:15.988 [info] request done: requestId: [8d0c9c6d-fef9-4426-b630-a06d64ecd770] model deployment ID: []
+2025-11-24 15:08:15.989 [info] ccreq:0ad23a88.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 342ms | [XtabProvider]
+2025-11-24 15:08:15.990 [info] ccreq:c589b11e.copilotmd | markdown
+2025-11-24 15:08:15.990 [info] ccreq:038ef010.copilotmd | markdown
+2025-11-24 15:08:16.474 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:16.474 [info] request done: requestId: [628ba7a8-2670-4e7c-a9a8-0d2dd95a3bcd] model deployment ID: []
+2025-11-24 15:08:16.474 [info] ccreq:6ab7be76.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 384ms | [XtabProvider]
+2025-11-24 15:08:16.475 [info] ccreq:f27b3bd6.copilotmd | markdown
+2025-11-24 15:08:16.475 [info] ccreq:a8fa2559.copilotmd | markdown
+2025-11-24 15:08:16.921 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:16.921 [info] request done: requestId: [721a9d5d-c3f3-4eb7-b662-ff9d6ffe261c] model deployment ID: []
+2025-11-24 15:08:16.922 [info] ccreq:e7411b2c.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 346ms | [XtabProvider]
+2025-11-24 15:08:16.922 [info] ccreq:7c1c9f73.copilotmd | markdown
+2025-11-24 15:08:17.319 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:08:17.320 [info] request done: requestId: [0bb4ef9c-04b9-42b0-a493-e1fced9503ad] model deployment ID: []
+2025-11-24 15:08:17.320 [info] ccreq:83ba5c6b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 296ms | [XtabProvider]
+2025-11-24 15:08:17.320 [info] ccreq:694bd7dd.copilotmd | markdown
+2025-11-24 15:09:46.736 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 15:09:46.736 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 15:10:09.687 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:10:09.687 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:10:09.688 [info] ccreq:a9704d13.copilotmd | success | claude-sonnet-4.5 | 22756ms | [panel/editAgent]
+2025-11-24 15:10:26.518 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:10:26.518 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:10:26.519 [info] ccreq:72dfb94a.copilotmd | success | claude-sonnet-4.5 | 16491ms | [panel/editAgent]
+2025-11-24 15:10:41.372 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:10:41.372 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:10:41.372 [info] ccreq:aa401fc1.copilotmd | success | claude-sonnet-4.5 | 14698ms | [panel/editAgent]
+2025-11-24 15:10:55.965 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:10:55.965 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:10:55.966 [info] ccreq:cabca7ee.copilotmd | success | claude-sonnet-4.5 | 14468ms | [panel/editAgent]
+2025-11-24 15:11:13.088 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:11:13.088 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:11:13.088 [info] ccreq:ca433116.copilotmd | success | claude-sonnet-4.5 | 17013ms | [panel/editAgent]
+2025-11-24 15:11:25.121 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:11:25.121 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:11:25.122 [info] ccreq:7ec891c7.copilotmd | success | claude-sonnet-4.5 | 11740ms | [panel/editAgent]
+2025-11-24 15:11:35.748 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:11:35.748 [info] request done: requestId: [a987703f-1d2d-4200-aa4e-56d78d9a7249] model deployment ID: []
+2025-11-24 15:11:35.749 [info] ccreq:8417ef30.copilotmd | success | claude-sonnet-4.5 | 10495ms | [panel/editAgent]
+2025-11-24 15:15:30.754 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:15:30.754 [info] request done: requestId: [bea6e03b-8744-427e-856e-413bc848c761] model deployment ID: []
+2025-11-24 15:15:30.755 [info] ccreq:670b818b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 776ms | [XtabProvider]
+2025-11-24 15:15:30.756 [info] ccreq:384006b4.copilotmd | markdown
+2025-11-24 15:15:30.756 [info] ccreq:ea7aa39c.copilotmd | markdown
+2025-11-24 15:15:30.756 [info] ccreq:fa8db870.copilotmd | markdown
+2025-11-24 15:15:33.005 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:15:33.005 [info] request done: requestId: [4b40b081-9f00-4bcd-baa3-585487398ff6] model deployment ID: []
+2025-11-24 15:15:33.005 [info] ccreq:c8ea3b96.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 558ms | [XtabProvider]
+2025-11-24 15:15:33.347 [info] ccreq:f2061be4.copilotmd | markdown
+2025-11-24 15:15:35.926 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:15:35.926 [info] request done: requestId: [479d4173-54c4-426f-9162-27f0fc68253a] model deployment ID: []
+2025-11-24 15:15:35.927 [info] ccreq:080ac6f7.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 443ms | [XtabProvider]
+2025-11-24 15:15:35.992 [info] ccreq:3802e859.copilotmd | markdown
+2025-11-24 15:15:36.772 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:15:36.772 [info] request done: requestId: [91f2bcbe-d15e-4956-826c-f2d5061418cc] model deployment ID: []
+2025-11-24 15:15:36.773 [info] ccreq:0c9cbeb5.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 561ms | [XtabProvider]
+2025-11-24 15:15:36.773 [info] ccreq:3575d823.copilotmd | markdown
+2025-11-24 15:15:36.788 [info] ccreq:d5509b10.copilotmd | markdown
+2025-11-24 15:15:38.432 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:15:38.432 [info] request done: requestId: [7fdb0691-6da8-41ab-9c6f-1a3cfdd4c5c2] model deployment ID: []
+2025-11-24 15:15:38.432 [info] ccreq:fb81216b.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 589ms | [XtabProvider]
+2025-11-24 15:15:38.433 [info] ccreq:7d69200d.copilotmd | markdown
+2025-11-24 15:15:38.433 [info] ccreq:c2123bc0.copilotmd | markdown
+2025-11-24 15:15:38.433 [info] ccreq:4f7e71de.copilotmd | markdown
+2025-11-24 15:15:39.154 [info] ccreq:5dcff561.copilotmd | markdown
+2025-11-24 15:15:42.078 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:15:42.078 [info] request done: requestId: [b29d8a47-3217-4aa9-b49e-5d2150b63648] model deployment ID: []
+2025-11-24 15:15:42.079 [info] ccreq:5eeaf16e.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 434ms | [XtabProvider]
+2025-11-24 15:15:43.079 [info] ccreq:247fa343.copilotmd | markdown
+2025-11-24 15:16:32.040 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:16:32.040 [info] request done: requestId: [44965a8f-e885-45ef-9349-2420c8244f26] model deployment ID: []
+2025-11-24 15:16:32.097 [info] ccreq:83aa47bc.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 536ms | [XtabProvider]
+2025-11-24 15:16:32.098 [info] ccreq:e6a6e1f0.copilotmd | markdown
+2025-11-24 15:16:32.098 [info] ccreq:d4d743b0.copilotmd | markdown
+2025-11-24 15:16:32.098 [info] ccreq:41147634.copilotmd | markdown
+2025-11-24 15:16:32.098 [info] ccreq:d8bd3768.copilotmd | markdown
+2025-11-24 15:16:32.098 [info] ccreq:1678c210.copilotmd | markdown
+2025-11-24 15:16:42.688 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:16:42.688 [info] request done: requestId: [6512bbdb-e9b4-45c3-b61e-e82ef240c9c1] model deployment ID: []
+2025-11-24 15:16:42.689 [info] ccreq:0b125fed.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 525ms | [XtabProvider]
+2025-11-24 15:16:42.690 [info] ccreq:acfacf57.copilotmd | markdown
+2025-11-24 15:16:42.690 [info] ccreq:df64932a.copilotmd | markdown
+2025-11-24 15:16:42.690 [info] ccreq:bbd6fc06.copilotmd | markdown
+2025-11-24 15:16:43.568 [info] ccreq:c99b4e9d.copilotmd | markdown
+2025-11-24 15:16:43.931 [info] request done: requestId: [e3fc96d5-2b3c-430f-92d3-030bdd7a6a18] model deployment ID: []
+2025-11-24 15:16:44.848 [info] ccreq:ce148b53.copilotmd | markdown
+2025-11-24 15:16:48.018 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:16:48.018 [info] request done: requestId: [64754f64-8d50-4850-a459-c8db67dbf6be] model deployment ID: []
+2025-11-24 15:16:48.019 [info] ccreq:9dc8758f.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 491ms | [XtabProvider]
+2025-11-24 15:16:49.019 [info] ccreq:2d4121dc.copilotmd | markdown
+2025-11-24 15:18:15.432 [info] Fetched model metadata in 487ms cae19754-d05b-488c-bac9-acacaeee20df
+2025-11-24 15:18:15.542 [info] ccreq:56b10c7d.copilotmd | markdown
+2025-11-24 15:18:15.547 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-24 15:18:15.547 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-11-24 15:18:20.123 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:18:20.123 [info] request done: requestId: [302d6022-c07b-49dd-a4e0-3b922d4e7803] model deployment ID: []
+2025-11-24 15:18:20.124 [info] ccreq:63c334a5.copilotmd | success | claude-sonnet-4.5 | 4353ms | [panel/editAgent]
+2025-11-24 15:18:24.463 [info] message 0 returned. finish reason: [tool_calls]
+2025-11-24 15:18:24.463 [info] request done: requestId: [302d6022-c07b-49dd-a4e0-3b922d4e7803] model deployment ID: []
+2025-11-24 15:18:24.463 [info] ccreq:44cd40d9.copilotmd | success | claude-sonnet-4.5 | 4116ms | [panel/editAgent]
+2025-11-24 15:18:53.749 [info] ccreq:58e58468.copilotmd | markdown
+2025-11-24 15:18:53.749 [info] request done: requestId: [098d8611-2c1d-4791-ab71-233b124ee0ac] model deployment ID: []
+2025-11-24 15:18:53.749 [info] ccreq:7b836578.copilotmd | unknown | copilot-nes-oct | 758ms | [XtabProvider]
+2025-11-24 15:18:54.601 [info] ccreq:2efa4119.copilotmd | markdown
+2025-11-24 15:18:55.038 [info] request done: requestId: [984e707c-524d-4b7c-8026-556facbc25fe] model deployment ID: []
+2025-11-24 15:19:02.821 [info] ccreq:969f42b0.copilotmd | markdown
+2025-11-24 15:19:04.714 [info] request done: requestId: [a66fd6ed-c60e-4a68-801f-4b592cf749fe] model deployment ID: []
+2025-11-24 15:19:04.714 [info] ccreq:549a8da6.copilotmd | unknown | copilot-nes-oct | 457ms | [XtabProvider]
+2025-11-24 15:19:05.469 [info] message 0 returned. finish reason: [stop]
+2025-11-24 15:19:05.469 [info] request done: requestId: [5e35e514-d210-4141-b5de-28a6c50018ab] model deployment ID: []
+2025-11-24 15:19:05.470 [info] ccreq:e925feaf.copilotmd | success | copilot-nes-oct -> gpt-4.1-mini-2025-04-14 | 557ms | [XtabProvider]
+2025-11-24 15:19:06.470 [info] ccreq:1a973758.copilotmd | markdown
+2025-11-24 15:40:41.464 [info] Logged in as east69420
+2025-11-24 15:40:41.892 [info] Got Copilot token for east69420
+2025-11-24 15:40:41.892 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-24 15:40:41.900 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-24 15:40:42.403 [info] Fetched model metadata in 947ms 99e1a2fe-c01c-42ad-8953-3f5d53c104b6
+2025-11-24 15:40:42.516 [info] ccreq:fcc6b992.copilotmd | markdown

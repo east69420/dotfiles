@@ -1,0 +1,12 @@
+2025-11-26 12:37:52.964 [info] Started local extension host with pid 436051.
+2025-11-26 12:37:53.983 [error] [Extension Host] (node:436051) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 12:37:53.983 [error] [Extension Host] (node:436051) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 12:37:55.053 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 12:37:55.184 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 12:37:55.666 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 12:37:56.522 [error] Failed to fetch MCP registry providers Server returned 404
+2025-11-26 12:41:27.970 [info] [perf] Render performance baseline is 15ms
+2025-11-26 13:57:58.961 [info] Auto updating outdated extensions. github.copilot-chat
+2025-11-26 13:58:02.978 [error] Unknown error while installing extension github.copilot-chat: Unknown: Unknown error while installing extension github.copilot-chat
+    at Wh.installFromGallery (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:1669)

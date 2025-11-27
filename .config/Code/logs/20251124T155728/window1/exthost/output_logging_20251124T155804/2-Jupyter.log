@@ -1,0 +1,40 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/repos_playground/Time-Series-Library
+15:59:36.095 [warn] No interpreter with path /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python found in Python API, will convert Uri path to string as Id /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python
+15:59:36.121 [info] Check & install missing Kernel dependencies for /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python, ui.disabled=false for resource 'Untitled-1.ipynb'
+15:59:36.173 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+15:59:36.208 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+15:59:36.218 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -m pip list
+15:59:36.420 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+15:59:36.443 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -m pip install -U ipykernel
+15:59:40.508 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+15:59:40.639 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -m pip list
+15:59:40.647 [info] Starting Kernel (Python Path: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python, Venv, 3.13.7) for 'Untitled-1.ipynb' (disableUI=false)
+15:59:40.746 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+15:59:40.759 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v38afdb0a20e1a6088d2593dec710c3c0f45e313dd.json
+    > cwd: ~/shared/<username>Sync/py<username>/repos_playground/Time-Series-Library
+15:59:41.213 [info] Kernel successfully started
+15:59:41.225 [info] Process Execution: /shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+15:59:41.347 [warn] Cell completed with errors Iu [Error]: No module named 'pandas'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'pandas'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpandas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpd\x1B[39;00m\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'pandas'"
+  ]
+}
+16:56:34.998 [info] Disposing kernel .jvsc74a57bd058ada63e28d67e0b8e109ee5f352a2e98d0ce5b43565ed3e434867a874515499./shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/python./shared/<username>Sync/py<username>/repos_playground/Time-Series-Library/.venv/python.-m#ipykernel_launcher for notebook Untitled-1.ipynb due to selection of another kernel or closing of the notebook
+16:56:34.998 [info] Dispose Kernel 'Untitled-1.ipynb' associated with 'Untitled-1.ipynb'
+16:56:35.028 [info] Disposing request as the cell (0) was deleted Untitled-1.ipynb
+16:56:35.235 [info] Dispose Kernel 'Untitled-1.ipynb' associated with 'Untitled-1.ipynb'

@@ -1,0 +1,565 @@
+2025-11-24 13:56:21.052 [warning] Dir "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.pixi/envs" is not watchable (directory does not exist)
+2025-11-24 13:56:21.568 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:112874)
+	at new m (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:914480)
+	at ge (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1735641)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739005
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738399
+	at Array.reduce (<anonymous>)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738371
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738653
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766464
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766485
+	at e._get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765498)
+	at e._getButThrowIfAsync (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765558)
+	at e.get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1761267)
+	at e.dynamicValue (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1751000)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1737177
+	at Ee (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1737433)
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739149)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736728
+	at Array.map (<anonymous>)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736699
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738399
+	at Array.reduce (<anonymous>)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738371
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738653
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766464
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766485
+	at e._get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765498)
+	at e._getButThrowIfAsync (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765558)
+	at e.get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1761267)
+	at a.get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:568835)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:478570
+	at async t.activateComponents (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:476850)
+	at async /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701666
+	at async e (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701198)
+	at async _b.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+	at async _b.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+	at async _b.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)]
+2025-11-24 13:56:21.582 [info] Starting Environment refresh
+2025-11-24 13:56:21.582 [info] Searching for interpreters in posix paths locator
+2025-11-24 13:56:21.584 [info] Searching for pyenv environments
+2025-11-24 13:56:21.584 [info] Searching for conda environments
+2025-11-24 13:56:21.584 [info] Searching for global virtual environments
+2025-11-24 13:56:21.584 [info] Searching for custom virtual environments
+2025-11-24 13:56:21.602 [info] pyenv is not installed
+2025-11-24 13:56:21.602 [info] Finished searching for pyenv environments: 19 milliseconds
+2025-11-24 13:56:21.602 [info] Finished searching for custom virtual envs: 19 milliseconds
+2025-11-24 13:56:21.607 [info] > conda info --json
+2025-11-24 13:56:21.612 [info] > hatch env show --json
+2025-11-24 13:56:21.612 [info] cwd: .
+2025-11-24 13:56:21.629 [info] VS Code was launched from an activated environment: '.venv', selecting it as the interpreter for workspace.
+2025-11-24 13:56:21.711 [info] Finished searching for global virtual envs: 128 milliseconds
+2025-11-24 13:56:21.712 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.909 [info] > pyenv which python
+2025-11-24 13:56:21.909 [info] cwd: .
+2025-11-24 13:56:21.914 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.916 [info] Active interpreter [/home/east/shared/eastSync/pyEast/ML/research/MLDev]:  /home/east/MLDev/.venv
+2025-11-24 13:56:21.930 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.930 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.930 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.942 [info] Found: /bin/python --> /bin/python3.13
+2025-11-24 13:56:21.958 [info] Found: /bin/python3 --> /bin/python3.13
+2025-11-24 13:56:21.959 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-11-24 13:56:21.961 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 390ms, has a falsy return value, Arg 1: <Uri:/home/east/shared/eastSync/pyEast/ML/research/MLDev>, Arg 2: {"started":1763988980739}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+  	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+  	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+]
+2025-11-24 13:56:21.961 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+2025-11-24 13:56:21.961 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+2025-11-24 13:56:21.963 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.963 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.963 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:21.971 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:21.982 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:21.982 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:21.982 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:21.983 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:22.002 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:22.007 [info] > ~/MLDev/.venv -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:22.007 [info] Found: /sbin/python --> /sbin/python3.13
+2025-11-24 13:56:22.019 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:22.019 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:22.019 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:22.020 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-11-24 13:56:22.021 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-11-24 13:56:22.021 [error] [Error: Command failed: /home/east/MLDev/.venv -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/MLDev/.venv: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/MLDev/.venv -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 13:56:22.042 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-11-24 13:56:22.047 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-11-24 13:56:22.048 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-11-24 13:56:22.067 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:22.078 [error] [Error: Command failed: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 13:56:22.098 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-11-24 13:56:22.102 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-11-24 13:56:22.103 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-11-24 13:56:22.138 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:22.161 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:22.162 [info] Finished searching for interpreters in posix paths locator: 581 milliseconds
+2025-11-24 13:56:22.170 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:22.170 [info] Environments refresh paths discovered (event): 590 milliseconds
+2025-11-24 13:56:22.170 [info] Environments refresh paths discovered: 590 milliseconds
+2025-11-24 13:56:24.027 [info] > ~/MLDev/.venv -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:24.029 [error] [Error: Command failed: /home/east/MLDev/.venv -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/MLDev/.venv: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/MLDev/.venv -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 13:56:24.030 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2025-11-24 13:56:24.084 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:56:24.086 [error] [Error: Command failed: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 13:56:24.086 [info] Environments refresh finished (event): 2506 milliseconds
+2025-11-24 13:56:24.089 [info] Environment refresh took 2510 milliseconds
+2025-11-24 13:56:50.573 [warning] Failed to check if /home/east/MLDev/.venv is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/MLDev/.venv'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/MLDev/.venv'
+}
+2025-11-24 13:56:50.574 [warning] Identifier for virt-virtualenv failed to identify /home/east/MLDev/.venv [Error: ENOENT: no such file or directory, scandir '/home/east/MLDev'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/MLDev'
+}
+2025-11-24 13:56:57.462 [info] Active interpreter [/home/east/shared/eastSync/pyEast/ML/research/MLDev]:  /bin/python
+2025-11-24 13:56:57.463 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/ML/research/MLDev
+2025-11-24 13:56:57.463 [info] Python interpreter path: /bin/python
+2025-11-24 13:56:57.851 [info] Starting Jedi language server for MLDev.
+2025-11-24 14:01:00.057 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.057 [warning] Failed to check if MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat 'MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: 'MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.058 [info] Active interpreter [/home/east/shared/eastSync/pyEast/ML/research/MLDev]:  /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python
+2025-11-24 14:01:00.058 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.058 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.058 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.058 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.058 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:00.060 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.060 [warning] Identifier for virt-virtualenv failed to identify MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir 'MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.061 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.061 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.061 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.061 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.061 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:00.068 [info] > ./MLDev/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 14:01:00.072 [info] > MLDev/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 14:01:00.073 [error] [Error: Command failed: /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 14:01:00.074 [error] [Error: Command failed: MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 14:01:02.087 [info] > ./MLDev/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 14:01:02.091 [info] > MLDev/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 14:01:02.092 [error] [Error: Command failed: /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 14:01:02.095 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:02.095 [error] [Error: Command failed: MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 14:01:02.096 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2025-11-24 14:01:02.097 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:17.014 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:17.015 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:20.361 [info] Selected workspace /home/east/shared/eastSync/pyEast/ML/research/MLDev for creating virtual environment.
+2025-11-24 14:01:23.314 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:01:23.315 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:01:38.448 [error] Virtual env creation requires an interpreter.
+2025-11-24 14:02:06.890 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:02:06.891 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:02:13.026 [info] Selected workspace /home/east/shared/eastSync/pyEast/ML/research/MLDev for creating virtual environment.
+2025-11-24 14:02:13.027 [warning] Failed to check if /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python'
+}
+2025-11-24 14:02:13.028 [warning] Identifier for virt-virtualenv failed to identify /home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin/python [Error: ENOENT: no such file or directory, scandir '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev/.venv/bin'
+}
+2025-11-24 14:02:16.166 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-11-24 14:02:20.970 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/create_venv.py',
+  '--git-ignore',
+  '--requirements',
+  '/home/east/shared/eastSync/pyEast/ML/research/MLDev/requirements.txt'
+]
+2025-11-24 14:02:20.970 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/create_venv.py --git-ignore --requirements ./requirements.txt
+2025-11-24 14:02:20.970 [info] cwd: .
+2025-11-24 14:02:21.071 [info] Running: /bin/python -m venv .venv
+2025-11-24 14:02:22.220 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 14:02:22.221 [info] Environments refresh paths discovered: 39 milliseconds
+2025-11-24 14:02:22.245 [info] Environments refresh finished (event): 64 milliseconds
+2025-11-24 14:02:22.526 [info] CREATED_VENV:/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+CREATE_VENV.UPGRADING_PIP
+Running: /shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -m pip install --upgrade pip
+2025-11-24 14:02:22.738 [info] Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (25.2)
+2025-11-24 14:02:22.861 [info] Collecting pip
+2025-11-24 14:02:22.941 [info]   Downloading pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+2025-11-24 14:02:22.968 [info] Downloading pip-25.3-py3-none-any.whl (1.8 MB)
+2025-11-24 14:02:23.139 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 11.3 MB/s  0:00:00
+2025-11-24 14:02:23.140 [info] 
+2025-11-24 14:02:23.150 [info] Installing collected packages: pip
+2025-11-24 14:02:23.151 [info]   Attempting uninstall: pip
+2025-11-24 14:02:23.152 [info]     Found existing installation: pip 25.2
+2025-11-24 14:02:23.177 [info]     Uninstalling pip-25.2:
+2025-11-24 14:02:23.181 [info]       Successfully uninstalled pip-25.2
+2025-11-24 14:02:23.730 [info] Successfully installed pip-25.3
+2025-11-24 14:02:23.865 [info] CREATE_VENV.UPGRADED_PIP
+VENV_INSTALLING_REQUIREMENTS: ['/home/east/shared/eastSync/pyEast/ML/research/MLDev/requirements.txt']
+VENV_INSTALLING_REQUIREMENTS: /home/east/shared/eastSync/pyEast/ML/research/MLDev/requirements.txt
+Running: /shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -m pip install -r /home/east/shared/eastSync/pyEast/ML/research/MLDev/requirements.txt
+2025-11-24 14:02:24.101 [info] CREATE_VENV.PIP_INSTALLED_REQUIREMENTS
+2025-11-24 14:02:24.120 [info] Active interpreter [/home/east/shared/eastSync/pyEast/ML/research/MLDev]:  /shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:02:24.126 [info] > /shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 14:02:24.152 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/ML/research/MLDev
+2025-11-24 14:02:24.152 [info] Python interpreter path: /shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:02:24.542 [info] Starting Jedi language server for MLDev.

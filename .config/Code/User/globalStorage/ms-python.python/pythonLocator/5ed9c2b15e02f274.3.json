@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python",
+    "prefix": "/shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv",
+    "version": "3.13.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python",
+      "/shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python3",
+      "/shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python3.13"
+    ]
+  },
+  "symlinks": []
+}

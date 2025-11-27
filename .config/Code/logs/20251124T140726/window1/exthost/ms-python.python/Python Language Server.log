@@ -1,0 +1,86 @@
+2025-11-24 14:09:38.075 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.18.0)
+2025-11-24 14:09:38.890 [info] (256064) Server root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-24 14:09:38.890 [info] (256064) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-11-24 14:09:38.895 [info] (256064) Starting service instance "MLDev" for workspace "/home/east/shared/eastSync/pyEast/ML/research/MLDev"
+2025-11-24 14:09:38.975 [info] (256064) Starting Mcp server id:5786 ...
+2025-11-24 14:09:38.996 [info] (256064) Setting environmentName for service "MLDev": "3.13.7 (.venv venv)"
+2025-11-24 14:09:38.996 [info] (256064) Setting pythonPath for service "MLDev": "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python"
+2025-11-24 14:09:38.996 [info] (256064) No include entries specified; assuming /home/east/shared/eastSync/pyEast/ML/research/MLDev
+2025-11-24 14:09:38.997 [info] (256064) Auto-excluding **/node_modules
+2025-11-24 14:09:38.997 [info] (256064) Auto-excluding **/__pycache__
+2025-11-24 14:09:38.997 [info] (256064) Auto-excluding **/.*
+2025-11-24 14:09:39.020 [info] (256064) Assuming Python version 3.13.7.final.0
+2025-11-24 14:09:39.079 [info] (256064) Settings have not changed. Skipping update.
+2025-11-24 14:09:39.228 [info] (256064) Found 15 source files
+2025-11-24 14:09:39.666 [info] (256064) BG: Priority queue background worker(2) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-24 14:09:39.666 [info] (256064) BG: Priority queue background worker(2) started
+2025-11-24 14:09:39.723 [info] (256064) BG: Indexer background runner(3) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-24 14:09:39.724 [info] (256064) BG: Indexing(3) started
+2025-11-24 14:09:39.985 [info] (256064) BG: scanned(3) 9 files over 1 exec env
+2025-11-24 14:09:40.163 [info] (256064) BG: indexed(3) 9 files over 1 exec env
+2025-11-24 14:09:40.165 [info] (256064) BG: Indexing finished(3).
+2025-11-24 14:10:05.302 [info] (256064) Setting environmentName for service "MLDev": "3.13.7 (.venv venv)"
+2025-11-24 14:10:05.302 [info] (256064) Setting pythonPath for service "MLDev": "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python"
+2025-11-24 14:10:05.302 [info] (256064) No include entries specified; assuming /home/east/shared/eastSync/pyEast/ML/research/MLDev
+2025-11-24 14:10:05.303 [info] (256064) Auto-excluding **/node_modules
+2025-11-24 14:10:05.303 [info] (256064) Auto-excluding **/__pycache__
+2025-11-24 14:10:05.303 [info] (256064) Auto-excluding **/.*
+2025-11-24 14:10:05.327 [info] (256064) Assuming Python version 3.13.7.final.0
+2025-11-24 14:10:05.421 [info] (256064) Found 15 source files
+2025-11-24 14:10:05.915 [info] (256064) BG: Indexer background runner(4) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-11-24 14:10:05.915 [info] (256064) BG: Indexing(4) started
+2025-11-24 14:10:06.038 [info] (256064) BG: scanned(4) 9 files over 1 exec env
+2025-11-24 14:10:06.208 [info] (256064) BG: indexed(4) 9 files over 1 exec env
+2025-11-24 14:10:06.209 [info] (256064) BG: Indexing finished(4).
+2025-11-24 14:10:42.270 [info] (256064) BG: Indexer background runner(5) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:10:42.270 [info] (256064) BG: Indexing(5) started
+2025-11-24 14:10:42.528 [info] (256064) BG: scanned(5) 34 files over 1 exec env
+2025-11-24 14:10:42.814 [info] (256064) BG: indexed(5) 34 files over 1 exec env
+2025-11-24 14:10:42.819 [info] (256064) BG: Indexing finished(5).
+2025-11-24 14:13:06.666 [info] (256064) BG: Indexer background runner(6) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:13:06.667 [info] (256064) BG: Indexing(6) started
+2025-11-24 14:13:07.039 [info] (256064) BG: scanned(6) 110 files over 1 exec env
+2025-11-24 14:13:07.985 [info] (256064) BG: indexed(6) 110 files over 1 exec env
+2025-11-24 14:13:08.000 [info] (256064) BG: Indexing finished(6).
+2025-11-24 14:13:18.422 [info] (256064) BG: Indexer background runner(7) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:13:18.422 [info] (256064) BG: Indexing(7) started
+2025-11-24 14:13:18.714 [info] (256064) BG: scanned(7) 111 files over 1 exec env
+2025-11-24 14:13:18.969 [info] (256064) BG: indexed(7) 111 files over 1 exec env
+2025-11-24 14:13:18.969 [info] (256064) BG: Indexing finished(7).
+2025-11-24 14:13:35.928 [info] (256064) BG: Indexer background runner(8) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:13:35.928 [info] (256064) BG: Indexing(8) started
+2025-11-24 14:13:36.259 [info] (256064) BG: scanned(8) 208 files over 1 exec env
+2025-11-24 14:13:36.880 [info] (256064) BG: indexed(8) 208 files over 1 exec env
+2025-11-24 14:13:36.913 [info] (256064) BG: Indexing finished(8).
+2025-11-24 14:13:46.271 [info] (256064) BG: Indexer background runner(9) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:13:46.271 [info] (256064) BG: Indexing(9) started
+2025-11-24 14:13:46.597 [info] (256064) BG: scanned(9) 209 files over 1 exec env
+2025-11-24 14:13:46.816 [info] (256064) BG: indexed(9) 209 files over 1 exec env
+2025-11-24 14:13:46.838 [info] (256064) BG: Indexing finished(9).
+2025-11-24 14:14:13.630 [info] (256064) BG: Indexer background runner(10) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:14:13.630 [info] (256064) BG: Indexing(10) started
+2025-11-24 14:14:13.947 [info] (256064) BG: scanned(10) 214 files over 1 exec env
+2025-11-24 14:14:14.324 [info] (256064) BG: indexed(10) 214 files over 1 exec env
+2025-11-24 14:14:14.354 [info] (256064) BG: Indexing finished(10).
+2025-11-24 14:15:03.894 [info] (256064) BG: Indexer background runner(11) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:15:03.894 [info] (256064) BG: Indexing(11) started
+2025-11-24 14:15:04.229 [info] (256064) BG: scanned(11) 215 files over 1 exec env
+2025-11-24 14:15:04.492 [info] (256064) BG: indexed(11) 215 files over 1 exec env
+2025-11-24 14:15:04.523 [info] (256064) BG: Indexing finished(11).
+2025-11-24 14:15:17.535 [info] (256064) BG: Indexer background runner(12) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-11-24 14:15:17.535 [info] (256064) BG: Indexing(12) started
+2025-11-24 14:15:17.881 [info] (256064) BG: scanned(12) 223 files over 1 exec env
+2025-11-24 14:15:18.302 [info] (256064) BG: indexed(12) 223 files over 1 exec env
+2025-11-24 14:15:18.337 [info] (256064) BG: Indexing finished(12).
+2025-11-24 14:49:15.368 [info] (256064) Starting service instance "<default>" for workspace ""
+2025-11-24 14:49:15.436 [info] (256064) Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-24 14:49:15.436 [info] (256064) Setting pythonPath for service "<default>": "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python"
+2025-11-24 14:49:15.436 [info] (256064) No include entries specified; assuming /<default workspace root>
+2025-11-24 14:49:15.436 [info] (256064) Auto-excluding **/node_modules
+2025-11-24 14:49:15.436 [info] (256064) Auto-excluding **/__pycache__
+2025-11-24 14:49:15.436 [info] (256064) Auto-excluding **/.*
+2025-11-24 14:49:15.464 [info] (256064) Assuming Python version 3.13.7.final.0
+2025-11-24 14:49:15.512 [error] (256064) File or directory "/<default workspace root>" does not exist.
+2025-11-24 14:49:15.512 [info] (256064) No source files found.
+2025-11-24 14:49:15.950 [info] (256064) BG: Priority queue background worker(14) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-11-24 14:49:15.951 [info] (256064) BG: Priority queue background worker(14) started

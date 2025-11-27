@@ -1,0 +1,165 @@
+2025-11-24 13:42:46.415 [warning] Dir "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.pixi/envs" is not watchable (directory does not exist)
+2025-11-24 13:42:46.885 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:112874)
+	at new m (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:914480)
+	at ge (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1735641)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739005
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738399
+	at Array.reduce (<anonymous>)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738371
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738653
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766464
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766485
+	at e._get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765498)
+	at e._getButThrowIfAsync (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765558)
+	at e.get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1761267)
+	at e.dynamicValue (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1751000)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1737177
+	at Ee (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1737433)
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739149)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736728
+	at Array.map (<anonymous>)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736699
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738399
+	at Array.reduce (<anonymous>)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738371
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1738653
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739033
+	at Se (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739100)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739580
+	at we (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739521)
+	at Pe (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1739555)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1736794
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766464
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1766485
+	at e._get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765498)
+	at e._getButThrowIfAsync (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1765558)
+	at e.get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:1761267)
+	at a.get (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:568835)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:478570
+	at async t.activateComponents (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:476850)
+	at async /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701666
+	at async e (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2701198)
+	at async _b.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+	at async _b.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+	at async _b.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)]
+2025-11-24 13:42:46.900 [info] Starting Environment refresh
+2025-11-24 13:42:46.900 [info] Searching for interpreters in posix paths locator
+2025-11-24 13:42:46.903 [info] Searching for pyenv environments
+2025-11-24 13:42:46.903 [info] Searching for conda environments
+2025-11-24 13:42:46.903 [info] Searching for global virtual environments
+2025-11-24 13:42:46.903 [info] Searching for custom virtual environments
+2025-11-24 13:42:46.925 [info] pyenv is not installed
+2025-11-24 13:42:46.925 [info] Finished searching for pyenv environments: 24 milliseconds
+2025-11-24 13:42:46.925 [info] Finished searching for custom virtual envs: 23 milliseconds
+2025-11-24 13:42:46.930 [info] > conda info --json
+2025-11-24 13:42:46.936 [info] > hatch env show --json
+2025-11-24 13:42:46.936 [info] cwd: .
+2025-11-24 13:42:46.943 [info] Python interpreter path: /bin/python
+2025-11-24 13:42:46.967 [info] Finished searching for global virtual envs: 65 milliseconds
+2025-11-24 13:42:47.117 [info] > pyenv which python
+2025-11-24 13:42:47.117 [info] cwd: .
+2025-11-24 13:42:47.143 [info] Found: /bin/python --> /bin/python3.13
+2025-11-24 13:42:47.188 [info] Found: /bin/python3 --> /bin/python3.13
+2025-11-24 13:42:47.196 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-11-24 13:42:47.197 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 309ms, has a falsy return value, Arg 1: <Uri:/home/east/shared/eastSync/pyEast/ML/research/MLDev/final_model_testing.ipynb>, Arg 2: {"started":1763988166101}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+  	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+  	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+]
+2025-11-24 13:42:47.198 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+2025-11-24 13:42:47.198 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)]
+2025-11-24 13:42:47.256 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:42:47.263 [info] Found: /sbin/python --> /sbin/python3.13
+2025-11-24 13:42:47.264 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-11-24 13:42:47.264 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-11-24 13:42:47.481 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-11-24 13:42:47.482 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-11-24 13:42:47.487 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-11-24 13:42:47.505 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:42:47.520 [error] [Error: Command failed: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:346:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 13:42:47.538 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-11-24 13:42:47.543 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-11-24 13:42:47.543 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-11-24 13:42:47.581 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:42:47.612 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:42:47.612 [info] Finished searching for interpreters in posix paths locator: 714 milliseconds
+2025-11-24 13:42:47.619 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:42:47.619 [info] Environments refresh paths discovered (event): 721 milliseconds
+2025-11-24 13:42:47.619 [info] Environments refresh paths discovered: 721 milliseconds
+2025-11-24 13:42:47.657 [info] Starting Jedi language server for MLDev.
+2025-11-24 13:42:49.525 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+2025-11-24 13:42:49.527 [error] [Error: Command failed: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python: No such file or directory
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python -I /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/get_output_via_markers.py /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/python_files/interpreterInfo.py'
+}
+2025-11-24 13:42:49.528 [info] Environments refresh finished (event): 2629 milliseconds
+2025-11-24 13:42:49.530 [info] Environment refresh took 2633 milliseconds
+2025-11-24 13:44:43.907 [info] Discover tests for workspace name: undefined - uri: /home/east/.config/Code - OSS/User/settings.json

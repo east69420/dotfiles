@@ -1,0 +1,117 @@
+2025-11-24 15:57:28.140 [info] update#setState idle
+2025-11-24 15:57:58.141 [info] update#setState checking for updates
+2025-11-24 15:57:58.220 [info] update#setState idle
+2025-11-24 15:58:03.597 [info] Extension host with pid 268442 exited with code: 0, signal: unknown.
+2025-11-24 15:58:03.725 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 268531]: crashed with code 15 and reason 'killed'
+2025-11-24 16:56:35.247 [info] Extension host with pid 269131 exited with code: 0, signal: unknown.
+2025-11-24 16:56:35.289 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 269117]: crashed with code 15 and reason 'killed'
+2025-11-24 16:56:41.384 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 280228]: crashed with code 15 and reason 'killed'
+2025-11-24 16:56:41.394 [info] Extension host with pid 280241 exited with code: 0, signal: unknown.
+2025-11-24 16:57:58.143 [info] update#setState checking for updates
+2025-11-24 16:57:58.196 [info] update#setState idle
+2025-11-24 17:57:58.147 [info] update#setState checking for updates
+2025-11-24 17:57:58.420 [info] update#setState idle
+2025-11-24 18:57:58.156 [info] update#setState checking for updates
+2025-11-24 18:57:58.378 [info] update#setState idle
+2025-11-24 19:57:58.161 [info] update#setState checking for updates
+2025-11-24 19:57:58.408 [info] update#setState idle
+2025-11-24 20:57:58.165 [info] update#setState checking for updates
+2025-11-24 20:57:58.393 [info] update#setState idle
+2025-11-24 21:57:58.166 [info] update#setState checking for updates
+2025-11-24 21:57:58.408 [info] update#setState idle
+2025-11-24 22:57:58.170 [info] update#setState checking for updates
+2025-11-24 22:57:58.415 [info] update#setState idle
+2025-11-24 23:57:58.172 [info] update#setState checking for updates
+2025-11-24 23:57:58.356 [info] update#setState idle
+2025-11-25 00:57:58.175 [info] update#setState checking for updates
+2025-11-25 00:57:58.377 [info] update#setState idle
+2025-11-25 01:57:58.176 [info] update#setState checking for updates
+2025-11-25 01:57:58.398 [info] update#setState idle
+2025-11-25 02:57:58.177 [info] update#setState checking for updates
+2025-11-25 02:57:58.413 [info] update#setState idle
+2025-11-25 03:57:58.179 [info] update#setState checking for updates
+2025-11-25 03:57:58.409 [info] update#setState idle
+2025-11-25 04:57:58.180 [info] update#setState checking for updates
+2025-11-25 04:57:58.446 [info] update#setState idle
+2025-11-25 05:57:58.181 [info] update#setState checking for updates
+2025-11-25 05:57:58.450 [info] update#setState idle
+2025-11-25 06:57:58.182 [info] update#setState checking for updates
+2025-11-25 06:57:58.442 [info] update#setState idle
+2025-11-25 07:57:58.183 [info] update#setState checking for updates
+2025-11-25 07:57:58.406 [info] update#setState idle
+2025-11-25 08:57:58.185 [info] update#setState checking for updates
+2025-11-25 08:57:58.508 [info] update#setState idle
+2025-11-25 09:57:58.187 [info] update#setState checking for updates
+2025-11-25 09:57:58.446 [info] update#setState idle
+2025-11-25 10:57:58.189 [info] update#setState checking for updates
+2025-11-25 10:57:58.657 [info] update#setState idle
+2025-11-25 11:57:58.189 [info] update#setState checking for updates
+2025-11-25 11:57:58.437 [info] update#setState idle
+2025-11-25 12:57:58.190 [info] update#setState checking for updates
+2025-11-25 12:57:58.413 [info] update#setState idle
+2025-11-25 13:57:58.192 [info] update#setState checking for updates
+2025-11-25 13:57:58.413 [info] update#setState idle
+2025-11-25 14:57:58.195 [info] update#setState checking for updates
+2025-11-25 14:57:58.430 [info] update#setState idle
+2025-11-25 15:57:58.197 [info] update#setState checking for updates
+2025-11-25 15:57:58.421 [info] update#setState idle
+2025-11-25 16:57:58.203 [info] update#setState checking for updates
+2025-11-25 16:57:58.406 [info] update#setState idle
+2025-11-25 17:57:58.207 [info] update#setState checking for updates
+2025-11-25 17:57:58.407 [info] update#setState idle
+2025-11-25 18:57:58.211 [info] update#setState checking for updates
+2025-11-25 18:57:58.680 [info] update#setState idle
+2025-11-25 19:57:58.213 [info] update#setState checking for updates
+2025-11-25 19:57:58.416 [info] update#setState idle
+2025-11-25 20:57:58.214 [info] update#setState checking for updates
+2025-11-25 20:57:58.404 [info] update#setState idle
+2025-11-25 21:57:58.214 [info] update#setState checking for updates
+2025-11-25 21:57:58.406 [info] update#setState idle
+2025-11-25 22:57:58.218 [info] update#setState checking for updates
+2025-11-25 22:57:58.403 [info] update#setState idle
+2025-11-25 23:57:58.221 [info] update#setState checking for updates
+2025-11-25 23:57:58.400 [info] update#setState idle
+2025-11-26 00:57:58.224 [info] update#setState checking for updates
+2025-11-26 00:57:58.445 [info] update#setState idle
+2025-11-26 01:57:58.226 [info] update#setState checking for updates
+2025-11-26 01:57:58.432 [info] update#setState idle
+2025-11-26 02:57:58.228 [info] update#setState checking for updates
+2025-11-26 02:57:58.462 [info] update#setState idle
+2025-11-26 03:57:58.230 [info] update#setState checking for updates
+2025-11-26 03:57:58.445 [info] update#setState idle
+2025-11-26 04:57:58.233 [info] update#setState checking for updates
+2025-11-26 04:57:58.506 [info] update#setState idle
+2025-11-26 05:57:58.235 [info] update#setState checking for updates
+2025-11-26 05:57:58.490 [info] update#setState idle
+2025-11-26 06:57:58.236 [info] update#setState checking for updates
+2025-11-26 06:57:58.437 [info] update#setState idle
+2025-11-26 07:57:58.238 [info] update#setState checking for updates
+2025-11-26 07:57:58.423 [info] update#setState idle
+2025-11-26 08:57:58.240 [info] update#setState checking for updates
+2025-11-26 08:57:58.467 [info] update#setState idle
+2025-11-26 09:57:58.241 [info] update#setState checking for updates
+2025-11-26 09:57:58.442 [info] update#setState idle
+2025-11-26 10:57:58.242 [info] update#setState checking for updates
+2025-11-26 10:57:58.439 [info] update#setState idle
+2025-11-26 11:57:58.243 [info] update#setState checking for updates
+2025-11-26 11:57:58.403 [info] update#setState idle
+2025-11-26 12:23:35.411 [info] Extension host with pid 280531 exited with code: 0, signal: unknown.
+2025-11-26 12:23:35.928 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 280517]: crashed with code 15 and reason 'killed'
+2025-11-26 12:38:06.286 [info] Extension host with pid 436121 exited with code: 0, signal: unknown.
+2025-11-26 12:57:58.244 [info] update#setState checking for updates
+2025-11-26 12:57:58.449 [info] update#setState idle
+2025-11-26 13:57:58.245 [info] update#setState checking for updates
+2025-11-26 13:57:58.513 [info] update#setState available for download
+2025-11-26 17:34:29.381 [info] Extension host with pid 432745 exited with code: 0, signal: unknown.
+2025-11-26 17:34:29.477 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 432731]: crashed with code 15 and reason 'killed'
+2025-11-26 17:34:34.042 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 436183]: crashed with code 15 and reason 'killed'
+2025-11-26 17:34:38.597 [info] Extension host with pid 436160 exited with code: 0, signal: unknown.
+2025-11-26 17:34:44.352 [error] [UtilityProcess id: 4, type: fileWatcher, pid: 450591]: crashed with code 15 and reason 'killed'
+2025-11-26 17:34:44.357 [info] Extension host with pid 450605 exited with code: 0, signal: unknown.
+2025-11-26 18:00:36.039 [error] [UtilityProcess id: 5, type: fileWatcher, pid: 452507]: crashed with code 15 and reason 'killed'
+2025-11-26 18:00:36.045 [info] Extension host with pid 452521 exited with code: 0, signal: unknown.
+2025-11-26 18:32:22.147 [info] Extension host with pid 450647 exited with code: 0, signal: unknown.
+2025-11-26 19:01:52.023 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 436036]: crashed with code 15 and reason 'killed'
+2025-11-26 19:01:52.027 [info] Extension host with pid 436051 exited with code: 0, signal: unknown.
+2025-11-27 10:48:32.053 [info] Extension host with pid 452577 exited with code: 0, signal: unknown.
+2025-11-27 10:48:32.150 [error] [UtilityProcess id: 5, type: fileWatcher, pid: 452561]: crashed with code 15 and reason 'killed'

@@ -1,0 +1,1397 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.10.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/pro_version
+18:32:26.539 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb' (disableUI=true)
+18:32:26.540 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb' (disableUI=true)
+18:32:26.911 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:32:26.920 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3fea63fe184f808ac50f9aa2e692b278a5e071b39.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+18:32:26.932 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:32:26.942 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3d246cbca9f5d1e2ac186f6ecdbf4fbe7b461e531.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+18:32:26.952 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m pip list
+18:32:27.410 [info] Kernel successfully started
+18:32:27.421 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+18:32:27.424 [info] Kernel successfully started
+18:32:34.110 [warn] Cell completed with errors Iu [Error]: name 'features' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'features' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Find rows with any NaN values in features\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m nan_mask = \x1B[43mfeatures\x1B[49m.isna().any(axis=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m      3\x1B[39m features_with_nans = features[nan_mask]\n',
+    "\x1B[31mNameError\x1B[39m: name 'features' is not defined"
+  ]
+}
+18:35:30.870 [info] Interrupt kernel execution
+18:35:30.870 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:35:30.871 [info] Interrupt kernel execution
+18:35:30.871 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+18:35:30.871 [info] Interrupting kernel via SIGINT
+18:35:31.343 [warn] Cell completed with errors (cancelled)
+18:35:31.344 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+18:40:30.243 [info] Interrupt kernel execution
+18:40:30.243 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:40:30.243 [info] Interrupt kernel execution
+18:40:30.243 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+18:40:30.243 [info] Interrupting kernel via SIGINT
+18:40:30.444 [warn] Cell completed with errors (cancelled)
+18:40:30.445 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+19:17:59.416 [warn] Cell completed with errors Iu [Error]: "None of [Index(['high', 'low', 'close'], dtype='object')] are in the [columns]"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"None of [Index(['high', 'low', 'close'], dtype='object')] are in the [columns]"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[19]\x1B[39m\x1B[32m, line 43\x1B[39m\n' +
+      '\x1B[32m     40\x1B[39m window_start = nan_time - pd.Timedelta(hours=\x1B[32m3\x1B[39m)\n' +
+      '\x1B[32m     41\x1B[39m window_end = nan_time\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m window_data = \x1B[43mraw_history\x1B[49m\x1B[43m.\x1B[49m\x1B[43mloc\x1B[49m\x1B[43m[\x1B[49m\x1B[43mwindow_start\x1B[49m\x1B[43m:\x1B[49m\x1B[43mwindow_end\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mhigh\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mlow\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mclose\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m]\x1B[49m\n" +
+      '\x1B[32m     45\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(window_data) > \x1B[32m0\x1B[39m:\n' +
+      "\x1B[32m     46\x1B[39m     price_range = window_data[\x1B[33m'\x1B[39m\x1B[33mhigh\x1B[39m\x1B[33m'\x1B[39m].max() - window_data[\x1B[33m'\x1B[39m\x1B[33mlow\x1B[39m\x1B[33m'\x1B[39m].min()\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1185\x1B[39m, in \x1B[36m_LocationIndexer.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   1183\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m._is_scalar_access(key):\n' +
+      '\x1B[32m   1184\x1B[39m         \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.obj._get_value(*key, takeable=\x1B[38;5;28mself\x1B[39m._takeable)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1185\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_getitem_tuple\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1186\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   1187\x1B[39m     \x1B[38;5;66;03m# we by definition only have the 0th axis\x1B[39;00m\n' +
+      '\x1B[32m   1188\x1B[39m     axis = \x1B[38;5;28mself\x1B[39m.axis \x1B[38;5;129;01mor\x1B[39;00m \x1B[32m0\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1378\x1B[39m, in \x1B[36m_LocIndexer._getitem_tuple\x1B[39m\x1B[34m(self, tup)\x1B[39m\n' +
+      '\x1B[32m   1375\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m._multi_take_opportunity(tup):\n' +
+      '\x1B[32m   1376\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._multi_take(tup)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1378\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_getitem_tuple_same_dim\x1B[49m\x1B[43m(\x1B[49m\x1B[43mtup\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1021\x1B[39m, in \x1B[36m_LocationIndexer._getitem_tuple_same_dim\x1B[39m\x1B[34m(self, tup)\x1B[39m\n' +
+      '\x1B[32m   1018\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m com.is_null_slice(key):\n' +
+      '\x1B[32m   1019\x1B[39m     \x1B[38;5;28;01mcontinue\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1021\x1B[39m retval = \x1B[38;5;28;43mgetattr\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mretval\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mname\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_getitem_axis\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43mi\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1022\x1B[39m \x1B[38;5;66;03m# We should never have retval.ndim < self.ndim, as that should\x1B[39;00m\n' +
+      '\x1B[32m   1023\x1B[39m \x1B[38;5;66;03m#  be handled by the _getitem_lowerdim call above.\x1B[39;00m\n' +
+      '\x1B[32m   1024\x1B[39m \x1B[38;5;28;01massert\x1B[39;00m retval.ndim == \x1B[38;5;28mself\x1B[39m.ndim\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1421\x1B[39m, in \x1B[36m_LocIndexer._getitem_axis\x1B[39m\x1B[34m(self, key, axis)\x1B[39m\n' +
+      '\x1B[32m   1418\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mhasattr\x1B[39m(key, \x1B[33m"\x1B[39m\x1B[33mndim\x1B[39m\x1B[33m"\x1B[39m) \x1B[38;5;129;01mand\x1B[39;00m key.ndim > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   1419\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mCannot index with multidimensional key\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1421\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_getitem_iterable\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43maxis\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1423\x1B[39m \x1B[38;5;66;03m# nested tuple slicing\x1B[39;00m\n' +
+      '\x1B[32m   1424\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_nested_tuple(key, labels):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1361\x1B[39m, in \x1B[36m_LocIndexer._getitem_iterable\x1B[39m\x1B[34m(self, key, axis)\x1B[39m\n' +
+      '\x1B[32m   1358\x1B[39m \x1B[38;5;28mself\x1B[39m._validate_key(key, axis)\n' +
+      '\x1B[32m   1360\x1B[39m \x1B[38;5;66;03m# A collection of keys\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1361\x1B[39m keyarr, indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_get_listlike_indexer\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1362\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.obj._reindex_with_indexers(\n' +
+      '\x1B[32m   1363\x1B[39m     {axis: [keyarr, indexer]}, copy=\x1B[38;5;28;01mTrue\x1B[39;00m, allow_dups=\x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[32m   1364\x1B[39m )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1559\x1B[39m, in \x1B[36m_LocIndexer._get_listlike_indexer\x1B[39m\x1B[34m(self, key, axis)\x1B[39m\n' +
+      '\x1B[32m   1556\x1B[39m ax = \x1B[38;5;28mself\x1B[39m.obj._get_axis(axis)\n' +
+      '\x1B[32m   1557\x1B[39m axis_name = \x1B[38;5;28mself\x1B[39m.obj._get_axis_name(axis)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1559\x1B[39m keyarr, indexer = \x1B[43max\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1561\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m keyarr, indexer\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6212\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6209\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6210\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6212\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6214\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6215\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6216\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6261\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6259\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m nmissing:\n' +
+      '\x1B[32m   6260\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m nmissing == \x1B[38;5;28mlen\x1B[39m(indexer):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6261\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6263\x1B[39m     not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m   6264\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "None of [Index(['high', 'low', 'close'], dtype='object')] are in the [columns]"`
+  ]
+}
+19:35:22.285 [warn] Cell completed with errors Iu [Error]: "None of [Index(['high', 'low', 'close'], dtype='object')] are in the [columns]"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"None of [Index(['high', 'low', 'close'], dtype='object')] are in the [columns]"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[26]\x1B[39m\x1B[32m, line 43\x1B[39m\n' +
+      '\x1B[32m     40\x1B[39m window_start = nan_time - pd.Timedelta(hours=\x1B[32m3\x1B[39m)\n' +
+      '\x1B[32m     41\x1B[39m window_end = nan_time\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m43\x1B[39m window_data = \x1B[43mraw_history\x1B[49m\x1B[43m.\x1B[49m\x1B[43mloc\x1B[49m\x1B[43m[\x1B[49m\x1B[43mwindow_start\x1B[49m\x1B[43m:\x1B[49m\x1B[43mwindow_end\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mhigh\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mlow\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mclose\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m]\x1B[49m\n" +
+      '\x1B[32m     45\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(window_data) > \x1B[32m0\x1B[39m:\n' +
+      "\x1B[32m     46\x1B[39m     price_range = window_data[\x1B[33m'\x1B[39m\x1B[33mhigh\x1B[39m\x1B[33m'\x1B[39m].max() - window_data[\x1B[33m'\x1B[39m\x1B[33mlow\x1B[39m\x1B[33m'\x1B[39m].min()\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1185\x1B[39m, in \x1B[36m_LocationIndexer.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   1183\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m._is_scalar_access(key):\n' +
+      '\x1B[32m   1184\x1B[39m         \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.obj._get_value(*key, takeable=\x1B[38;5;28mself\x1B[39m._takeable)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1185\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_getitem_tuple\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1186\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   1187\x1B[39m     \x1B[38;5;66;03m# we by definition only have the 0th axis\x1B[39;00m\n' +
+      '\x1B[32m   1188\x1B[39m     axis = \x1B[38;5;28mself\x1B[39m.axis \x1B[38;5;129;01mor\x1B[39;00m \x1B[32m0\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1378\x1B[39m, in \x1B[36m_LocIndexer._getitem_tuple\x1B[39m\x1B[34m(self, tup)\x1B[39m\n' +
+      '\x1B[32m   1375\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m._multi_take_opportunity(tup):\n' +
+      '\x1B[32m   1376\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._multi_take(tup)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1378\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_getitem_tuple_same_dim\x1B[49m\x1B[43m(\x1B[49m\x1B[43mtup\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1021\x1B[39m, in \x1B[36m_LocationIndexer._getitem_tuple_same_dim\x1B[39m\x1B[34m(self, tup)\x1B[39m\n' +
+      '\x1B[32m   1018\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m com.is_null_slice(key):\n' +
+      '\x1B[32m   1019\x1B[39m     \x1B[38;5;28;01mcontinue\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1021\x1B[39m retval = \x1B[38;5;28;43mgetattr\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mretval\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mname\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_getitem_axis\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43mi\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1022\x1B[39m \x1B[38;5;66;03m# We should never have retval.ndim < self.ndim, as that should\x1B[39;00m\n' +
+      '\x1B[32m   1023\x1B[39m \x1B[38;5;66;03m#  be handled by the _getitem_lowerdim call above.\x1B[39;00m\n' +
+      '\x1B[32m   1024\x1B[39m \x1B[38;5;28;01massert\x1B[39;00m retval.ndim == \x1B[38;5;28mself\x1B[39m.ndim\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1421\x1B[39m, in \x1B[36m_LocIndexer._getitem_axis\x1B[39m\x1B[34m(self, key, axis)\x1B[39m\n' +
+      '\x1B[32m   1418\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mhasattr\x1B[39m(key, \x1B[33m"\x1B[39m\x1B[33mndim\x1B[39m\x1B[33m"\x1B[39m) \x1B[38;5;129;01mand\x1B[39;00m key.ndim > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   1419\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mCannot index with multidimensional key\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1421\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_getitem_iterable\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43maxis\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1423\x1B[39m \x1B[38;5;66;03m# nested tuple slicing\x1B[39;00m\n' +
+      '\x1B[32m   1424\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_nested_tuple(key, labels):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1361\x1B[39m, in \x1B[36m_LocIndexer._getitem_iterable\x1B[39m\x1B[34m(self, key, axis)\x1B[39m\n' +
+      '\x1B[32m   1358\x1B[39m \x1B[38;5;28mself\x1B[39m._validate_key(key, axis)\n' +
+      '\x1B[32m   1360\x1B[39m \x1B[38;5;66;03m# A collection of keys\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1361\x1B[39m keyarr, indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_get_listlike_indexer\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1362\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.obj._reindex_with_indexers(\n' +
+      '\x1B[32m   1363\x1B[39m     {axis: [keyarr, indexer]}, copy=\x1B[38;5;28;01mTrue\x1B[39;00m, allow_dups=\x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[32m   1364\x1B[39m )\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexing.py:1559\x1B[39m, in \x1B[36m_LocIndexer._get_listlike_indexer\x1B[39m\x1B[34m(self, key, axis)\x1B[39m\n' +
+      '\x1B[32m   1556\x1B[39m ax = \x1B[38;5;28mself\x1B[39m.obj._get_axis(axis)\n' +
+      '\x1B[32m   1557\x1B[39m axis_name = \x1B[38;5;28mself\x1B[39m.obj._get_axis_name(axis)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1559\x1B[39m keyarr, indexer = \x1B[43max\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1561\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m keyarr, indexer\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6212\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6209\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6210\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6212\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6214\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6215\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6216\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6261\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6259\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m nmissing:\n' +
+      '\x1B[32m   6260\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m nmissing == \x1B[38;5;28mlen\x1B[39m(indexer):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6261\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6263\x1B[39m     not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m   6264\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "None of [Index(['high', 'low', 'close'], dtype='object')] are in the [columns]"`
+  ]
+}
+19:39:12.288 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+19:39:12.365 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+19:39:12.374 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3e87b29eb5335158384e1ca9bd9c32b9659f3e7cc.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+19:39:12.784 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+19:39:36.821 [info] Interrupt kernel execution
+19:39:36.821 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+19:39:36.821 [info] Interrupt kernel execution
+19:39:36.821 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+19:39:36.822 [info] Interrupting kernel via SIGINT
+19:39:37.335 [warn] Cell completed with errors (cancelled)
+19:39:37.336 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+19:39:38.722 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+19:39:38.744 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+19:39:38.762 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3c72d78fb95a7636846ef5148f490f3940a5cf193.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+19:39:39.170 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+21:34:55.933 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+21:34:56.006 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+21:34:56.016 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v36a741e92762dd9896c4f0bccb2ead4652e35769b.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+21:34:56.424 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+22:56:12.328 [warn] Cell completed with errors Iu [Error]: "None of [Index(['open', 'high', 'low', 'close'], dtype='object')] are in the [columns]"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"None of [Index(['open', 'high', 'low', 'close'], dtype='object')] are in the [columns]"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[14]\x1B[39m\x1B[32m, line 12\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTest data shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtest_data.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mOHLC values during flat period:\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m12\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43mtest_data\x1B[49m\x1B[43m[\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mopen\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mhigh\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mlow\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mclose\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m]\x1B[49m.head(\x1B[32m20\x1B[39m))\n" +
+      '\x1B[32m     14\x1B[39m \x1B[38;5;66;03m# Check if OHLC are all equal\x1B[39;00m\n' +
+      "\x1B[32m     15\x1B[39m ohlc_equal = (test_data[\x1B[33m'\x1B[39m\x1B[33mopen\x1B[39m\x1B[33m'\x1B[39m] == test_data[\x1B[33m'\x1B[39m\x1B[33mhigh\x1B[39m\x1B[33m'\x1B[39m]) & \\\n" +
+      "\x1B[32m     16\x1B[39m              (test_data[\x1B[33m'\x1B[39m\x1B[33mhigh\x1B[39m\x1B[33m'\x1B[39m] == test_data[\x1B[33m'\x1B[39m\x1B[33mlow\x1B[39m\x1B[33m'\x1B[39m]) & \\\n" +
+      "\x1B[32m     17\x1B[39m              (test_data[\x1B[33m'\x1B[39m\x1B[33mlow\x1B[39m\x1B[33m'\x1B[39m] == test_data[\x1B[33m'\x1B[39m\x1B[33mclose\x1B[39m\x1B[33m'\x1B[39m])\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:4119\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4117\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n' +
+      '\x1B[32m   4118\x1B[39m         key = \x1B[38;5;28mlist\x1B[39m(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4119\x1B[39m     indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mcolumns\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   4121\x1B[39m \x1B[38;5;66;03m# take() does not accept boolean indexers\x1B[39;00m\n' +
+      '\x1B[32m   4122\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mgetattr\x1B[39m(indexer, \x1B[33m"\x1B[39m\x1B[33mdtype\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m) == \x1B[38;5;28mbool\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6212\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6209\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6210\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6212\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6214\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6215\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6216\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6261\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6259\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m nmissing:\n' +
+      '\x1B[32m   6260\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m nmissing == \x1B[38;5;28mlen\x1B[39m(indexer):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6261\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6263\x1B[39m     not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m   6264\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "None of [Index(['open', 'high', 'low', 'close'], dtype='object')] are in the [columns]"`
+  ]
+}
+06:51:21.061 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+06:51:21.126 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:51:21.136 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3f1b11c1eca7ec1196ee2d4803f42c7fca0d1053e.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+06:51:21.545 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+07:10:14.359 [warn] Cell completed with errors Iu [Error]: name 'fwd_indices' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'fwd_indices' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[7]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Check the jump loop iteration count\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m jump_speed_window = \x1B[32m6\x1B[39m  \x1B[38;5;66;03m# from regime engineer\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mlen(fwd_indices): \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(\x1B[43mfwd_indices\x1B[49m)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mjump_speed_window: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mjump_speed_window\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mlen(fwd_indices) - jump_speed_window + 1: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(fwd_indices)\x1B[38;5;250m \x1B[39m-\x1B[38;5;250m \x1B[39mjump_speed_window\x1B[38;5;250m \x1B[39m+\x1B[38;5;250m \x1B[39m\x1B[32m1\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'fwd_indices' is not defined"
+  ]
+}
+07:19:39.600 [warn] Cell completed with errors Iu [Error]: "['max_fwd_z_score'] not found in axis"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"['max_fwd_z_score'] not found in axis"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[12]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43my_train\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mmax_fwd_z_score\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43minplace\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\n" +
+      '\x1B[32m      2\x1B[39m y_train\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:5603\x1B[39m, in \x1B[36mDataFrame.drop\x1B[39m\x1B[34m(self, labels, axis, index, columns, level, inplace, errors)\x1B[39m\n' +
+      '\x1B[32m   5455\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mdrop\x1B[39m(\n' +
+      '\x1B[32m   5456\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m   5457\x1B[39m     labels: IndexLabel | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5464\x1B[39m     errors: IgnoreRaise = \x1B[33m"\x1B[39m\x1B[33mraise\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m   5465\x1B[39m ) -> DataFrame | \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   5466\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   5467\x1B[39m \x1B[33;03m    Drop specified labels from rows or columns.\x1B[39;00m\n' +
+      '\x1B[32m   5468\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5601\x1B[39m \x1B[33;03m            weight  1.0     0.8\x1B[39;00m\n' +
+      '\x1B[32m   5602\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m5603\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   5604\x1B[39m \x1B[43m        \x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5605\x1B[39m \x1B[43m        \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43maxis\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5606\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m=\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5607\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5608\x1B[39m \x1B[43m        \x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5609\x1B[39m \x1B[43m        \x1B[49m\x1B[43minplace\x1B[49m\x1B[43m=\x1B[49m\x1B[43minplace\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5610\x1B[39m \x1B[43m        \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5611\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/generic.py:4810\x1B[39m, in \x1B[36mNDFrame.drop\x1B[39m\x1B[34m(self, labels, axis, index, columns, level, inplace, errors)\x1B[39m\n' +
+      '\x1B[32m   4808\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m axis, labels \x1B[38;5;129;01min\x1B[39;00m axes.items():\n' +
+      '\x1B[32m   4809\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m labels \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4810\x1B[39m         obj = \x1B[43mobj\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_drop_axis\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4812\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m inplace:\n' +
+      '\x1B[32m   4813\x1B[39m     \x1B[38;5;28mself\x1B[39m._update_inplace(obj)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/generic.py:4852\x1B[39m, in \x1B[36mNDFrame._drop_axis\x1B[39m\x1B[34m(self, labels, axis, level, errors, only_slice)\x1B[39m\n' +
+      '\x1B[32m   4850\x1B[39m         new_axis = axis.drop(labels, level=level, errors=errors)\n' +
+      '\x1B[32m   4851\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4852\x1B[39m         new_axis = \x1B[43maxis\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4853\x1B[39m     indexer = axis.get_indexer(new_axis)\n' +
+      '\x1B[32m   4855\x1B[39m \x1B[38;5;66;03m# Case for non-unique axis\x1B[39;00m\n' +
+      '\x1B[32m   4856\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:7136\x1B[39m, in \x1B[36mIndex.drop\x1B[39m\x1B[34m(self, labels, errors)\x1B[39m\n' +
+      '\x1B[32m   7134\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m mask.any():\n' +
+      '\x1B[32m   7135\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m errors != \x1B[33m"\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m"\x1B[39m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m7136\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mlabels[mask].tolist()\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not found in axis\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   7137\x1B[39m     indexer = indexer[~mask]\n' +
+      '\x1B[32m   7138\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.delete(indexer)\n',
+    `\x1B[31mKeyError\x1B[39m: "['max_fwd_z_score'] not found in axis"`
+  ]
+}
+09:10:14.897 [warn] Cell completed with errors Iu [Error]: name 'x_train' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'x_train' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[17]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mx_train\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'x_train' is not defined"
+  ]
+}
+09:17:45.604 [warn] Cell completed with errors Iu [Error]: unmatched ')' (584580901.py, line 1)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: "unmatched ')' (584580901.py, line 1)",
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[30]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mX_val_final              )\x1B[39m\n' +
+      '                             ^\n' +
+      "\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m unmatched ')'\n"
+  ]
+}
+09:18:53.725 [warn] Cell completed with errors Iu [Error]: name 'MiniRocketMuiltivariate' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'MiniRocketMuiltivariate' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[33]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      3\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01msktime\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mtransformations\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mpanel\x1B[39;00m\x1B[34;01m.\x1B[39;00m\x1B[34;01mrocket\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m MiniRocketMultivariate\n' +
+      '\x1B[32m      5\x1B[39m \x1B[38;5;66;03m# transform X\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m rocket = \x1B[43mMiniRocketMuiltivariate\x1B[49m()\n' +
+      '\x1B[32m      7\x1B[39m X_train_transformed = rocket.fit_transform(X_train_final)\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;66;03m# train clasifier\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'MiniRocketMuiltivariate' is not defined"
+  ]
+}
+09:19:41.093 [warn] Cell completed with errors Iu [Error]: Found input variables with inconsistent numbers of samples: [1, 42940]
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ValueError',
+  evalue: 'Found input variables with inconsistent numbers of samples: [1, 42940]',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[34]\x1B[39m\x1B[32m, line 11\x1B[39m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;66;03m# train clasifier\x1B[39;00m\n' +
+      '\x1B[32m     10\x1B[39m classifier = RidgeClassifierCV(alphas=np.logspace(-\x1B[32m3\x1B[39m, \x1B[32m3\x1B[39m, \x1B[32m10\x1B[39m))\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m11\x1B[39m \x1B[43mclassifier\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX_train_transformed\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train_final\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/base.py:1365\x1B[39m, in \x1B[36m_fit_context.<locals>.decorator.<locals>.wrapper\x1B[39m\x1B[34m(estimator, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   1358\x1B[39m     estimator._validate_params()\n' +
+      '\x1B[32m   1360\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m config_context(\n' +
+      '\x1B[32m   1361\x1B[39m     skip_parameter_validation=(\n' +
+      '\x1B[32m   1362\x1B[39m         prefer_skip_nested_validation \x1B[38;5;129;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m   1363\x1B[39m     )\n' +
+      '\x1B[32m   1364\x1B[39m ):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1365\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfit_method\x1B[49m\x1B[43m(\x1B[49m\x1B[43mestimator\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/linear_model/_ridge.py:2890\x1B[39m, in \x1B[36mRidgeClassifierCV.fit\x1B[39m\x1B[34m(self, X, y, sample_weight, **params)\x1B[39m\n' +
+      '\x1B[32m   2856\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Fit Ridge classifier with cv.\x1B[39;00m\n' +
+      '\x1B[32m   2857\x1B[39m \n' +
+      '\x1B[32m   2858\x1B[39m \x1B[33;03mParameters\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   2885\x1B[39m \x1B[33;03m    Fitted estimator.\x1B[39;00m\n' +
+      '\x1B[32m   2886\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   2887\x1B[39m \x1B[38;5;66;03m# `RidgeClassifier` does not accept "sag" or "saga" solver and thus support\x1B[39;00m\n' +
+      '\x1B[32m   2888\x1B[39m \x1B[38;5;66;03m# csr, csc, and coo sparse matrices. By using solver="eigen" we force to accept\x1B[39;00m\n' +
+      '\x1B[32m   2889\x1B[39m \x1B[38;5;66;03m# all sparse format.\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2890\x1B[39m X, y, sample_weight, Y = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_prepare_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msolver\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meigen\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2892\x1B[39m \x1B[38;5;66;03m# If cv is None, gcv mode will be used and we used the binarized Y\x1B[39;00m\n' +
+      '\x1B[32m   2893\x1B[39m \x1B[38;5;66;03m# since y will not be binarized in _RidgeGCV estimator.\x1B[39;00m\n' +
+      '\x1B[32m   2894\x1B[39m \x1B[38;5;66;03m# If cv is not None, a GridSearchCV with some RidgeClassifier\x1B[39;00m\n' +
+      '\x1B[32m   2895\x1B[39m \x1B[38;5;66;03m# estimators are used where y will be binarized. Thus, we pass y\x1B[39;00m\n' +
+      '\x1B[32m   2896\x1B[39m \x1B[38;5;66;03m# instead of the binarized Y.\x1B[39;00m\n' +
+      '\x1B[32m   2897\x1B[39m target = Y \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.cv \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;28;01melse\x1B[39;00m y\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/linear_model/_ridge.py:1293\x1B[39m, in \x1B[36m_RidgeClassifierMixin._prepare_data\x1B[39m\x1B[34m(self, X, y, sample_weight, solver)\x1B[39m\n' +
+      '\x1B[32m   1261\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Validate `X` and `y` and binarize `y`.\x1B[39;00m\n' +
+      '\x1B[32m   1262\x1B[39m \n' +
+      '\x1B[32m   1263\x1B[39m \x1B[33;03mParameters\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   1290\x1B[39m \x1B[33;03m    The binarized version of `y`.\x1B[39;00m\n' +
+      '\x1B[32m   1291\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   1292\x1B[39m accept_sparse = _get_valid_accept_sparse(sparse.issparse(X), solver)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1293\x1B[39m X, y = \x1B[43mvalidate_data\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   1294\x1B[39m \x1B[43m    \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1295\x1B[39m \x1B[43m    \x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1296\x1B[39m \x1B[43m    \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1297\x1B[39m \x1B[43m    \x1B[49m\x1B[43maccept_sparse\x1B[49m\x1B[43m=\x1B[49m\x1B[43maccept_sparse\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1298\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmulti_output\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1299\x1B[39m \x1B[43m    \x1B[49m\x1B[43my_numeric\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mFalse\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1300\x1B[39m \x1B[43m    \x1B[49m\x1B[43mforce_writeable\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1301\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1303\x1B[39m \x1B[38;5;28mself\x1B[39m._label_binarizer = LabelBinarizer(pos_label=\x1B[32m1\x1B[39m, neg_label=-\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m   1304\x1B[39m Y = \x1B[38;5;28mself\x1B[39m._label_binarizer.fit_transform(y)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:2971\x1B[39m, in \x1B[36mvalidate_data\x1B[39m\x1B[34m(_estimator, X, y, reset, validate_separately, skip_check_array, **check_params)\x1B[39m\n' +
+      '\x1B[32m   2969\x1B[39m         y = check_array(y, input_name=\x1B[33m"\x1B[39m\x1B[33my\x1B[39m\x1B[33m"\x1B[39m, **check_y_params)\n' +
+      '\x1B[32m   2970\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2971\x1B[39m         X, y = \x1B[43mcheck_X_y\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mcheck_params\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2972\x1B[39m     out = X, y\n' +
+      '\x1B[32m   2974\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m no_val_X \x1B[38;5;129;01mand\x1B[39;00m check_params.get(\x1B[33m"\x1B[39m\x1B[33mensure_2d\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mTrue\x1B[39;00m):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:1387\x1B[39m, in \x1B[36mcheck_X_y\x1B[39m\x1B[34m(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, estimator)\x1B[39m\n' +
+      '\x1B[32m   1368\x1B[39m X = check_array(\n' +
+      '\x1B[32m   1369\x1B[39m     X,\n' +
+      '\x1B[32m   1370\x1B[39m     accept_sparse=accept_sparse,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   1382\x1B[39m     input_name=\x1B[33m"\x1B[39m\x1B[33mX\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m   1383\x1B[39m )\n' +
+      '\x1B[32m   1385\x1B[39m y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1387\x1B[39m \x1B[43mcheck_consistent_length\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1389\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m X, y\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:473\x1B[39m, in \x1B[36mcheck_consistent_length\x1B[39m\x1B[34m(*arrays)\x1B[39m\n' +
+      '\x1B[32m    471\x1B[39m lengths = [_num_samples(X) \x1B[38;5;28;01mfor\x1B[39;00m X \x1B[38;5;129;01min\x1B[39;00m arrays \x1B[38;5;28;01mif\x1B[39;00m X \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m]\n' +
+      '\x1B[32m    472\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mset\x1B[39m(lengths)) > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m473\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m    474\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mFound input variables with inconsistent numbers of samples: \x1B[39m\x1B[38;5;132;01m%r\x1B[39;00m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    475\x1B[39m         % [\x1B[38;5;28mint\x1B[39m(l) \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m lengths]\n' +
+      '\x1B[32m    476\x1B[39m     )\n',
+    '\x1B[31mValueError\x1B[39m: Found input variables with inconsistent numbers of samples: [1, 42940]'
+  ]
+}
+09:29:21.151 [warn] Cell completed with errors Iu [Error]: 'volCcy'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: "'volCcy'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:3812\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3811\x1B[39m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3812\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_engine\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   3813\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/index.pyx:167\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/index.pyx:196\x1B[39m, in \x1B[36mpandas._libs.index.IndexEngine.get_loc\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7088\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32mpandas/_libs/hashtable_class_helper.pxi:7096\x1B[39m, in \x1B[36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mKeyError\x1B[39m: 'volCcy'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[37]\x1B[39m\x1B[32m, line 57\x1B[39m\n' +
+      '\x1B[32m     51\x1B[39m \x1B[38;5;66;03m## drop price columns\x1B[39;00m\n' +
+      "\x1B[32m     52\x1B[39m \x1B[38;5;66;03m# price_cols = ['o', 'h', 'l', 'c', 'volCcy']\x1B[39;00m\n" +
+      '\x1B[32m     53\x1B[39m \x1B[38;5;66;03m# X_train_final.drop(columns=price_cols, inplace=True)\x1B[39;00m\n' +
+      '\x1B[32m     54\x1B[39m \x1B[38;5;66;03m# X_val_final.drop(columns=price_cols, inplace=True)\x1B[39;00m\n' +
+      '\x1B[32m     56\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m col \x1B[38;5;129;01min\x1B[39;00m vol_features:\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m57\x1B[39m     X_train_final[col] = \x1B[43my_train\x1B[49m\x1B[43m[\x1B[49m\x1B[43mcol\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;66;03m# Move vol context to X\x1B[39;00m\n' +
+      '\x1B[32m     58\x1B[39m     X_val_final[col] = y_val[col]\n' +
+      '\x1B[32m     62\x1B[39m \x1B[38;5;66;03m# 3. Fix y (Target)\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:4113\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4111\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns.nlevels > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m   4112\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m._getitem_multilevel(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4113\x1B[39m indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4114\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[32m   4115\x1B[39m     indexer = [indexer]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:3819\x1B[39m, in \x1B[36mIndex.get_loc\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   3814\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[32m   3815\x1B[39m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc.Iterable)\n' +
+      '\x1B[32m   3816\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[32m   3817\x1B[39m     ):\n' +
+      '\x1B[32m   3818\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m3819\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01merr\x1B[39;00m\n' +
+      '\x1B[32m   3820\x1B[39m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[32m   3821\x1B[39m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[32m   3822\x1B[39m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[32m   3823\x1B[39m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[32m   3824\x1B[39m     \x1B[38;5;28mself\x1B[39m._check_indexing_error(key)\n',
+    "\x1B[31mKeyError\x1B[39m: 'volCcy'"
+  ]
+}
+09:29:51.506 [warn] Cell completed with errors Iu [Error]: name 'x_train_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'x_train_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[40]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mx_train_final\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'x_train_final' is not defined"
+  ]
+}
+09:36:54.398 [warn] Cell completed with errors Iu [Error]: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (2606208368.py, line 55)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: "invalid syntax. Maybe you meant '==' or ':=' instead of '='? (2606208368.py, line 55)",
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[42]\x1B[39m\x1B[32m, line 55\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mX_price_3d = sliding_window_view(X_price, window_shape=(rocket_window_size, axis=0)) # (N, 4, 48)\x1B[39m\n' +
+      '                                                                                ^\n' +
+      "\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax. Maybe you meant '==' or ':=' instead of '='?\n"
+  ]
+}
+09:39:22.810 [warn] Cell completed with errors Iu [Error]: Found input variables with inconsistent numbers of samples: [1, 42940]
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ValueError',
+  evalue: 'Found input variables with inconsistent numbers of samples: [1, 42940]',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[46]\x1B[39m\x1B[32m, line 12\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;66;03m# train clasifier\x1B[39;00m\n' +
+      '\x1B[32m     11\x1B[39m classifier = RidgeClassifierCV(alphas=np.logspace(-\x1B[32m3\x1B[39m, \x1B[32m3\x1B[39m, \x1B[32m10\x1B[39m))\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m12\x1B[39m \x1B[43mclassifier\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX_train_transformed\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train_final\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/base.py:1365\x1B[39m, in \x1B[36m_fit_context.<locals>.decorator.<locals>.wrapper\x1B[39m\x1B[34m(estimator, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   1358\x1B[39m     estimator._validate_params()\n' +
+      '\x1B[32m   1360\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m config_context(\n' +
+      '\x1B[32m   1361\x1B[39m     skip_parameter_validation=(\n' +
+      '\x1B[32m   1362\x1B[39m         prefer_skip_nested_validation \x1B[38;5;129;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m   1363\x1B[39m     )\n' +
+      '\x1B[32m   1364\x1B[39m ):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1365\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfit_method\x1B[49m\x1B[43m(\x1B[49m\x1B[43mestimator\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/linear_model/_ridge.py:2890\x1B[39m, in \x1B[36mRidgeClassifierCV.fit\x1B[39m\x1B[34m(self, X, y, sample_weight, **params)\x1B[39m\n' +
+      '\x1B[32m   2856\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Fit Ridge classifier with cv.\x1B[39;00m\n' +
+      '\x1B[32m   2857\x1B[39m \n' +
+      '\x1B[32m   2858\x1B[39m \x1B[33;03mParameters\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   2885\x1B[39m \x1B[33;03m    Fitted estimator.\x1B[39;00m\n' +
+      '\x1B[32m   2886\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   2887\x1B[39m \x1B[38;5;66;03m# `RidgeClassifier` does not accept "sag" or "saga" solver and thus support\x1B[39;00m\n' +
+      '\x1B[32m   2888\x1B[39m \x1B[38;5;66;03m# csr, csc, and coo sparse matrices. By using solver="eigen" we force to accept\x1B[39;00m\n' +
+      '\x1B[32m   2889\x1B[39m \x1B[38;5;66;03m# all sparse format.\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2890\x1B[39m X, y, sample_weight, Y = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_prepare_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msolver\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meigen\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2892\x1B[39m \x1B[38;5;66;03m# If cv is None, gcv mode will be used and we used the binarized Y\x1B[39;00m\n' +
+      '\x1B[32m   2893\x1B[39m \x1B[38;5;66;03m# since y will not be binarized in _RidgeGCV estimator.\x1B[39;00m\n' +
+      '\x1B[32m   2894\x1B[39m \x1B[38;5;66;03m# If cv is not None, a GridSearchCV with some RidgeClassifier\x1B[39;00m\n' +
+      '\x1B[32m   2895\x1B[39m \x1B[38;5;66;03m# estimators are used where y will be binarized. Thus, we pass y\x1B[39;00m\n' +
+      '\x1B[32m   2896\x1B[39m \x1B[38;5;66;03m# instead of the binarized Y.\x1B[39;00m\n' +
+      '\x1B[32m   2897\x1B[39m target = Y \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.cv \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;28;01melse\x1B[39;00m y\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/linear_model/_ridge.py:1293\x1B[39m, in \x1B[36m_RidgeClassifierMixin._prepare_data\x1B[39m\x1B[34m(self, X, y, sample_weight, solver)\x1B[39m\n' +
+      '\x1B[32m   1261\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Validate `X` and `y` and binarize `y`.\x1B[39;00m\n' +
+      '\x1B[32m   1262\x1B[39m \n' +
+      '\x1B[32m   1263\x1B[39m \x1B[33;03mParameters\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   1290\x1B[39m \x1B[33;03m    The binarized version of `y`.\x1B[39;00m\n' +
+      '\x1B[32m   1291\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   1292\x1B[39m accept_sparse = _get_valid_accept_sparse(sparse.issparse(X), solver)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1293\x1B[39m X, y = \x1B[43mvalidate_data\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   1294\x1B[39m \x1B[43m    \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1295\x1B[39m \x1B[43m    \x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1296\x1B[39m \x1B[43m    \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1297\x1B[39m \x1B[43m    \x1B[49m\x1B[43maccept_sparse\x1B[49m\x1B[43m=\x1B[49m\x1B[43maccept_sparse\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1298\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmulti_output\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1299\x1B[39m \x1B[43m    \x1B[49m\x1B[43my_numeric\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mFalse\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1300\x1B[39m \x1B[43m    \x1B[49m\x1B[43mforce_writeable\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1301\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1303\x1B[39m \x1B[38;5;28mself\x1B[39m._label_binarizer = LabelBinarizer(pos_label=\x1B[32m1\x1B[39m, neg_label=-\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m   1304\x1B[39m Y = \x1B[38;5;28mself\x1B[39m._label_binarizer.fit_transform(y)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:2971\x1B[39m, in \x1B[36mvalidate_data\x1B[39m\x1B[34m(_estimator, X, y, reset, validate_separately, skip_check_array, **check_params)\x1B[39m\n' +
+      '\x1B[32m   2969\x1B[39m         y = check_array(y, input_name=\x1B[33m"\x1B[39m\x1B[33my\x1B[39m\x1B[33m"\x1B[39m, **check_y_params)\n' +
+      '\x1B[32m   2970\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2971\x1B[39m         X, y = \x1B[43mcheck_X_y\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mcheck_params\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2972\x1B[39m     out = X, y\n' +
+      '\x1B[32m   2974\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m no_val_X \x1B[38;5;129;01mand\x1B[39;00m check_params.get(\x1B[33m"\x1B[39m\x1B[33mensure_2d\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mTrue\x1B[39;00m):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:1387\x1B[39m, in \x1B[36mcheck_X_y\x1B[39m\x1B[34m(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, estimator)\x1B[39m\n' +
+      '\x1B[32m   1368\x1B[39m X = check_array(\n' +
+      '\x1B[32m   1369\x1B[39m     X,\n' +
+      '\x1B[32m   1370\x1B[39m     accept_sparse=accept_sparse,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   1382\x1B[39m     input_name=\x1B[33m"\x1B[39m\x1B[33mX\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m   1383\x1B[39m )\n' +
+      '\x1B[32m   1385\x1B[39m y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1387\x1B[39m \x1B[43mcheck_consistent_length\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1389\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m X, y\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:473\x1B[39m, in \x1B[36mcheck_consistent_length\x1B[39m\x1B[34m(*arrays)\x1B[39m\n' +
+      '\x1B[32m    471\x1B[39m lengths = [_num_samples(X) \x1B[38;5;28;01mfor\x1B[39;00m X \x1B[38;5;129;01min\x1B[39;00m arrays \x1B[38;5;28;01mif\x1B[39;00m X \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m]\n' +
+      '\x1B[32m    472\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mset\x1B[39m(lengths)) > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m473\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m    474\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mFound input variables with inconsistent numbers of samples: \x1B[39m\x1B[38;5;132;01m%r\x1B[39;00m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    475\x1B[39m         % [\x1B[38;5;28mint\x1B[39m(l) \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m lengths]\n' +
+      '\x1B[32m    476\x1B[39m     )\n',
+    '\x1B[31mValueError\x1B[39m: Found input variables with inconsistent numbers of samples: [1, 42940]'
+  ]
+}
+09:52:40.879 [warn] Cell completed with errors Iu [Error]: name 'X_rocket_input' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_rocket_input' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[47]\x1B[39m\x1B[32m, line 82\x1B[39m\n' +
+      '\x1B[32m     79\x1B[39m y_train_aligned = y_train_final.iloc[rocket_window_size-\x1B[32m1\x1B[39m:].values.astype(\x1B[38;5;28mint\x1B[39m)\n' +
+      '\x1B[32m     81\x1B[39m \x1B[38;5;66;03m# Verify Shapes\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m82\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mROCKET Input Shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[43mX_rocket_input\x1B[49m.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m) \n' +
+      '\x1B[32m     83\x1B[39m \x1B[38;5;66;03m# Should be: (~42893, 5, 48) -> (Samples, Channels, Time)\x1B[39;00m\n' +
+      '\x1B[32m     84\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTarget Shape:       \x1B[39m\x1B[38;5;132;01m{\x1B[39;00my_train_aligned.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m) \n',
+    "\x1B[31mNameError\x1B[39m: name 'X_rocket_input' is not defined"
+  ]
+}
+09:55:25.748 [info] Interrupt kernel execution
+09:55:25.748 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+09:55:25.748 [info] Interrupt kernel execution
+09:55:25.748 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+09:55:25.748 [info] Interrupting kernel via SIGINT
+09:55:26.231 [warn] Cell completed with errors (cancelled)
+09:55:26.232 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+09:55:52.581 [warn] Cell completed with errors Iu [Error]: Found input variables with inconsistent numbers of samples: [42893, 42940]
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ValueError',
+  evalue: 'Found input variables with inconsistent numbers of samples: [42893, 42940]',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[52]\x1B[39m\x1B[32m, line 12\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;66;03m# train clasifier\x1B[39;00m\n' +
+      '\x1B[32m     11\x1B[39m classifier = RidgeClassifierCV(alphas=np.logspace(-\x1B[32m3\x1B[39m, \x1B[32m3\x1B[39m, \x1B[32m10\x1B[39m))\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m12\x1B[39m \x1B[43mclassifier\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX_train_transformed\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train_final\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/base.py:1365\x1B[39m, in \x1B[36m_fit_context.<locals>.decorator.<locals>.wrapper\x1B[39m\x1B[34m(estimator, *args, **kwargs)\x1B[39m\n' +
+      '\x1B[32m   1358\x1B[39m     estimator._validate_params()\n' +
+      '\x1B[32m   1360\x1B[39m \x1B[38;5;28;01mwith\x1B[39;00m config_context(\n' +
+      '\x1B[32m   1361\x1B[39m     skip_parameter_validation=(\n' +
+      '\x1B[32m   1362\x1B[39m         prefer_skip_nested_validation \x1B[38;5;129;01mor\x1B[39;00m global_skip_validation\n' +
+      '\x1B[32m   1363\x1B[39m     )\n' +
+      '\x1B[32m   1364\x1B[39m ):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1365\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mfit_method\x1B[49m\x1B[43m(\x1B[49m\x1B[43mestimator\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/linear_model/_ridge.py:2890\x1B[39m, in \x1B[36mRidgeClassifierCV.fit\x1B[39m\x1B[34m(self, X, y, sample_weight, **params)\x1B[39m\n' +
+      '\x1B[32m   2856\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Fit Ridge classifier with cv.\x1B[39;00m\n' +
+      '\x1B[32m   2857\x1B[39m \n' +
+      '\x1B[32m   2858\x1B[39m \x1B[33;03mParameters\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   2885\x1B[39m \x1B[33;03m    Fitted estimator.\x1B[39;00m\n' +
+      '\x1B[32m   2886\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   2887\x1B[39m \x1B[38;5;66;03m# `RidgeClassifier` does not accept "sag" or "saga" solver and thus support\x1B[39;00m\n' +
+      '\x1B[32m   2888\x1B[39m \x1B[38;5;66;03m# csr, csc, and coo sparse matrices. By using solver="eigen" we force to accept\x1B[39;00m\n' +
+      '\x1B[32m   2889\x1B[39m \x1B[38;5;66;03m# all sparse format.\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2890\x1B[39m X, y, sample_weight, Y = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_prepare_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msolver\x1B[49m\x1B[43m=\x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43meigen\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2892\x1B[39m \x1B[38;5;66;03m# If cv is None, gcv mode will be used and we used the binarized Y\x1B[39;00m\n' +
+      '\x1B[32m   2893\x1B[39m \x1B[38;5;66;03m# since y will not be binarized in _RidgeGCV estimator.\x1B[39;00m\n' +
+      '\x1B[32m   2894\x1B[39m \x1B[38;5;66;03m# If cv is not None, a GridSearchCV with some RidgeClassifier\x1B[39;00m\n' +
+      '\x1B[32m   2895\x1B[39m \x1B[38;5;66;03m# estimators are used where y will be binarized. Thus, we pass y\x1B[39;00m\n' +
+      '\x1B[32m   2896\x1B[39m \x1B[38;5;66;03m# instead of the binarized Y.\x1B[39;00m\n' +
+      '\x1B[32m   2897\x1B[39m target = Y \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m.cv \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;28;01melse\x1B[39;00m y\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/linear_model/_ridge.py:1293\x1B[39m, in \x1B[36m_RidgeClassifierMixin._prepare_data\x1B[39m\x1B[34m(self, X, y, sample_weight, solver)\x1B[39m\n' +
+      '\x1B[32m   1261\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""Validate `X` and `y` and binarize `y`.\x1B[39;00m\n' +
+      '\x1B[32m   1262\x1B[39m \n' +
+      '\x1B[32m   1263\x1B[39m \x1B[33;03mParameters\x1B[39;00m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   1290\x1B[39m \x1B[33;03m    The binarized version of `y`.\x1B[39;00m\n' +
+      '\x1B[32m   1291\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   1292\x1B[39m accept_sparse = _get_valid_accept_sparse(sparse.issparse(X), solver)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1293\x1B[39m X, y = \x1B[43mvalidate_data\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   1294\x1B[39m \x1B[43m    \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1295\x1B[39m \x1B[43m    \x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1296\x1B[39m \x1B[43m    \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1297\x1B[39m \x1B[43m    \x1B[49m\x1B[43maccept_sparse\x1B[49m\x1B[43m=\x1B[49m\x1B[43maccept_sparse\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1298\x1B[39m \x1B[43m    \x1B[49m\x1B[43mmulti_output\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1299\x1B[39m \x1B[43m    \x1B[49m\x1B[43my_numeric\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mFalse\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1300\x1B[39m \x1B[43m    \x1B[49m\x1B[43mforce_writeable\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1301\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1303\x1B[39m \x1B[38;5;28mself\x1B[39m._label_binarizer = LabelBinarizer(pos_label=\x1B[32m1\x1B[39m, neg_label=-\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m   1304\x1B[39m Y = \x1B[38;5;28mself\x1B[39m._label_binarizer.fit_transform(y)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:2971\x1B[39m, in \x1B[36mvalidate_data\x1B[39m\x1B[34m(_estimator, X, y, reset, validate_separately, skip_check_array, **check_params)\x1B[39m\n' +
+      '\x1B[32m   2969\x1B[39m         y = check_array(y, input_name=\x1B[33m"\x1B[39m\x1B[33my\x1B[39m\x1B[33m"\x1B[39m, **check_y_params)\n' +
+      '\x1B[32m   2970\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2971\x1B[39m         X, y = \x1B[43mcheck_X_y\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43m*\x1B[49m\x1B[43m*\x1B[49m\x1B[43mcheck_params\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2972\x1B[39m     out = X, y\n' +
+      '\x1B[32m   2974\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m no_val_X \x1B[38;5;129;01mand\x1B[39;00m check_params.get(\x1B[33m"\x1B[39m\x1B[33mensure_2d\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mTrue\x1B[39;00m):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:1387\x1B[39m, in \x1B[36mcheck_X_y\x1B[39m\x1B[34m(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_writeable, force_all_finite, ensure_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, estimator)\x1B[39m\n' +
+      '\x1B[32m   1368\x1B[39m X = check_array(\n' +
+      '\x1B[32m   1369\x1B[39m     X,\n' +
+      '\x1B[32m   1370\x1B[39m     accept_sparse=accept_sparse,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   1382\x1B[39m     input_name=\x1B[33m"\x1B[39m\x1B[33mX\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m   1383\x1B[39m )\n' +
+      '\x1B[32m   1385\x1B[39m y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1387\x1B[39m \x1B[43mcheck_consistent_length\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1389\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m X, y\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/sklearn/utils/validation.py:473\x1B[39m, in \x1B[36mcheck_consistent_length\x1B[39m\x1B[34m(*arrays)\x1B[39m\n' +
+      '\x1B[32m    471\x1B[39m lengths = [_num_samples(X) \x1B[38;5;28;01mfor\x1B[39;00m X \x1B[38;5;129;01min\x1B[39;00m arrays \x1B[38;5;28;01mif\x1B[39;00m X \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m]\n' +
+      '\x1B[32m    472\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(\x1B[38;5;28mset\x1B[39m(lengths)) > \x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m473\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m    474\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mFound input variables with inconsistent numbers of samples: \x1B[39m\x1B[38;5;132;01m%r\x1B[39;00m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    475\x1B[39m         % [\x1B[38;5;28mint\x1B[39m(l) \x1B[38;5;28;01mfor\x1B[39;00m l \x1B[38;5;129;01min\x1B[39;00m lengths]\n' +
+      '\x1B[32m    476\x1B[39m     )\n',
+    '\x1B[31mValueError\x1B[39m: Found input variables with inconsistent numbers of samples: [42893, 42940]'
+  ]
+}
+10:05:54.587 [warn] Cell completed with errors Iu [Error]: name 'X_test_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_test_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[55]\x1B[39m\x1B[32m, line 46\x1B[39m\n' +
+      '\x1B[32m     44\x1B[39m train_probs = get_rocket_probabilities(X_train_final, rocket, classifier)\n' +
+      '\x1B[32m     45\x1B[39m val_probs = get_rocket_probabilities(X_val_final, rocket, classifier)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m46\x1B[39m test_probs = get_rocket_probabilities(\x1B[43mX_test_final\x1B[49m, rocket, classifier)\n' +
+      '\x1B[32m     48\x1B[39m \x1B[38;5;66;03m# 2. Assign back to DataFrames\x1B[39;00m\n' +
+      '\x1B[32m     49\x1B[39m \x1B[38;5;66;03m# Logic: The prediction at index `i` corresponds to the window ENDING at `i`.\x1B[39;00m\n' +
+      '\x1B[32m     50\x1B[39m \x1B[38;5;66;03m# However, sliding_window_view reduces length by (window_size - 1).\x1B[39;00m\n' +
+      '\x1B[32m     51\x1B[39m \x1B[38;5;66;03m# We must align indices correctly.\x1B[39;00m\n' +
+      '\x1B[32m     53\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34madd_probs_to_df\x1B[39m(df, probs, window_size=\x1B[32m48\x1B[39m):\n' +
+      '\x1B[32m     54\x1B[39m     \x1B[38;5;66;03m# Create empty columns\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_test_final' is not defined"
+  ]
+}
+10:09:25.334 [warn] Cell completed with errors Iu [Error]: "None of [Index(['box_std_deseasonalized', 'box_std_raw', 'seasonal_vol'], dtype='object')] are in the [columns]"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"None of [Index(['box_std_deseasonalized', 'box_std_raw', 'seasonal_vol'], dtype='object')] are in the [columns]"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[58]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# 1. Generate Probs\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;66;03m# Note: X_train_final, X_val_final, X_test_final must have the raw columns\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m train_probs = \x1B[43mget_rocket_probabilities\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mrocket\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mclassifier\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      6\x1B[39m train_probs\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[56]\x1B[39m\x1B[32m, line 13\x1B[39m, in \x1B[36mget_rocket_probabilities\x1B[39m\x1B[34m(X_df, rocket_model, classifier_model, window_size)\x1B[39m\n' +
+      '\x1B[32m     11\x1B[39m \x1B[38;5;66;03m# 2. Extract Arrays\x1B[39;00m\n' +
+      '\x1B[32m     12\x1B[39m X_price = X_df[price_cols].values\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m13\x1B[39m X_vol = \x1B[43mX_df\x1B[49m\x1B[43m[\x1B[49m\x1B[43mvol_col\x1B[49m\x1B[43m]\x1B[49m.values\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;66;03m# 3. Sliding Window (Create 3D volume)\x1B[39;00m\n' +
+      '\x1B[32m     16\x1B[39m X_price_3d = sliding_window_view(X_price, window_shape=window_size, axis=\x1B[32m0\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:4119\x1B[39m, in \x1B[36mDataFrame.__getitem__\x1B[39m\x1B[34m(self, key)\x1B[39m\n' +
+      '\x1B[32m   4117\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m is_iterator(key):\n' +
+      '\x1B[32m   4118\x1B[39m         key = \x1B[38;5;28mlist\x1B[39m(key)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4119\x1B[39m     indexer = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_get_indexer_strict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m"\x1B[39;49m\x1B[33;43mcolumns\x1B[39;49m\x1B[33;43m"\x1B[39;49m\x1B[43m)\x1B[49m[\x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m   4121\x1B[39m \x1B[38;5;66;03m# take() does not accept boolean indexers\x1B[39;00m\n' +
+      '\x1B[32m   4122\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mgetattr\x1B[39m(indexer, \x1B[33m"\x1B[39m\x1B[33mdtype\x1B[39m\x1B[33m"\x1B[39m, \x1B[38;5;28;01mNone\x1B[39;00m) == \x1B[38;5;28mbool\x1B[39m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6212\x1B[39m, in \x1B[36mIndex._get_indexer_strict\x1B[39m\x1B[34m(self, key, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6209\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   6210\x1B[39m     keyarr, indexer, new_indexer = \x1B[38;5;28mself\x1B[39m._reindex_non_unique(keyarr)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6212\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_raise_if_missing\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkeyarr\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mindexer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis_name\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   6214\x1B[39m keyarr = \x1B[38;5;28mself\x1B[39m.take(indexer)\n' +
+      '\x1B[32m   6215\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(key, Index):\n' +
+      '\x1B[32m   6216\x1B[39m     \x1B[38;5;66;03m# GH 42790 - Preserve name from an Index\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:6261\x1B[39m, in \x1B[36mIndex._raise_if_missing\x1B[39m\x1B[34m(self, key, indexer, axis_name)\x1B[39m\n' +
+      '\x1B[32m   6259\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m nmissing:\n' +
+      '\x1B[32m   6260\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m nmissing == \x1B[38;5;28mlen\x1B[39m(indexer):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m6261\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mNone of [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mkey\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m] are in the [\x1B[39m\x1B[38;5;132;01m{\x1B[39;00maxis_name\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m]\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   6263\x1B[39m     not_found = \x1B[38;5;28mlist\x1B[39m(ensure_index(key)[missing_mask.nonzero()[\x1B[32m0\x1B[39m]].unique())\n' +
+      '\x1B[32m   6264\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mnot_found\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not in index\x1B[39m\x1B[33m"\x1B[39m)\n',
+    `\x1B[31mKeyError\x1B[39m: "None of [Index(['box_std_deseasonalized', 'box_std_raw', 'seasonal_vol'], dtype='object')] are in the [columns]"`
+  ]
+}
+10:48:53.566 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+10:48:53.646 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:48:53.657 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v383f5ad7c6b33384fbe136c0a413a8879d30a90f1.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+10:48:54.068 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+10:49:16.702 [warn] Cell completed with errors Iu [Error]: name 'paths' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'paths' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mpathlib\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m Path\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;66;03m# Define cache paths\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m cache_root = \x1B[43mpaths\x1B[49m[\x1B[33m"\x1B[39m\x1B[33mroot\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m      6\x1B[39m cache_root.mkdir(parents=\x1B[38;5;28;01mTrue\x1B[39;00m, exist_ok=\x1B[38;5;28;01mTrue\x1B[39;00m)\n' +
+      '\x1B[32m      8\x1B[39m feature_cache = cache_root / \x1B[33m"\x1B[39m\x1B[33mfeatures_cache.pkl\x1B[39m\x1B[33m"\x1B[39m\n',
+    "\x1B[31mNameError\x1B[39m: name 'paths' is not defined"
+  ]
+}
+10:53:34.279 [warn] Cell completed with errors Iu [Error]: "['v'] not found in axis"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"['v'] not found in axis"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 45\x1B[39m\n' +
+      '\x1B[32m     43\x1B[39m \x1B[38;5;66;03m## drop price columns and volCcy from X\x1B[39;00m\n' +
+      "\x1B[32m     44\x1B[39m cols_to_drop = [\x1B[33m'\x1B[39m\x1B[33mo\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mh\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33ml\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mc\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mv\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mvolCcy\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      '\x1B[32m---> \x1B[39m\x1B[32m45\x1B[39m \x1B[43mX_train\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcols_to_drop\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43minplace\x1B[49m\x1B[43m=\x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     46\x1B[39m X_val.drop(columns=cols_to_drop, inplace=\x1B[38;5;28;01mTrue\x1B[39;00m)\n' +
+      '\x1B[32m     47\x1B[39m X_test.drop(columns=cols_to_drop, inplace=\x1B[38;5;28;01mTrue\x1B[39;00m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:5603\x1B[39m, in \x1B[36mDataFrame.drop\x1B[39m\x1B[34m(self, labels, axis, index, columns, level, inplace, errors)\x1B[39m\n' +
+      '\x1B[32m   5455\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mdrop\x1B[39m(\n' +
+      '\x1B[32m   5456\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m   5457\x1B[39m     labels: IndexLabel | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5464\x1B[39m     errors: IgnoreRaise = \x1B[33m"\x1B[39m\x1B[33mraise\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m   5465\x1B[39m ) -> DataFrame | \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   5466\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   5467\x1B[39m \x1B[33;03m    Drop specified labels from rows or columns.\x1B[39;00m\n' +
+      '\x1B[32m   5468\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5601\x1B[39m \x1B[33;03m            weight  1.0     0.8\x1B[39;00m\n' +
+      '\x1B[32m   5602\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m5603\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   5604\x1B[39m \x1B[43m        \x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5605\x1B[39m \x1B[43m        \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43maxis\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5606\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m=\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5607\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5608\x1B[39m \x1B[43m        \x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5609\x1B[39m \x1B[43m        \x1B[49m\x1B[43minplace\x1B[49m\x1B[43m=\x1B[49m\x1B[43minplace\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5610\x1B[39m \x1B[43m        \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5611\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/generic.py:4810\x1B[39m, in \x1B[36mNDFrame.drop\x1B[39m\x1B[34m(self, labels, axis, index, columns, level, inplace, errors)\x1B[39m\n' +
+      '\x1B[32m   4808\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m axis, labels \x1B[38;5;129;01min\x1B[39;00m axes.items():\n' +
+      '\x1B[32m   4809\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m labels \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4810\x1B[39m         obj = \x1B[43mobj\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_drop_axis\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4812\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m inplace:\n' +
+      '\x1B[32m   4813\x1B[39m     \x1B[38;5;28mself\x1B[39m._update_inplace(obj)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/generic.py:4852\x1B[39m, in \x1B[36mNDFrame._drop_axis\x1B[39m\x1B[34m(self, labels, axis, level, errors, only_slice)\x1B[39m\n' +
+      '\x1B[32m   4850\x1B[39m         new_axis = axis.drop(labels, level=level, errors=errors)\n' +
+      '\x1B[32m   4851\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4852\x1B[39m         new_axis = \x1B[43maxis\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4853\x1B[39m     indexer = axis.get_indexer(new_axis)\n' +
+      '\x1B[32m   4855\x1B[39m \x1B[38;5;66;03m# Case for non-unique axis\x1B[39;00m\n' +
+      '\x1B[32m   4856\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:7136\x1B[39m, in \x1B[36mIndex.drop\x1B[39m\x1B[34m(self, labels, errors)\x1B[39m\n' +
+      '\x1B[32m   7134\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m mask.any():\n' +
+      '\x1B[32m   7135\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m errors != \x1B[33m"\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m"\x1B[39m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m7136\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mlabels[mask].tolist()\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not found in axis\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   7137\x1B[39m     indexer = indexer[~mask]\n' +
+      '\x1B[32m   7138\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.delete(indexer)\n',
+    `\x1B[31mKeyError\x1B[39m: "['v'] not found in axis"`
+  ]
+}
+11:04:33.513 [warn] Cell completed with errors Iu [Error]: name 'X_train_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_train_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[12]\x1B[39m\x1B[32m, line 47\x1B[39m\n' +
+      "\x1B[32m     44\x1B[39m cols_to_drop = [\x1B[33m'\x1B[39m\x1B[33mo\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mh\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33ml\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mc\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mvolCcy\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      "\x1B[32m     45\x1B[39m cols_to_add_from_y = [\x1B[33m'\x1B[39m\x1B[33mbox_std_deseasonalized\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mbox_std_raw\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mseasonal_vol\x1B[39m\x1B[33m'\x1B[39m]\n" +
+      '\x1B[32m---> \x1B[39m\x1B[32m47\x1B[39m \x1B[43mX_train_final\x1B[49m[cols_to_add_from_y] = y_train[cols_to_add_from_y]\n' +
+      '\x1B[32m     48\x1B[39m X_val_final[cols_to_add_from_y] = y_val[cols_to_add_from_y]\n' +
+      '\x1B[32m     49\x1B[39m X_test_final[cols_to_add_from_y] = y_test[cols_to_add_from_y]\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_train_final' is not defined"
+  ]
+}
+11:04:57.845 [warn] Cell completed with errors Iu [Error]: name 'X_train_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_train_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[13]\x1B[39m\x1B[32m, line 51\x1B[39m\n' +
+      '\x1B[32m     48\x1B[39m x_val_final = X_val.copy()  \n' +
+      '\x1B[32m     49\x1B[39m x_test_final = X_test.copy()\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m51\x1B[39m \x1B[43mX_train_final\x1B[49m[cols_to_add_from_y] = y_train[cols_to_add_from_y]\n' +
+      '\x1B[32m     52\x1B[39m X_val_final[cols_to_add_from_y] = y_val[cols_to_add_from_y]\n' +
+      '\x1B[32m     53\x1B[39m X_test_final[cols_to_add_from_y] = y_test[cols_to_add_from_y]\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_train_final' is not defined"
+  ]
+}
+11:05:26.391 [warn] Cell completed with errors Iu [Error]: name 'X_train_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_train_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[14]\x1B[39m\x1B[32m, line 51\x1B[39m\n' +
+      '\x1B[32m     48\x1B[39m X_test_val_final = X_val.copy()  \n' +
+      '\x1B[32m     49\x1B[39m X_test_final = X_test.copy()\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m51\x1B[39m \x1B[43mX_train_final\x1B[49m[cols_to_add_from_y] = y_train[cols_to_add_from_y]\n' +
+      '\x1B[32m     52\x1B[39m X_val_final[cols_to_add_from_y] = y_val[cols_to_add_from_y]\n' +
+      '\x1B[32m     53\x1B[39m X_test_final[cols_to_add_from_y] = y_test[cols_to_add_from_y]\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_train_final' is not defined"
+  ]
+}
+11:05:31.303 [warn] Cell completed with errors Iu [Error]: name 'X_val_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_val_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[15]\x1B[39m\x1B[32m, line 52\x1B[39m\n' +
+      '\x1B[32m     49\x1B[39m X_test_final = X_test.copy()\n' +
+      '\x1B[32m     51\x1B[39m X_train_final[cols_to_add_from_y] = y_train[cols_to_add_from_y]\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m52\x1B[39m \x1B[43mX_val_final\x1B[49m[cols_to_add_from_y] = y_val[cols_to_add_from_y]\n' +
+      '\x1B[32m     53\x1B[39m X_test_final[cols_to_add_from_y] = y_test[cols_to_add_from_y]\n' +
+      '\x1B[32m     55\x1B[39m X_train_final.drop(columns=cols_to_drop, inplace=\x1B[38;5;28;01mTrue\x1B[39;00m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_val_final' is not defined"
+  ]
+}
+11:06:18.191 [warn] Cell completed with errors Iu [Error]: "['max_fwd_z_sore'] not found in axis"
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'KeyError',
+  evalue: `"['max_fwd_z_sore'] not found in axis"`,
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mKeyError\x1B[39m                                  Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[17]\x1B[39m\x1B[32m, line 61\x1B[39m\n' +
+      '\x1B[32m     59\x1B[39m \x1B[38;5;66;03m## y_train cleanup\x1B[39;00m\n' +
+      '\x1B[32m     60\x1B[39m y_train_final = y_train.drop(columns=cols_to_add_from_y)\n' +
+      "\x1B[32m---> \x1B[39m\x1B[32m61\x1B[39m y_train_final = \x1B[43my_train\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mmax_fwd_z_sore\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mmax_jump_z_score\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m)\x1B[49m\n" +
+      '\x1B[32m     62\x1B[39m y_train_final\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:5603\x1B[39m, in \x1B[36mDataFrame.drop\x1B[39m\x1B[34m(self, labels, axis, index, columns, level, inplace, errors)\x1B[39m\n' +
+      '\x1B[32m   5455\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mdrop\x1B[39m(\n' +
+      '\x1B[32m   5456\x1B[39m     \x1B[38;5;28mself\x1B[39m,\n' +
+      '\x1B[32m   5457\x1B[39m     labels: IndexLabel | \x1B[38;5;28;01mNone\x1B[39;00m = \x1B[38;5;28;01mNone\x1B[39;00m,\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5464\x1B[39m     errors: IgnoreRaise = \x1B[33m"\x1B[39m\x1B[33mraise\x1B[39m\x1B[33m"\x1B[39m,\n' +
+      '\x1B[32m   5465\x1B[39m ) -> DataFrame | \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   5466\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   5467\x1B[39m \x1B[33;03m    Drop specified labels from rows or columns.\x1B[39;00m\n' +
+      '\x1B[32m   5468\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5601\x1B[39m \x1B[33;03m            weight  1.0     0.8\x1B[39;00m\n' +
+      '\x1B[32m   5602\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m5603\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   5604\x1B[39m \x1B[43m        \x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5605\x1B[39m \x1B[43m        \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m=\x1B[49m\x1B[43maxis\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5606\x1B[39m \x1B[43m        \x1B[49m\x1B[43mindex\x1B[49m\x1B[43m=\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5607\x1B[39m \x1B[43m        \x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5608\x1B[39m \x1B[43m        \x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5609\x1B[39m \x1B[43m        \x1B[49m\x1B[43minplace\x1B[49m\x1B[43m=\x1B[49m\x1B[43minplace\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5610\x1B[39m \x1B[43m        \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5611\x1B[39m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/generic.py:4810\x1B[39m, in \x1B[36mNDFrame.drop\x1B[39m\x1B[34m(self, labels, axis, index, columns, level, inplace, errors)\x1B[39m\n' +
+      '\x1B[32m   4808\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m axis, labels \x1B[38;5;129;01min\x1B[39;00m axes.items():\n' +
+      '\x1B[32m   4809\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m labels \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4810\x1B[39m         obj = \x1B[43mobj\x1B[49m\x1B[43m.\x1B[49m\x1B[43m_drop_axis\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43maxis\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlevel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4812\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m inplace:\n' +
+      '\x1B[32m   4813\x1B[39m     \x1B[38;5;28mself\x1B[39m._update_inplace(obj)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/generic.py:4852\x1B[39m, in \x1B[36mNDFrame._drop_axis\x1B[39m\x1B[34m(self, labels, axis, level, errors, only_slice)\x1B[39m\n' +
+      '\x1B[32m   4850\x1B[39m         new_axis = axis.drop(labels, level=level, errors=errors)\n' +
+      '\x1B[32m   4851\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4852\x1B[39m         new_axis = \x1B[43maxis\x1B[49m\x1B[43m.\x1B[49m\x1B[43mdrop\x1B[49m\x1B[43m(\x1B[49m\x1B[43mlabels\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43merrors\x1B[49m\x1B[43m=\x1B[49m\x1B[43merrors\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4853\x1B[39m     indexer = axis.get_indexer(new_axis)\n' +
+      '\x1B[32m   4855\x1B[39m \x1B[38;5;66;03m# Case for non-unique axis\x1B[39;00m\n' +
+      '\x1B[32m   4856\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/indexes/base.py:7136\x1B[39m, in \x1B[36mIndex.drop\x1B[39m\x1B[34m(self, labels, errors)\x1B[39m\n' +
+      '\x1B[32m   7134\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m mask.any():\n' +
+      '\x1B[32m   7135\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m errors != \x1B[33m"\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m"\x1B[39m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m7136\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mlabels[mask].tolist()\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m not found in axis\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m   7137\x1B[39m     indexer = indexer[~mask]\n' +
+      '\x1B[32m   7138\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m.delete(indexer)\n',
+    `\x1B[31mKeyError\x1B[39m: "['max_fwd_z_sore'] not found in axis"`
+  ]
+}
+11:09:35.823 [warn] Cell completed with errors Iu [Error]: name 'drop_cols' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'drop_cols' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[30]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m#adjust size to mathc rocket\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m start_idx = \x1B[32m46\x1B[39m\n' +
+      "\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m X_train_cb = X_train_final.iloc[start_idx:].drop(columns=\x1B[43mdrop_cols\x1B[49m, errors=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      "\x1B[32m      4\x1B[39m X_val_cb = X_val_final.iloc[start_idx:].drop(columns=drop_cols, errors=\x1B[33m'\x1B[39m\x1B[33mignore\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;66;03m# Use the aligned targets we created earlier\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;66;03m# y_train_aligned, y_val_aligned\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'drop_cols' is not defined"
+  ]
+}
+11:09:48.721 [warn] Cell completed with errors Iu [Error]: name 'X_rocket_input' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_rocket_input' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[31]\x1B[39m\x1B[32m, line 10\x1B[39m\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;66;03m# Use the aligned targets we created earlier\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;66;03m# y_train_aligned, y_val_aligned\x1B[39;00m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mCatBoost Train Shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mX_train_cb.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mROCKET Train Shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[43mX_rocket_input\x1B[49m.shape[\x1B[32m0\x1B[39m]\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m) \x1B[38;5;66;03m# Should match\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_rocket_input' is not defined"
+  ]
+}
+11:11:11.938 [warn] Cell completed with errors Iu [Error]: name 'CatBoostClassifier' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'CatBoostClassifier' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[34]\x1B[39m\x1B[32m, line 3\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# 2. DEFINE CATBOOST\x1B[39;00m\n' +
+      "\x1B[32m      2\x1B[39m \x1B[38;5;66;03m# We use auto_class_weights='Balanced' to mimic the Ridge logic\x1B[39;00m\n" +
+      '\x1B[32m----> \x1B[39m\x1B[32m3\x1B[39m cb_model = \x1B[43mCatBoostClassifier\x1B[49m(\n' +
+      '\x1B[32m      4\x1B[39m     iterations=\x1B[32m1000\x1B[39m,\n' +
+      '\x1B[32m      5\x1B[39m     learning_rate=\x1B[32m0.05\x1B[39m,\n' +
+      '\x1B[32m      6\x1B[39m     depth=\x1B[32m6\x1B[39m,\n' +
+      "\x1B[32m      7\x1B[39m     auto_class_weights=\x1B[33m'\x1B[39m\x1B[33mBalanced\x1B[39m\x1B[33m'\x1B[39m, \x1B[38;5;66;03m# Critical for Imbalanced Data\x1B[39;00m\n" +
+      '\x1B[32m      8\x1B[39m     verbose=\x1B[32m100\x1B[39m,\n' +
+      '\x1B[32m      9\x1B[39m     allow_writing_files=\x1B[38;5;28;01mFalse\x1B[39;00m,\n' +
+      '\x1B[32m     10\x1B[39m     task_type=\x1B[33m"\x1B[39m\x1B[33mCPU\x1B[39m\x1B[33m"\x1B[39m \x1B[38;5;66;03m# or GPU if you have one\x1B[39;00m\n' +
+      '\x1B[32m     11\x1B[39m )\n' +
+      '\x1B[32m     13\x1B[39m \x1B[38;5;66;03m# 3. TRAIN\x1B[39;00m\n' +
+      '\x1B[32m     14\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mTraining Pure CatBoost...\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'CatBoostClassifier' is not defined"
+  ]
+}
+11:11:31.851 [warn] Cell completed with errors Iu [Error]: name 'y_train_aligned' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'y_train_aligned' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[35]\x1B[39m\x1B[32m, line 21\x1B[39m\n' +
+      '\x1B[32m     18\x1B[39m \x1B[38;5;66;03m# 3. TRAIN\x1B[39;00m\n' +
+      '\x1B[32m     19\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mTraining Pure CatBoost...\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     20\x1B[39m cb_model.fit(\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m21\x1B[39m     X_train_cb, \x1B[43my_train_aligned\x1B[49m,\n' +
+      '\x1B[32m     22\x1B[39m     eval_set=(X_val_cb, y_val_aligned),\n' +
+      '\x1B[32m     23\x1B[39m     early_stopping_rounds=\x1B[32m50\x1B[39m\n' +
+      '\x1B[32m     24\x1B[39m )\n' +
+      '\x1B[32m     26\x1B[39m \x1B[38;5;66;03m# 4. EVALUATE\x1B[39;00m\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mPredicting...\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'y_train_aligned' is not defined"
+  ]
+}
+11:15:17.871 [warn] Cell completed with errors Iu [Error]: name 'y_val_aligned' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'y_val_aligned' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[40]\x1B[39m\x1B[32m, line 22\x1B[39m\n' +
+      '\x1B[32m     18\x1B[39m \x1B[38;5;66;03m# 3. TRAIN\x1B[39;00m\n' +
+      '\x1B[32m     19\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mTraining Pure CatBoost...\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     20\x1B[39m cb_model.fit(\n' +
+      '\x1B[32m     21\x1B[39m     X_train_cb, y_train_aligned,\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m22\x1B[39m     eval_set=(X_val_cb, \x1B[43my_val_aligned\x1B[49m),\n' +
+      '\x1B[32m     23\x1B[39m     early_stopping_rounds=\x1B[32m50\x1B[39m\n' +
+      '\x1B[32m     24\x1B[39m )\n' +
+      '\x1B[32m     26\x1B[39m \x1B[38;5;66;03m# 4. EVALUATE\x1B[39;00m\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mPredicting...\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'y_val_aligned' is not defined"
+  ]
+}
+11:15:37.313 [warn] Cell completed with errors Iu [Error]: name 'y_val_final' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'y_val_final' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[41]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      4\x1B[39m X_val_cb = X_val_final.iloc[start_idx:]\n' +
+      '\x1B[32m      5\x1B[39m y_train_aligned = y_train_final.iloc[start_idx:].values.astype(\x1B[38;5;28mint\x1B[39m)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m y_val_aligned = \x1B[43my_val_final\x1B[49m.iloc[start_idx:].values.astype(\x1B[38;5;28mint\x1B[39m)\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mCatBoost Train Shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mX_train_cb.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mCatBoost y_train aligned: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00my_train_aligned.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'y_val_final' is not defined"
+  ]
+}
+14:26:55.156 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+14:26:55.225 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:26:55.236 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v381f51ee59496c18d17a4696ee869698da62fc5c8.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+14:26:55.645 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+14:27:10.148 [warn] Cell completed with errors Iu [Error]: name 'features' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'features' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mfeatures\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'features' is not defined"
+  ]
+}
+14:30:33.164 [warn] Cell completed with errors Iu [Error]: name 'targets' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'targets' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 57\x1B[39m\n' +
+      '\x1B[32m     29\x1B[39m features = manual_features.copy()\n' +
+      '\x1B[32m     31\x1B[39m \x1B[38;5;66;03m# ## 2a. Volatility Regime Target Engineering ---\x1B[39;00m\n' +
+      '\x1B[32m     32\x1B[39m \x1B[38;5;66;03m# from targetEngineer import VolatilityRegimeEngineer\x1B[39;00m\n' +
+      '\x1B[32m     33\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m     55\x1B[39m \n' +
+      '\x1B[32m     56\x1B[39m \x1B[38;5;66;03m# Combine\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m57\x1B[39m combined_df = pd.concat([features, \x1B[43mtargets\x1B[49m], axis=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m     58\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mCombined shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mcombined_df.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     59\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTotal pipeline time: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtime.time()-t0\x1B[38;5;132;01m:\x1B[39;00m\x1B[33m.2f\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33ms\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 'targets' is not defined"
+  ]
+}
+14:35:40.725 [warn] Cell completed with errors Iu [Error]: name 'targets' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'targets' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mtargets\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'targets' is not defined"
+  ]
+}
+14:39:04.094 [warn] Cell completed with errors Iu [Error]: name 'combined_df' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'combined_df' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 4\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;66;03m# Clean combined dataframe - only drop start and end NaNs, preserve middle for debugging\x1B[39;00m\n' +
+      '\x1B[32m      2\x1B[39m \x1B[38;5;66;03m# From analysis: 288 consecutive NaN rows at start, 0 at end\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m rows_with_nans = \x1B[43mcombined_df\x1B[49m.isna().any(axis=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m      6\x1B[39m \x1B[38;5;66;03m# Find first and last valid rows\x1B[39;00m\n' +
+      '\x1B[32m      7\x1B[39m valid_rows = ~rows_with_nans\n',
+    "\x1B[31mNameError\x1B[39m: name 'combined_df' is not defined"
+  ]
+}
+14:49:02.909 [info] Interrupt kernel execution
+14:49:02.909 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+14:49:02.910 [info] Interrupt kernel execution
+14:49:02.910 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+14:49:02.910 [info] Interrupting kernel via SIGINT
+14:49:03.067 [warn] Cell completed with errors (cancelled)
+14:49:03.069 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+14:49:36.287 [info] Interrupt kernel execution
+14:49:36.287 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+14:49:36.287 [info] Interrupt kernel execution
+14:49:36.287 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+14:49:36.287 [info] Interrupting kernel via SIGINT
+14:49:36.636 [warn] Cell completed with errors (cancelled)
+14:49:36.637 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+15:04:41.957 [warn] Cell completed with errors Iu [Error]: name 'x_train' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'x_train' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[21]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mx_train\x1B[49m.shape\n',
+    "\x1B[31mNameError\x1B[39m: name 'x_train' is not defined"
+  ]
+}
+15:13:52.718 [warn] Cell completed with errors Iu [Error]: name 'X_train_aligned' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_train_aligned' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[32]\x1B[39m\x1B[32m, line 12\x1B[39m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mCatBoost y_train aligned: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00my_train_aligned.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mROCKET Train Shape: ROCKET Input Shape: (42893, 7, 48)\x1B[39m\x1B[33m"\x1B[39m) \x1B[38;5;66;03m# Should match\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m12\x1B[39m \x1B[43mX_train_aligned\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_train_aligned' is not defined"
+  ]
+}
+15:14:22.650 [warn] Cell completed with errors Iu [Error]: catboost/libs/data/features_layout.cpp:124: All feature names should be different, but 'logret_2h' used more than once.
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'CatBoostError',
+  evalue: "catboost/libs/data/features_layout.cpp:124: All feature names should be different, but 'logret_2h' used more than once.",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mCatBoostError\x1B[39m                             Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[35]\x1B[39m\x1B[32m, line 20\x1B[39m\n' +
+      '\x1B[32m     18\x1B[39m \x1B[38;5;66;03m# 3. TRAIN\x1B[39;00m\n' +
+      '\x1B[32m     19\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mTraining Pure CatBoost...\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m20\x1B[39m \x1B[43mcb_model\x1B[49m\x1B[43m.\x1B[49m\x1B[43mfit\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m     21\x1B[39m \x1B[43m    \x1B[49m\x1B[43mX_train_cb\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train_aligned\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     22\x1B[39m \x1B[43m    \x1B[49m\x1B[43meval_set\x1B[49m\x1B[43m=\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX_val_cb\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_val_aligned\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m     23\x1B[39m \x1B[43m    \x1B[49m\x1B[43mearly_stopping_rounds\x1B[49m\x1B[43m=\x1B[49m\x1B[32;43m50\x1B[39;49m\n' +
+      '\x1B[32m     24\x1B[39m \x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     26\x1B[39m \x1B[38;5;66;03m# 4. EVALUATE\x1B[39;00m\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mPredicting...\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:5245\x1B[39m, in \x1B[36mCatBoostClassifier.fit\x1B[39m\x1B[34m(self, X, y, cat_features, text_features, embedding_features, graph, sample_weight, baseline, use_best_model, eval_set, verbose, logging_level, plot, plot_file, column_description, verbose_eval, metric_period, silent, early_stopping_rounds, save_snapshot, snapshot_file, snapshot_interval, init_model, callbacks, log_cout, log_cerr)\x1B[39m\n' +
+      "\x1B[32m   5242\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[33m'\x1B[39m\x1B[33mloss_function\x1B[39m\x1B[33m'\x1B[39m \x1B[38;5;129;01min\x1B[39;00m params:\n" +
+      "\x1B[32m   5243\x1B[39m     CatBoostClassifier._check_is_compatible_loss(params[\x1B[33m'\x1B[39m\x1B[33mloss_function\x1B[39m\x1B[33m'\x1B[39m])\n" +
+      '\x1B[32m-> \x1B[39m\x1B[32m5245\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_fit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mNone\x1B[39;49;00m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43muse_best_model\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5246\x1B[39m \x1B[43m          \x1B[49m\x1B[43meval_set\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mverbose\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlogging_level\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mplot\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mplot_file\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumn_description\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mverbose_eval\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmetric_period\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   5247\x1B[39m \x1B[43m          \x1B[49m\x1B[43msilent\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mearly_stopping_rounds\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msave_snapshot\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msnapshot_file\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msnapshot_interval\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43minit_model\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcallbacks\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlog_cout\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlog_cerr\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   5248\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:2395\x1B[39m, in \x1B[36mCatBoost._fit\x1B[39m\x1B[34m(self, X, y, cat_features, text_features, embedding_features, pairs, graph, sample_weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, use_best_model, eval_set, verbose, logging_level, plot, plot_file, column_description, verbose_eval, metric_period, silent, early_stopping_rounds, save_snapshot, snapshot_file, snapshot_interval, init_model, callbacks, log_cout, log_cerr)\x1B[39m\n' +
+      '\x1B[32m   2392\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m y \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(X, PATH_TYPES + (Pool,)):\n' +
+      '\x1B[32m   2393\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m CatBoostError(\x1B[33m"\x1B[39m\x1B[33my may be None only when X is an instance of catboost.Pool or string\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2395\x1B[39m train_params = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_prepare_train_params\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[32m   2396\x1B[39m \x1B[43m    \x1B[49m\x1B[43mX\x1B[49m\x1B[43m=\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m=\x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m=\x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m=\x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2397\x1B[39m \x1B[43m    \x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m=\x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m=\x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m=\x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m=\x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m=\x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2398\x1B[39m \x1B[43m    \x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m=\x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m=\x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m=\x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43muse_best_model\x1B[49m\x1B[43m=\x1B[49m\x1B[43muse_best_model\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2399\x1B[39m \x1B[43m    \x1B[49m\x1B[43meval_set\x1B[49m\x1B[43m=\x1B[49m\x1B[43meval_set\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mverbose\x1B[49m\x1B[43m=\x1B[49m\x1B[43mverbose\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlogging_level\x1B[49m\x1B[43m=\x1B[49m\x1B[43mlogging_level\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mplot\x1B[49m\x1B[43m=\x1B[49m\x1B[43mplot\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mplot_file\x1B[49m\x1B[43m=\x1B[49m\x1B[43mplot_file\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2400\x1B[39m \x1B[43m    \x1B[49m\x1B[43mcolumn_description\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcolumn_description\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mverbose_eval\x1B[49m\x1B[43m=\x1B[49m\x1B[43mverbose_eval\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mmetric_period\x1B[49m\x1B[43m=\x1B[49m\x1B[43mmetric_period\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2401\x1B[39m \x1B[43m    \x1B[49m\x1B[43msilent\x1B[49m\x1B[43m=\x1B[49m\x1B[43msilent\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mearly_stopping_rounds\x1B[49m\x1B[43m=\x1B[49m\x1B[43mearly_stopping_rounds\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msave_snapshot\x1B[49m\x1B[43m=\x1B[49m\x1B[43msave_snapshot\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2402\x1B[39m \x1B[43m    \x1B[49m\x1B[43msnapshot_file\x1B[49m\x1B[43m=\x1B[49m\x1B[43msnapshot_file\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msnapshot_interval\x1B[49m\x1B[43m=\x1B[49m\x1B[43msnapshot_interval\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43minit_model\x1B[49m\x1B[43m=\x1B[49m\x1B[43minit_model\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2403\x1B[39m \x1B[43m    \x1B[49m\x1B[43mcallbacks\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcallbacks\x1B[49m\n' +
+      '\x1B[32m   2404\x1B[39m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2405\x1B[39m params = train_params[\x1B[33m"\x1B[39m\x1B[33mparams\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m   2406\x1B[39m train_pool = train_params[\x1B[33m"\x1B[39m\x1B[33mtrain_pool\x1B[39m\x1B[33m"\x1B[39m]\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:2275\x1B[39m, in \x1B[36mCatBoost._prepare_train_params\x1B[39m\x1B[34m(self, X, y, cat_features, text_features, embedding_features, pairs, graph, sample_weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, use_best_model, eval_set, verbose, logging_level, plot, plot_file, column_description, verbose_eval, metric_period, silent, early_stopping_rounds, save_snapshot, snapshot_file, snapshot_interval, init_model, callbacks)\x1B[39m\n' +
+      "\x1B[32m   2272\x1B[39m text_features = _process_feature_indices(text_features, X, params, \x1B[33m'\x1B[39m\x1B[33mtext_features\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      "\x1B[32m   2273\x1B[39m embedding_features = _process_feature_indices(embedding_features, X, params, \x1B[33m'\x1B[39m\x1B[33membedding_features\x1B[39m\x1B[33m'\x1B[39m)\n" +
+      '\x1B[32m-> \x1B[39m\x1B[32m2275\x1B[39m train_pool = \x1B[43m_build_train_pool\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2276\x1B[39m \x1B[43m                               \x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   2277\x1B[39m \x1B[43m                               \x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcolumn_description\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2278\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m train_pool.is_empty_:\n' +
+      '\x1B[32m   2279\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m CatBoostError(\x1B[33m"\x1B[39m\x1B[33mX is empty.\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:1513\x1B[39m, in \x1B[36m_build_train_pool\x1B[39m\x1B[34m(X, y, cat_features, text_features, embedding_features, pairs, graph, sample_weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, column_description)\x1B[39m\n' +
+      '\x1B[32m   1511\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m y \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   1512\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m CatBoostError(\x1B[33m"\x1B[39m\x1B[33my has not initialized in fit(): X is not catboost.Pool object, y must be not None in fit().\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1513\x1B[39m     train_pool = \x1B[43mPool\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m=\x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m=\x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m=\x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m=\x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m=\x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mweight\x1B[49m\x1B[43m=\x1B[49m\x1B[43msample_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m=\x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1514\x1B[39m \x1B[43m                      \x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m=\x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m=\x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m=\x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m=\x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   1515\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m train_pool\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:855\x1B[39m, in \x1B[36mPool.__init__\x1B[39m\x1B[34m(self, data, label, cat_features, text_features, embedding_features, embedding_features_data, column_description, pairs, graph, delimiter, has_header, ignore_csv_quoting, weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, timestamp, feature_names, feature_tags, thread_count, log_cout, log_cerr, data_can_be_none)\x1B[39m\n' +
+      '\x1B[32m    849\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(feature_names, PATH_TYPES):\n' +
+      '\x1B[32m    850\x1B[39m             \x1B[38;5;28;01mraise\x1B[39;00m CatBoostError(\n' +
+      '\x1B[32m    851\x1B[39m                 \x1B[33m"\x1B[39m\x1B[33mfeature_names must be None or have non-string type when the pool is created from \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    852\x1B[39m                 \x1B[33m"\x1B[39m\x1B[33mpython objects.\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    853\x1B[39m             )\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m855\x1B[39m         \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_init\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlabel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features_data\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mweight\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m    856\x1B[39m \x1B[43m                   \x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtimestamp\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfeature_names\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfeature_tags\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mthread_count\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m    857\x1B[39m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m data_can_be_none:\n' +
+      `\x1B[32m    858\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m CatBoostError(\x1B[33m"\x1B[39m\x1B[33m'\x1B[39m\x1B[33mdata\x1B[39m\x1B[33m'\x1B[39m\x1B[33m parameter can\x1B[39m\x1B[33m'\x1B[39m\x1B[33mt be None\x1B[39m\x1B[33m"\x1B[39m)\n`,
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:1491\x1B[39m, in \x1B[36mPool._init\x1B[39m\x1B[34m(self, data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight, group_id, group_weight, subgroup_id, pairs_weight, baseline, timestamp, feature_names, feature_tags, thread_count)\x1B[39m\n' +
+      '\x1B[32m   1489\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m feature_tags \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   1490\x1B[39m     feature_tags = \x1B[38;5;28mself\x1B[39m._check_transform_tags(feature_tags, feature_names)\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m1491\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_init_pool\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlabel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mcat_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtext_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43membedding_features_data\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgraph\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mweight\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[32m   1492\x1B[39m \x1B[43m                \x1B[49m\x1B[43mgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mgroup_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43msubgroup_id\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mpairs_weight\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbaseline\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtimestamp\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfeature_names\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfeature_tags\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mthread_count\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m_catboost.pyx:4329\x1B[39m, in \x1B[36m_catboost._PoolBase._init_pool\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m_catboost.pyx:4352\x1B[39m, in \x1B[36m_catboost._PoolBase._init_pool\x1B[39m\x1B[34m()\x1B[39m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m_catboost.pyx:2310\x1B[39m, in \x1B[36m_catboost._init_features_layout\x1B[39m\x1B[34m()\x1B[39m\n',
+    "\x1B[31mCatBoostError\x1B[39m: catboost/libs/data/features_layout.cpp:124: All feature names should be different, but 'logret_2h' used more than once."
+  ]
+}
+15:32:49.282 [warn] Cell completed with errors Iu [Error]: name 'X_train_targets' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_train_targets' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[44]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mX_train_targets\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_train_targets' is not defined"
+  ]
+}
+15:47:54.774 [warn] Cell completed with errors Iu [Error]: invalid syntax (2887214629.py, line 5)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2887214629.py, line 5)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[55]\x1B[39m\x1B[32m, line 5\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31my_test_final = df_test_targets.drop(columns=drop_cols)X_train_final\x1B[39m\n' +
+      '                                                          ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax\n'
+  ]
+}
+15:50:14.976 [warn] Cell completed with errors Iu [Error]: name 'X_train_final_clean' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'X_train_final_clean' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[60]\x1B[39m\x1B[32m, line 39\x1B[39m\n' +
+      '\x1B[32m     36\x1B[39m     \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[33mNo valid rows found!\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     37\x1B[39m     X_train_final_clean = X_train_final.iloc[\x1B[32m0\x1B[39m:\x1B[32m0\x1B[39m]  \x1B[38;5;66;03m# Empty dataframe\x1B[39;00m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m39\x1B[39m \x1B[43mX_train_final_clean\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'X_train_final_clean' is not defined"
+  ]
+}
+15:55:58.155 [warn] Cell completed with errors Iu [Error]: There is no trained model to use predict(). Use fit() to train model. Then use this method.
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'CatBoostError',
+  evalue: 'There is no trained model to use predict(). Use fit() to train model. Then use this method.',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mCatBoostError\x1B[39m                             Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[73]\x1B[39m\x1B[32m, line 10\x1B[39m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;66;03m# 4. EVALUATE\x1B[39;00m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mPredicting...\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m10\x1B[39m y_pred_cb = \x1B[43mcb_model\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpredict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mX_val_cb\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33m=== PURE CATBOOST CLASSIFICATION REPORT ===\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      "\x1B[32m     13\x1B[39m \x1B[38;5;28mprint\x1B[39m(classification_report(y_val_aligned, y_pred_cb, target_names=[\x1B[33m'\x1B[39m\x1B[33mChop (0)\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mTrend (1)\x1B[39m\x1B[33m'\x1B[39m, \x1B[33m'\x1B[39m\x1B[33mJump (2)\x1B[39m\x1B[33m'\x1B[39m]))\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:5307\x1B[39m, in \x1B[36mCatBoostClassifier.predict\x1B[39m\x1B[34m(self, data, prediction_type, ntree_start, ntree_end, thread_count, verbose, task_type)\x1B[39m\n' +
+      `\x1B[32m   5250\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mpredict\x1B[39m(\x1B[38;5;28mself\x1B[39m, data, prediction_type=\x1B[33m'\x1B[39m\x1B[33mClass\x1B[39m\x1B[33m'\x1B[39m, ntree_start=\x1B[32m0\x1B[39m, ntree_end=\x1B[32m0\x1B[39m, thread_count=-\x1B[32m1\x1B[39m, verbose=\x1B[38;5;28;01mNone\x1B[39;00m, task_type=\x1B[33m"\x1B[39m\x1B[33mCPU\x1B[39m\x1B[33m"\x1B[39m):\n` +
+      '\x1B[32m   5251\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   5252\x1B[39m \x1B[33;03m    Predict with data.\x1B[39;00m\n' +
+      '\x1B[32m   5253\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5305\x1B[39m \x1B[33;03m              with log probability for every class for each object.\x1B[39;00m\n' +
+      '\x1B[32m   5306\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      "\x1B[32m-> \x1B[39m\x1B[32m5307\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_predict\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mprediction_type\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mntree_start\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mntree_end\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mthread_count\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mverbose\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mpredict\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtask_type\x1B[49m\x1B[43m)\x1B[49m\n",
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:2620\x1B[39m, in \x1B[36mCatBoost._predict\x1B[39m\x1B[34m(self, data, prediction_type, ntree_start, ntree_end, thread_count, verbose, parent_method_name, task_type)\x1B[39m\n' +
+      '\x1B[32m   2618\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m verbose \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   2619\x1B[39m     verbose = \x1B[38;5;28;01mFalse\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2620\x1B[39m data, data_is_single_object = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_process_predict_input_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mparent_method_name\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mthread_count\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   2621\x1B[39m \x1B[38;5;28mself\x1B[39m._validate_prediction_type(prediction_type)\n' +
+      '\x1B[32m   2623\x1B[39m predictions = \x1B[38;5;28mself\x1B[39m._base_predict(data, prediction_type, ntree_start, ntree_end, thread_count, verbose, task_type)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/catboost/core.py:2596\x1B[39m, in \x1B[36mCatBoost._process_predict_input_data\x1B[39m\x1B[34m(self, data, parent_method_name, thread_count, label)\x1B[39m\n' +
+      '\x1B[32m   2594\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_process_predict_input_data\x1B[39m(\x1B[38;5;28mself\x1B[39m, data, parent_method_name, thread_count, label=\x1B[38;5;28;01mNone\x1B[39;00m):\n' +
+      '\x1B[32m   2595\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28mself\x1B[39m.is_fitted() \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m.tree_count_ \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m2596\x1B[39m         \x1B[38;5;28;01mraise\x1B[39;00m CatBoostError((\x1B[33m"\x1B[39m\x1B[33mThere is no trained model to use \x1B[39m\x1B[38;5;132;01m{}\x1B[39;00m\x1B[33m(). \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m   2597\x1B[39m                              \x1B[33m"\x1B[39m\x1B[33mUse fit() to train model. Then use this method.\x1B[39m\x1B[33m"\x1B[39m).format(parent_method_name))\n' +
+      '\x1B[32m   2598\x1B[39m     is_single_object = _is_data_single_object(data)\n' +
+      '\x1B[32m   2599\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(data, Pool):\n',
+    '\x1B[31mCatBoostError\x1B[39m: There is no trained model to use predict(). Use fit() to train model. Then use this method.'
+  ]
+}
+15:58:19.375 [warn] Cell completed with errors Iu [Error]: Length of values (5362) does not match length of index (300)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'ValueError',
+  evalue: 'Length of values (5362) does not match length of index (300)',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[77]\x1B[39m\x1B[32m, line 6\x1B[39m\n' +
+      '\x1B[32m      4\x1B[39m plot_df = plot_df.iloc[-\x1B[32m300\x1B[39m:] \x1B[38;5;66;03m# Ensure lengths match perfectly\x1B[39;00m\n' +
+      "\x1B[32m      5\x1B[39m plot_df[\x1B[33m'\x1B[39m\x1B[33mActual_Regime\x1B[39m\x1B[33m'\x1B[39m] = y_val_cb\n" +
+      "\x1B[32m----> \x1B[39m\x1B[32m6\x1B[39m \x1B[43mplot_df\x1B[49m\x1B[43m[\x1B[49m\x1B[33;43m'\x1B[39;49m\x1B[33;43mPredicted_Regime\x1B[39;49m\x1B[33;43m'\x1B[39;49m\x1B[43m]\x1B[49m = y_val_pred\n" +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;66;03m# Plotting Function\x1B[39;00m\n' +
+      '\x1B[32m      9\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mplot_regime_overlay\x1B[39m(df, title):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:4322\x1B[39m, in \x1B[36mDataFrame.__setitem__\x1B[39m\x1B[34m(self, key, value)\x1B[39m\n' +
+      '\x1B[32m   4319\x1B[39m     \x1B[38;5;28mself\x1B[39m._setitem_array([key], value)\n' +
+      '\x1B[32m   4320\x1B[39m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[32m   4321\x1B[39m     \x1B[38;5;66;03m# set column\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4322\x1B[39m     \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_set_item\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mvalue\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:4535\x1B[39m, in \x1B[36mDataFrame._set_item\x1B[39m\x1B[34m(self, key, value)\x1B[39m\n' +
+      '\x1B[32m   4525\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34m_set_item\x1B[39m(\x1B[38;5;28mself\x1B[39m, key, value) -> \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[32m   4526\x1B[39m \x1B[38;5;250m    \x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m   4527\x1B[39m \x1B[33;03m    Add series to DataFrame in specified column.\x1B[39;00m\n' +
+      '\x1B[32m   4528\x1B[39m \n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   4533\x1B[39m \x1B[33;03m    ensure homogeneity.\x1B[39;00m\n' +
+      '\x1B[32m   4534\x1B[39m \x1B[33;03m    """\x1B[39;00m\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m4535\x1B[39m     value, refs = \x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43m_sanitize_column\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalue\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   4537\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m (\n' +
+      '\x1B[32m   4538\x1B[39m         key \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns\n' +
+      '\x1B[32m   4539\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m value.ndim == \x1B[32m1\x1B[39m\n' +
+      '\x1B[32m   4540\x1B[39m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(value.dtype, ExtensionDtype)\n' +
+      '\x1B[32m   4541\x1B[39m     ):\n' +
+      '\x1B[32m   4542\x1B[39m         \x1B[38;5;66;03m# broadcast across multiple columns if necessary\x1B[39;00m\n' +
+      '\x1B[32m   4543\x1B[39m         \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28mself\x1B[39m.columns.is_unique \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(\x1B[38;5;28mself\x1B[39m.columns, MultiIndex):\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/frame.py:5288\x1B[39m, in \x1B[36mDataFrame._sanitize_column\x1B[39m\x1B[34m(self, value)\x1B[39m\n' +
+      '\x1B[32m   5285\x1B[39m     \x1B[38;5;28;01mreturn\x1B[39;00m _reindex_for_setitem(value, \x1B[38;5;28mself\x1B[39m.index)\n' +
+      '\x1B[32m   5287\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m is_list_like(value):\n' +
+      '\x1B[32m-> \x1B[39m\x1B[32m5288\x1B[39m     \x1B[43mcom\x1B[49m\x1B[43m.\x1B[49m\x1B[43mrequire_length_match\x1B[49m\x1B[43m(\x1B[49m\x1B[43mvalue\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m.\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m   5289\x1B[39m arr = sanitize_array(value, \x1B[38;5;28mself\x1B[39m.index, copy=\x1B[38;5;28;01mTrue\x1B[39;00m, allow_2d=\x1B[38;5;28;01mTrue\x1B[39;00m)\n' +
+      '\x1B[32m   5290\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m (\n' +
+      '\x1B[32m   5291\x1B[39m     \x1B[38;5;28misinstance\x1B[39m(value, Index)\n' +
+      '\x1B[32m   5292\x1B[39m     \x1B[38;5;129;01mand\x1B[39;00m value.dtype == \x1B[33m"\x1B[39m\x1B[33mobject\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m   5295\x1B[39m     \x1B[38;5;66;03m# TODO: Remove kludge in sanitize_array for string mode when enforcing\x1B[39;00m\n' +
+      '\x1B[32m   5296\x1B[39m     \x1B[38;5;66;03m# this deprecation\x1B[39;00m\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/shared/<username>Sync/py<username>/pro_version/.venv/lib/python3.13/site-packages/pandas/core/common.py:573\x1B[39m, in \x1B[36mrequire_length_match\x1B[39m\x1B[34m(data, index)\x1B[39m\n' +
+      '\x1B[32m    569\x1B[39m \x1B[38;5;250m\x1B[39m\x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m    570\x1B[39m \x1B[33;03mCheck the length of data matches the length of the index.\x1B[39;00m\n' +
+      '\x1B[32m    571\x1B[39m \x1B[33;03m"""\x1B[39;00m\n' +
+      '\x1B[32m    572\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mlen\x1B[39m(data) != \x1B[38;5;28mlen\x1B[39m(index):\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m573\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[32m    574\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mLength of values \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    575\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33m(\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(data)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m) \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    576\x1B[39m         \x1B[33m"\x1B[39m\x1B[33mdoes not match length of index \x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    577\x1B[39m         \x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33m(\x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(index)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m)\x1B[39m\x1B[33m"\x1B[39m\n' +
+      '\x1B[32m    578\x1B[39m     )\n',
+    '\x1B[31mValueError\x1B[39m: Length of values (5362) does not match length of index (300)'
+  ]
+}
+17:50:37.220 [warn] Cell completed with errors Iu [Error]: name 'df_train_raw' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'df_train_raw' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[79]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mdf_train_raw\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'df_train_raw' is not defined"
+  ]
+}
+18:24:14.954 [warn] Cell completed with errors Iu [Error]: 'Index' object has no attribute 'tolsit'
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'AttributeError',
+  evalue: "'Index' object has no attribute 'tolsit'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mAttributeError\x1B[39m                            Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[95]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mtargets\x1B[49m\x1B[43m.\x1B[49m\x1B[43mcolumns\x1B[49m\x1B[43m.\x1B[49m\x1B[43mtolsit\x1B[49m()\n',
+    "\x1B[31mAttributeError\x1B[39m: 'Index' object has no attribute 'tolsit'"
+  ]
+}
+18:33:44.017 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:33:44.089 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:33:44.101 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v325e425959ea5b47c897c3cd7ada79fafe04eeb6e.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+18:33:44.510 [info] Restarted 8ae0ac53-be96-4d94-abc9-20d82c34db63
+18:34:47.777 [warn] Cell completed with errors Iu [Error]: name 't0' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 't0' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 41\x1B[39m\n' +
+      '\x1B[32m     39\x1B[39m combined_df = pd.concat([features, targets], axis=\x1B[32m1\x1B[39m)\n' +
+      '\x1B[32m     40\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[33mCombined shape: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mcombined_df.shape\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m41\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTotal pipeline time: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtime.time()-\x1B[43mt0\x1B[49m\x1B[38;5;132;01m:\x1B[39;00m\x1B[33m.2f\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33ms\x1B[39m\x1B[33m"\x1B[39m)\n',
+    "\x1B[31mNameError\x1B[39m: name 't0' is not defined"
+  ]
+}

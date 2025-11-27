@@ -3,3 +3,5 @@
 2025-11-22 18:02:39: Starting server using secret key: /home/east/.config/joplin-desktop/ipc_secret_key.txt
 2025-11-22 18:15:31: Starting server using secret key: /home/east/.config/joplin-desktop/ipc_secret_key.txt
 2025-11-22 18:16:00: Starting server using secret key: /home/east/.config/joplin-desktop/ipc_secret_key.txt
+2025-11-22 22:59:34: Starting server using secret key: /home/east/.config/joplin-desktop/ipc_secret_key.txt
+2025-11-23 09:36:22: Starting server using secret key: /home/east/.config/joplin-desktop/ipc_secret_key.txt

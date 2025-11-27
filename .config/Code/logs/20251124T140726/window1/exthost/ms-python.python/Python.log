@@ -1,0 +1,23 @@
+2025-11-24 14:09:37.281 [info] Native locator: Refresh started
+2025-11-24 14:09:37.331 [info] Native locator: Refresh started
+2025-11-24 14:09:37.350 [info] > pyenv which python
+2025-11-24 14:09:37.350 [info] cwd: .
+2025-11-24 14:09:37.479 [info] Native locator: Refresh finished in 196 ms
+2025-11-24 14:09:37.506 [info] Python interpreter path: ./.venv/bin/python
+2025-11-24 14:09:38.907 [info] Starting Pylance language server.
+2025-11-24 14:09:56.530 [info] > conda info --json
+2025-11-24 14:10:16.858 [info] Native locator: Refresh started
+2025-11-24 14:10:16.858 [info] Native locator: Refresh started
+2025-11-24 14:10:16.984 [info] Native locator: Refresh finished in 127 ms
+2025-11-24 14:10:20.967 [info] Active interpreter [/home/east/shared/eastSync/pyEast/ML/research/MLDev/market_analysis.ipynb]:  /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:10:20.981 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 14:10:20.981 [info] shell: bash
+2025-11-24 14:10:21.003 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 14:10:21.003 [info] shell: bash
+2025-11-24 14:11:04.665 [info] Send text to terminal: source /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/activate
+2025-11-24 14:12:25.940 [info] Native locator: Refresh started
+2025-11-24 14:12:26.067 [info] Native locator: Refresh finished in 127 ms
+2025-11-24 14:12:53.472 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/numpy/f2py/setup.cfg
+2025-11-24 14:12:57.584 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/pandas/pyproject.toml
+2025-11-24 14:55:35.622 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 14:55:35.622 [info] shell: bash

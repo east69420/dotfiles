@@ -1,0 +1,167 @@
+2025-11-26 17:34:50.436 [info] Client: Pylance client (2025.10.1) started with python extension (2025.18.0)
+2025-11-26 17:34:50.903 [info] (450963): Server root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 17:34:50.903 [info] (450963): Pylance language server 2025.10.1 (pyright version 1.1.407, commit 906e40aa) starting
+2025-11-26 17:34:50.907 [info] (450963): Starting service instance "pro_version" for workspace "/home/east/shared/eastSync/pyEast/pro_version"
+2025-11-26 17:34:51.490 [info] (450963): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into file:///home/east/shared/eastSync/pyEast/pro_version...
+2025-11-26 17:34:51.556 [info] (450963): FG(pro_version): Setting environmentName for service "pro_version": "3.13.7 (.venv venv)"
+2025-11-26 17:34:51.556 [info] (450963): FG(pro_version): Setting pythonPath for service "pro_version": "/home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python"
+2025-11-26 17:34:51.556 [info] (450963): FG(pro_version): No include entries specified; assuming /home/east/shared/eastSync/pyEast/pro_version
+2025-11-26 17:34:51.557 [info] (450963): FG(pro_version): Auto-excluding **/node_modules
+2025-11-26 17:34:51.557 [info] (450963): FG(pro_version): Auto-excluding **/__pycache__
+2025-11-26 17:34:51.557 [info] (450963): FG(pro_version): Auto-excluding **/.*
+2025-11-26 17:34:51.580 [info] (450963): FG(pro_version): Assuming Python version 3.13.7.final.0
+2025-11-26 17:34:51.633 [info] (450963): Settings have not changed. Skipping update.
+2025-11-26 17:34:51.634 [info] (450963): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/
+2025-11-26 17:34:51.634 [info] (450963): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/"
+2025-11-26 17:34:51.636 [info] (450963): Starting service instance "<default>" for workspace ""
+2025-11-26 17:34:51.637 [info] (450963): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into ...
+2025-11-26 17:34:51.785 [info] (450963): Starting Mcp server id:5359 ...
+2025-11-26 17:34:51.853 [info] (450963): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-26 17:34:51.853 [info] (450963): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/
+2025-11-26 17:34:51.853 [info] (450963): FG(<default>): Auto-excluding **/node_modules
+2025-11-26 17:34:51.853 [info] (450963): FG(<default>): Auto-excluding **/__pycache__
+2025-11-26 17:34:51.853 [info] (450963): FG(<default>): Auto-excluding **/.*
+2025-11-26 17:34:51.881 [info] (450963): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-26 17:34:52.160 [error] (450963): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/" does not exist.
+2025-11-26 17:34:52.160 [info] (450963): FG(<default>): No source files found.
+2025-11-26 17:34:52.173 [info] (450963): FG(pro_version): Found 8 source files
+2025-11-26 17:34:52.201 [info] (450963): PQ(pro_version): Priority queue background worker(2) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 17:34:52.202 [info] (450963): PQ(pro_version): Priority queue background worker(2) started
+2025-11-26 17:34:52.222 [info] (450963): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-26 17:34:52.223 [info] (450963): FG(<default>): Setting pythonPath for service "<default>": "/home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python"
+2025-11-26 17:34:52.223 [info] (450963): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-11-26 17:34:52.223 [info] (450963): FG(<default>): Auto-excluding **/node_modules
+2025-11-26 17:34:52.223 [info] (450963): FG(<default>): Auto-excluding **/__pycache__
+2025-11-26 17:34:52.223 [info] (450963): FG(<default>): Auto-excluding **/.*
+2025-11-26 17:34:52.257 [info] (450963): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-26 17:34:52.359 [info] (450963): PQ(<default>): Priority queue background worker(4) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 17:34:52.359 [info] (450963): PQ(<default>): Priority queue background worker(4) started
+2025-11-26 17:34:52.359 [info] (450963): IDX(pro_version): Indexer background runner(5) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (index)
+2025-11-26 17:34:52.359 [info] (450963): IDX(pro_version): Indexing(5) started
+2025-11-26 17:34:52.360 [error] (450963): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-11-26 17:34:52.360 [info] (450963): FG(<default>): No source files found.
+2025-11-26 17:34:52.438 [info] (450963): BG(pro_version): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 17:34:52.596 [info] (450963): BG(<default>): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 17:34:52.758 [info] (450963): IDX(pro_version): scanned(5) 227 files over 1 exec env
+2025-11-26 17:34:52.914 [info] (450963): IDX(pro_version): indexed(5) 227 files over 1 exec env
+2025-11-26 17:34:52.957 [info] (450963): IDX(pro_version): Indexing finished(5).
+2025-11-26 18:07:41.570 [info] (450963): FG(pro_version): Found 9 source files
+2025-11-26 18:32:27.330 [info] Client: Pylance client (2025.10.1) started with python extension (2025.18.0)
+2025-11-26 18:32:27.800 [info] (457447): Server root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 18:32:27.801 [info] (457447): Pylance language server 2025.10.1 (pyright version 1.1.407, commit 906e40aa) starting
+2025-11-26 18:32:27.808 [info] (457447): Starting service instance "pro_version" for workspace "/home/east/shared/eastSync/pyEast/pro_version"
+2025-11-26 18:32:28.407 [info] (457447): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into file:///home/east/shared/eastSync/pyEast/pro_version...
+2025-11-26 18:32:28.462 [info] (457447): Starting Mcp server id:3843 ...
+2025-11-26 18:32:28.483 [info] (457447): FG(pro_version): Setting environmentName for service "pro_version": "3.13.7 (.venv venv)"
+2025-11-26 18:32:28.483 [info] (457447): FG(pro_version): Setting pythonPath for service "pro_version": "/home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python"
+2025-11-26 18:32:28.483 [info] (457447): FG(pro_version): No include entries specified; assuming /home/east/shared/eastSync/pyEast/pro_version
+2025-11-26 18:32:28.484 [info] (457447): FG(pro_version): Auto-excluding **/node_modules
+2025-11-26 18:32:28.484 [info] (457447): FG(pro_version): Auto-excluding **/__pycache__
+2025-11-26 18:32:28.484 [info] (457447): FG(pro_version): Auto-excluding **/.*
+2025-11-26 18:32:28.508 [info] (457447): FG(pro_version): Assuming Python version 3.13.7.final.0
+2025-11-26 18:32:28.561 [info] (457447): Settings have not changed. Skipping update.
+2025-11-26 18:32:28.561 [info] (457447): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/
+2025-11-26 18:32:28.561 [info] (457447): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/"
+2025-11-26 18:32:28.564 [info] (457447): Starting service instance "<default>" for workspace ""
+2025-11-26 18:32:28.564 [info] (457447): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into ...
+2025-11-26 18:32:28.591 [info] (457447): FG(pro_version): Found 9 source files
+2025-11-26 18:32:28.650 [info] (457447): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-26 18:32:28.650 [info] (457447): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/
+2025-11-26 18:32:28.650 [info] (457447): FG(<default>): Auto-excluding **/node_modules
+2025-11-26 18:32:28.651 [info] (457447): FG(<default>): Auto-excluding **/__pycache__
+2025-11-26 18:32:28.651 [info] (457447): FG(<default>): Auto-excluding **/.*
+2025-11-26 18:32:28.683 [info] (457447): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-26 18:32:28.988 [error] (457447): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/" does not exist.
+2025-11-26 18:32:28.988 [info] (457447): FG(<default>): No source files found.
+2025-11-26 18:32:29.027 [info] (457447): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-26 18:32:29.027 [info] (457447): FG(<default>): Setting pythonPath for service "<default>": "/home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python"
+2025-11-26 18:32:29.027 [info] (457447): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-11-26 18:32:29.027 [info] (457447): FG(<default>): Auto-excluding **/node_modules
+2025-11-26 18:32:29.027 [info] (457447): FG(<default>): Auto-excluding **/__pycache__
+2025-11-26 18:32:29.027 [info] (457447): FG(<default>): Auto-excluding **/.*
+2025-11-26 18:32:29.056 [info] (457447): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-26 18:32:29.427 [error] (457447): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-11-26 18:32:29.427 [info] (457447): FG(<default>): No source files found.
+2025-11-26 18:32:29.445 [info] (457447): BG(pro_version): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 18:32:29.445 [info] (457447): PQ(pro_version): Priority queue background worker(2) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 18:32:29.445 [info] (457447): PQ(pro_version): Priority queue background worker(2) started
+2025-11-26 18:32:29.445 [info] (457447): PQ(<default>): Priority queue background worker(4) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 18:32:29.445 [info] (457447): PQ(<default>): Priority queue background worker(4) started
+2025-11-26 18:32:29.445 [info] (457447): IDX(pro_version): Indexer background runner(5) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (index)
+2025-11-26 18:32:29.445 [info] (457447): IDX(pro_version): Indexing(5) started
+2025-11-26 18:32:30.352 [info] (457447): BG(<default>): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 18:32:30.352 [info] (457447): IDX(pro_version): scanned(5) 227 files over 1 exec env
+2025-11-26 18:32:30.491 [info] (457447): IDX(pro_version): indexed(5) 227 files over 1 exec env
+2025-11-26 18:32:30.520 [info] (457447): IDX(pro_version): Indexing finished(5).
+2025-11-26 18:32:30.896 [error] (457447): PQ(<default>): Task with priority encountered an error: Error: request cancelled
+2025-11-26 19:24:18.307 [info] (457447): IDX(pro_version): Indexer background runner(6) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:24:18.307 [info] (457447): IDX(pro_version): Indexing(6) started
+2025-11-26 19:24:18.741 [info] (457447): IDX(pro_version): scanned(6) 227 files over 1 exec env
+2025-11-26 19:24:18.988 [info] (457447): IDX(pro_version): indexed(6) 227 files over 1 exec env
+2025-11-26 19:24:19.060 [info] (457447): IDX(pro_version): Indexing finished(6).
+2025-11-26 19:27:08.155 [info] (457447): IDX(pro_version): Indexer background runner(7) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:27:08.155 [info] (457447): IDX(pro_version): Indexing(7) started
+2025-11-26 19:27:08.550 [info] (457447): IDX(pro_version): scanned(7) 227 files over 1 exec env
+2025-11-26 19:27:08.734 [info] (457447): IDX(pro_version): indexed(7) 227 files over 1 exec env
+2025-11-26 19:27:08.779 [info] (457447): IDX(pro_version): Indexing finished(7).
+2025-11-26 19:27:22.724 [info] (457447): IDX(pro_version): Indexer background runner(8) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:27:22.724 [info] (457447): IDX(pro_version): Indexing(8) started
+2025-11-26 19:27:23.123 [info] (457447): IDX(pro_version): scanned(8) 227 files over 1 exec env
+2025-11-26 19:27:23.327 [info] (457447): IDX(pro_version): indexed(8) 227 files over 1 exec env
+2025-11-26 19:27:23.382 [info] (457447): IDX(pro_version): Indexing finished(8).
+2025-11-26 19:31:02.522 [info] (457447): IDX(pro_version): Indexer background runner(9) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:31:02.522 [info] (457447): IDX(pro_version): Indexing(9) started
+2025-11-26 19:31:03.090 [info] (457447): IDX(pro_version): scanned(9) 227 files over 1 exec env
+2025-11-26 19:31:03.294 [info] (457447): IDX(pro_version): indexed(9) 227 files over 1 exec env
+2025-11-26 19:31:03.337 [info] (457447): IDX(pro_version): Indexing finished(9).
+2025-11-27 11:24:14.390 [info] (457447): 
+*Warning*: Pylance failed to parse docstring at offset 1527
+
+ Outputting literal text instead.
+2025-11-27 17:59:13.295 [error] Unhandled Rejection in Pylance: Error: Debug Failure. False expression: Chained file path undefined doesn't match cellFilePaths file:///home/east/shared/eastSync/pyEast/pro_version/targeting_volatility_rocket.ipynb.py#X11sZmlsZQ%3D%3D with Created 10 cells
+2025-11-27 17:59:13.295 [error]     at _0x536504 (/home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/server.bundle.js:1:207254)
+2025-11-27 17:59:13.295 [error]     at /home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/server.bundle.js:1:807915
+2025-11-27 17:59:13.402 [error] Server process exited with code 10.
+2025-11-27 17:59:13.406 [info] Connection to server got closed. Server will restart.
+2025-11-27 17:59:13.908 [info] (2911172): Server root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-27 17:59:13.909 [info] (2911172): Pylance language server 2025.10.1 (pyright version 1.1.407, commit 906e40aa) starting
+2025-11-27 17:59:13.913 [info] (2911172): Starting service instance "pro_version" for workspace "/home/east/shared/eastSync/pyEast/pro_version"
+2025-11-27 17:59:13.953 [info] Client: Failed to provide MCP server definitions: Error: Unhandled method python/mcpPort
+2025-11-27 17:59:13.995 [info] (2911172): FG(pro_version): Setting environmentName for service "pro_version": "3.13.7 (.venv venv)"
+2025-11-27 17:59:13.995 [info] (2911172): FG(pro_version): Setting pythonPath for service "pro_version": "/home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python"
+2025-11-27 17:59:13.996 [info] (2911172): FG(pro_version): No include entries specified; assuming /home/east/shared/eastSync/pyEast/pro_version
+2025-11-27 17:59:13.996 [info] (2911172): FG(pro_version): Auto-excluding **/node_modules
+2025-11-27 17:59:13.996 [info] (2911172): FG(pro_version): Auto-excluding **/__pycache__
+2025-11-27 17:59:13.996 [info] (2911172): FG(pro_version): Auto-excluding **/.*
+2025-11-27 17:59:14.018 [info] (2911172): FG(pro_version): Assuming Python version 3.13.7.final.0
+2025-11-27 17:59:14.073 [info] (2911172): Settings have not changed. Skipping update.
+2025-11-27 17:59:14.073 [info] (2911172): virtual workspace: vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/
+2025-11-27 17:59:14.073 [info] (2911172): Starting service instance "<default>" for workspace "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/"
+2025-11-27 17:59:14.079 [info] (2911172): Starting service instance "<default>" for workspace ""
+2025-11-27 17:59:14.112 [info] (2911172): FG(pro_version): Found 9 source files
+2025-11-27 17:59:14.161 [info] (2911172): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-27 17:59:14.161 [info] (2911172): FG(<default>): No include entries specified; assuming vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/
+2025-11-27 17:59:14.161 [info] (2911172): FG(<default>): Auto-excluding **/node_modules
+2025-11-27 17:59:14.162 [info] (2911172): FG(<default>): Auto-excluding **/__pycache__
+2025-11-27 17:59:14.162 [info] (2911172): FG(<default>): Auto-excluding **/.*
+2025-11-27 17:59:14.192 [info] (2911172): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-27 17:59:14.376 [error] (2911172): FG(<default>): File or directory "vscode-chat-code-block://dnnjb2rllwnoyxqtc2vzc2lvbjovl2xvy2fsl1pqsmxoakprtw1nde56zgppuzawt0rnekxxrmloakf0tkrcau5ewtfobvl5wwpfmg/" does not exist.
+2025-11-27 17:59:14.376 [info] (2911172): FG(<default>): No source files found.
+2025-11-27 17:59:14.398 [info] (2911172): FG(<default>): Setting environmentName for service "<default>": "3.13.7 (.venv venv)"
+2025-11-27 17:59:14.399 [info] (2911172): FG(<default>): Setting pythonPath for service "<default>": "/home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python"
+2025-11-27 17:59:14.399 [info] (2911172): FG(<default>): No include entries specified; assuming /<default workspace root>
+2025-11-27 17:59:14.399 [info] (2911172): FG(<default>): Auto-excluding **/node_modules
+2025-11-27 17:59:14.399 [info] (2911172): FG(<default>): Auto-excluding **/__pycache__
+2025-11-27 17:59:14.399 [info] (2911172): FG(<default>): Auto-excluding **/.*
+2025-11-27 17:59:14.427 [info] (2911172): FG(<default>): Assuming Python version 3.13.7.final.0
+2025-11-27 17:59:14.852 [error] (2911172): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2025-11-27 17:59:14.852 [info] (2911172): FG(<default>): No source files found.
+2025-11-27 17:59:14.869 [info] (2911172): PQ(pro_version): Priority queue background worker(2) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-27 17:59:14.869 [info] (2911172): PQ(pro_version): Priority queue background worker(2) started
+2025-11-27 17:59:14.869 [info] (2911172): IDX(pro_version): Indexer background runner(3) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (index)
+2025-11-27 17:59:14.869 [info] (2911172): IDX(pro_version): Indexing(3) started
+2025-11-27 17:59:15.125 [info] (2911172): PQ(<default>): Priority queue background worker(5) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-27 17:59:15.125 [info] (2911172): PQ(<default>): Priority queue background worker(5) started
+2025-11-27 17:59:15.389 [info] (2911172): IDX(pro_version): scanned(3) 227 files over 1 exec env
+2025-11-27 17:59:15.612 [info] (2911172): IDX(pro_version): indexed(3) 227 files over 1 exec env
+2025-11-27 17:59:15.638 [info] (2911172): IDX(pro_version): Indexing finished(3).

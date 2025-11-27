@@ -1,2 +1,3 @@
-2025/11/22-18:18:11.847 6fe Creating DB /home/east/.config/Code - OSS/Session Storage since it was missing.
-2025/11/22-18:18:11.871 6fe Reusing MANIFEST /home/east/.config/Code - OSS/Session Storage/MANIFEST-000001
+2025/11/24-14:05:36.192 3ba26 Reusing MANIFEST /home/east/.config/Code - OSS/Session Storage/MANIFEST-000001
+2025/11/24-14:05:36.193 3ba26 Recovering log #3
+2025/11/24-14:05:36.193 3ba26 Reusing old log /home/east/.config/Code - OSS/Session Storage/000003.log 

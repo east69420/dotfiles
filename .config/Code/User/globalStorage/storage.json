@@ -1,0 +1,135 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d129255bf1b65ab679ffffd2cc5346425a03e639c851fbbfe7a9c14978ae26df",
+    "telemetry.devDeviceId": "621bf19b-622e-492d-adee-45f4e2ab69b3",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "6b30999b8c9495b2e482c73f7957a5bc",
+                "configURIPath": "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev.code-workspace"
+            },
+            {
+                "id": "c39407f9f4f662dcef06225de769c574",
+                "configURIPath": "file:///home/east/shared/eastSync/pyEast/MLDev/MLDev.code-workspace"
+            }
+        ],
+        "folders": [
+            {
+                "folderUri": "file:///home/east/shared/eastSync/pyEast/repos_playground/Time-Series-Library"
+            },
+            {
+                "folderUri": "file:///home/east/shared/eastSync/pyEast/MLDev"
+            },
+            {
+                "folderUri": "file:///home/east/shared/eastSync/pyEast/pro_version"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1764157072922"
+            },
+            {
+                "backupFolder": "1764157081443"
+            },
+            {
+                "backupFolder": "1764174878075"
+            },
+            {
+                "backupFolder": "1764176430633"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev": "__default__profile__",
+            "file:///home/east/shared/eastSync/pyEast/ML/research/MLDev/MLDev.code-workspace": "__default__profile__",
+            "file:///home/east/shared/eastSync/pyEast/repos_playground/Time-Series-Library": "__default__profile__",
+            "file:///home/east/shared/eastSync/pyEast/MLDev": "__default__profile__",
+            "file:///home/east/shared/eastSync/pyEast/MLDev/MLDev.code-workspace": "__default__profile__",
+            "file:///home/east/shared/eastSync/pyEast/pro_version": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1764157072922": "__default__profile__",
+            "1764157081443": "__default__profile__",
+            "1764174878075": "__default__profile__",
+            "1764176430633": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/east/shared/eastSync/pyEast/pro_version",
+            "backupPath": "/home/east/.config/Code/Backups/ae39b645f91c5ce35e5852ed90ec3422",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 353,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 353,
+            "workspaces": {
+                "ac8acbf63cbdc6990bb497e09cc8aa40": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "6b30999b8c9495b2e482c73f7957a5bc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "01b5c3e245382e55cba5950226d8dd84": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "c39407f9f4f662dcef06225de769c574": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "59fd8781cf3c3c6bf1dd0973918135b3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1b43a2a38e47749131b668735c47d0e6": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

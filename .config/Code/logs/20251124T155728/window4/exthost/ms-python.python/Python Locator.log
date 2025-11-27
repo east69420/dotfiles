@@ -1,0 +1,321 @@
+2025-11-26 17:34:47.340 [info] Starting Python Locator /home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python-env-tools/bin/pet server
+2025-11-26 17:34:49.760 [info] Discovered env: /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:34:49.797 [info] Discovered env: /bin/python
+2025-11-26 17:34:49.816 [info] Discovered env: /usr/bin/python
+2025-11-26 17:34:49.818 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-26 17:34:49.818 [info] Discovered env: /usr/sbin/python
+2025-11-26 17:34:49.820 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-26 17:34:49.820 [info] Discovered env: /sbin/python
+2025-11-26 17:34:49.822 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-26 17:34:49.822 [info] Discovered env: /sbin/python3
+2025-11-26 17:34:49.824 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-26 17:34:49.824 [info] Discovered env: /usr/sbin/python3
+2025-11-26 17:34:49.826 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-26 17:34:49.826 [info] Discovered env: /sbin/python3.13
+2025-11-26 17:34:49.829 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-26 17:34:49.829 [info] Discovered env: /usr/sbin/python3.13
+2025-11-26 17:34:49.831 [info] Locator Conda took 64.53856ms
+2025-11-26 17:34:49.831 [info] Locator Homebrew took 74.329µs
+2025-11-26 17:34:49.831 [info] Locator LinuxGlobal took 85.221131ms
+2025-11-26 17:34:49.831 [info] Locator PipEnv took 42.489µs
+2025-11-26 17:34:49.831 [info] Locator Pixi took 118.762µs
+2025-11-26 17:34:49.831 [info] Locator Poetry took 422.95µs
+2025-11-26 17:34:49.831 [info] Locator PyEnv took 299.7µs
+2025-11-26 17:34:49.831 [info] Locator Venv took 45.986µs
+2025-11-26 17:34:49.831 [info] Locator VirtualEnv took 124.082µs
+2025-11-26 17:34:49.831 [info] Locator VirtualEnvWrapper took 53.851µs
+2025-11-26 17:34:49.831 [info] Locator GlobalVirtualEnvs took 273.15µs
+2025-11-26 17:34:49.831 [info] Locator Locators took 86.069586ms
+2025-11-26 17:34:49.831 [info] Locator Path took 178.285079ms
+2025-11-26 17:34:49.832 [info] Locator Workspaces took 16.193973ms
+2025-11-26 17:34:49.832 [info] Refresh completed in 178ms
+2025-11-26 17:34:49.833 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:35:30.422 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:38:03.353 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:42:40.349 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:45:32.176 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:46:46.417 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:48:27.522 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:52:04.440 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:53:28.871 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:54:43.730 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:55:18.718 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:55:51.392 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:57:04.652 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:58:19.908 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 17:59:24.678 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:00:07.631 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:05:19.164 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:07:16.125 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:08:10.877 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:09:22.823 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:10:02.292 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:11:45.857 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:13:20.957 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:14:00.131 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:14:38.485 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:15:35.098 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:17:32.399 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:25:43.790 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:26:48.766 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:29:54.500 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:30:37.464 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:32:24.387 [info] Starting Python Locator /home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python-env-tools/bin/pet server
+2025-11-26 18:32:26.375 [info] Discovered env: /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:32:26.708 [info] Discovered env: /bin/python
+2025-11-26 18:32:26.712 [info] Discovered env: /usr/bin/python
+2025-11-26 18:32:26.778 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-26 18:32:26.779 [info] Discovered env: /sbin/python
+2025-11-26 18:32:26.781 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-26 18:32:26.781 [info] Discovered env: /usr/sbin/python
+2025-11-26 18:32:26.783 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-26 18:32:26.783 [info] Discovered env: /sbin/python3
+2025-11-26 18:32:26.785 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-26 18:32:26.785 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-26 18:32:26.785 [info] Discovered env: /usr/sbin/python3
+2025-11-26 18:32:26.788 [info] Discovered env: /sbin/python3.13
+2025-11-26 18:32:26.791 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-26 18:32:26.791 [info] Discovered env: /usr/sbin/python3.13
+2025-11-26 18:32:26.793 [info] Locator Conda took 59.789714ms
+2025-11-26 18:32:26.793 [info] Locator Homebrew took 135.794µs
+2025-11-26 18:32:26.794 [info] Locator LinuxGlobal took 83.04417ms
+2025-11-26 18:32:26.794 [info] Locator PipEnv took 38.411µs
+2025-11-26 18:32:26.794 [info] Locator Pixi took 43.962µs
+2025-11-26 18:32:26.794 [info] Locator Poetry took 670.543µs
+2025-11-26 18:32:26.794 [info] Locator PyEnv took 568.172µs
+2025-11-26 18:32:26.794 [info] Locator Venv took 66.654µs
+2025-11-26 18:32:26.794 [info] Locator VirtualEnv took 126.046µs
+2025-11-26 18:32:26.794 [info] Locator VirtualEnvWrapper took 133.72µs
+2025-11-26 18:32:26.794 [info] Locator GlobalVirtualEnvs took 410.557µs
+2025-11-26 18:32:26.794 [info] Locator Locators took 83.973627ms
+2025-11-26 18:32:26.794 [info] Locator Path took 154.256149ms
+2025-11-26 18:32:26.794 [info] Locator Workspaces took 14.66722ms
+2025-11-26 18:32:26.794 [info] Refresh completed in 154ms
+2025-11-26 18:32:26.797 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:43:48.254 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:51:40.933 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:52:57.270 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:54:10.698 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 18:55:13.936 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:02:37.761 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:04:47.496 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:05:44.859 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:09:25.008 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:12:00.289 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:12:56.112 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:13:28.287 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:13:55.745 [info] Discovered env: /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:13:55.809 [info] Discovered env: /bin/python
+2025-11-26 19:13:55.812 [info] Discovered env: /usr/bin/python
+2025-11-26 19:13:55.814 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-26 19:13:55.814 [info] Discovered env: /usr/sbin/python
+2025-11-26 19:13:55.833 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-26 19:13:55.833 [info] Discovered env: /sbin/python
+2025-11-26 19:13:55.835 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-26 19:13:55.835 [info] Discovered env: /usr/sbin/python3
+2025-11-26 19:13:55.853 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-26 19:13:55.853 [info] Discovered env: /sbin/python3
+2025-11-26 19:13:55.856 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-26 19:13:55.857 [info] Discovered env: /usr/sbin/python3.13
+2025-11-26 19:13:55.865 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-26 19:13:55.865 [info] Discovered env: /sbin/python3.13
+2025-11-26 19:13:55.866 [info] Locator Conda took 68.910841ms
+2025-11-26 19:13:55.866 [info] Locator Homebrew took 37.52µs
+2025-11-26 19:13:55.866 [info] Locator LinuxGlobal took 71.717047ms
+2025-11-26 19:13:55.866 [info] Locator PipEnv took 79.278µs
+2025-11-26 19:13:55.866 [info] Locator Pixi took 17.422µs
+2025-11-26 19:13:55.866 [info] Locator Poetry took 120.636µs
+2025-11-26 19:13:55.866 [info] Locator PyEnv took 93.535µs
+2025-11-26 19:13:55.866 [info] Locator Venv took 27.953µs
+2025-11-26 19:13:55.866 [info] Locator VirtualEnv took 17.042µs
+2025-11-26 19:13:55.866 [info] Locator VirtualEnvWrapper took 24.165µs
+2025-11-26 19:13:55.866 [info] Locator GlobalVirtualEnvs took 52.347µs
+2025-11-26 19:13:55.866 [info] Locator Locators took 72.675769ms
+2025-11-26 19:13:55.866 [info] Locator Path took 125.78238ms
+2025-11-26 19:13:55.866 [info] Locator Workspaces took 2.555156ms
+2025-11-26 19:13:55.866 [info] Refresh completed in 125ms
+2025-11-26 19:20:47.627 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:21:58.883 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:25:10.028 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:33:28.770 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:34:30.154 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:35:20.003 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:36:10.700 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:37:05.819 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:37:39.642 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:38:19.964 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:38:52.744 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 19:39:26.165 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:33:37.060 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:34:20.849 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:50:03.682 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:51:05.459 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:51:40.735 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:52:45.833 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:53:32.315 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:54:09.830 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:54:42.720 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 20:56:04.286 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 21:09:55.665 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 21:10:28.433 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 21:11:16.668 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 21:34:18.979 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 21:34:55.954 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 22:02:53.099 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 22:03:44.101 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 22:55:49.144 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 06:48:03.752 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 06:51:17.571 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 07:07:53.363 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 07:09:51.275 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 07:10:28.052 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 07:11:28.391 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 07:12:48.911 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 07:18:40.050 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:06:14.299 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:07:10.982 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:10:12.582 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:10:51.247 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:11:59.307 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:13:01.226 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:13:52.028 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:17:42.497 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:18:49.868 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:19:45.533 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:20:39.670 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:21:17.225 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:26:42.944 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:29:37.067 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:31:35.501 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:39:01.635 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:39:58.011 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 09:55:13.741 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:04:37.424 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:05:23.580 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:07:01.989 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:07:49.124 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:08:37.732 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:09:14.167 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:10:06.039 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:12:54.956 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:14:42.084 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:16:09.461 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:17:56.483 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:19:15.975 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:25:43.837 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:26:16.281 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:28:18.619 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:37:34.588 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:48:24.793 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:49:04.208 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:49:50.314 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:50:23.592 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 10:52:45.616 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:01:57.314 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:03:13.909 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:05:07.761 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:06:48.972 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:07:22.815 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:09:07.238 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:10:12.461 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:11:06.256 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:11:45.367 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:12:27.880 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:12:59.582 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:15:16.584 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:15:52.933 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:16:23.820 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:18:38.878 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:21:02.295 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:24:20.553 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:25:09.945 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:26:29.384 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:27:00.947 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:30:39.442 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:31:11.932 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:33:03.635 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:33:37.430 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 11:34:08.968 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:25:33.876 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:26:49.824 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:35:34.699 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:37:09.210 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:38:46.179 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:40:17.916 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:46:58.613 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:47:31.108 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:48:03.614 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:50:14.432 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:51:38.332 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 14:55:47.783 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:03:27.626 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:04:12.347 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:05:43.210 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:06:14.643 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:06:49.064 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:11:10.835 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:11:48.963 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:12:34.052 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:13:11.662 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:13:47.399 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:14:21.562 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:17:47.666 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:18:33.225 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:19:47.399 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:20:24.510 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:22:26.298 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:23:19.528 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:23:55.384 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:24:45.885 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:32:41.923 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:33:40.974 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:34:14.135 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:36:01.408 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:36:47.747 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:40:00.390 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:40:34.273 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:46:38.970 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:47:19.531 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:47:52.598 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:48:36.704 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:49:09.319 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:50:56.055 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:53:13.907 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:54:14.887 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:54:49.521 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:55:24.261 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:56:00.069 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:56:36.736 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:57:18.483 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 15:57:58.177 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 16:03:44.526 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:48:09.431 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:48:50.086 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:49:43.117 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:50:52.348 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:51:26.147 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:52:15.020 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:53:21.861 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:55:08.137 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:57:01.551 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:57:44.452 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:58:22.488 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:58:59.438 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 17:59:32.484 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:00:57.022 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:01:55.875 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:02:33.001 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:03:12.792 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:21:39.003 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:23:10.093 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:23:42.425 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:24:35.211 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:25:18.894 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:25:54.457 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:26:33.820 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:27:58.868 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:28:33.102 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:30:20.419 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:33:13.289 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:33:44.038 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-27 18:35:11.875 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python

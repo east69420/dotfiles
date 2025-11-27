@@ -1,0 +1,63 @@
+2025-11-24 13:56:20.445 [info] Extension host with pid 242850 started
+2025-11-24 13:56:20.445 [info] Skipping acquiring lock for /home/east/.config/Code - OSS/User/workspaceStorage/6b30999b8c9495b2e482c73f7957a5bc.
+2025-11-24 13:56:20.528 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2025-11-24 13:56:20.572 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-24 13:56:20.574 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-11-24 13:56:20.758 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-24 13:56:20.800 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-24 13:56:20.821 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-24 13:56:20.822 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-24 13:56:20.824 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-11-24 13:56:21.081 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-11-24 13:56:21.082 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 13:56:21.120 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-24 13:56:21.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 13:56:21.514 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-24 13:56:21.581 [info] Eager extensions activated
+2025-11-24 13:56:21.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 13:56:21.630 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-24 13:56:21.654 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-11-24 13:56:21.693 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 13:56:21.694 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 13:56:21.730 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-11-24 13:56:21.730 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:122496)
+	at t.registerDebugger (/home/east/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64/dist/extension.js:2:862293)
+	at e.activate (/home/east/.vscode-oss/extensions/ms-python.debugpy-2025.14.1-linux-x64/dist/extension.js:2:1113992)
+	at $y.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:15342)
+	at $y.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:15087)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:13245
+	at async _b.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+	at async _b.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+	at async _b.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2025-11-24 13:56:22.962 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:33255)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:199:105905)
+	at x.activate (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:946549)
+	at /home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/east/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2447)
+2025-11-24 13:58:19.753 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 13:58:33.549 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:01:56.440 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:02:22.210 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:02:27.245 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2445
+2025-11-24 14:03:37.355 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-24 14:03:37.366 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/east/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal/dist/extension.js:2:668378)
+	at aJ.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+	at Array.map (<anonymous>)
+	at aJ.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+	at aJ.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+	at RP.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+	at bs (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-11-24 14:03:37.368 [info] Extension host with pid 242850 exiting with code 0

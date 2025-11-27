@@ -1,0 +1,3 @@
+2025-11-24 14:01:02.105 [info] [Error - 14:01:02] Server process exited with signal SIGTERM.
+2025-11-24 14:03:36.749 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7"
+

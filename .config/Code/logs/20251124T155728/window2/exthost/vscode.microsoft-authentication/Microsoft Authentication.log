@@ -1,0 +1,14 @@
+2025-11-26 12:37:54.175 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-11-26 12:37:54.177 [info] [getSessions] [all] starting
+2025-11-26 12:37:54.177 [info] [getSessions] [all] returned 0 session(s)
+2025-11-26 12:37:54.177 [info] [getSessions] [all] starting
+2025-11-26 12:37:54.177 [info] [getSessions] [all] returned 0 session(s)
+2025-11-26 12:37:54.178 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-11-26 12:37:54.178 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-11-26 12:37:54.179 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-11-26 12:37:55.673 [info] [getSessions] [all] starting
+2025-11-26 12:37:55.673 [info] [getSessions] [all] returned 0 session(s)
+2025-11-26 12:37:55.719 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-11-26 12:37:55.719 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-11-26 12:40:21.955 [info] [getSessions] [all] starting
+2025-11-26 12:40:21.955 [info] [getSessions] [all] returned 0 session(s)

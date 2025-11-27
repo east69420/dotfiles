@@ -1,0 +1,9 @@
+aether
+brother-mfc-9140cdn
+deb2targz
+matugen-bin
+python-pywalfox
+python-terminaltexteffects
+superproductivity-bin
+swayosd-git
+visual-studio-code-bin

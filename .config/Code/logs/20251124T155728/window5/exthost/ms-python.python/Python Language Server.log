@@ -1,0 +1,49 @@
+2025-11-26 18:00:41.876 [info] Client: Pylance client (2025.10.1) started with python extension (2025.18.0)
+2025-11-26 18:00:42.341 [info] (452892): Server root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 18:00:42.341 [info] (452892): Pylance language server 2025.10.1 (pyright version 1.1.407, commit 906e40aa) starting
+2025-11-26 18:00:42.345 [info] (452892): Starting service instance "MLDev" for workspace "/home/east/shared/eastSync/pyEast/MLDev"
+2025-11-26 18:00:42.928 [info] (452892): Loading background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js into file:///home/east/shared/eastSync/pyEast/MLDev...
+2025-11-26 18:00:42.992 [info] (452892): FG(MLDev): Setting environmentName for service "MLDev": "3.13.7 (.venv venv)"
+2025-11-26 18:00:42.992 [info] (452892): FG(MLDev): Setting pythonPath for service "MLDev": "/shared/eastSync/pyEast/MLDev/.venv/bin/python"
+2025-11-26 18:00:42.992 [info] (452892): FG(MLDev): No include entries specified; assuming /home/east/shared/eastSync/pyEast/MLDev
+2025-11-26 18:00:42.993 [info] (452892): FG(MLDev): Auto-excluding **/node_modules
+2025-11-26 18:00:42.993 [info] (452892): FG(MLDev): Auto-excluding **/__pycache__
+2025-11-26 18:00:42.993 [info] (452892): FG(MLDev): Auto-excluding **/.*
+2025-11-26 18:00:43.017 [info] (452892): FG(MLDev): Assuming Python version 3.13.7.final.0
+2025-11-26 18:00:43.072 [info] (452892): Settings have not changed. Skipping update.
+2025-11-26 18:00:43.073 [info] (452892): Starting Mcp server id:3346 ...
+2025-11-26 18:00:43.104 [info] (452892): FG(MLDev): Found 15 source files
+2025-11-26 18:00:43.417 [info] (452892): PQ(MLDev): Priority queue background worker(2) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist
+2025-11-26 18:00:43.418 [info] (452892): PQ(MLDev): Priority queue background worker(2) started
+2025-11-26 18:00:43.612 [info] (452892): BG(MLDev): Loaded external background bundle file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist/copilot-background.bundle.js. 
+2025-11-26 18:00:49.335 [info] (452892): IDX(MLDev): Indexer background runner(3) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (index)
+2025-11-26 18:00:49.335 [info] (452892): IDX(MLDev): Indexing(3) started
+2025-11-26 18:00:49.695 [info] (452892): IDX(MLDev): scanned(3) 230 files over 1 exec env
+2025-11-26 18:00:51.054 [info] (452892): IDX(MLDev): indexed(3) 230 files over 1 exec env
+2025-11-26 18:00:51.112 [info] (452892): IDX(MLDev): Indexing finished(3).
+2025-11-26 18:01:19.193 [info] (452892): Settings have not changed. Skipping update.
+2025-11-26 18:01:19.196 [info] (452892): Settings have not changed. Skipping update.
+2025-11-26 19:24:18.285 [info] (452892): IDX(MLDev): Indexer background runner(4) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:24:18.285 [info] (452892): IDX(MLDev): Indexing(4) started
+2025-11-26 19:24:18.683 [info] (452892): IDX(MLDev): scanned(4) 230 files over 1 exec env
+2025-11-26 19:24:19.000 [info] (452892): IDX(MLDev): indexed(4) 230 files over 1 exec env
+2025-11-26 19:24:19.068 [info] (452892): IDX(MLDev): Indexing finished(4).
+2025-11-26 19:24:19.773 [info] (452892): BG(MLDev): Long operation: analyzing: file:///home/east/shared/eastSync/pyEast/MLDev/HPT_production.py (2034ms)
+2025-11-26 19:27:08.149 [info] (452892): IDX(MLDev): Indexer background runner(5) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:27:08.149 [info] (452892): IDX(MLDev): Indexing(5) started
+2025-11-26 19:27:08.603 [info] (452892): IDX(MLDev): scanned(5) 230 files over 1 exec env
+2025-11-26 19:27:08.840 [info] (452892): IDX(MLDev): indexed(5) 230 files over 1 exec env
+2025-11-26 19:27:08.881 [info] (452892): IDX(MLDev): Indexing finished(5).
+2025-11-26 19:27:09.702 [info] (452892): BG(MLDev): Long operation: analyzing: file:///home/east/shared/eastSync/pyEast/MLDev/HPT_production.py (2068ms)
+2025-11-26 19:27:22.741 [info] (452892): IDX(MLDev): Indexer background runner(6) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:27:22.742 [info] (452892): IDX(MLDev): Indexing(6) started
+2025-11-26 19:27:23.114 [info] (452892): IDX(MLDev): scanned(6) 230 files over 1 exec env
+2025-11-26 19:27:23.375 [info] (452892): IDX(MLDev): indexed(6) 230 files over 1 exec env
+2025-11-26 19:27:23.423 [info] (452892): IDX(MLDev): Indexing finished(6).
+2025-11-26 19:31:02.548 [info] (452892): IDX(MLDev): Indexer background runner(7) root directory: file:///home/east/.vscode/extensions/ms-python.vscode-pylance-2025.10.1/dist (refresh)
+2025-11-26 19:31:02.549 [info] (452892): IDX(MLDev): Indexing(7) started
+2025-11-26 19:31:03.143 [info] (452892): IDX(MLDev): scanned(7) 230 files over 1 exec env
+2025-11-26 19:31:03.434 [info] (452892): IDX(MLDev): indexed(7) 230 files over 1 exec env
+2025-11-26 19:31:03.478 [info] (452892): IDX(MLDev): Indexing finished(7).
+2025-11-26 19:31:04.247 [info] (452892): BG(MLDev): Long operation: checking: file:///home/east/shared/eastSync/pyEast/MLDev/HPT_production.py (2075ms)
+2025-11-26 19:31:04.247 [info] (452892): BG(MLDev): Long operation: analyzing: file:///home/east/shared/eastSync/pyEast/MLDev/HPT_production.py (2234ms)

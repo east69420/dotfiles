@@ -1,0 +1,122 @@
+2025-11-24 14:09:37.301 [info] Starting Python Locator /home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python-env-tools/bin/pet server
+2025-11-24 14:09:37.337 [info] Discovered env: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:09:37.407 [info] Discovered env: /bin/python
+2025-11-24 14:09:37.408 [info] Discovered env: /usr/bin/python
+2025-11-24 14:09:37.408 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:09:37.408 [info] Discovered env: /sbin/python
+2025-11-24 14:09:37.409 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:09:37.409 [info] Discovered env: /usr/sbin/python
+2025-11-24 14:09:37.435 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:09:37.435 [info] Discovered env: /sbin/python3
+2025-11-24 14:09:37.437 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:09:37.437 [info] Discovered env: /usr/sbin/python3
+2025-11-24 14:09:37.472 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:09:37.472 [info] Discovered env: /sbin/python3.13
+2025-11-24 14:09:37.475 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:09:37.475 [info] Discovered env: /usr/sbin/python3.13
+2025-11-24 14:09:37.476 [info] Locator Conda took 50.970281ms
+2025-11-24 14:09:37.476 [info] Locator Homebrew took 347.198µs
+2025-11-24 14:09:37.476 [info] Locator LinuxGlobal took 87.713139ms
+2025-11-24 14:09:37.476 [info] Locator PipEnv took 108.964µs
+2025-11-24 14:09:37.476 [info] Locator Pixi took 94.266µs
+2025-11-24 14:09:37.476 [info] Locator Poetry took 965.704µs
+2025-11-24 14:09:37.476 [info] Locator PyEnv took 390.149µs
+2025-11-24 14:09:37.476 [info] Locator Venv took 47.389µs
+2025-11-24 14:09:37.476 [info] Locator VirtualEnv took 29.294µs
+2025-11-24 14:09:37.476 [info] Locator VirtualEnvWrapper took 62.677µs
+2025-11-24 14:09:37.476 [info] Locator GlobalVirtualEnvs took 95.629µs
+2025-11-24 14:09:37.476 [info] Locator Locators took 88.730038ms
+2025-11-24 14:09:37.476 [info] Locator Path took 176.6859ms
+2025-11-24 14:09:37.476 [info] Locator Workspaces took 16.129586ms
+2025-11-24 14:09:37.476 [info] Refresh completed in 176ms
+2025-11-24 14:09:37.504 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:10:16.868 [info] Discovered env: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:10:16.881 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:10:16.934 [info] Discovered env: /bin/python
+2025-11-24 14:10:16.936 [info] Discovered env: /usr/bin/python
+2025-11-24 14:10:16.953 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:10:16.953 [info] Discovered env: /sbin/python
+2025-11-24 14:10:16.954 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:10:16.954 [info] Discovered env: /usr/sbin/python
+2025-11-24 14:10:16.972 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:10:16.972 [info] Discovered env: /usr/sbin/python3
+2025-11-24 14:10:16.973 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:10:16.974 [info] Discovered env: /sbin/python3
+2025-11-24 14:10:16.981 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:10:16.982 [info] Discovered env: /usr/sbin/python3.13
+2025-11-24 14:10:16.983 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:10:16.983 [info] Discovered env: /sbin/python3.13
+2025-11-24 14:10:16.983 [info] Locator Conda took 69.49402ms
+2025-11-24 14:10:16.983 [info] Locator Homebrew took 220.412µs
+2025-11-24 14:10:16.983 [info] Locator LinuxGlobal took 70.946403ms
+2025-11-24 14:10:16.983 [info] Locator PipEnv took 252.602µs
+2025-11-24 14:10:16.983 [info] Locator Pixi took 25.357µs
+2025-11-24 14:10:16.983 [info] Locator Poetry took 678.067µs
+2025-11-24 14:10:16.983 [info] Locator PyEnv took 139.11µs
+2025-11-24 14:10:16.983 [info] Locator Venv took 147.606µs
+2025-11-24 14:10:16.983 [info] Locator VirtualEnv took 147.045µs
+2025-11-24 14:10:16.983 [info] Locator VirtualEnvWrapper took 107.22µs
+2025-11-24 14:10:16.983 [info] Locator GlobalVirtualEnvs took 63.108µs
+2025-11-24 14:10:16.983 [info] Locator Locators took 71.750685ms
+2025-11-24 14:10:16.983 [info] Locator Path took 117.918496ms
+2025-11-24 14:10:16.983 [info] Locator Workspaces took 5.320168ms
+2025-11-24 14:10:16.983 [info] Refresh completed in 118ms
+2025-11-24 14:10:34.592 [warning] Could not find Python executable in "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/parso/python"
+2025-11-24 14:10:34.592 [error] Failed to execute Python to resolve info "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/parso/python": Permission denied (os error 13)
+2025-11-24 14:10:34.592 [warning] Unknown Python Env "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/parso/python"
+2025-11-24 14:10:34.593 [error] Failed to resolve env "/home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/lib/python3.13/site-packages/parso/python"
+2025-11-24 14:11:04.526 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:11:36.727 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:12:08.208 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:12:25.946 [info] Discovered env: /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:12:26.010 [info] Discovered env: /bin/python
+2025-11-24 14:12:26.015 [info] Discovered env: /usr/bin/python
+2025-11-24 14:12:26.028 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:12:26.028 [info] Discovered env: /usr/sbin/python
+2025-11-24 14:12:26.029 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:12:26.029 [info] Discovered env: /sbin/python
+2025-11-24 14:12:26.046 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:12:26.046 [info] Discovered env: /usr/sbin/python3
+2025-11-24 14:12:26.048 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:12:26.048 [info] Discovered env: /sbin/python3
+2025-11-24 14:12:26.066 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:12:26.066 [info] Discovered env: /usr/sbin/python3.13
+2025-11-24 14:12:26.066 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-11-24 14:12:26.066 [info] Discovered env: /sbin/python3.13
+2025-11-24 14:12:26.067 [info] Locator Conda took 68.655454ms
+2025-11-24 14:12:26.067 [info] Locator Homebrew took 217.185µs
+2025-11-24 14:12:26.067 [info] Locator LinuxGlobal took 73.657346ms
+2025-11-24 14:12:26.067 [info] Locator PipEnv took 14.036µs
+2025-11-24 14:12:26.067 [info] Locator Pixi took 25.929µs
+2025-11-24 14:12:26.067 [info] Locator Poetry took 111.989µs
+2025-11-24 14:12:26.067 [info] Locator PyEnv took 104.184µs
+2025-11-24 14:12:26.067 [info] Locator Venv took 200.404µs
+2025-11-24 14:12:26.067 [info] Locator VirtualEnv took 46.878µs
+2025-11-24 14:12:26.067 [info] Locator VirtualEnvWrapper took 20.518µs
+2025-11-24 14:12:26.067 [info] Locator GlobalVirtualEnvs took 94.686µs
+2025-11-24 14:12:26.067 [info] Locator Locators took 74.521651ms
+2025-11-24 14:12:26.067 [info] Locator Path took 126.090098ms
+2025-11-24 14:12:26.067 [info] Locator Workspaces took 6.857258ms
+2025-11-24 14:12:26.067 [info] Refresh completed in 126ms
+2025-11-24 14:12:39.968 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:13:10.683 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:13:53.987 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:15:08.388 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:16:04.752 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:16:39.569 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:17:56.119 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:21:13.002 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:38:46.530 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:40:48.654 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:46:41.638 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:49:15.379 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:55:35.603 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:56:36.646 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:58:42.215 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 14:59:26.284 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 15:11:44.094 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 15:12:26.163 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 15:17:05.297 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 15:17:48.951 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 15:18:36.341 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python
+2025-11-24 15:19:10.260 [info] Resolved Python Environment /home/east/shared/eastSync/pyEast/ML/research/MLDev/.venv/bin/python

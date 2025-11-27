@@ -1,0 +1,173 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.10.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/pro_version
+17:34:49.783 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb' (disableUI=true)
+17:34:49.949 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m pip list
+17:34:49.958 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:34:49.968 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a8479aac05feccbf9094979ebe186e81354d9e2c.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+17:34:50.470 [info] Kernel successfully started
+17:35:06.587 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/pythonFiles/printJupyterDataDir.py
+17:42:55.933 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb
+17:42:55.956 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:42:55.972 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a0b83131d94174225f409de63e956173fe250a2f.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+17:42:56.381 [info] Restarted ebf8c82e-3ffe-4522-840e-a797ce8f2761
+17:45:35.512 [warn] Cell completed with errors Iu [Error]: invalid syntax. Perhaps you forgot a comma? (3031252673.py, line 11)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax. Perhaps you forgot a comma? (3031252673.py, line 11)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 11\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mjump_speed_window=6  # Jump must occur within 3 time units\x1B[39m\n' +
+      '                      ^\n' +
+      '\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m invalid syntax. Perhaps you forgot a comma?\n'
+  ]
+}
+17:55:22.722 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb' (disableUI=true)
+17:55:22.782 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m pip list
+17:55:22.793 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:55:22.803 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3790cc7032cd62f07d77d6df8e6043504d0ba977c.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+17:55:23.226 [info] Kernel successfully started
+17:55:23.342 [warn] Cell completed with errors Iu [Error]: name 'targets' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'targets' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m1\x1B[39m \x1B[43mtargets\x1B[49m\n',
+    "\x1B[31mNameError\x1B[39m: name 'targets' is not defined"
+  ]
+}
+17:55:34.395 [warn] Cell completed with errors Iu [Error]: name 'initial_feature_names' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'initial_feature_names' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 113\x1B[39m\n' +
+      '\x1B[32m     84\x1B[39m targets = target_engineer.transform(features)\n' +
+      '\x1B[32m     88\x1B[39m \x1B[38;5;66;03m# --- 2b. Adding Derived Probability Features (from pre-trained models) ---\x1B[39;00m\n' +
+      '\x1B[32m     89\x1B[39m \x1B[38;5;66;03m# derived_proba_config = CONFIG["features"].get("derived_probability_features", {})\x1B[39;00m\n' +
+      "\x1B[32m     90\x1B[39m \x1B[38;5;66;03m# print(f'derived_proba_config: {derived_proba_config}')\x1B[39;00m\n" +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    111\x1B[39m \n' +
+      '\x1B[32m    112\x1B[39m \x1B[38;5;66;03m# Generate targets (your existing logic)\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m113\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43minitial_feature_names\x1B[49m)\n' +
+      '\x1B[32m    116\x1B[39m \x1B[38;5;66;03m## deop pice columns from features\x1B[39;00m\n' +
+      "\x1B[32m    117\x1B[39m \x1B[38;5;66;03m# drop_cols = [col for col in ['o', 'h', 'l', 'c'] if col in features.columns]\x1B[39;00m\n" +
+      '\x1B[32m    118\x1B[39m \x1B[38;5;66;03m# if drop_cols: features = features.drop(columns=drop_cols)\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'initial_feature_names' is not defined"
+  ]
+}
+17:56:06.397 [warn] Cell completed with errors Iu [Error]: name 'initial_feature_names' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'initial_feature_names' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 113\x1B[39m\n' +
+      '\x1B[32m     84\x1B[39m targets = target_engineer.transform(features)\n' +
+      '\x1B[32m     88\x1B[39m \x1B[38;5;66;03m# --- 2b. Adding Derived Probability Features (from pre-trained models) ---\x1B[39;00m\n' +
+      '\x1B[32m     89\x1B[39m \x1B[38;5;66;03m# derived_proba_config = CONFIG["features"].get("derived_probability_features", {})\x1B[39;00m\n' +
+      "\x1B[32m     90\x1B[39m \x1B[38;5;66;03m# print(f'derived_proba_config: {derived_proba_config}')\x1B[39;00m\n" +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    111\x1B[39m \n' +
+      '\x1B[32m    112\x1B[39m \x1B[38;5;66;03m# Generate targets (your existing logic)\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m113\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43minitial_feature_names\x1B[49m)\n' +
+      '\x1B[32m    116\x1B[39m \x1B[38;5;66;03m## deop pice columns from features\x1B[39;00m\n' +
+      "\x1B[32m    117\x1B[39m \x1B[38;5;66;03m# drop_cols = [col for col in ['o', 'h', 'l', 'c'] if col in features.columns]\x1B[39;00m\n" +
+      '\x1B[32m    118\x1B[39m \x1B[38;5;66;03m# if drop_cols: features = features.drop(columns=drop_cols)\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'initial_feature_names' is not defined"
+  ]
+}
+17:57:12.515 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+17:57:12.538 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+17:57:12.556 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v32478452194c5d6cd051ff08aa6cf18b69321d1c6.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+17:57:12.963 [info] Restarted ba8cdc96-f833-44a3-a991-ab318b15028f
+17:57:20.114 [warn] Cell completed with errors Iu [Error]: name 'initial_feature_names' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'initial_feature_names' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 113\x1B[39m\n' +
+      '\x1B[32m     84\x1B[39m targets = target_engineer.transform(features)\n' +
+      '\x1B[32m     88\x1B[39m \x1B[38;5;66;03m# --- 2b. Adding Derived Probability Features (from pre-trained models) ---\x1B[39;00m\n' +
+      '\x1B[32m     89\x1B[39m \x1B[38;5;66;03m# derived_proba_config = CONFIG["features"].get("derived_probability_features", {})\x1B[39;00m\n' +
+      "\x1B[32m     90\x1B[39m \x1B[38;5;66;03m# print(f'derived_proba_config: {derived_proba_config}')\x1B[39;00m\n" +
+      '\x1B[32m   (...)\x1B[39m\x1B[32m    111\x1B[39m \n' +
+      '\x1B[32m    112\x1B[39m \x1B[38;5;66;03m# Generate targets (your existing logic)\x1B[39;00m\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m113\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[43minitial_feature_names\x1B[49m)\n' +
+      '\x1B[32m    116\x1B[39m \x1B[38;5;66;03m## deop pice columns from features\x1B[39;00m\n' +
+      "\x1B[32m    117\x1B[39m \x1B[38;5;66;03m# drop_cols = [col for col in ['o', 'h', 'l', 'c'] if col in features.columns]\x1B[39;00m\n" +
+      '\x1B[32m    118\x1B[39m \x1B[38;5;66;03m# if drop_cols: features = features.drop(columns=drop_cols)\x1B[39;00m\n',
+    "\x1B[31mNameError\x1B[39m: name 'initial_feature_names' is not defined"
+  ]
+}
+18:00:06.290 [info] Interrupt kernel execution
+18:00:06.290 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:00:06.290 [info] Interrupt kernel execution
+18:00:06.290 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+18:00:06.290 [info] Interrupting kernel via SIGINT
+18:00:06.743 [warn] Cell completed with errors (cancelled)
+18:00:06.745 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+18:00:07.613 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:00:07.641 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:00:07.653 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3b605e3963a736b3a77cead9f18691e8b04caa119.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+18:00:08.059 [info] Restarted ba8cdc96-f833-44a3-a991-ab318b15028f
+18:02:31.099 [warn] Cell completed with errors Iu [Error]: name 'combined_df_clean' is not defined
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: 'NameError',
+  evalue: "name 'combined_df_clean' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 153\x1B[39m\n' +
+      '\x1B[32m    151\x1B[39m train_pct = CONFIG[\x1B[33m"\x1B[39m\x1B[33msplitting\x1B[39m\x1B[33m"\x1B[39m][\x1B[33m"\x1B[39m\x1B[33mtrain_pct\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m    152\x1B[39m val_pct = CONFIG[\x1B[33m"\x1B[39m\x1B[33msplitting\x1B[39m\x1B[33m"\x1B[39m][\x1B[33m"\x1B[39m\x1B[33mval_pct\x1B[39m\x1B[33m"\x1B[39m]\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m153\x1B[39m n_samples = \x1B[38;5;28mlen\x1B[39m(\x1B[43mcombined_df_clean\x1B[49m)\n' +
+      '\x1B[32m    154\x1B[39m train_end_idx = \x1B[38;5;28mint\x1B[39m(n_samples * train_pct)\n' +
+      '\x1B[32m    155\x1B[39m val_end_idx = train_end_idx + \x1B[38;5;28mint\x1B[39m(n_samples * val_pct)\n',
+    "\x1B[31mNameError\x1B[39m: name 'combined_df_clean' is not defined"
+  ]
+}
+18:03:55.699 [info] Interrupt kernel execution
+18:03:55.699 [info] Interrupt requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:03:55.699 [info] Interrupt kernel execution
+18:03:55.699 [info] Interrupting kernel: python3137jvsc74a57bd0601d34e44410aea5c0229a53a407dfafa75dda99bd567af6fb9b09c5eb1b8bac
+18:03:55.699 [info] Interrupting kernel via SIGINT
+18:03:56.050 [warn] Cell completed with errors (cancelled)
+18:03:56.051 [info] Interrupt requested & sent for ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb in notebookEditor.
+18:08:30.194 [info] Disposing request as the cell (-1) was deleted ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:10:32.063 [info] Restart requested ~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb
+18:10:32.127 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:10:32.137 [info] Process Execution: ~/shared/<username>Sync/py<username>/pro_version/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v35646f2108801c215328570ca08fd6cc06c1b4918.json
+    > cwd: ~/shared/<username>Sync/py<username>/pro_version
+18:10:32.544 [info] Restarted ba8cdc96-f833-44a3-a991-ab318b15028f
+18:26:21.866 [warn] Cell completed with errors Iu [Error]: incomplete input (2862714911.py, line 1)
+    at n.execute (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:302:4958) {
+  ename: '_IncompleteInputError',
+  evalue: 'incomplete input (2862714911.py, line 1)',
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[5]\x1B[39m\x1B[32m, line 1\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mfeatures[-30:\x1B[39m\n' +
+      '                 ^\n' +
+      '\x1B[31m_IncompleteInputError\x1B[39m\x1B[31m:\x1B[39m incomplete input\n'
+  ]
+}
+18:32:22.104 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb' associated with '~/shared/<username>Sync/py<username>/pro_version/simple_feature_test.ipynb'
+18:32:22.115 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb' associated with '~/shared/<username>Sync/py<username>/pro_version/targeting_volatility.ipynb'
+18:32:22.146 [warn] Cancel all remaining cells due to dead kernel

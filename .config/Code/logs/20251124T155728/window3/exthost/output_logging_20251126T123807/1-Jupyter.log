@@ -1,0 +1,53 @@
+Visual Studio Code (1.106.2, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.18.0.
+Python Environment Extension Version: 1.12.0.
+Pylance Extension Version: 2025.10.1.
+Platform: linux (x64).
+Home = /home/east
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/shared/eastSync/pyEast/MLDev
+12:38:12.149 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/MLDev/market_analysis.ipynb' (disableUI=true)
+12:38:12.150 [info] Starting Kernel (Python Path: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python, Venv, 3.13.7) for '~/shared/<username>Sync/py<username>/MLDev/market_analysis_volatility.ipynb' (disableUI=true)
+12:38:13.778 [info] Starting Kernel (Python Path: /shared/<username>Sync/py<username>/MLDev/.venv/bin/python, Venv, 3.13.7) for 'Untitled-2.ipynb' (disableUI=true)
+12:38:13.833 [info] Process Execution: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:38:13.843 [info] Process Execution: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v36352019e759e46b1b003ffa1275d85f83330c74e.json
+    > cwd: ~/shared/<username>Sync/py<username>/MLDev
+12:38:13.856 [info] Process Execution: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python -m pip list
+12:38:13.873 [info] Process Execution: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:38:13.883 [info] Process Execution: ~/shared/<username>Sync/py<username>/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3030cdfc47becb16764feacb466d7062dd5b67bce.json
+    > cwd: ~/shared/<username>Sync/py<username>/MLDev
+12:38:13.947 [info] Process Execution: /shared/<username>Sync/py<username>/MLDev/.venv/bin/python -m pip list
+12:38:13.964 [info] Process Execution: /shared/<username>Sync/py<username>/MLDev/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:38:13.978 [info] Process Execution: /shared/<username>Sync/py<username>/MLDev/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3d04e928dbfec688e79f6fb1acf636fda90c89d70.json
+    > cwd: ~/shared/<username>Sync/py<username>/MLDev
+12:38:14.370 [info] Kernel successfully started
+12:38:14.372 [info] Kernel successfully started
+17:34:33.255 [info] Disposing kernel .jvsc74a57bd074f4e13093314c5e4554b6a5ab35895c2a2e2ec17957e40ea13ffa078abeacc0./shared/<username>Sync/py<username>/MLDev/.venv/python./shared/<username>Sync/py<username>/MLDev/.venv/python.-m#ipykernel_launcher for notebook Untitled-2.ipynb due to selection of another kernel or closing of the notebook
+17:34:33.255 [info] Dispose Kernel 'Untitled-2.ipynb' associated with 'Untitled-2.ipynb'
+17:34:33.255 [info] Dispose Kernel 'Untitled-2.ipynb' associated with 'Untitled-2.ipynb'
+17:34:33.559 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/MLDev/market_analysis.ipynb' associated with '~/shared/<username>Sync/py<username>/MLDev/market_analysis.ipynb'
+17:34:33.570 [info] Dispose Kernel '~/shared/<username>Sync/py<username>/MLDev/market_analysis_volatility.ipynb' associated with '~/shared/<username>Sync/py<username>/MLDev/market_analysis_volatility.ipynb'
+17:34:33.580 [info] Dispose Kernel 'Untitled-2.ipynb' associated with 'Untitled-2.ipynb'
+17:34:33.580 [info] Dispose Kernel 'Untitled-1.ipynb' associated with 'Untitled-1.ipynb'
+17:34:33.626 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v3d04e928dbfec688e79f6fb1acf636fda90c89d70.json for pid 436872 Canceled (FileSystemError): Canceled
+    at Ms.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:18860)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:16011)
+    at ou.delete (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:236:16320)
+    at ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:308:469 {
+  code: 'Unknown'
+}
+17:34:33.627 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v3030cdfc47becb16764feacb466d7062dd5b67bce.json for pid 436865 Canceled (FileSystemError): Canceled
+    at Ms.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:18860)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:16011)
+    at ou.delete (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:236:16320)
+    at ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:308:469 {
+  code: 'Unknown'
+}
+17:34:33.627 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v36352019e759e46b1b003ffa1275d85f83330c74e.json for pid 436862 Canceled (FileSystemError): Canceled
+    at Ms.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:18860)
+    at Object.stat (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:16011)
+    at ou.delete (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:236:16320)
+    at ~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:308:469 {
+  code: 'Unknown'
+}

@@ -1,0 +1,282 @@
+2025-11-24 15:57:33.429 [info] Native locator: Refresh started
+2025-11-24 15:57:33.429 [info] Native locator: Refresh started
+2025-11-24 15:57:33.429 [info] Native locator: Refresh started
+2025-11-24 15:57:33.831 [info] > conda info --json
+2025-11-24 15:57:33.841 [info] > pyenv which python
+2025-11-24 15:57:33.841 [info] cwd: .
+2025-11-24 15:57:34.801 [info] Native locator: Refresh finished in 4030 ms
+2025-11-24 15:57:34.804 [info] Python interpreter path: ./.venv/bin/python
+2025-11-24 15:57:34.838 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 15:57:34.838 [info] shell: bash
+2025-11-24 15:57:34.847 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 15:57:34.847 [info] shell: bash
+2025-11-24 15:57:36.211 [info] Starting Pylance language server.
+2025-11-24 15:58:10.517 [info] Native locator: Refresh started
+2025-11-24 15:58:10.772 [info] Native locator: Refresh started
+2025-11-24 15:58:10.772 [info] Native locator: Refresh started
+2025-11-24 15:58:11.638 [info] Native locator: Refresh finished in 1374 ms
+2025-11-24 15:58:11.647 [info] > pyenv which python
+2025-11-24 15:58:11.648 [info] cwd: .
+2025-11-24 15:58:11.675 [info] Python interpreter path: /bin/python
+2025-11-24 15:58:13.450 [info] Starting Pylance language server.
+2025-11-24 15:59:10.952 [info] > conda info --json
+2025-11-24 15:59:19.905 [info] Native locator: Refresh started
+2025-11-24 15:59:19.905 [info] Native locator: Refresh started
+2025-11-24 15:59:20.047 [info] Native locator: Refresh finished in 144 ms
+2025-11-24 15:59:28.914 [info] Selected workspace /home/east/shared/eastSync/pyEast/repos_playground/Time-Series-Library for creating virtual environment.
+2025-11-24 15:59:28.916 [info] Native locator: Refresh started
+2025-11-24 15:59:29.040 [info] Native locator: Refresh finished in 124 ms
+2025-11-24 15:59:30.908 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-11-24 15:59:33.375 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/create_venv.py',
+  '--git-ignore'
+]
+2025-11-24 15:59:33.375 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/create_venv.py --git-ignore
+2025-11-24 15:59:33.375 [info] cwd: .
+2025-11-24 15:59:33.469 [info] Running: /bin/python -m venv .venv
+2025-11-24 15:59:34.979 [info] CREATED_VENV:/shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python
+CREATE_VENV.UPGRADING_PIP
+Running: /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python -m pip install --upgrade pip
+2025-11-24 15:59:35.196 [info] Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (25.2)
+2025-11-24 15:59:35.310 [info] Collecting pip
+2025-11-24 15:59:35.311 [info]   Using cached pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+2025-11-24 15:59:35.314 [info] Using cached pip-25.3-py3-none-any.whl (1.8 MB)
+2025-11-24 15:59:35.328 [info] Installing collected packages: pip
+2025-11-24 15:59:35.328 [info]   Attempting uninstall: pip
+2025-11-24 15:59:35.330 [info]     Found existing installation: pip 25.2
+2025-11-24 15:59:35.356 [info]     Uninstalling pip-25.2:
+2025-11-24 15:59:35.361 [info]       Successfully uninstalled pip-25.2
+2025-11-24 15:59:35.928 [info] Successfully installed pip-25.3
+2025-11-24 15:59:36.079 [info] CREATE_VENV.UPGRADED_PIP
+2025-11-24 15:59:36.101 [info] Active interpreter [/home/east/shared/eastSync/pyEast/repos_playground/Time-Series-Library]:  /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python
+2025-11-24 15:59:36.118 [info] Discover tests for workspace name: Time-Series-Library - uri: /home/east/shared/eastSync/pyEast/repos_playground/Time-Series-Library
+2025-11-24 15:59:36.118 [info] Python interpreter path: /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python
+2025-11-24 15:59:36.141 [info] > . /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 15:59:36.141 [info] shell: bash
+2025-11-24 15:59:40.678 [info] Active interpreter [Untitled-1.ipynb]:  /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python
+2025-11-24 15:59:40.678 [info] Active interpreter [Untitled-1.ipynb]:  /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/python
+2025-11-24 15:59:40.714 [info] > . /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 15:59:40.714 [info] shell: bash
+2025-11-24 15:59:47.636 [info] Send text to terminal: source /shared/eastSync/pyEast/repos_playground/Time-Series-Library/.venv/bin/activate
+2025-11-24 16:56:40.746 [info] Native locator: Refresh started
+2025-11-24 16:56:40.996 [info] Native locator: Refresh started
+2025-11-24 16:56:40.997 [info] Native locator: Refresh started
+2025-11-24 16:56:44.975 [info] Native locator: Refresh started
+2025-11-24 16:56:45.319 [info] Native locator: Refresh started
+2025-11-24 16:56:45.319 [info] Native locator: Refresh started
+2025-11-24 16:56:46.263 [info] Native locator: Refresh finished in 2758 ms
+2025-11-24 16:56:46.272 [info] > pyenv which python
+2025-11-24 16:56:46.272 [info] cwd: .
+2025-11-24 16:56:46.310 [info] Python interpreter path: ./.venv/bin/python
+2025-11-24 16:56:47.537 [info] > conda info --json
+2025-11-24 16:56:48.202 [info] Starting Pylance language server.
+2025-11-24 16:56:52.030 [info] Native locator: Refresh started
+2025-11-24 16:56:52.030 [info] Native locator: Refresh started
+2025-11-24 16:56:52.163 [info] Native locator: Refresh finished in 134 ms
+2025-11-24 16:56:53.412 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev/market_analysis.ipynb]:  /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-24 16:56:53.445 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 16:56:53.446 [info] shell: bash
+2025-11-24 16:56:53.455 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 16:56:53.455 [info] shell: bash
+2025-11-24 16:59:10.707 [info] Native locator: Refresh started
+2025-11-24 16:59:10.829 [info] Native locator: Refresh finished in 122 ms
+2025-11-24 19:05:53.332 [info] Send text to terminal: source /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/activate
+2025-11-24 19:05:58.979 [info] Active interpreter [Untitled-1.ipynb]:  /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-24 19:05:59.007 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 19:05:59.007 [info] shell: bash
+2025-11-24 19:05:59.018 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 19:05:59.018 [info] shell: bash
+2025-11-24 19:08:06.814 [info] Native locator: Refresh started
+2025-11-24 19:08:06.935 [info] Native locator: Refresh finished in 121 ms
+2025-11-24 19:08:09.962 [info] Selected workspace /home/east/shared/eastSync/pyEast/MLDev for creating virtual environment.
+2025-11-24 19:08:12.269 [info] Native locator: Refresh started
+2025-11-24 19:08:12.382 [info] Native locator: Refresh finished in 114 ms
+2025-11-24 19:08:19.010 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-11-24 19:08:21.506 [info] Deleted venv dir: /home/east/shared/eastSync/pyEast/MLDev/.venv
+2025-11-24 19:08:21.519 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/create_venv.py',
+  '--git-ignore'
+]
+2025-11-24 19:08:21.519 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/create_venv.py --git-ignore
+2025-11-24 19:08:21.519 [info] cwd: .
+2025-11-24 19:08:21.649 [info] Running: /bin/python -m venv .venv
+2025-11-24 19:08:23.197 [info] CREATED_VENV:/shared/eastSync/pyEast/MLDev/.venv/bin/python
+CREATE_VENV.UPGRADING_PIP
+Running: /shared/eastSync/pyEast/MLDev/.venv/bin/python -m pip install --upgrade pip
+2025-11-24 19:08:23.413 [info] Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (25.2)
+2025-11-24 19:08:23.522 [info] Collecting pip
+2025-11-24 19:08:23.523 [info]   Using cached pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+2025-11-24 19:08:23.526 [info] Using cached pip-25.3-py3-none-any.whl (1.8 MB)
+2025-11-24 19:08:23.538 [info] Installing collected packages: pip
+2025-11-24 19:08:23.538 [info]   Attempting uninstall: pip
+2025-11-24 19:08:23.540 [info]     Found existing installation: pip 25.2
+2025-11-24 19:08:23.564 [info]     Uninstalling pip-25.2:
+2025-11-24 19:08:23.568 [info]       Successfully uninstalled pip-25.2
+2025-11-24 19:08:24.141 [info] Successfully installed pip-25.3
+2025-11-24 19:08:24.290 [info] CREATE_VENV.UPGRADED_PIP
+2025-11-24 19:08:24.316 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev]:  /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-24 19:08:24.330 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev
+2025-11-24 19:08:24.330 [info] Python interpreter path: /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-24 19:08:24.362 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 19:08:24.362 [info] shell: bash
+2025-11-24 19:08:28.722 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/.venv/lib/python3.13/site-packages/pandas/pyproject.toml
+2025-11-24 19:08:28.947 [info] Active interpreter [Untitled-1.ipynb]:  /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-24 19:08:28.976 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 19:08:28.976 [info] shell: bash
+2025-11-24 20:32:03.497 [info] Send text to terminal: source /shared/eastSync/pyEast/MLDev/.venv/bin/activate
+2025-11-24 20:32:11.691 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-24 20:32:11.691 [info] shell: bash
+2025-11-25 12:12:34.304 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev/ML_to_beat_BS.ipynb]:  /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-25 12:12:34.332 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 12:12:34.332 [info] shell: bash
+2025-11-25 12:12:34.345 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 12:12:34.345 [info] shell: bash
+2025-11-25 16:13:14.822 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:14:12.146 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:14:13.538 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:44:34.717 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:47:35.686 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:47:59.409 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:48:02.674 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 16:50:25.940 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb]:  /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-25 16:50:25.972 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 16:50:25.972 [info] shell: bash
+2025-11-25 16:50:25.987 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 16:50:25.987 [info] shell: bash
+2025-11-25 16:52:55.219 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb]:  /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-25 17:27:39.082 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 17:28:05.482 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:28:09.557 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 17:28:09.557 [info] shell: bash
+2025-11-25 17:34:03.164 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:37:12.657 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 17:37:17.840 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 17:37:34.413 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/featureEngineer.py
+2025-11-25 17:37:47.515 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:43:16.317 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/targetEngineer.py
+2025-11-25 17:43:43.071 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/targetEngineer.py
+2025-11-25 17:43:44.614 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/targetEngineer.py
+2025-11-25 17:44:42.430 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:45:35.799 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:46:31.099 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:59:52.737 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 17:59:54.706 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 18:03:06.704 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/RFECV_production.py
+2025-11-25 18:03:18.835 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/RFECV_production.py
+2025-11-25 18:03:25.117 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/RFECV_production.py
+2025-11-25 18:04:07.901 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 18:05:08.134 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 18:05:08.134 [info] shell: bash
+2025-11-25 18:23:01.239 [info] Active interpreter [Untitled-2.ipynb]:  /shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-25 18:23:01.278 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 18:23:01.278 [info] shell: bash
+2025-11-25 18:23:01.294 [info] > . /shared/eastSync/pyEast/MLDev/.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 18:23:01.294 [info] shell: bash
+2025-11-25 18:29:37.800 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:29:39.205 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:29:48.575 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:29:49.913 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:30:06.657 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:30:08.432 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:30:16.007 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:30:27.689 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:30:41.234 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:30:56.380 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:31:45.177 [info] Running installed packages checker:  {
+  id: '/shared/eastSync/pyEast/MLDev/.venv/bin/python',
+  sysPrefix: '/shared/eastSync/pyEast/MLDev/.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: '/shared/eastSync/pyEast/MLDev/.venv/bin/python',
+  path: '/shared/eastSync/pyEast/MLDev/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.13.7',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.13.7 (.venv)',
+  detailedDisplayName: 'Python 3.13.7 (.venv)',
+  type: 'Virtual'
+} /home/east/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/installed_check.py /home/east/shared/eastSync/pyEast/MLDev/requirements.txt
+2025-11-25 18:31:45.177 [info] > /shared/eastSync/pyEast/MLDev/.venv/bin/python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/installed_check.py ./requirements.txt
+2025-11-25 18:32:14.694 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 18:32:16.114 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 18:32:52.377 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:33:30.326 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/HPT_production.py
+2025-11-25 18:34:49.317 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 18:37:06.953 [info] Active interpreter [/home/east/shared/eastSync/pyEast/MLDev/market_analysis_volatility.ipynb]:  /home/east/shared/eastSync/pyEast/MLDev/.venv/bin/python
+2025-11-25 18:37:07.006 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 18:37:07.006 [info] shell: bash
+2025-11-25 18:37:07.026 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 18:37:07.026 [info] shell: bash
+2025-11-25 18:38:00.798 [info] Discover tests for workspace name: MLDev - uri: /home/east/shared/eastSync/pyEast/MLDev/ML_setup.py
+2025-11-25 21:13:52.516 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-25 21:13:52.516 [info] shell: bash
+2025-11-26 12:23:40.812 [info] Native locator: Refresh started
+2025-11-26 12:23:40.832 [info] Native locator: Refresh started
+2025-11-26 12:23:40.832 [info] Native locator: Refresh started
+2025-11-26 12:23:41.252 [info] Native locator: Refresh finished in 897 ms
+2025-11-26 12:23:41.262 [info] > pyenv which python
+2025-11-26 12:23:41.262 [info] cwd: .
+2025-11-26 12:23:41.315 [info] Python interpreter path: ./.venv/bin/python
+2025-11-26 12:23:43.273 [info] Starting Pylance language server.
+2025-11-26 12:25:04.368 [info] > conda info --json
+2025-11-26 12:25:08.146 [info] Native locator: Refresh started
+2025-11-26 12:25:08.146 [info] Native locator: Refresh started
+2025-11-26 12:25:08.293 [info] Native locator: Refresh finished in 148 ms
+2025-11-26 12:25:09.337 [info] Active interpreter [Untitled-1.ipynb]:  /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 12:25:09.337 [info] Active interpreter [Untitled-1.ipynb]:  /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 12:25:09.356 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:25:09.356 [info] shell: bash
+2025-11-26 12:25:09.371 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:25:09.371 [info] shell: bash
+2025-11-26 12:26:01.104 [info] Native locator: Refresh started
+2025-11-26 12:26:01.234 [info] Native locator: Refresh finished in 130 ms
+2025-11-26 12:26:55.174 [info] Active interpreter [/home/east/shared/eastSync/pyEast/pro_version/simple_feature_test.ipynb]:  /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 12:26:55.174 [info] Active interpreter [/home/east/shared/eastSync/pyEast/pro_version/simple_feature_test.ipynb]:  /home/east/shared/eastSync/pyEast/pro_version/.venv/bin/python
+2025-11-26 12:29:22.137 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/ML_setup.py
+2025-11-26 12:32:58.901 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/ML_setup.py
+2025-11-26 12:50:07.554 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 12:50:10.307 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 12:51:48.350 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 12:51:55.518 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 12:51:55.518 [info] shell: bash
+2025-11-26 12:59:10.200 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 12:59:12.650 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 12:59:27.709 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 12:59:57.189 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 13:08:37.720 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 13:08:58.697 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 13:09:01.530 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 13:09:01.530 [info] shell: bash
+2025-11-26 13:09:54.244 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:07:09.625 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:07:13.306 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 15:07:13.306 [info] shell: bash
+2025-11-26 15:17:34.037 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:17:37.451 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 15:17:37.451 [info] shell: bash
+2025-11-26 15:26:32.509 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/featureEngineer.py
+2025-11-26 15:26:56.353 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/featureEngineer.py
+2025-11-26 15:27:08.301 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/featureEngineer.py
+2025-11-26 15:27:52.100 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/featureEngineer.py
+2025-11-26 15:28:16.633 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/featureEngineer.py
+2025-11-26 15:31:15.091 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:31:42.016 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:42:25.808 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:42:49.198 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:42:56.817 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 15:42:56.817 [info] shell: bash
+2025-11-26 15:51:26.149 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:57:23.699 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:59:54.925 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py
+2025-11-26 15:59:58.567 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.18.0-linux-x64/python_files/printEnvVariables.py
+2025-11-26 15:59:58.567 [info] shell: bash
+2025-11-26 16:02:34.937 [info] Discover tests for workspace name: pro_version - uri: /home/east/shared/eastSync/pyEast/pro_version/targetEngineer.py

@@ -1,0 +1,37 @@
+2025-11-26 12:38:02.902 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-26 12:38:02.902 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-26 12:38:02.902 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-26 12:38:02.902 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-26 12:38:02.915 [info] Logged in as east69420
+2025-11-26 12:38:02.919 [info] Using the Electron fetcher.
+2025-11-26 12:38:04.279 [info] Got Copilot token for east69420
+2025-11-26 12:38:04.279 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-26 12:38:04.288 [info] activationBlocker from 'languageModelAccess' took for 1247ms
+2025-11-26 12:38:04.638 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-26 12:38:04.638 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-26 12:38:04.648 [info] Registering default platform agent...
+2025-11-26 12:38:04.648 [info] activationBlocker from 'conversationFeature' took for 1611ms
+2025-11-26 12:38:04.684 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-26 12:38:04.798 [info] Fetched model metadata in 197ms 3f50074c-06ce-48a0-9cdc-f034a47e74aa
+2025-11-26 12:38:04.801 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-26 12:38:04.801 [info] ccreq:e6abf5a0.copilotmd | markdown
+2025-11-26 12:38:09.415 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-26 12:38:09.472 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-26 12:38:09.472 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-26 12:38:09.472 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-26 12:38:11.235 [info] Using the Electron fetcher.
+2025-11-26 12:38:11.850 [info] Logged in as east69420
+2025-11-26 12:38:12.445 [info] Got Copilot token for east69420
+2025-11-26 12:38:12.445 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-26 12:38:12.453 [info] activationBlocker from 'languageModelAccess' took for 2840ms
+2025-11-26 12:38:12.657 [info] Fetched model metadata in 599ms b794ed6a-ee74-4afc-bf63-89b47723f4c7
+2025-11-26 12:38:12.674 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-26 12:38:12.674 [info] ccreq:f79bb973.copilotmd | markdown
+2025-11-26 12:38:12.737 [info] copilot token chat_enabled: true, sku: monthly_subscriber_quota
+2025-11-26 12:38:12.737 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-26 12:38:12.747 [info] Registering default platform agent...
+2025-11-26 12:38:12.748 [info] activationBlocker from 'conversationFeature' took for 3139ms
+2025-11-26 12:38:12.802 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-26 12:38:13.888 [info] Fetched model metadata in 140ms d75cf477-b0e8-4ce2-84d6-056ae332015b
+2025-11-26 12:38:13.892 [info] ccreq:b1acfee2.copilotmd | markdown
+2025-11-26 12:38:14.600 [warning] [RateLimit] REST rate limit remaining: 0, agents/swe/custom-agents/east69420/ML_binary?exclude_invalid_config=true

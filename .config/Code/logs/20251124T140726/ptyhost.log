@@ -1,0 +1,1 @@
+2025-11-24 14:09:37.686 [error] Failed to set sticky bit on /tmp/east-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/east-code-zsh'

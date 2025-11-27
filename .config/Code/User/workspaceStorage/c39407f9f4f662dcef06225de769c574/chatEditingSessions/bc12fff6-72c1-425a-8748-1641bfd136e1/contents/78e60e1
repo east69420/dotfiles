@@ -1,0 +1,997 @@
+"""Structured RFECV production runner with feature diagnostics and caching helpers."""
+
+from __future__ import annotations
+
+import argparse
+import copy
+import json
+import os
+import time
+import pickle
+import hashlib
+import shutil
+from collections import Counter
+from pathlib import Path
+from typing import Dict, Iterable, List, Tuple
+
+import catboost as cb  # noqa: F401
+import joblib  # noqa: F401
+import lightgbm as lgb  # noqa: F401
+import numpy as np
+import optuna  # noqa: F401
+import pandas as pd
+import seaborn as sns  # noqa: F401  # legacy plotting
+import xgboost as xgb  # noqa: F401
+from matplotlib import pyplot as plt  # noqa: F401
+from sklearn.calibration import CalibratedClassifierCV  # noqa: F401
+from sklearn.feature_selection import RFECV
+from sklearn.metrics import (
+    accuracy_score,
+    f1_score,
+    log_loss,
+    mean_absolute_error,
+    mean_squared_error,
+    precision_recall_curve,
+    precision_score,
+    r2_score,
+    recall_score,
+    roc_auc_score,
+)
+from sklearn.model_selection import TimeSeriesSplit  # noqa: F401
+from sklearn.pipeline import Pipeline  # noqa: F401
+from sklearn.preprocessing import StandardScaler  # noqa: F401
+
+from ML_general_tools import *  # noqa: F401,F403  # safe_open_write, perform_rfecv, etc.
+from ML_setup import CONFIG, paths as CONFIG_PATHS, storage as CONFIG_STORAGE
+from data_pipeline import load_data
+from featureEngineer import FeatureEngineer
+from targetEngineer import ExpirationTargetEngineer
+
+PREFILTER_DEFAULTS = {
+    "min_non_null_ratio": 0.85,
+    "min_variance": 1e-8,
+    "max_tail_nans": 0,
+    "max_middle_nan_fraction": 0.01,
+}
+
+CACHE_FILENAMES = {
+    "features": "features.pkl",
+    "targets": "targets.pkl",
+    "combined": "combined_df.pkl",
+}
+
+SUMMARY_OUTPUTS = {
+    "feature_usage": "feature_usage_summary.csv",
+    "feature_quality": "feature_quality_metrics.csv",
+    "selection_matrix": "feature_selection_matrix.csv",
+    "target_overlap": "feature_target_overlap.csv",
+    "feature_importance_detail": "feature_importances_raw.csv",
+    "feature_importance_summary": "feature_importance_summary.csv",
+}
+
+FEATURE_TRANSFORM_CACHE = {
+    "features": "feature_transform.pkl",
+    "meta": "feature_transform_meta.json",
+}
+
+
+def purge_cached_artifacts(paths: Dict[str, Path], config: dict) -> None:
+    """Remove cached feature/target artifacts and supporting transform caches."""
+
+    print("\n--- Purging cached feature artifacts ---")
+    candidates: List[Path] = []
+
+    # Root-level cached datasets
+    root = paths.get("root")
+    if root is not None:
+        candidates.extend(root / fname for fname in CACHE_FILENAMES.values())
+
+    # Feature transform cache files
+    feature_cache_dir = paths.get("feature_cache")
+    if feature_cache_dir is not None:
+        candidates.extend(feature_cache_dir / fname for fname in FEATURE_TRANSFORM_CACHE.values())
+
+    removed_any = False
+    for path in candidates:
+        try:
+            if path.is_file():
+                path.unlink()
+                print(f"  Removed file {path}")
+                removed_any = True
+            elif path.is_dir():
+                shutil.rmtree(path, ignore_errors=True)
+                print(f"  Cleared directory {path}")
+                removed_any = True
+        except FileNotFoundError:
+            continue
+        except Exception as exc:
+            print(f"  [WARN] Failed to remove {path}: {exc}")
+
+    if feature_cache_dir and feature_cache_dir.exists():
+        try:
+            shutil.rmtree(feature_cache_dir, ignore_errors=True)
+            print(f"  Cleared directory {feature_cache_dir}")
+            removed_any = True
+        except Exception as exc:
+            print(f"  [WARN] Failed to clear feature cache directory {feature_cache_dir}: {exc}")
+
+    if not removed_any:
+        print("  No cached artifacts were found to purge.")
+
+
+def normalize_percentile_spec(spec) -> List[float]:
+    """Coerce target percentile configuration values into a list of floats."""
+    if spec is None or spec is False:
+        return []
+    if isinstance(spec, dict):
+        for key in ("percentiles", "values", "list"):
+            if key in spec:
+                spec = spec[key]
+                break
+        else:
+            spec = list(spec.values())
+    if isinstance(spec, bool):
+        return []
+    if isinstance(spec, (int, float)):
+        return [float(spec)]
+    if isinstance(spec, str):
+        try:
+            return [float(spec)]
+        except ValueError:
+            return []
+    if isinstance(spec, pd.Series):
+        spec = spec.tolist()
+    if hasattr(spec, "tolist") and not isinstance(spec, list):
+        spec = spec.tolist()
+    if isinstance(spec, (list, tuple, set)):
+        result: List[float] = []
+        for value in spec:
+            if isinstance(value, bool):
+                continue
+            try:
+                result.append(float(value))
+            except (TypeError, ValueError):
+                continue
+        return result
+    return []
+
+
+def save_selected_features(selected_features: List[str], file_path: Path, fs_config: dict) -> None:
+    """Persist selected feature list with optional percentile metadata."""
+    payload = {"features": selected_features}
+    percentile = fs_config.get("target_percentile")
+    if percentile is not None:
+        payload["target_percentile"] = percentile
+    with safe_open_write(file_path, "w") as f:
+        json.dump(payload, f, indent=2)
+
+
+def load_selected_features(file_path: Path) -> Tuple[List[str], float | None]:
+    """Load previously saved feature selections."""
+    with open(file_path, "r") as f:
+        data = json.load(f)
+    if isinstance(data, dict) and "features" in data:
+        return list(data["features"]), data.get("target_percentile")
+    return list(data), None
+
+
+def compute_index_fingerprint(index: pd.Index) -> Dict[str, object]:
+    """Create a stable fingerprint for a datetime-like index."""
+    length = int(len(index))
+    if length == 0:
+        return {"length": 0, "start": None, "end": None, "sha256": None}
+
+    if isinstance(index, pd.DatetimeIndex):
+        payload = index.view("int64").tobytes()
+        start = index[0].isoformat()
+        end = index[-1].isoformat()
+    else:
+        joined = "\u0000".join(map(str, index))
+        payload = joined.encode("utf-8")
+        start = str(index[0])
+        end = str(index[-1])
+
+    digest = hashlib.sha256(payload).hexdigest()
+    return {
+        "length": length,
+        "start": start,
+        "end": end,
+        "sha256": digest,
+    }
+
+
+def initialize_run(config: dict) -> Dict[str, Path]:
+    print("--- Initializing Setup ---")
+    output_root = Path(config["output"]["directory"]).resolve()
+    run_paths = {
+        "root": output_root,
+        "feature_selection": output_root / config["output"]["subdirectories"]["features"],
+        "trained_models": output_root / config["output"]["subdirectories"]["models"],
+        "hpt_studies": output_root / config["output"]["subdirectories"]["hpt"],
+        "feature_cache": output_root / config["output"]["subdirectories"]["cache"],
+    }
+    print(f"  Output root directory: {output_root}")
+    return run_paths
+
+
+def ensure_directories(paths: Dict[str, Path]) -> None:
+    print("\n--- Preparing output directories ---")
+    for name, path_obj in paths.items():
+        path_obj.mkdir(parents=True, exist_ok=True)
+        try:
+            contents = [child.name for child in path_obj.iterdir()]
+        except Exception as exc:
+            contents = [f"<error listing: {exc}>"]
+        print(f"  {name:>18}: {path_obj} -> {len(contents)} item(s)")
+
+
+def survey_existing_projects(paths: Dict[str, Path], config: dict) -> None:
+    print("\n--- Surveying existing research projects ---")
+    root = paths["root"]
+    base = root.parent
+    if not base.exists():
+        print(f"  Parent directory {base} missing; skipping survey.")
+        return
+    siblings = [d for d in base.iterdir() if d.is_dir() and d.name.startswith("research_")]
+    if not siblings:
+        print("  No sibling research projects found.")
+        return
+    fs_dir = config["output"]["subdirectories"]["features"]
+    model_dir = config["output"]["subdirectories"]["models"]
+    hpt_dir = config["output"]["subdirectories"]["hpt"]
+    for project_dir in sorted(siblings):
+        marker = " (CURRENT)" if project_dir.resolve() == root.resolve() else ""
+        print(f"  Project: {project_dir.name}{marker}")
+        def _list(folder: Path, pattern: str, label: str, sample: int = 5) -> None:
+            if not folder.exists():
+                print(f"    └─ {label}: <missing>")
+                return
+            matches = sorted(child.name for child in folder.glob(pattern))
+            if not matches:
+                print(f"    └─ {label}: <empty>")
+                return
+            print(f"    └─ {label}: {len(matches)} file(s)")
+            for entry in matches[:sample]:
+                print(f"       · {entry}")
+            if len(matches) > sample:
+                print(f"       · ... {len(matches) - sample} more")
+        _list(project_dir / fs_dir, "selected_features*.json", f"Features ({fs_dir})")
+        _list(project_dir / model_dir, "*.pkl", f"Models ({model_dir})")
+        _list(project_dir / hpt_dir, "*.db", f"HPT ({hpt_dir})")
+
+
+def assert_no_duplicate_index(df: pd.DataFrame, label: str) -> None:
+    """Raise an informative error if duplicate timestamps are present."""
+    if not df.index.has_duplicates:
+        return
+    dup_mask = df.index.duplicated(keep=False)
+    duplicates = df.index[dup_mask]
+    preview = duplicates.unique()[:10]
+    raise ValueError(
+        f"Duplicate index values detected in {label}: {len(duplicates)} rows share {len(preview)} timestamp(s). "
+        f"Sample duplicates: {list(preview)}"
+    )
+
+
+def load_or_generate_datasets(config: dict, paths: Dict[str, Path]):
+    print("\n--- Loading or generating features/targets ---")
+    cache_files = {name: paths["root"] / fname for name, fname in CACHE_FILENAMES.items()}
+    use_cache = all(path.exists() for path in cache_files.values()) and not config["data"].get("force_refresh", False)
+    if use_cache:
+        print("  Loading cached artifacts...")
+        with open(cache_files["features"], "rb") as f:
+            features = pickle.load(f)
+        with open(cache_files["targets"], "rb") as f:
+            targets = pickle.load(f)
+        with open(cache_files["combined"], "rb") as f:
+            combined_df = pickle.load(f)
+        return features, targets, combined_df, list(features.columns)
+    print("  Cache unavailable or refresh requested; regenerating...")
+    df_all = load_data(config["data"]["path"])
+    df_slice = df_all[config["data"]["slice_start"]: config["data"]["slice_end"]].copy()
+    assert_no_duplicate_index(df_slice, "raw history slice")
+
+    feature_cache_dir = paths["feature_cache"]
+    transform_cache_paths = {
+        key: feature_cache_dir / value for key, value in FEATURE_TRANSFORM_CACHE.items()
+    }
+    fingerprint = compute_index_fingerprint(df_slice.index)
+    features = None
+
+    if all(path.exists() for path in transform_cache_paths.values()):
+        try:
+            with open(transform_cache_paths["meta"], "r") as f_meta:
+                meta = json.load(f_meta)
+        except Exception as exc:
+            print(f"  [feature-cache] Failed to read transform metadata ({exc}); regenerating features.")
+        else:
+            if meta.get("fingerprint") == fingerprint:
+                try:
+                    with open(transform_cache_paths["features"], "rb") as f_features:
+                        features = pickle.load(f_features)
+                except Exception as exc:
+                    print(f"  [feature-cache] Failed to load cached features ({exc}); regenerating.")
+                else:
+                    print("  Feature transform cache matches timestamps; loaded cached features.")
+            else:
+                print("  Feature transform cache fingerprint mismatch; regenerating features.")
+
+    if features is None:
+        feature_params = dict(config["features"]["params"])
+        verbose = feature_params.pop("verbose", False)
+        
+        feature_generator = FeatureEngineer(
+            verbose=verbose,
+            **feature_params,
+        )
+
+        feature_generator.fit(df_slice)
+        features = feature_generator._reference_features.copy()
+
+        features_for_cache = features.copy()
+        meta_payload = {
+            "fingerprint": fingerprint,
+            "generated_at": time.time(),
+            "num_rows": int(len(features_for_cache)),
+            "num_columns": int(features_for_cache.shape[1]),
+        }
+        try:
+            with safe_open_write(transform_cache_paths["features"], "wb") as f_features:
+                pickle.dump(features_for_cache, f_features)
+            with safe_open_write(transform_cache_paths["meta"], "w") as f_meta:
+                json.dump(meta_payload, f_meta, indent=2)
+            print("  Feature transform cached for future runs.")
+        except Exception as exc:
+            print(f"  [feature-cache] Failed to persist transform cache ({exc}).")
+    else:
+        feature_generator = None
+    assert_no_duplicate_index(features, "engineered features")
+    derived_cfg = config["features"].get("derived_probability_features", {})
+    if derived_cfg.get("enabled", False):
+        print("  Adding derived probability features...")
+        features, new_cols = generate_and_add_derived_probability_features(features.copy(), derived_cfg, paths, convert_prices=False)
+        if new_cols:
+            print(f"    Added derived probability features: {new_cols}")
+    target_engineer = ExpirationTargetEngineer(**config["targets"]["params"])
+    targets = target_engineer.fit_transform(features)
+    targets = targets.reindex(features.index)
+    combined_df = pd.concat([features, targets], axis=1)
+    assert_no_duplicate_index(combined_df, "combined_df")
+
+    raw_cols = [col for col in ["o", "h", "l", "c", "volCcy"] if col in features.columns]  # drop these as they are not features
+    if raw_cols:
+        print(f"  Dropping raw columns before caching: {raw_cols}")
+        features = features.drop(columns=raw_cols)
+    print("  Persisting regenerated datasets...")
+    with safe_open_write(cache_files["features"], "wb") as f:
+        pickle.dump(features, f)
+    with safe_open_write(cache_files["targets"], "wb") as f:
+        pickle.dump(targets, f)
+    with safe_open_write(cache_files["combined"], "wb") as f:
+        pickle.dump(combined_df, f)
+    return features, targets, combined_df, list(features.columns)
+
+
+def ensure_datetime_index(df: pd.DataFrame, label: str) -> pd.DataFrame:
+    if isinstance(df.index, pd.DatetimeIndex):
+        return df
+    print(f"[WARN] {label} index is not datetime; attempting conversion.")
+    df = df.copy()
+    df.index = pd.to_datetime(df.index)
+    return df
+
+
+def clean_combined_df(combined_df: pd.DataFrame, months_to_drop: int = 6, tail_rows_to_drop: int = 11):
+    print("\n--- Cleaning combined dataframe ---")
+    df = ensure_datetime_index(combined_df.copy(), "combined_df")
+    df = df.sort_index()
+    cutoff = df.index.min() + pd.DateOffset(months=months_to_drop)
+    print(f"  Removing data before {cutoff:%Y-%m-%d} (first {months_to_drop} months)")
+    df = df.loc[df.index >= cutoff]
+    if tail_rows_to_drop > 0:
+        print(f"  Dropping last {tail_rows_to_drop} rows to avoid trailing NaNs")
+        df = df.iloc[:-tail_rows_to_drop]
+    meta = {
+        "rows_after_clean": len(df),
+        "start": df.index.min(),
+        "end": df.index.max(),
+    }
+    print(f"  Rows after cleaning: {meta['rows_after_clean']}")
+    return df, meta
+
+
+def compute_nan_diagnostics(df: pd.DataFrame) -> pd.DataFrame:
+    print("\n--- NaN diagnostics ---")
+    nan_diag_df = count_consecutive_nan_rows(df)
+    total_nans_numeric = pd.to_numeric(nan_diag_df["total_nans"], errors="coerce").fillna(0)
+    nan_diag_df["total_nans"] = total_nans_numeric.astype(int)
+    subset = nan_diag_df[nan_diag_df["total_nans"] > 0]
+    if subset.empty:
+        print("  No NaNs detected after cleaning.")
+        return nan_diag_df
+    print(f"  Columns with NaNs: {len(subset)}")
+    print(f"  Max start NaNs: {subset['start_nans'].max()} | Max end NaNs: {subset['end_nans'].max()}")
+    mid = subset[subset["total_nans"] > (subset["start_nans"] + subset["end_nans"])]
+    if not mid.empty:
+        print(f"  {len(mid)} columns contain NaNs in the middle of the series.")
+    return nan_diag_df
+
+
+def infer_frequency(df: pd.DataFrame) -> None:
+    if not isinstance(df.index, pd.DatetimeIndex):
+        print("  [freq] Index not datetime; skipping frequency inference.")
+        return
+    freq = pd.infer_freq(df.index)
+    print(f"  Inferred frequency: {freq if freq else '<undetermined>'}")
+    full_range = pd.date_range(df.index.min(), df.index.max(), freq=freq or "H")
+    missing = full_range.difference(df.index)
+    if len(missing) > 0:
+        print(f"  Missing {len(missing)} timestamps; sample: {list(missing[:5])}")
+
+
+def split_data(features: pd.DataFrame, targets: pd.DataFrame, combined_df_clean: pd.DataFrame, config: dict):
+    print("\n--- Creating data splits ---")
+    feature_cols = features.columns.intersection(combined_df_clean.columns)
+    target_cols = targets.columns.intersection(combined_df_clean.columns)
+    features_clean = combined_df_clean[feature_cols]
+    targets_clean = combined_df_clean[target_cols]
+    n_samples = len(combined_df_clean)
+    train_pct = config["splitting"].get("train_pct", 0.8)
+    val_pct = config["splitting"].get("val_pct", 0.1)
+    train_end = int(n_samples * train_pct)
+    val_end = train_end + int(n_samples * val_pct)
+    X_train = features_clean.iloc[:train_end]
+    X_val = features_clean.iloc[train_end:val_end]
+    X_test = features_clean.iloc[val_end:]
+    y_train = targets_clean.iloc[:train_end]
+    y_val = targets_clean.iloc[train_end:val_end]
+    y_test = targets_clean.iloc[val_end:]
+    print(f"  X shapes -> train {X_train.shape}, val {X_val.shape}, test {X_test.shape}")
+    print(f"  y shapes -> train {y_train.shape}, val {y_val.shape}, test {y_test.shape}")
+    return X_train, X_val, X_test, y_train, y_val, y_test
+
+
+def compute_feature_quality_metrics(X_train: pd.DataFrame, y_train: pd.DataFrame) -> pd.DataFrame:
+    print("\n--- Computing feature quality metrics ---")
+    numeric_targets = [col for col in y_train.columns if pd.api.types.is_numeric_dtype(y_train[col])]
+    metrics: List[Dict[str, float]] = []
+    for feature in X_train.columns:
+        series = X_train[feature]
+        # Handle case where duplicate column names cause series to be a DataFrame
+        if isinstance(series, pd.DataFrame):
+            series = series.iloc[:, 0]  # Take first column
+        
+        non_null_ratio = 1.0 - series.isna().mean()
+        variance_val = series.var(skipna=True)
+        variance = float(variance_val if not pd.isna(variance_val) else 0.0)
+        std_val = series.std(skipna=True)
+        std = float(std_val if not pd.isna(std_val) else 0.0)
+        corr_vals: List[float] = []
+        for target in numeric_targets:
+            sample = pd.concat([series, y_train[target]], axis=1, join="inner").dropna()
+            if len(sample) < 25:
+                continue
+            if sample.iloc[:, 0].nunique() <= 1 or sample.iloc[:, 1].nunique() <= 1:
+                continue
+            corr = sample.iloc[:, 0].corr(sample.iloc[:, 1])
+            if pd.notna(corr):
+                corr_vals.append(corr)
+        abs_corrs = [abs(c) for c in corr_vals]
+        max_abs_corr = max(abs_corrs, default=0.0)
+        mean_abs_corr = float(np.mean(abs_corrs)) if abs_corrs else 0.0
+        metrics.append({
+            "feature": feature,
+            "non_null_ratio": float(non_null_ratio),
+            "variance": variance,
+            "std_dev": std,
+            "max_abs_corr": max_abs_corr,
+            "mean_abs_corr": mean_abs_corr,
+            "corr_count": len(abs_corrs),
+        })
+    quality_df = pd.DataFrame(metrics).set_index("feature").sort_values(
+        by=["max_abs_corr", "mean_abs_corr", "variance"], ascending=[False, False, False]
+    )
+    return quality_df
+
+
+def prefilter_features(candidates: Iterable[str], feature_quality: pd.DataFrame, nan_diag: pd.DataFrame, prefilter_cfg: dict):
+    cfg = PREFILTER_DEFAULTS.copy()
+    cfg.update(prefilter_cfg or {})
+    kept: List[str] = []
+    dropped_records: List[Dict[str, object]] = []
+    candidate_list = list(candidates)
+    for feature in candidate_list:
+        reasons: List[str] = []
+        quality = feature_quality.loc[feature] if feature in feature_quality.index else None
+        # Handle case where duplicate indices cause quality to be DataFrame
+        if isinstance(quality, pd.DataFrame):
+            quality = quality.iloc[0]  # Take first row, returns Series
+        
+        nan_stats = nan_diag.loc[feature] if feature in nan_diag.index else None
+        if isinstance(nan_stats, pd.DataFrame):
+            nan_stats = nan_stats.iloc[0]  # Take first row, returns Series
+        
+        if quality is not None:
+            if quality["non_null_ratio"] < cfg["min_non_null_ratio"]:
+                reasons.append(f"non_null_ratio<{cfg['min_non_null_ratio']:.2f}")
+            if quality["variance"] < cfg["min_variance"]:
+                reasons.append("low_variance")
+        if nan_stats is not None:
+            total = int(nan_stats["total_nans"])
+            start_nans = int(nan_stats["start_nans"])
+            end_nans = int(nan_stats["end_nans"])
+            mid_nans = max(total - start_nans - end_nans, 0)
+            if end_nans > cfg["max_tail_nans"]:
+                reasons.append("trailing_nans")
+            if total > 0:
+                frac_mid = mid_nans / total
+                if frac_mid > cfg["max_middle_nan_fraction"]:
+                    reasons.append("middle_nans")
+        if reasons:
+            dropped_records.append({"feature": feature, "reasons": reasons})
+        else:
+            kept.append(feature)
+    dropped_df = pd.DataFrame(dropped_records)
+    if not dropped_df.empty and "feature" in dropped_df.columns:
+        dropped_df.sort_values("feature", inplace=True, ignore_index=True)
+    print(f"  Prefilter removed {len(dropped_df)} / {len(candidate_list)} features based on quality heuristics.")
+    if not dropped_df.empty:
+        preview = dropped_df.head(25)
+        print("    Removed feature list (feature -> reasons):")
+        for _, row in preview.iterrows():
+            reasons_str = ", ".join(row["reasons"]) if isinstance(row["reasons"], (list, tuple)) else str(row["reasons"])
+            print(f"      - {row['feature']}: {reasons_str}")
+        if len(dropped_df) > len(preview):
+            remaining = len(dropped_df) - len(preview)
+            print(f"      … and {remaining} more. Full list saved in report outputs.")
+    return kept, dropped_df
+
+
+def summarize_feature_usage(selected_map: Dict[str, List[str]], feature_quality: pd.DataFrame, output_path: Path) -> pd.DataFrame:
+    counter: Counter[str] = Counter()
+    for features in selected_map.values():
+        counter.update(features)
+    total_groups = max(len(selected_map), 1)
+    records = []
+    for feature, count in counter.most_common():
+        record = {
+            "feature": feature,
+            "selection_count": count,
+            "selection_rate": count / total_groups,
+        }
+        if feature in feature_quality.index:
+            available_cols = [
+                col
+                for col in [
+                    "non_null_ratio",
+                    "variance",
+                    "std_dev",
+                    "max_abs_corr",
+                    "mean_abs_corr",
+                    "corr_count",
+                ]
+                if col in feature_quality.columns
+            ]
+            record.update(feature_quality.loc[feature, available_cols].to_dict())
+        records.append(record)
+    summary_df = pd.DataFrame(records).set_index("feature") if records else pd.DataFrame()
+    if not summary_df.empty:
+        summary_df.to_csv(output_path)
+        print(f"  Feature usage summary saved to {output_path}")
+    return summary_df
+
+
+def summarize_feature_overlap(
+    selected_map: Dict[str, List[str]],
+    reports: Dict[str, dict],
+    output_dir: Path,
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    if not selected_map:
+        print("  No selected features to summarize overlap.")
+        return pd.DataFrame(), pd.DataFrame()
+
+    column_specs: List[Tuple[str, str, float | None, str]] = []
+    feature_universe: set[str] = set()
+    for key, features in selected_map.items():
+        report = reports.get(key, {})
+        target = report.get("target", key)
+        percentile = report.get("percentile")
+        percentile_suffix = (
+            f"p{int(round(percentile * 100)):02d}" if isinstance(percentile, (int, float)) else ""
+        )
+        label = f"{target}@{percentile_suffix}" if percentile_suffix else target
+        column_specs.append((key, target, percentile, label))
+        feature_universe.update(features)
+
+    column_labels = [spec[3] for spec in column_specs]
+    matrix = pd.DataFrame(0, index=sorted(feature_universe), columns=column_labels, dtype=int)
+    for key, _, _, label in column_specs:
+        features = selected_map[key]
+        matrix.loc[features, label] = 1
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    matrix_path = output_dir / SUMMARY_OUTPUTS["selection_matrix"]
+    matrix.to_csv(matrix_path)
+    print(f"  Feature selection matrix saved to {matrix_path}")
+
+    overlap_records: List[Dict[str, object]] = []
+    for target in sorted({spec[1] for spec in column_specs}):
+        cols = [spec[3] for spec in column_specs if spec[1] == target]
+        if not cols:
+            continue
+        subset = matrix[cols]
+        counts = subset.sum(axis=1)
+        total = len(cols)
+        if total == 0:
+            continue
+        always_selected = counts[counts == total]
+        if not always_selected.empty:
+            preview = ", ".join(always_selected.index[:10])
+            suffix = " ..." if len(always_selected) > 10 else ""
+            print(
+                f"  Target {target}: {len(always_selected)} features selected in all {total} percentiles -> {preview}{suffix}"
+            )
+        for feature, count in counts[counts > 0].items():
+            overlap_records.append({
+                "target": target,
+                "feature": feature,
+                "selected_in": int(count),
+                "total_percentiles": total,
+                "selection_fraction": float(count / total),
+            })
+
+    overlap_df = pd.DataFrame(overlap_records)
+    if not overlap_df.empty:
+        overlap_df.sort_values(
+            by=["target", "selection_fraction", "selected_in", "feature"],
+            ascending=[True, False, False, True],
+            inplace=True,
+        )
+        overlap_path = output_dir / SUMMARY_OUTPUTS["target_overlap"]
+        overlap_df.to_csv(overlap_path, index=False)
+        print(f"  Target overlap summary saved to {overlap_path}")
+
+    return matrix, overlap_df
+
+
+def summarize_feature_importances(
+    reports: Dict[str, dict],
+    output_dir: Path,
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    importance_rows: List[Dict[str, object]] = []
+    for key, report in reports.items():
+        importances = report.get("feature_importances")
+        if not importances:
+            continue
+        target = report.get("target", key)
+        percentile = report.get("percentile")
+        if isinstance(percentile, (int, float)):
+            percentile_suffix = f"p{int(round(percentile * 100)):02d}"
+        else:
+            percentile_suffix = ""
+        label = f"{target}@{percentile_suffix}" if percentile_suffix else target
+        for row in importances:
+            record = dict(row)
+            record.update({
+                "target": target,
+                "percentile": percentile,
+                "target_label": label,
+                "report_key": key,
+            })
+            importance_rows.append(record)
+
+    if not importance_rows:
+        print("  No feature importances available to summarize (RFECV likely loaded cached selections).")
+        return pd.DataFrame(), pd.DataFrame()
+
+    importance_df = pd.DataFrame(importance_rows)
+    if "importance" in importance_df.columns:
+        importance_df["importance"] = pd.to_numeric(importance_df["importance"], errors="coerce").fillna(0.0)
+    else:
+        importance_df["importance"] = 0.0
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    detail_path = output_dir / SUMMARY_OUTPUTS["feature_importance_detail"]
+    importance_df.to_csv(detail_path, index=False)
+    print(f"  Feature importance detail saved to {detail_path}")
+
+    available_combos = max(int(importance_df["target_label"].nunique()), 1)
+    if "selected" in importance_df.columns:
+        selected_df = importance_df[importance_df["selected"] == True]
+    else:
+        selected_df = importance_df.copy()
+
+    if selected_df.empty:
+        print("  No selected feature importances to aggregate.")
+        return pd.DataFrame(), importance_df
+
+    grouped = selected_df.groupby("feature")
+    summary_df = grouped.agg(
+        mean_importance=("importance", "mean"),
+        median_importance=("importance", "median"),
+        max_importance=("importance", "max"),
+        min_importance=("importance", "min"),
+        times_selected=("target_label", "nunique"),
+        targets_covered=("target", "nunique"),
+        avg_ranking=("ranking", "mean"),
+        best_ranking=("ranking", "min"),
+    ).sort_values(by=["mean_importance", "max_importance"], ascending=[False, False])
+    summary_df["selection_fraction"] = summary_df["times_selected"] / available_combos
+    summary_df["importance_range"] = summary_df["max_importance"] - summary_df["min_importance"]
+
+    summary_path = output_dir / SUMMARY_OUTPUTS["feature_importance_summary"]
+    summary_df.to_csv(summary_path)
+    print(f"  Feature importance summary saved to {summary_path}")
+
+    return summary_df, importance_df
+
+
+def run_feature_selection(config: dict, paths: Dict[str, Path], X_train: pd.DataFrame, y_train: pd.DataFrame, feature_quality: pd.DataFrame, nan_diag: pd.DataFrame):
+    print("\n--- Running RFECV-based feature selection ---")
+    selected_features_map: Dict[str, List[str]] = {}
+    reports: Dict[str, dict] = {}
+    fs_config = config.get("feature_selection", {}).copy()
+    prefilter_cfg = fs_config.pop("prefilter_thresholds", {})
+    handpicked_cfg = fs_config.pop("handpicked_filter", {})
+    filter_features: set[str] | None = None
+    if handpicked_cfg.get("enabled"):
+        filter_file = handpicked_cfg.get("file")
+        feature_column = handpicked_cfg.get("feature_column", "feature")
+        if not filter_file:
+            print("  [WARN] Handpicked filter enabled but no file specified; ignoring filter.")
+        else:
+            filter_path = Path(filter_file)
+            if not filter_path.is_absolute():
+                filter_path = Path.cwd() / filter_path
+            try:
+                df_filter = pd.read_csv(filter_path)
+            except FileNotFoundError:
+                print(f"  [WARN] Handpicked filter file not found: {filter_path}; skipping filter.")
+            except Exception as exc:
+                print(f"  [WARN] Failed to load handpicked filter from {filter_path}: {exc}; skipping filter.")
+            else:
+                if feature_column not in df_filter.columns:
+                    print(
+                        f"  [WARN] Handpicked filter missing column '{feature_column}' in {filter_path}; skipping filter."
+                    )
+                else:
+                    extracted = df_filter[feature_column].dropna().astype(str).tolist()
+                    if not extracted:
+                        print(
+                            f"  [WARN] Handpicked filter {filter_path} produced zero features; skipping filter."
+                        )
+                    else:
+                        filter_features = set(extracted)
+                        print(
+                            f"  Applying handpicked feature filter ({len(filter_features)} features) from {filter_path}"
+                        )
+    for target_name, percentile_spec in config["targets"]["to_process"].items():
+        percentiles = normalize_percentile_spec(percentile_spec)
+        if not percentiles:
+            print(f"  [INFO] Skipping target {target_name}: no percentile list configured.")
+            continue
+        for percentile in percentiles:
+            suffix = f"p{int(round(percentile * 100)):02d}"
+            report_key = f"{target_name}_{suffix}"
+            target_col = target_name
+            report = {
+                "target": target_name,
+                "percentile": percentile,
+                "method": None,
+                "available_features": int(len(X_train.columns)),
+                "selected_features": 0,
+                "notes": [],
+            }
+            if target_col not in y_train.columns:
+                msg = f"Target column {target_col} missing in training targets; skipping."
+                print(f"  [WARN] {msg}")
+                report["notes"].append(msg)
+                reports[report_key] = report
+                continue
+            current_fs = fs_config.copy()
+            current_fs["target_percentile"] = percentile
+            selected_path = paths["feature_selection"] / f"selected_features_rfecv_{target_name}_{suffix}.json"
+            base_features = list(X_train.columns)
+            if filter_features is not None:
+                filtered_features = [feat for feat in base_features if feat in filter_features]
+                if not filtered_features:
+                    msg = "Handpicked filter removed all features; skipping target."
+                    print(f"  [WARN] {msg}")
+                    report["notes"].append(msg)
+                    reports[report_key] = report
+                    continue
+                report["notes"].append(
+                    f"Handpicked filter applied: {len(filtered_features)} of {len(filter_features)} features usable."
+                )
+                features_available = filtered_features
+            else:
+                features_available = base_features
+            report["available_features"] = len(features_available)
+            features_prefiltered, dropped_df = prefilter_features(features_available, feature_quality, nan_diag, prefilter_cfg)
+            if not features_prefiltered:
+                msg = "No features remain after prefilter; skipping."
+                print(f"  [ERROR] {msg}")
+                report["notes"].append(msg)
+                reports[report_key] = report
+                continue
+            if not dropped_df.empty:
+                report["prefilter_dropped"] = dropped_df.to_dict("records")
+            if current_fs.get("rfecv_engine", "catboost") == "catboost":
+                params = current_fs.setdefault("estimator_params", {}).copy()
+                if percentile == -1:
+                    # Regression mode: use RMSE instead of Quantile loss
+                    params["loss_function"] = "RMSE"
+                    params["eval_metric"] = "RMSE"
+                    report["notes"].append("Regression mode: using RMSE loss (percentile=-1)")
+                else:
+                    # Classification/Quantile mode
+                    params["loss_function"] = f"Quantile:alpha={percentile}"
+                    params["eval_metric"] = f"Quantile:alpha={percentile}"
+                current_fs["estimator_params"] = params
+            current_selected: List[str] = []
+            if selected_path.exists():
+                print(f"  Loading previously selected features from {selected_path}")
+                loaded_features, loaded_percentile = load_selected_features(selected_path)
+                current_selected = [f for f in loaded_features if f in features_prefiltered]
+                report["method"] = "load_existing"
+                if loaded_percentile is not None:
+                    report["notes"].append(f"Loaded percentile {loaded_percentile}")
+            elif current_fs.get("use_all_features", False):
+                print("  Configured to use all features without RFECV.")
+                current_selected = features_prefiltered
+                report["method"] = "use_all_features"
+            elif not current_fs.get("run_RFECV", True):
+                msg = f"RFECV disabled but {selected_path} missing; skipping target."
+                print(f"  [WARN] {msg}")
+                report["notes"].append(msg)
+                reports[report_key] = report
+                continue
+            else:
+                report["method"] = "rfecv"
+                min_features = current_fs.get("min_features", 1)
+                if len(features_prefiltered) <= min_features:
+                    msg = (
+                        f"Feature count {len(features_prefiltered)} <= min_features {min_features}; using all remaining features."
+                    )
+                    print(f"  [INFO] {msg}")
+                    report["notes"].append(msg)
+                    current_selected = features_prefiltered
+                else:
+                    y_single = y_train[target_col].copy()
+                    if y_single.isnull().any():
+                        y_single = y_single.fillna(y_single.median())
+                        report["notes"].append("Target NaNs replaced with median for RFECV.")
+                    print(f"  Running RFECV for {target_name} @ {suffix} with {len(features_prefiltered)} features")
+                    selector, importances = perform_rfecv(
+                        X_train[features_prefiltered],
+                        y_single,
+                        target_col,
+                        current_fs,
+                        features_prefiltered,
+                    )
+                    current_selected = list(X_train[features_prefiltered].columns[selector.support_])
+                    report["feature_importances"] = importances.to_dict("records")
+                    try:
+                        paths["feature_selection"].mkdir(parents=True, exist_ok=True)
+                        save_selected_features(current_selected, selected_path, current_fs)
+                        print(f"    Saved selected feature list to {selected_path}")
+                    except Exception as exc:
+                        msg = f"Failed to persist selected features: {exc}"
+                        print(f"  [WARN] {msg}")
+                        report["notes"].append(msg)
+            if not current_selected:
+                msg = "No features selected; skipping report."
+                print(f"  [WARN] {msg}")
+                report["notes"].append(msg)
+                reports[report_key] = report
+                continue
+            excluded = sorted(set(features_available) - set(current_selected))
+            report.update({
+                "selected_features": len(current_selected),
+                "selected_features_list": current_selected,
+                "excluded_features": excluded,
+            })
+            selected_features_map[report_key] = current_selected
+            reports[report_key] = report
+            print(
+                f"  -> {target_name} @ {suffix}: {len(current_selected)} features selected (prefilter removed {len(features_available) - len(features_prefiltered)})"
+            )
+    return selected_features_map, reports
+
+
+def persist_quality_reports(feature_quality: pd.DataFrame, dropped_prefilter: Dict[str, List[Dict[str, object]]], paths: Dict[str, Path]) -> None:
+    if not feature_quality.empty:
+        out_path = paths["feature_selection"] / SUMMARY_OUTPUTS["feature_quality"]
+        feature_quality.to_csv(out_path)
+        print(f"  Feature quality metrics saved to {out_path}")
+    if dropped_prefilter:
+        for report_key, records in dropped_prefilter.items():
+            if not records:
+                continue
+            out_path = paths["feature_selection"] / f"prefilter_drop_{report_key}.json"
+            with safe_open_write(out_path, "w") as f:
+                json.dump(records, f, indent=2)
+            print(f"  Prefilter drop list saved to {out_path}")
+
+
+def main(refresh_caches: bool = False) -> None:
+    config = copy.deepcopy(CONFIG)
+    if refresh_caches:
+        print("[Switch] Cache refresh requested via command line flag.")
+    config.setdefault("data", {})
+    config["data"]["force_refresh"] = bool(config["data"].get("force_refresh", False) or refresh_caches)
+
+    start_time = time.perf_counter()
+    run_paths = initialize_run(config)
+    if refresh_caches:
+        purge_cached_artifacts(run_paths, config)
+    ensure_directories(run_paths)
+    survey_existing_projects(run_paths, config)
+    features, targets, combined_df, initial_feature_names = load_or_generate_datasets(config, run_paths)
+    print(f"  Feature table shape: {features.shape}")
+    print(f"  Target table shape: {targets.shape}")
+    combined_df_clean, clean_meta = clean_combined_df(combined_df)
+    infer_frequency(combined_df_clean)
+    nan_diag_df = compute_nan_diagnostics(combined_df_clean)
+    X_train, X_val, X_test, y_train, y_val, y_test = split_data(features, targets, combined_df_clean, config)
+    feature_quality = compute_feature_quality_metrics(X_train, y_train)
+    selected_map, reports = run_feature_selection(config, run_paths, X_train, y_train, feature_quality, nan_diag_df)
+    dropped_prefilter = {
+        key: report.get("prefilter_dropped", [])
+        for key, report in reports.items()
+        if "prefilter_dropped" in report
+    }
+    persist_quality_reports(feature_quality, dropped_prefilter, run_paths)
+    usage_summary = summarize_feature_usage(
+        selected_map,
+        feature_quality,
+        run_paths["feature_selection"] / SUMMARY_OUTPUTS["feature_usage"],
+    )
+    selection_matrix, target_overlap = summarize_feature_overlap(
+        selected_map,
+        reports,
+        run_paths["feature_selection"],
+    )
+    importance_summary, importance_detail = summarize_feature_importances(
+        reports,
+        run_paths["feature_selection"],
+    )
+    print("\n=== Feature Selection Summary ===")
+    for key, report in reports.items():
+        suffix = f"p{int(round(report['percentile'] * 100)):02d}"
+        print(
+            f"  Target {report['target']} @ {suffix}: method={report.get('method')} | selected={report.get('selected_features', 0)} / available={report.get('available_features', 0)}"
+        )
+        if report.get("notes"):
+            for note in report["notes"]:
+                print(f"    · {note}")
+    if not usage_summary.empty:
+        print("\nTop recurring features across targets:")
+        print(usage_summary.head(20))
+        print("\nMetric cheat-sheet:")
+        print("  • selection_count / selection_rate – how often a feature survived across target-percentile runs.")
+        print("  • non_null_ratio – share of training rows without NaNs (1.0 = no gaps).")
+        print("  • variance / std_dev – spread of the feature; near 0 means the signal is almost constant.")
+        print("  • max_abs_corr – strongest linear relationship with any target; mean_abs_corr averages that signal and corr_count shows how many targets contributed.")
+        print("  • selection_fraction (in per-target tables) – fraction of that target’s percentiles that retained the feature.")
+    if not target_overlap.empty:
+        preview = target_overlap.groupby("target").head(5)
+        print("\nPer-target selection fractions (top 5 per target):")
+        print(preview)
+    if not importance_summary.empty:
+        print("\nTop features by mean RFECV importance:")
+        print(importance_summary.head(20))
+        print("  • importance stats are averaged over RFECV runs that produced fresh importances (higher = stronger weight).")
+    elapsed = time.perf_counter() - start_time
+    print(f"\nRun complete in {elapsed / 60:.2f} minutes.")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run RFECV production pipeline with optional cache refresh.")
+    parser.add_argument(
+        "--refresh-caches",
+        action="store_true",
+        help="Drop cached feature/target artifacts and rebuild them before running RFECV.",
+    )
+    args = parser.parse_args()
+    main(refresh_caches=args.refresh_caches)
